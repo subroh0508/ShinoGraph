@@ -1,0 +1,10 @@
+version: '3'
+services:
+  sparql-endpoint:
+    ports:
+      - '3000:3000'
+    build:
+     context: './sparql-endpoint'
+    working_dir: /home
+    volumes:
+      - ./sparql-endpoint:/home
