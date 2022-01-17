@@ -1,6 +1,6 @@
 object Jena {
     const val version = "4.3.2"
-    const val fuseki = "org.apache.jena:jena-fuseki-fulljar:$version"
+    const val fuseki = "org.apache.jena:jena-fuseki-server:$version"
     const val commands = "org.apache.jena:jena-cmds:$version"
 }
 
@@ -83,7 +83,7 @@ val start by tasks.creating(Task::class) {
     doLast {
         exec {
             executable("sh")
-            args("-c", "java -jar jar/jena-fuseki-fulljar-4.3.2.jar --port=3000 --config=run/config.ttl")
+            args("-c", "java -jar jar/jena-fuseki-server-4.3.2.jar --port=3000 --config=run/config.ttl")
         }
     }
 }
