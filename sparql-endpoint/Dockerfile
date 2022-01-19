@@ -1,4 +1,4 @@
-FROM openjdk:19-slim-buster as build-data
+FROM openjdk:11-jre-slim-buster as build-data
 
 RUN apt-get update && apt-get upgrade && apt-get install -y wget
 COPY . /home/
@@ -7,7 +7,7 @@ WORKDIR /home
 
 RUN ./gradlew setup
 
-FROM openjdk:19-slim-buster
+FROM openjdk:11-jre-slim-buster
 
 COPY --from=build-data /home/jar/jena-fuseki-server*.jar /jena-fuseki-server.jar
 COPY --from=build-data /home/run/ /run/
