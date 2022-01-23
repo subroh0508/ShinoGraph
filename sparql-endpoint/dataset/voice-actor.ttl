@@ -1,0 +1,21 @@
+BASE <https://283db.org/resource/voice-actor/>
+PREFIX scdb: <https://283db.org/283db-schema#>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Sekine_Hitomi> a scdb:VoiceActor ;
+    :name "関根瞳" ;
+    :sameAs <http://ja.dbpedia.org/resource/関根瞳> .
+
+<Kondo_Rena> a scdb:VoiceActor ;
+    :name "近藤玲奈" ;
+    :sameAs <http://ja.dbpedia.org/resource/近藤玲奈> .
+
+<Mineda_Mayu> a scdb:VoiceActor ;
+    :name "峯田茉優" ;
+    :sameAs <http://ja.dbpedia.org/resource/峯田茉優> .

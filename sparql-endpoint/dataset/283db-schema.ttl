@@ -1,0 +1,65 @@
+PREFIX scdb: <https://283db.org/283db-schema#>
+PREFIX enum: <https://283db.org/resource/enum/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+scdb: a owl:Ontology ;
+    rdfs:label "アイドルマスター シャイニーカラーズの語彙"@ja, "Vocabularies of THE IDOLM@STER SHINY COLORS"@en ;
+    rdfs:comment "『アイドルマスター シャイニーカラーズ』(シャニマス)の語彙を提供します" .
+
+# Classes
+scdb:Character a rdfs:Class ;
+    rdfs:label "キャラクター"@ja, "Character"@en ;
+    rdfs:subClassOf :Person .
+
+scdb:Idol a rdfs:Class ;
+    rdfs:label "アイドル"@ja, "Idol"@en ;
+    rdfs:subClassOf scdb:Character .
+
+scdb:Staff a rdfs:Class ;
+    rdfs:label "スタッフ"@ja, "Staff"@en ;
+    rdfs:subClassOf scdb:Character .
+
+scdb:VoiceActor a rdfs:Class ;
+    rdfs:label "声優"@ja, "Voice Actor"@en ;
+    rdfs:subClassOf dbo:VoiceActor .
+
+# Properties
+scdb:hobby a rdf:Property ;
+    rdfs:label "趣味"@ja, "hobby"@en ;
+    rdfs:domain scdb:Idol ;
+    rdfs:range xsd:string .
+
+scdb:skill a rdf:Property ;
+    rdfs:label "特技"@ja, "skill"@en ;
+    rdfs:domain scdb:Idol ;
+    rdfs:range xsd:string .
+
+scdb:cv a rdf:Property ;
+    rdfs:label "担当声優"@ja, "CV"@en ;
+    rdfs:domain scdb:Idol ;
+    rdfs:range scdb:VoiceActor .
+
+scdb:pastCv a rdf:Property ;
+    rdfs:label "過去の担当声優@ja", "past CV"@en ;
+    rdfs:domain scdb:Idol ;
+    rdfs:range scdb:VoiceActor .
+
+scdb:schoolGrade a rdf:Property ;
+    rdfs:label "学年"@ja, "Grade of School"@en ;
+    rdfs:domain scdb:Idol ;
+    rdfs:range enum:SchoolGrade .
+
+scdb:color a rdf:Property ;
+    rdfs:label "パーソナルカラー"@ja, "Personal Color"@en ;
+    rdfs:domain scdb:Idol ;
+    rdfs:range xsd:hexBinary .
+
+scdb:idolListURL a rdf:Property ;
+    rdfs:label "アイドル名鑑URL"@ja, "Idol List URL"@en ;
+    rdfs:domain scdb:Idol .

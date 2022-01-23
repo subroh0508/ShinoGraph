@@ -1,0 +1,90 @@
+BASE <https://283db.org/resource/idol/>
+PREFIX scdb: <https://283db.org/283db-schema#>
+PREFIX enum: <https://283db.org/resource/enum/>
+PREFIX actor: <https://283db.org/resource/voice-actor/>
+PREFIX hometown: <https://283db.org/resource/hometown/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Sakuragi_Mano> a scdb:Idol ;
+    rdfs:label "櫻木真乃" ;
+    :name "櫻木真乃"@ja, "さくらぎまの"@ja-hira, "Mano Sakuragi"@en, "櫻木真乃" ;
+    :familyName "櫻木"@ja, "さくらぎ"@ja-hira, "Sakuragi"@en, "櫻木" ;
+    :givenName "真乃"@ja, "まの"@ja-hira, "Mano"@en, "真乃" ;
+    dbo:age 16 ;
+    dbo:bloodType enum:BloodType.A ;
+    :birthdate "--04-25"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Taurus ;
+    :height 155.0 ;
+    :weight 48.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 86.0 ;
+    dbo:waistSize 58.0 ;
+    dbo:hipSize 88.0 ;
+    dbo:hometown hometown:Japan, hometown:Tokyo ;
+    scdb:hobby "お出かけ"@ja, "公園で日向ぼっこ"@ja, "お出かけ", "公園で日向ぼっこ" ;
+    scdb:skill "鳥に好かれる"@ja, "鳥に好かれる" ;
+    scdb:cv actor:Sekine_Hitomi ;
+    :gender :Female ;
+    :description "ほんわかした癒し系の女の子で、心優しい性格。見ていて守りたくなるタイプで、一緒にいるだけで何となく幸せな気持ちになる。高校1年生。"@ja ;
+    scdb:color "FFBAD6"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS01 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50011> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Sakuragi_Mano> .
+
+<Hiori_Kazano> a scdb:Idol ;
+    rdfs:label "風野灯織" ;
+    :name "風野灯織"@ja, "かざのひおり"@ja-hira, "Hiori Kazano"@en, "風野灯織" ;
+    :familyName "風野"@ja, "かざの"@ja-hira, "Kazano"@en ;
+    :givenName "灯織"@ja, "ひおり"@ja-hira, "Hiori"@en ;
+    dbo:age 15 ;
+    dbo:bloodType enum:BloodType.A ;
+    :birthdate "--03-04"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Pisces ;
+    :height 154.0 ;
+    :weight 43.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 75.0 ;
+    dbo:waistSize 55.0 ;
+    dbo:hipSize 78.0 ;
+    dbo:hometown hometown:Japan, hometown:Tokyo ;
+    scdb:hobby "音楽鑑賞"@ja, "綺麗な景色を探すこと"@ja, "占い"@ja, "音楽鑑賞", "綺麗な景色を探すこと", "占い" ;
+    scdb:skill "料理"@ja, "スケジュール管理"@ja, "料理", "スケジュール管理" ;
+    scdb:cv actor:Kondo_Rena ;
+    :gender :Female ;
+    :description "後ろでまとめた黒髪が印象的な、クール系美少女。自分が納得するまで努力を欠かさないストイックな性格の持ち主。高校1年生。"@ja ;
+    scdb:color "144384"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS01 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50007> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Kazano_Hiori> .
+
+<Hachimiya_Meguru> a scdb:Idol ;
+    rdfs:label "八宮めぐる" ;
+    :name "八宮めぐる"@ja, "はちみやめぐる"@ja-hira, "Meguru Hachimiya"@en, "八宮めぐる" ;
+    :familyName "八宮"@ja, "はちみや"@ja-hira, "Hachimiya"@en ;
+    :givenName "めぐる"@ja, "めぐる"@ja-hira, "Meguru"@en ;
+    dbo:age 16 ;
+    dbo:bloodType enum:BloodType.O ;
+    :birthdate "--07-22"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Scorpio ;
+    :height 157.0 ;
+    :weight 46.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 90.0 ;
+    dbo:waistSize 59.0 ;
+    dbo:hipSize 89.0 ;
+    dbo:hometown hometown:USA, hometown:Massachusetts ;
+    scdb:hobby "人と話すこと"@ja, "体を動かすこと"@ja, "人と話すこと", "体を動かすこと" ;
+    scdb:skill "スポーツ全般"@ja, "スポーツ全般" ;
+    scdb:cv actor:Mineda_Mayu ;
+    :gender :Female ;
+    :description "天真爛漫な性格で、誰にでも積極的に話しかける。とにかく元気で友達想いの女の子。日本人の父とアメリカ人の母を持つ。高校1年生。"@ja ;
+    scdb:color "FFE012"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS01 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50017> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Hachimiya_Meguru> .

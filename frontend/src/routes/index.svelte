@@ -3,7 +3,17 @@
 </script>
 
 <script lang='ts'>
-  let query = `SELECT ?subject ?predicate ?object
+  let query = `PREFIX scdb: <https://283db.org/283db-schema#>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://ja.dbpedia.org/resource/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?subject ?predicate ?object
 WHERE {
   ?subject ?predicate ?object
 }
@@ -35,7 +45,7 @@ LIMIT 25
 
 <section>
   <div>
-    <textarea name='query' cols='80' rows='20'>{query}</textarea>
+    <textarea name='query' cols='80' rows='20' bind:value={query}></textarea>
     <br/>
     <button on:click={handleClick}>Submit</button>
   </div>

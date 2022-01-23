@@ -1,0 +1,305 @@
+BASE <https://283db.org/resource/hometown/>
+PREFIX scdb: <https://283db.org/283db-schema#>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# 出身地
+
+<Japan> a :Place ;
+    :name "日本", "日本国" ;
+    :sameAs <http://dbpedia.org/resource/Japan> .
+
+<USA> a :Place ;
+    :name "アメリカ", "アメリカ合衆国" ;
+    :sameAs <http://dbpedia.org/resource/United_States> .
+
+<Hokkaido> a :Place ;
+    :name "北海道" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C01000-19700401> ;
+    :sameAs <http://geonames.jp/resource/北海道> .
+
+<Aomori> a :Place ;
+    :name "青森", "青森県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C02000-19700401> ;
+    :sameAs <http://geonames.jp/resource/青森県> .
+
+<Iwate> a :Place ;
+    :name "岩手", "岩手県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C03000-19700401> ;
+    :sameAs <http://geonames.jp/resource/岩手県> .
+
+<Miyagi> a :Place ;
+    :name "宮城", "宮城県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C04000-19700401> ;
+    :sameAs <http://geonames.jp/resource/宮城県> .
+
+<Akita> a :Place ;
+    :name "秋田", "秋田県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C05000-19700401> ;
+    :sameAs <http://geonames.jp/resource/秋田県> .
+
+<Yamagata> a :Place ;
+    :name "山形", "山形県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C06000-19700401> ;
+    :sameAs <http://geonames.jp/resource/山形県> .
+
+<Fukushima> a :Place ;
+    :name "福島", "福島県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C07000-19700401> ;
+    :sameAs <http://geonames.jp/resource/福島県> .
+
+<Ibaraki> a :Place ;
+    :name "茨城", "茨城県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C08000-19700401> ;
+    :sameAs <http://geonames.jp/resource/茨城県> .
+
+<Tochigi> a :Place ;
+    :name "栃木", "栃木県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C09000-19700401> ;
+    :sameAs <http://geonames.jp/resource/栃木県> .
+
+<Gunma> a :Place ;
+    :name "群馬", "群馬県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C10000-19700401> ;
+    :sameAs <http://geonames.jp/resource/群馬県> .
+
+<Saitama> a :Place ;
+    :name "埼玉", "埼玉県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C11000-19700401> ;
+    :sameAs <http://geonames.jp/resource/埼玉県> .
+
+<Chiba> a :Place ;
+    :name "千葉", "千葉県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C12000-19700401> ;
+    :sameAs <http://geonames.jp/resource/千葉県> .
+
+<Tokyo> a :Place ;
+    :name "東京", "東京都" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C13000-19700401> ;
+    :sameAs <http://geonames.jp/resource/東京都> .
+
+<Kanagawa> a :Place ;
+    :name "神奈川", "神奈川県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C14000-19700401> ;
+    :sameAs <http://geonames.jp/resource/神奈川県> .
+
+<Niigata> a :Place ;
+    :name "新潟", "新潟県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C15000-19700401> ;
+    :sameAs <http://geonames.jp/resource/新潟県> .
+
+<Toyama> a :Place ;
+    :name "富山", "富山県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C16000-19700401> ;
+    :sameAs <http://geonames.jp/resource/富山県> .
+
+<Ishikawa> a :Place ;
+    :name "石川", "石川県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C17000-19700401> ;
+    :sameAs <http://geonames.jp/resource/石川県> .
+
+<Fukui> a :Place ;
+    :name "福井", "福井県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C18000-19700401> ;
+    :sameAs <http://geonames.jp/resource/福井県> .
+
+<Yamanashi> a :Place ;
+    :name "山梨", "山梨県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C19000-19700401> ;
+    :sameAs <http://geonames.jp/resource/山梨県> .
+
+<Nagano> a :Place ;
+    :name "長野", "長野県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C20000-19700401> ;
+    :sameAs <http://geonames.jp/resource/長野県> .
+
+<Gifu> a :Place ;
+    :name "岐阜", "岐阜県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C21000-19700401> ;
+    :sameAs <http://geonames.jp/resource/岐阜県> .
+
+<Shizuoka> a :Place ;
+    :name "静岡", "静岡県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C22000-19700401> ;
+    :sameAs <http://geonames.jp/resource/静岡県> .
+
+<Aichi> a :Place ;
+    :name "愛知", "愛知県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C23000-19700401> ;
+    :sameAs <http://geonames.jp/resource/愛知県> .
+
+<Mie> a :Place ;
+    :name "三重", "三重県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C24000-19700401> ;
+    :sameAs <http://geonames.jp/resource/三重県> .
+
+<Shiga> a :Place ;
+    :name "滋賀", "滋賀県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C25000-19700401> ;
+    :sameAs <http://geonames.jp/resource/滋賀県> .
+
+<Kyoto> a :Place ;
+    :name "京都", "京都府" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C26000-19700401> ;
+    :sameAs <http://geonames.jp/resource/京都府> .
+
+<Osaka> a :Place ;
+    :name "大阪", "大阪府" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C27000-19700401> ;
+    :sameAs <http://geonames.jp/resource/大阪府> .
+
+<Hyogo> a :Place ;
+    :name "兵庫", "兵庫県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C28000-19700401> ;
+    :sameAs <http://geonames.jp/resource/兵庫県> .
+
+<Nara> a :Place ;
+    :name "奈良", "奈良県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C29000-19700401> ;
+    :sameAs <http://geonames.jp/resource/奈良県> .
+
+<Wakayama> a :Place ;
+    :name "和歌山", "和歌山県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C30000-19700401> ;
+    :sameAs <http://geonames.jp/resource/和歌山県> .
+
+<Tottori> a :Place ;
+    :name "鳥取", "鳥取県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C31000-19700401> ;
+    :sameAs <http://geonames.jp/resource/鳥取県> .
+
+<Shimane> a :Place ;
+    :name "島根", "島根県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C32000-19700401> ;
+    :sameAs <http://geonames.jp/resource/島根県> .
+
+<Okayama> a :Place ;
+    :name "岡山", "岡山県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C33000-19700401> ;
+    :sameAs <http://geonames.jp/resource/岡山県> .
+
+<Hiroshima> a :Place ;
+    :name "広島", "広島県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C34000-19700401> ;
+    :sameAs <http://geonames.jp/resource/広島県> .
+
+<Yamaguchi> a :Place ;
+    :name "山口", "山口県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C35000-19700401> ;
+    :sameAs <http://geonames.jp/resource/山口県> .
+
+<Tokushima> a :Place ;
+    :name "徳島", "徳島県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C36000-19700401> ;
+    :sameAs <http://geonames.jp/resource/徳島県> .
+
+<Kagawa> a :Place ;
+    :name "香川", "香川県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C37000-19700401> ;
+    :sameAs <http://geonames.jp/resource/香川県> .
+
+<Ehime> a :Place ;
+    :name "愛媛", "愛媛県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C38000-19700401> ;
+    :sameAs <http://geonames.jp/resource/愛媛県> .
+
+<Kochi> a :Place ;
+    :name "高知", "高知県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C39000-19700401> ;
+    :sameAs <http://geonames.jp/resource/高知県> .
+
+<Fukuoka> a :Place ;
+    :name "福岡", "福岡県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C40000-19700401> ;
+    :sameAs <http://geonames.jp/resource/福岡県> .
+
+<Saga> a :Place ;
+    :name "佐賀", "佐賀県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C41000-19700401> ;
+    :sameAs <http://geonames.jp/resource/佐賀県> .
+
+<Nagasaki> a :Place ;
+    :name "長崎", "長崎県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C42000-19700401> ;
+    :sameAs <http://geonames.jp/resource/長崎県> .
+
+<Kumamoto> a :Place ;
+    :name "熊本", "熊本県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C43000-19700401> ;
+    :sameAs <http://geonames.jp/resource/熊本県> .
+
+<Oita> a :Place ;
+    :name "大分", "大分県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C44000-19700401> ;
+    :sameAs <http://geonames.jp/resource/大分県> .
+
+<Miyazaki> a :Place ;
+    :name "宮崎", "宮崎県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C45000-19700401> ;
+    :sameAs <http://geonames.jp/resource/宮崎県> .
+
+<Kagoshima> a :Place ;
+    :name "鹿児島", "鹿児島県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C46000-19700401> ;
+    :sameAs <http://geonames.jp/resource/鹿児島県> .
+
+<Okinawa> a :Place ;
+    :name "沖縄", "沖縄県" ;
+    dbo:locatedInArea <Japan> ;
+    :sameAs <http://data.e-stat.go.jp/lod/sac/C47000-19700401> ;
+    :sameAs <http://geonames.jp/resource/沖縄県> .
+
+<Massachusetts> a :Place ;
+    :name "マサチューセッツ", "マサチューセッツ州", "アメリカ マサチューセッツ州" ;
+    dbo:locatedInArea <USA> .
