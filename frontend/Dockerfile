@@ -4,7 +4,7 @@ RUN apk update && apk upgrade
 COPY . /home
 WORKDIR /home
 
-EXPOSE 8000
+EXPOSE 3000
 
 RUN yarn
 

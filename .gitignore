@@ -1,9 +1,2 @@
-.gradle
 .idea
-build
 *.iml
-
-sparql-endpoint/jar
-sparql-endpoint/lib
-sparql-endpoint/bin
-sparql-endpoint/run/dataset

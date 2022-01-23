@@ -1,0 +1,7 @@
+.gradle
+build
+
+jar
+lib
+bin
+run/dataset
