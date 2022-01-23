@@ -1,9 +1,32 @@
-<script context="module" lang="ts">
+<script context='module' lang='ts'>
   export const prerender = true;
 </script>
 
-<script lang="ts">
-  import Counter from '$lib/Counter.svelte';
+<script lang='ts'>
+  let query = `SELECT ?subject ?predicate ?object
+WHERE {
+  ?subject ?predicate ?object
+}
+LIMIT 25
+`;
+  let result = 'Show results here';
+
+  const submit = async () => {
+    const res = await fetch(
+      `http://localhost:3000/sample/query?query=${encodeURIComponent(query)}`,
+      {
+        method: 'GET',
+        headers: { 'Accept': 'application/sparql-results+json' },
+      },
+    );
+
+    return await res.json();
+  }
+
+  const handleClick = () => {
+    submit()
+      .then(json => { result = JSON.stringify(json, null, 2); });
+  }
 </script>
 
 <svelte:head>
@@ -11,22 +34,14 @@
 </svelte:head>
 
 <section>
-  <h1>
-    <div class="welcome">
-      <picture>
-        <source srcset="svelte-welcome.webp" type="image/webp" />
-        <img src="svelte-welcome.png" alt="Welcome" />
-      </picture>
-    </div>
-
-    to your new<br />SvelteKit app
-  </h1>
-
-  <h2>
-    try editing <strong>src/routes/index.svelte</strong>
-  </h2>
-
-  <Counter />
+  <div>
+    <textarea name='query' cols='80' rows='20'>{query}</textarea>
+    <br/>
+    <button on:click={handleClick}>Submit</button>
+  </div>
+  <div>
+    <pre>{result}</pre>
+  </div>
 </section>
 
 <style>
@@ -40,20 +55,5 @@
 
   h1 {
     width: 100%;
-  }
-
-  .welcome {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding: 0 0 calc(100% * 495 / 2048) 0;
-  }
-
-  .welcome img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    display: block;
   }
 </style>

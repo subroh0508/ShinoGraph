@@ -6,6 +6,8 @@ services:
       - '24678:24678'
     build:
       context: './frontend'
+    volumes:
+      - ./frontend:/home
   sparql-endpoint:
     ports:
       - '3000:3000'
