@@ -9,13 +9,16 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <Sekine_Hitomi> a scdb:VoiceActor ;
-    :name "関根瞳" ;
+    rdfs:label "関根瞳" ;
+    :name "関根瞳"@ja, "Hitomi Sekine"@en, "関根瞳" ;
     :sameAs <http://ja.dbpedia.org/resource/関根瞳> .
 
 <Kondo_Rena> a scdb:VoiceActor ;
-    :name "近藤玲奈" ;
+    rdfs:label "近藤玲奈" ;
+    :name "近藤玲奈"@ja, "Rena Kondo"@en, "近藤玲奈" ;
     :sameAs <http://ja.dbpedia.org/resource/近藤玲奈> .
 
 <Mineda_Mayu> a scdb:VoiceActor ;
-    :name "峯田茉優" ;
+    rdfs:label "峯田茉優" ;
+    :name "峯田茉優"@ja, "Mayu Mineda"@en, "峯田茉優" ;
     :sameAs <http://ja.dbpedia.org/resource/峯田茉優> .
