@@ -505,3 +505,107 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:schoolGrade enum:SchoolGrade.VS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50020> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Mayuzumi_Fuyuko> .
+
+<Asakura_Toru> a scdb:Idol ;
+    rdfs:label "浅倉透" ;
+    :name "浅倉透"@ja, "あさくらとおる"@ja-hira, "Toru Asakura"@en, "浅倉透" ;
+    :familyName "浅倉"@ja, "あさくら"@ja-hira, "Asakura"@en, "浅倉" ;
+    :givenName "透"@ja, "とおる"@ja-hira, "Toru"@en, "透" ;
+    dbo:age 17 ;
+    dbo:bloodType enum:BloodType.B ;
+    :birthdate "--05-04"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Taurus ;
+    :height 160.0 ;
+    :weight 50.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 82.0 ;
+    dbo:waistSize 57.0 ;
+    dbo:hipSize 78.0 ;
+    dbo:hometown hometown:Tokyo ;
+    scdb:hobby "映画やドラマを見ること"@ja, "映画やドラマを見ること" ;
+    scdb:skill "人の顔を覚えること"@ja, "人の顔を覚えること" ;
+    scdb:cv actor:Wakui_Yu ;
+    :gender :Female ;
+    :description "自然体で飾らない性格。周囲からどう見られるかということを気にせず、おおらかでマイペース。しかしその透明感あふれる佇まいには誰をも惹きつけるオーラがある。高校2年生。@ja ;
+    scdb:color "50D0D0"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS02 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50001> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Asakura_Toru> .
+
+<Higuchi_Madoka> a scdb:Idol ;
+    rdfs:label "樋口円香" ;
+    :name "樋口円香"@ja, "ひぐちまどか"@ja-hira, "Madoka Higuchi"@en, "樋口円香" ;
+    :familyName "樋口"@ja, "ひぐち"@ja-hira, "Higuchi"@en, "樋口" ;
+    :givenName "円香"@ja, "まどか"@ja-hira, "Madoka"@en, "円香" ;
+    dbo:age 17 ;
+    dbo:bloodType enum:BloodType.B ;
+    :birthdate "--10-27"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Scorpio ;
+    :height 159.0 ;
+    :weight 47.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 79.0 ;
+    dbo:waistSize 55.0 ;
+    dbo:hipSize 79.0 ;
+    dbo:hometown hometown:Tokyo ;
+    scdb:hobby "別にないです"@ja, "別にないです" ;
+    scdb:skill "別にないです"@ja, "別にないです" ;
+    scdb:cv actor:Tsuchiya_Rio ;
+    :gender :Female ;
+    :description "クールでシニカルな高校2年生。涼しげな目元と泣きぼくろが特徴。プロデューサーに冷たい態度を取る。"@ja ;
+    scdb:color "BE1E3E"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS02 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50018> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Higuchi_Madoka> .
+
+<Fukumaru_Koito> a scdb:Idol ;
+    rdfs:label "福丸小糸" ;
+    :name "福丸小糸"@ja, "ふくまるこいと"@ja-hira, "Koito Fukumaru"@en, "福丸小糸" ;
+    :familyName "福丸"@ja, "ふくまる"@ja-hira, "Fukumaru"@en, "福丸" ;
+    :givenName "小糸"@ja, "こいと"@ja-hira, "Koito"@en, "小糸" ;
+    dbo:age 16 ;
+    dbo:bloodType enum:BloodType.O ;
+    :birthdate "--11-11"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Scorpio ;
+    :height 148.0 ;
+    :weight 42.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 71.0 ;
+    dbo:waistSize 54.0 ;
+    dbo:hipSize 73.0 ;
+    dbo:hometown hometown:Tokyo ;
+    scdb:hobby "読書"@ja, "読書" ;
+    scdb:skill "勉強"@ja, "勉強" ;
+    scdb:cv actor:Tajima_Saran ;
+    :gender :Female ;
+    :description "内弁慶な小動物系の女の子。真面目な努力家で、勉強が得意。騙されやすく、幼なじみによくからかわれている。高校1年生。"@ja ;
+    scdb:color "7967C3"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS01 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50019> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Fukumaru_Koito> .
+
+<Ichikawa_Hinana> a scdb:Idol ;
+    rdfs:label "市川雛菜" ;
+    :name "市川雛菜"@ja, "いちかわひなな"@ja-hira, "Hinana Ichikawa"@en, "市川雛菜" ;
+    :familyName "市川"@ja, "いちかわ"@ja-hira, "Ichikawa"@en, "市川" ;
+    :givenName "雛菜"@ja, "ひなな"@ja-hira, "Hinana"@en, "雛菜" ;
+    dbo:age 15 ;
+    dbo:bloodType enum:BloodType.A ;
+    :birthdate "--03-17"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Pisces ;
+    :height 165.0 ;
+    :weight 56.0 ;
+    dbo:handedness enum:Handedness.Left ;
+    dbo:bustSize 87.0 ;
+    dbo:waistSize 60.0 ;
+    dbo:hipSize 86.0 ;
+    dbo:hometown hometown:Kanagawa ;
+    scdb:hobby "なんでもそれなりに好き～"@ja, "なんでもそれなりに好き～" ;
+    scdb:skill "なんでもそれなりにできる～"@ja, "なんでもそれなりにできる～" ;
+    scdb:cv actor:Okasaki_Miho ;
+    :gender :Female ;
+    :description "自分の「しあわせ」に向かって突き進む、奔放な女の子。幼馴染みで先輩の透を慕っている。高校1年生。"@ja ;
+    scdb:color "FFC639"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS01 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50004> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Ichikawa_Hinana> .

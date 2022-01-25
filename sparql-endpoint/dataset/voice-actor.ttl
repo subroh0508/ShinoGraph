@@ -107,3 +107,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "幸村恵理" ;
     :name "幸村恵理"@ja, "Eri Yukimura"@en, "幸村恵理" ;
     :sameAs <http://ja.dbpedia.org/resource/幸村恵理> .
+
+<Wakui_Yu> a scdb:VoiceActor ;
+    rdfs:label "和久井優" ;
+    :name "和久井優"@ja, "Yu Wakui"@en, "和久井優" ;
+    :sameAs <http://ja.dbpedia.org/resource/和久井優> .
+
+<Tsuchiya_Rio> a scdb:VoiceActor ;
+    rdfs:label "土屋李央" ;
+    :name "土屋李央"@ja, "Tsuchiya Rio"@en, "土屋李央" ;
+    :sameAs <http://ja.dbpedia.org/resource/土屋李央> .
+
+<Tajima_Saran> a scdb:VoiceActor ;
+    rdfs:label "田嶌紗蘭" ;
+    :name "田嶌紗蘭"@ja, "Saran Tajima"@en, "田嶌紗蘭" ;
+    :sameAs <http://ja.dbpedia.org/resource/田嶌紗蘭> .
+
+<Okasaki_Miho> a scdb:VoiceActor ;
+    rdfs:label "岡咲美保" ;
+    :name "岡咲美保"@ja, "Miho Okasaki"@en, "岡咲美保" ;
+    :sameAs <http://ja.dbpedia.org/resource/岡咲美保> .
