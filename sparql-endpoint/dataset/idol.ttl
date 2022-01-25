@@ -609,3 +609,54 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:schoolGrade enum:SchoolGrade.HS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50004> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Ichikawa_Hinana> .
+
+<Nanakusa_Nichika> a scdb:Idol ;
+    rdfs:label "七草にちか" ;
+    :name "七草にちか"@ja, "ななくさにちか"@ja-hira, "Nichika Nanakusa"@en, "七草にちか" ;
+    :familyName "七草"@ja, "ななくさ"@ja-hira, "Nanakusa"@en, "七草" ;
+    :givenName "にちか"@ja, "にちか"@ja-hira, "Nichika"@en, "にちか" ;
+    dbo:age 16 ;
+    dbo:bloodType enum:BloodType.O ;
+    :birthdate "--07-26"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Leo ;
+    :height 158.0 ;
+    :weight 48.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 82.0 ;
+    dbo:waistSize 55.0 ;
+    dbo:hipSize 84.0 ;
+    dbo:hometown hometown:Saitama ;
+    scdb:hobby "音楽鑑賞"@ja, "音楽鑑賞" ;
+    scdb:skill "家事"@ja, "家事" ;
+    scdb:cv actor:Shizuki_Azusa ;
+    :gender :Female ;
+    :description "気が強く甘え上手な「みんなの妹」アイドルに強い憧れを抱いており、譲れない思いや負けず嫌いな面をのぞかせることも。高校1年生。"@ja ;
+    scdb:color "A5CFB6"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS01 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50024> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Nanakusa_Nichika> .
+
+<Aketa_Mikoto> a scdb:Idol ;
+    rdfs:label "緋田美琴" ;
+    :name "緋田美琴"@ja, "あけたみこと"@ja-hira, "Mikoto Aketa"@en, "緋田美琴" ;
+    :familyName "緋田"@ja, "あけた"@ja-hira, "Aketa"@en, "緋田" ;
+    :givenName "美琴"@ja, "みこと"@ja-hira, "Mikoto"@en, "美琴" ;
+    dbo:age 24 ;
+    dbo:bloodType enum:BloodType.B ;
+    :birthdate "--09-08"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Virgo ;
+    :height 170.0 ;
+    :weight 54.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 85.0 ;
+    dbo:waistSize 57.0 ;
+    dbo:hipSize 85.0 ;
+    dbo:hometown hometown:Hokkaido ;
+    scdb:hobby "作詞作曲"@ja, "作詞作曲" ;
+    scdb:skill "ダンスの振り付け"@ja, "ダンスの振り付け" ;
+    scdb:cv actor:Yamane_Aya ;
+    :gender :Female ;
+    :description "一途でひたむきな美人だが、寝食など身の回りのことを疎かにしがち。アイドル経験者でもあり、誰よりも『アイドル』への想いが強い。"@ja ;
+    scdb:color "760E10"^^xsd:hexBinary ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50025> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Aketa_Mikoto> .

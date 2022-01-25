@@ -127,3 +127,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "岡咲美保" ;
     :name "岡咲美保"@ja, "Miho Okasaki"@en, "岡咲美保" ;
     :sameAs <http://ja.dbpedia.org/resource/岡咲美保> .
+
+<Sizuki_Azusa> a scdb:VoiceActor ;
+    rdfs:label "紫月杏朱彩" ;
+    :name "紫月杏朱彩"@ja, "Azusa Shizuki"@en, "紫月杏朱彩" ;
+    :sameAs <http://ja.dbpedia.org/resource/紫月杏朱彩> .
+
+<Yamane_Aya> a scdb:VoiceActor ;
+    rdfs:label "山根綺" ;
+    :name "山根綺"@ja, "Aya Yamane"@en, "山根綺" ;
+    :sameAs <http://ja.dbpedia.org/resource/山根綺> .
