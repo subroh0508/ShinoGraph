@@ -104,7 +104,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 93.0 ;
     dbo:waistSize 60.0 ;
     dbo:hipSize 91.0 ;
-    dbo:hometown hometown:Nagasaki ;
+    dbo:hometown hometown:Japan, hometown:Nagasaki ;
     scdb:hobby "うちの手料理、なんでも絶品たい！"@ja, "うちの手料理、なんでも絶品たい！" ;
     scdb:skill "そっくりな似顔絵ば描けるたい！"@ja, "そっくりな似顔絵ば描けるたい！" ;
     scdb:cv actor:Isobe_Karin ;
@@ -129,7 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 73.0 ;
     dbo:waistSize 52.0 ;
     dbo:hipSize 81.0 ;
-    dbo:hometown hometown:Fukushima ;
+    dbo:hometown hometown:Japan, hometown:Fukushima ;
     scdb:hobby "アイドルライブ鑑賞"@ja, "カメラ"@ja, "ゲーム"@ja, "アニメ"@ja, "読書"@ja, "アイドルライブ鑑賞", "カメラ", "ゲーム", "アニメ", "読書" ;
     scdb:skill "勉強"@ja, "推しに一早く認知されること"@ja, "勉強", "推しに一早く認知されること" ;
     scdb:cv actor:Kisui_Shio ;
@@ -156,7 +156,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 91.0 ;
     dbo:waistSize 58.0 ;
     dbo:hipSize 87.0 ;
-    dbo:hometown hometown:Kochi ;
+    dbo:hometown hometown:Japan, hometown:Kochi ;
     scdb:hobby "色々な所に出かける"@ja, "色々な所に出かける" ;
     scdb:skill "自分を最大限カッコ良く見せる立ち振る舞い"@ja, "自分を最大限カッコ良く見せる立ち振る舞い" ;
     scdb:cv actor:Yamaki_Anna ;
@@ -182,7 +182,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 81.0 ;
     dbo:waistSize 56.0 ;
     dbo:hipSize 83.0 ;
-    dbo:hometown hometown:Kanagawa ;
+    dbo:hometown hometown:Japan, hometown:Kanagawa ;
     scdb:hobby "放浪"@ja, "人をからかう"@ja, "放浪", "人をからかう" ;
     scdb:skill "自分で髪を切る"@ja, "自分で髪を切る" ;
     scdb:cv actor:Suganuma_Chisa ;
@@ -208,7 +208,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 79.0 ;
     dbo:waistSize 55.0 ;
     dbo:hipSize 81.0 ;
-    dbo:hometown hometown:Aomori ;
+    dbo:hometown hometown:Japan, hometown:Aomori ;
     scdb:hobby "かわいいもの全般の収集"@ja, "手芸"@ja, "献血"@ja, "かわいいもの全般の収集", "手芸", "献血" ;
     scdb:skill "包帯を綺麗に巻く"@ja, "足音を立てない"@ja, "りんごの皮むき"@ja, "包帯を綺麗に巻く", "足音を立てない", "りんごの皮むき" ;
     scdb:cv actor:Yuina_Miduki ;
@@ -234,7 +234,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 80.0 ;
     dbo:waistSize 57.0 ;
     dbo:hipSize 83.0 ;
-    dbo:hometown hometown:Tokyo ;
+    dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "日曜日朝の子供向け番組を見る事"@ja, "グッズ集め"@ja, "日曜日朝の子供向け番組を見る事", "グッズ集め" ;
     scdb:skill "好きな番組の決め台詞を数多く覚えている"@ja, "好きな番組の決め台詞を数多く覚えている" ;
     scdb:cv actor:Kono_Hiyori ;
@@ -260,7 +260,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 75.0 ;
     dbo:waistSize 58.0 ;
     dbo:hipSize 78.0 ;
-    dbo:hometown hometown:Kanagawa ;
+    dbo:hometown hometown:Japan, hometown:Kanagawa ;
     scdb:hobby "洋楽"@ja, "ゲーム"@ja, "洋楽", "ゲーム" ;
     scdb:skill "スポーツ全般"@ja, "（中2までは）バスケ"@ja, "スポーツ全般", "（中2までは）バスケ" ;
     scdb:cv actor:Nagai_Mariko ;
@@ -286,7 +286,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 85.0 ;
     dbo:waistSize 58.0 ;
     dbo:hipSize 84.0 ;
-    dbo:hometown hometown:Aichi ;
+    dbo:hometown hometown:Japan, hometown:Aichi ;
     scdb:hobby "トレーニング"@ja, "ストレッチ"@ja, "トレーニング", "ストレッチ" ;
     scdb:skill "トータルコーディネート"@ja, "トータルコーディネート" ;
     scdb:cv actor:Suzumoto_Akiho ;
@@ -312,7 +312,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 70.0 ;
     dbo:waistSize 54.0 ;
     dbo:hipSize 78.0 ;
-    dbo:hometown hometown:Tottori ;
+    dbo:hometown hometown:Japan, hometown:Tottori ;
     scdb:hobby "少女漫画"@ja, "芸道全般"@ja, "少女漫画", "芸道全般" ;
     scdb:skill "折り紙"@ja, "百人一首"@ja, "折り紙", "百人一首" ;
     scdb:cv actor:Maruoka_Wakana ;
@@ -338,7 +338,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 85.0 ;
     dbo:waistSize 56.0 ;
     dbo:hipSize 82.0 ;
-    dbo:hometown hometown:Chiba ;
+    dbo:hometown hometown:Japan, hometown:Chiba ;
     scdb:hobby "スイーツ店巡り"@ja, "スイーツ店巡り" ;
     scdb:skill "たくさん食べられること"@ja, "たくさん食べられること" ;
     scdb:cv actor:Shiraishi_Haruka ;
@@ -364,7 +364,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 89.0 ;
     dbo:waistSize 58.0 ;
     dbo:hipSize 92.0 ;
-    dbo:hometown hometown:Yamaguchi ;
+    dbo:hometown hometown:Japan, hometown:Yamaguchi ;
     scdb:hobby "雑貨作り"@ja, "雑貨作り" ;
     scdb:skill "裁縫"@ja, "道案内"@ja, "裁縫", "道案内" ;
     scdb:cv actor:Shibasaki_Noriko ;
@@ -390,7 +390,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 81.0 ;
     dbo:waistSize 58.0 ;
     dbo:hipSize 83.0 ;
-    dbo:hometown hometown:Toyama ;
+    dbo:hometown hometown:Japan, hometown:Toyama ;
     scdb:hobby "お昼寝"@ja, "ネットサーフィン"@ja, "アニメ"@ja, "ゲーム"@ja, "お昼寝", "ネットサーフィン", "アニメ", "ゲーム" ;
     scdb:skill "特に無い"@ja, "特に無い" ;
     scdb:cv actor:Maekawa_Ryoko ;
@@ -417,7 +417,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 80.0 ;
     dbo:waistSize 56.0 ;
     dbo:hipSize 80.0 ;
-    dbo:hometown hometown:Toyama ;
+    dbo:hometown hometown:Japan, hometown:Toyama ;
     scdb:hobby "ショッピング"@ja, "ネイル"@ja, "自撮り"@ja, "ショッピング", "ネイル", "自撮り" ;
     scdb:skill "早起き"@ja, "倹約"@ja, "早起き", "倹約" ;
     scdb:cv actor:Kuroki_Honoka ;
@@ -443,7 +443,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 78.0 ;
     dbo:waistSize 58.0 ;
     dbo:hipSize 77.0 ;
-    dbo:hometown hometown:Tokyo ;
+    dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "人間観察"@ja, "人に話しかけること"@ja, "人間観察", "人に話しかけること" ;
     scdb:skill "記憶力がいい"@ja, "記憶力がいい" ;
     scdb:cv actor:Tanaka_Yuki ;
@@ -469,7 +469,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 90.0 ;
     dbo:waistSize 58.0 ;
     dbo:hipSize 88.0 ;
-    dbo:hometown hometown:Saitama ;
+    dbo:hometown hometown:Japan, hometown:Saitama ;
     scdb:hobby "友達と遊ぶ"@ja, "最近の曲を聴く"@ja, "友達と遊ぶ", "最近の曲を聴く" ;
     scdb:skill "何時間でも電話できること"@ja, "何時間でも電話できること" ;
     scdb:cv actor:Kitahara_Sayaka ;
@@ -495,7 +495,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 78.0 ;
     dbo:waistSize 59.0 ;
     dbo:hipSize 81.0 ;
-    dbo:hometown hometown:Ibaraki ;
+    dbo:hometown hometown:Japan, hometown:Ibaraki ;
     scdb:hobby "お友達とおしゃべり♪"@ja, "お友達とおしゃべり♪" ;
     scdb:skill "みんなと仲良くなること♪"@ja, "みんなと仲良くなること♪" ;
     scdb:cv actor:Yukimura_Eri ;
@@ -521,12 +521,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 82.0 ;
     dbo:waistSize 57.0 ;
     dbo:hipSize 78.0 ;
-    dbo:hometown hometown:Tokyo ;
+    dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "映画やドラマを見ること"@ja, "映画やドラマを見ること" ;
     scdb:skill "人の顔を覚えること"@ja, "人の顔を覚えること" ;
     scdb:cv actor:Wakui_Yu ;
     :gender :Female ;
-    :description "自然体で飾らない性格。周囲からどう見られるかということを気にせず、おおらかでマイペース。しかしその透明感あふれる佇まいには誰をも惹きつけるオーラがある。高校2年生。@ja ;
+    :description "自然体で飾らない性格。周囲からどう見られるかということを気にせず、おおらかでマイペース。しかしその透明感あふれる佇まいには誰をも惹きつけるオーラがある。高校2年生。"@ja ;
     scdb:color "50D0D0"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50001> ;
@@ -547,7 +547,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 79.0 ;
     dbo:waistSize 55.0 ;
     dbo:hipSize 79.0 ;
-    dbo:hometown hometown:Tokyo ;
+    dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "別にないです"@ja, "別にないです" ;
     scdb:skill "別にないです"@ja, "別にないです" ;
     scdb:cv actor:Tsuchiya_Rio ;
@@ -573,7 +573,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 71.0 ;
     dbo:waistSize 54.0 ;
     dbo:hipSize 73.0 ;
-    dbo:hometown hometown:Tokyo ;
+    dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "読書"@ja, "読書" ;
     scdb:skill "勉強"@ja, "勉強" ;
     scdb:cv actor:Tajima_Saran ;
@@ -599,7 +599,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 87.0 ;
     dbo:waistSize 60.0 ;
     dbo:hipSize 86.0 ;
-    dbo:hometown hometown:Kanagawa ;
+    dbo:hometown hometown:Japan, hometown:Kanagawa ;
     scdb:hobby "なんでもそれなりに好き～"@ja, "なんでもそれなりに好き～" ;
     scdb:skill "なんでもそれなりにできる～"@ja, "なんでもそれなりにできる～" ;
     scdb:cv actor:Okasaki_Miho ;
@@ -615,6 +615,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "七草にちか"@ja, "ななくさにちか"@ja-hira, "Nichika Nanakusa"@en, "七草にちか" ;
     :familyName "七草"@ja, "ななくさ"@ja-hira, "Nanakusa"@en, "七草" ;
     :givenName "にちか"@ja, "にちか"@ja-hira, "Nichika"@en, "にちか" ;
+    :sibling <Nanakusa_Haduki> ;
     dbo:age 16 ;
     dbo:bloodType enum:BloodType.O ;
     :birthdate "--07-26"^^xsd:gMonthDay ;
@@ -625,7 +626,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 82.0 ;
     dbo:waistSize 55.0 ;
     dbo:hipSize 84.0 ;
-    dbo:hometown hometown:Saitama ;
+    dbo:hometown hometown:Japan, hometown:Saitama ;
     scdb:hobby "音楽鑑賞"@ja, "音楽鑑賞" ;
     scdb:skill "家事"@ja, "家事" ;
     scdb:cv actor:Shizuki_Azusa ;
@@ -651,7 +652,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:bustSize 85.0 ;
     dbo:waistSize 57.0 ;
     dbo:hipSize 85.0 ;
-    dbo:hometown hometown:Hokkaido ;
+    dbo:hometown hometown:Japan, hometown:Hokkaido ;
     scdb:hobby "作詞作曲"@ja, "作詞作曲" ;
     scdb:skill "ダンスの振り付け"@ja, "ダンスの振り付け" ;
     scdb:cv actor:Yamane_Aya ;

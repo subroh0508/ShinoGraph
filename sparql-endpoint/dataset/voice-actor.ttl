@@ -137,3 +137,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "山根綺" ;
     :name "山根綺"@ja, "Aya Yamane"@en, "山根綺" ;
     :sameAs <http://ja.dbpedia.org/resource/山根綺> .
+
+<Yamamura_Hibiku> a scdb:VoiceActor ;
+    rdfs:label "山村響" ;
+    :name "山村響"@ja, "Hibiku Yamamura"@en, "山村響" ;
+    :sameAs <http://ja.dbpedia.org/resource/山村響> .
