@@ -366,10 +366,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hipSize 92.0 ;
     dbo:hometown hometown:Yamaguchi ;
     scdb:hobby "雑貨作り"@ja, "雑貨作り" ;
-    scdb:skill "裁縫"@ja, "道案内"@ja, "裁縫", "道案内 ;
+    scdb:skill "裁縫"@ja, "道案内"@ja, "裁縫", "道案内" ;
     scdb:cv actor:Shibasaki_Noriko ;
     :gender :Female ;
-    :description "優しい笑顔が印象的な、事務所のお姉さん的存在。母性溢れる落ち着いた佇まいが特徴。手先が器用で、かわいい小物を作るのが趣味。@ja ;
+    :description "優しい笑顔が印象的な、事務所のお姉さん的存在。母性溢れる落ち着いた佇まいが特徴。手先が器用で、かわいい小物を作るのが趣味。"@ja ;
     scdb:color "FBFAFA"^^xsd:hexBinary ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50008> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Kuwayama_Chiyuki> .
@@ -427,3 +427,81 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50005> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Osaki_Amana> .
+
+<Serizawa_Asahi> a scdb:Idol ;
+    rdfs:label "芹沢あさひ" ;
+    :name "芹沢あさひ"@ja, "せりざわあさひ"@ja-hira, "Asahi Serizawa"@en, "芹沢あさひ" ;
+    :familyName "芹沢"@ja, "せりざわ"@ja-hira, "Serizawa"@en, "芹沢" ;
+    :givenName "あさひ"@ja, "あさひ"@ja-hira, "Asahi"@en, "あさひ" ;
+    dbo:age 14 ;
+    dbo:bloodType enum:BloodType.AB ;
+    :birthdate "--01-04"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Capricorn ;
+    :height 153.0 ;
+    :weight 47.0 ;
+    dbo:handedness enum:Handedness.Both ;
+    dbo:bustSize 78.0 ;
+    dbo:waistSize 58.0 ;
+    dbo:hipSize 77.0 ;
+    dbo:hometown hometown:Tokyo ;
+    scdb:hobby "人間観察"@ja, "人に話しかけること"@ja, "人間観察", "人に話しかけること" ;
+    scdb:skill "記憶力がいい"@ja, "記憶力がいい" ;
+    scdb:cv actor:Tanaka_Yuki ;
+    :gender :Female ;
+    :description "常に面白いことを探し、じっとしていることがない、探究心の強い女の子。興味を持ったら一直線だが、飽きっぽい一面も持つ中学2年生。"@ja ;
+    scdb:color "F30100"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.JHS02 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50013> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Serizawa_Asahi> .
+
+<Izumi_Mei> a scdb:Idol ;
+    rdfs:label "和泉愛依" ;
+    :name "和泉愛依"@ja, "いずみめい"@ja-hira, "Mei Izumi"@en, "和泉愛依" ;
+    :familyName "和泉"@ja, "いずみ"@ja-hira, "Izumi"@en, "和泉" ;
+    :givenName "愛依"@ja, "めい"@ja-hira, "Mei"@en, "愛依" ;
+    dbo:age 18 ;
+    dbo:bloodType enum:BloodType.O ;
+    :birthdate "--08-02"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Leo ;
+    :height 162.0 ;
+    :weight 51.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 90.0 ;
+    dbo:waistSize 58.0 ;
+    dbo:hipSize 88.0 ;
+    dbo:hometown hometown:Saitama ;
+    scdb:hobby "友達と遊ぶ"@ja, "最近の曲を聴く"@ja, "友達と遊ぶ", "最近の曲を聴く" ;
+    scdb:skill "何時間でも電話できること"@ja, "何時間でも電話できること" ;
+    scdb:cv actor:Kitahara_Sayaka ;
+    :gender :Female ;
+    :description "ノリがよく、楽天的で大雑把な性格の女の子。難しいことを考えるのは苦手だが、親しみやすい高校3年生。"@ja ;
+    scdb:color "FF00FF"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS03 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50003> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Izumi_Mei> .
+
+<Mayuzumi_Fuyuko> a scdb:Idol ;
+    rdfs:label "黛冬優子" ;
+    :name "黛冬優子"@ja, "まゆずみふゆこ"@ja-hira, "Fuyuko Mayuzumi"@en, "黛冬優子" ;
+    :familyName "黛"@ja, "まゆずみ"@ja-hira, "Mayuzumi"@en, "黛" ;
+    :givenName "冬優子"@ja, "ふゆこ"@ja-hira, "Fuyuko"@en, "冬優子" ;
+    dbo:age 19 ;
+    dbo:bloodType enum:BloodType.A ;
+    :birthdate "--12-04"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Sagittarius ;
+    :height 163.0 ;
+    :weight 55.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 78.0 ;
+    dbo:waistSize 59.0 ;
+    dbo:hipSize 81.0 ;
+    dbo:hometown hometown:Ibaraki ;
+    scdb:hobby "お友達とおしゃべり♪"@ja, "お友達とおしゃべり♪" ;
+    scdb:skill "みんなと仲良くなること♪"@ja, "みんなと仲良くなること♪" ;
+    scdb:cv actor:Yukimura_Eri ;
+    :gender :Female ;
+    :description "常に控えめな笑顔で、清楚に見える女の子。可愛いものが大好きで、周囲への気配りをするなど人に好かれるように振る舞う。専門学校1年生。"@ja ;
+    scdb:color "5CE626"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.VS01 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50020> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Mayuzumi_Fuyuko> .

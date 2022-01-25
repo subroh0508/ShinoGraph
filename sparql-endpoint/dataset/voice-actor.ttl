@@ -92,3 +92,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "黒木ほの香" ;
     :name "黒木ほの香"@ja, "Honoka Kuroki"@en, "黒木ほの香" ;
     :sameAs <http://ja.dbpedia.org/resource/黒木ほの香> .
+
+<Tanaka_Yuki> a scdb:VoiceActor ;
+    rdfs:label "田中有紀" ;
+    :name "田中有紀"@ja, "Yuki Tanaka"@en, "田中有紀" ;
+    :sameAs <http://ja.dbpedia.org/resource/田中有紀> .
+
+<Kitahara_Sayaka> a scdb:VoiceActor ;
+    rdfs:label "北原沙弥香" ;
+    :name "北原沙弥香"@ja, "Kitahara Sayaka"@en, "北原沙弥香" ;
+    :sameAs <http://ja.dbpedia.org/resource/北原沙弥香> .
+
+<Yukimura_Eri> a scdb:VoiceActor ;
+    rdfs:label "幸村恵理" ;
+    :name "幸村恵理"@ja, "Eri Yukimura"@en, "幸村恵理" ;
+    :sameAs <http://ja.dbpedia.org/resource/幸村恵理> .
