@@ -52,3 +52,28 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "結名美月" ;
     :name "結名美月"@ja, "Miduki Yuina"@en, "結名美月" ;
     :sameAs <http://ja.dbpedia.org/resource/結名美月> .
+
+<Kono_Hiyori> a scdb:VoiceActor ;
+    rdfs:label "河野ひより" ;
+    :name "河野ひより"@ja, "Hiyori Kono"@en, "河野ひより" ;
+    :sameAs <http://ja.dbpedia.org/resource/河野ひより> .
+
+<Nagai_Mariko> a scdb:VoiceActor ;
+    rdfs:label "永井真理子" ;
+    :name "永井真理子"@ja, "Mariko Nagai"@en, "永井真理子" ;
+    :sameAs <http://ja.dbpedia.org/resource/永井真理子> .
+
+<Suzumoto_Akiho> a scdb:VoiceActor ;
+    rdfs:label "涼本あきほ" ;
+    :name "涼本あきほ"@ja, "Akiho Suzumoto"@en, "涼本あきほ" ;
+    :sameAs <http://ja.dbpedia.org/resource/涼本あきほ> .
+
+<Maruoka_Wakana> a scdb:VoiceActor ;
+    rdfs:label "丸岡和佳奈" ;
+    :name "丸岡和佳奈"@ja, "Wakana Maruoka"@en, "丸岡和佳奈" ;
+    :sameAs <http://ja.dbpedia.org/resource/丸岡和佳奈> .
+
+<Shiraishi_Haruka> a scdb:VoiceActor ;
+    rdfs:label "白石晴香" ;
+    :name "白石晴香"@ja, "Haruka Shiraishi"@en, "白石晴香" ;
+    :sameAs <http://ja.dbpedia.org/resource/白石晴香> .
