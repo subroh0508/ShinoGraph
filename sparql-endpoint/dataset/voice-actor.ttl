@@ -22,3 +22,33 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "峯田茉優" ;
     :name "峯田茉優"@ja, "Mayu Mineda"@en, "峯田茉優" ;
     :sameAs <http://ja.dbpedia.org/resource/峯田茉優> .
+
+<Isobe_Karin> a scdb:VoiceActor ;
+    rdfs:label "礒部花凜" ;
+    :name "礒部花凜"@ja, "Karin Isobe"@en, "礒部花凜" ;
+    :sameAs <http://ja.dbpedia.org/resource/礒部花凜> .
+
+<Kisui_Shio> a scdb:VoiceActor ;
+    rdfs:label "希水しお" ;
+    :name "希水しお"@ja, "Shio Kisui"@en, "希水しお" ;
+    :sameAs <http://ja.dbpedia.org/resource/希水しお> .
+
+<Narumi_Runa> a scdb:VoiceActor ;
+    rdfs:label "成海瑠奈" ;
+    :name "成海瑠奈"@ja, "Runa Narumi"@en, "成海瑠奈" ;
+    :sameAs <http://ja.dbpedia.org/resource/成海瑠奈> .
+
+<Yamaki_Anna> a scdb:VoiceActor ;
+    rdfs:label "八巻アンナ" ;
+    :name "八巻アンナ"@ja, "Anna Yamaki"@en, "八巻アンナ" ;
+    :sameAs <http://ja.dbpedia.org/resource/八巻アンナ> .
+
+<Suganuma_Chisa> a scdb:VoiceActor ;
+    rdfs:label "菅沼千紗" ;
+    :name "菅沼千紗"@ja, "Chisa Suganuma"@en, "菅沼千紗" ;
+    :sameAs <http://ja.dbpedia.org/resource/菅沼千紗> .
+
+<Yuina_Miduki> a scdb:VoiceActor ;
+    rdfs:label "結名美月" ;
+    :name "結名美月"@ja, "Miduki Yuina"@en, "結名美月" ;
+    :sameAs <http://ja.dbpedia.org/resource/結名美月> .

@@ -132,7 +132,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Fukushima ;
     scdb:hobby "アイドルライブ鑑賞"@ja, "カメラ"@ja, "ゲーム"@ja, "アニメ"@ja, "読書"@ja, "アイドルライブ鑑賞", "カメラ", "ゲーム", "アニメ", "読書" ;
     scdb:skill "勉強"@ja, "推しに一早く認知されること"@ja, "勉強", "推しに一早く認知されること" ;
-    scdb:cv actor:Mineda_Mayu ;
+    scdb:cv actor:Kisui_Shio ;
+    scdb:pastCv actor:Narumi_Runa ;
     :gender :Female ;
     :description "自由奔放で掴みどころのないサブカル系眼鏡女子。美人でノリもよく、初対面の人に対しても気後れせずに話しができる。大学1年生。"@ja ;
     scdb:color "3B91C4"^^xsd:hexBinary ;
