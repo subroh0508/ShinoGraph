@@ -348,3 +348,82 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50014> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Sonoda_Chiyoko> .
+
+<Kuwayama_Chiyuki> a scdb:Idol ;
+    rdfs:label "桑山千雪" ;
+    :name "桑山千雪"@ja, "くわやまちゆき"@ja-hira, "Chiyuki Kuwayama"@en, "桑山千雪" ;
+    :familyName "桑山"@ja, "くわやま"@ja-hira, "Kuwayama"@en, "桑山" ;
+    :givenName "千雪"@ja, "ちゆき"@ja-hira, "Chiyuki"@en, "千雪" ;
+    dbo:age 23 ;
+    dbo:bloodType enum:BloodType.A ;
+    :birthdate "--04-18"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Taurus ;
+    :height 163.0 ;
+    :weight 47.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 89.0 ;
+    dbo:waistSize 58.0 ;
+    dbo:hipSize 92.0 ;
+    dbo:hometown hometown:Yamaguchi ;
+    scdb:hobby "雑貨作り"@ja, "雑貨作り" ;
+    scdb:skill "裁縫"@ja, "道案内"@ja, "裁縫", "道案内 ;
+    scdb:cv actor:Shibasaki_Noriko ;
+    :gender :Female ;
+    :description "優しい笑顔が印象的な、事務所のお姉さん的存在。母性溢れる落ち着いた佇まいが特徴。手先が器用で、かわいい小物を作るのが趣味。@ja ;
+    scdb:color "FBFAFA"^^xsd:hexBinary ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50008> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Kuwayama_Chiyuki> .
+
+<Osaki_Tenka> a scdb:Idol ;
+    rdfs:label "大崎甜花" ;
+    :name "大崎甜花"@ja, "おおさきてんか"@ja-hira, "Tenka Osaki"@en, "大崎甜花" ;
+    :familyName "大崎"@ja, "おおさき"@ja-hira, "Osaki"@en, "大崎" ;
+    :givenName "甜花"@ja, "てんか"@ja-hira, "Tenka"@en, "甜花" ;
+    :sibling <Osaki_Amana> ;
+    dbo:age 17 ;
+    dbo:bloodType enum:BloodType.A ;
+    :birthdate "--12-25"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Capricorn ;
+    :height 159.0 ;
+    :weight 44.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 81.0 ;
+    dbo:waistSize 58.0 ;
+    dbo:hipSize 83.0 ;
+    dbo:hometown hometown:Toyama ;
+    scdb:hobby "お昼寝"@ja, "ネットサーフィン"@ja, "アニメ"@ja, "ゲーム"@ja, "お昼寝", "ネットサーフィン", "アニメ", "ゲーム" ;
+    scdb:skill "特に無い"@ja, "特に無い" ;
+    scdb:cv actor:Maekawa_Ryoko ;
+    :gender :Female ;
+    :description "大崎姉妹の双子の姉。幼い頃から妹の甘奈に面倒を見てもらっている。人と話すのが苦手で、アニメやゲームなど、インドアな趣味が多い。高校2年生。"@ja ;
+    scdb:color "E75BEC"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS02 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50006> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Osaki_Tenka> .
+
+<Osaki_Amana> a scdb:Idol ;
+    rdfs:label "大崎甘奈" ;
+    :name "大崎甘奈"@ja, "おおさきあまな"@ja-hira, "Amana Osaki"@en, "大崎甘奈" ;
+    :familyName "大崎"@ja, "おおさき"@ja-hira, "Osaki"@en, "大崎" ;
+    :givenName "甘奈"@ja, "あまな"@ja-hira, "Amana"@en, "甘奈" ;
+    :sibling <Osaki_Tenka> ;
+    dbo:age 17 ;
+    dbo:bloodType enum:BloodType.A ;
+    :birthdate "--12-25"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Capricorn ;
+    :height 159.0 ;
+    :weight 43.0 ;
+    dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 80.0 ;
+    dbo:waistSize 56.0 ;
+    dbo:hipSize 80.0 ;
+    dbo:hometown hometown:Toyama ;
+    scdb:hobby "ショッピング"@ja, "ネイル"@ja, "自撮り"@ja, "ショッピング", "ネイル", "自撮り" ;
+    scdb:skill "早起き"@ja, "倹約"@ja, "早起き", "倹約" ;
+    scdb:cv actor:Kuroki_Honoka ;
+    :gender :Female ;
+    :description "大崎姉妹の双子の妹。誰とでも分け隔てなく接する天真爛漫なギャル。今しかできないことを全力で楽しみたい今ドキの女の子。高校2年生。"@ja ;
+    scdb:color "F54275"^^xsd:hexBinary ;
+    scdb:schoolGrade enum:SchoolGrade.HS02 ;
+    scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50005> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Osaki_Amana> .

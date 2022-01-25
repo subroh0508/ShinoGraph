@@ -77,3 +77,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "白石晴香" ;
     :name "白石晴香"@ja, "Haruka Shiraishi"@en, "白石晴香" ;
     :sameAs <http://ja.dbpedia.org/resource/白石晴香> .
+
+<Shibasaki_Noriko> a scdb:VoiceActor ;
+    rdfs:label "芝崎典子" ;
+    :name "芝崎典子"@ja, "Noriko Shibasaki"@en, "芝崎典子" ;
+    :sameAs <http://ja.dbpedia.org/resource/芝崎典子> .
+
+<Maekawa_Ryoko> a scdb:VoiceActor ;
+    rdfs:label "前川涼子" ;
+    :name "前川涼子"@ja, "Ryoko Maekawa"@en, "前川涼子" ;
+    :sameAs <http://ja.dbpedia.org/resource/前川涼子> .
+
+<Kuroki_Honoka> a scdb:VoiceActor ;
+    rdfs:label "黒木ほの香" ;
+    :name "黒木ほの香"@ja, "Honoka Kuroki"@en, "黒木ほの香" ;
+    :sameAs <http://ja.dbpedia.org/resource/黒木ほの香> .
