@@ -13,3 +13,5 @@ services:
       - '3000:3000'
     build:
      context: './sparql-endpoint'
+    volumes:
+      - ./sparql-endpoint/run/dataset:/run/dataset
