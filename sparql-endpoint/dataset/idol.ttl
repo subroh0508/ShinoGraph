@@ -55,7 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "音楽鑑賞"@ja, "綺麗な景色を探すこと"@ja, "占い"@ja, "音楽鑑賞", "綺麗な景色を探すこと", "占い" ;
     scdb:skill "料理"@ja, "スケジュール管理"@ja, "料理", "スケジュール管理" ;
-    scdb:cv actor:Kondo_Rena ;
+    scdb:cv actor:Kondo_Reina ;
     :gender :Female ;
     :description "後ろでまとめた黒髪が印象的な、クール系美少女。自分が納得するまで努力を欠かさないストイックな性格の持ち主。高校1年生。"@ja ;
     scdb:color "144384"^^xsd:hexBinary ;

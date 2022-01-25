@@ -13,9 +13,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "関根瞳"@ja, "Hitomi Sekine"@en, "関根瞳" ;
     :sameAs <http://ja.dbpedia.org/resource/関根瞳> .
 
-<Kondo_Rena> a scdb:VoiceActor ;
+<Kondo_Reina> a scdb:VoiceActor ;
     rdfs:label "近藤玲奈" ;
-    :name "近藤玲奈"@ja, "Rena Kondo"@en, "近藤玲奈" ;
+    :name "近藤玲奈"@ja, "Reina Kondo"@en, "近藤玲奈" ;
     :sameAs <http://ja.dbpedia.org/resource/近藤玲奈> .
 
 <Mineda_Mayu> a scdb:VoiceActor ;
