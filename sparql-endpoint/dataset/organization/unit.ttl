@@ -21,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:announcementDate "2018-02-07"^^xsd:date ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/illuminationstars/> ;
+    scdb:youtubeUrl <https://www.youtube.com/watch?v=3JZvcuxByGc> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/illuminationSTARS> .
 
 <L%27Antica> a scdb:Unit ;
@@ -33,6 +34,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:announcementDate "2018-02-14"^^xsd:date ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/lantica/> ;
+    scdb:youtubeUrl <https://www.youtube.com/watch?v=gIjvqXlsBes> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/L%27Antica> .
 
 <Hokago_Climax_Girls> a scdb:Unit ;
@@ -45,6 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:announcementDate "2018-03-05"^^xsd:date ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/hokagoclimaxgirls/> ;
+    scdb:youtubeUrl <https://www.youtube.com/watch?v=p9WfsKWNNZE> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA> .
 
 <ALSTROEMERIA> a scdb:Unit ;
@@ -57,6 +60,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:announcementDate "2018-02-21"^^xsd:date ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/alstroemeria/> ;
+    scdb:youtubeUrl <https://www.youtube.com/watch?v=EsqpddjlGlY> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/ALSTROEMERIA> .
 
 <Straylight> a scdb:Unit ;
@@ -69,6 +73,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:announcementDate "2019-03-10"^^xsd:date ;
     scdb:debutDate "2019-03-22"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/straylight/> ;
+    scdb:youtubeUrl <https://www.youtube.com/watch?v=ebThDhPAcv8> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Straylight> .
 
 <noctchill> a scdb:Unit ;
@@ -81,6 +86,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:announcementDate "2020-03-22"^^xsd:date ;
     scdb:debutDate "2020-03-23"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/noctchill/> ;
+    scdb:youtubeUrl <https://www.youtube.com/watch?v=b22lBj3P74c> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/noctchill> .
 
 <SHHis> a scdb:Unit ;
@@ -93,6 +99,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:announcementDate "2021-03-21"^^xsd:date ;
     scdb:debutDate "2021-03-22"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/shhis/> ;
+    scdb:youtubeUrl <https://www.youtube.com/watch?v=jFD9cSD7z7c> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/SHHis> .
 
 <Team%2EStella> a scdb:Unit ;
