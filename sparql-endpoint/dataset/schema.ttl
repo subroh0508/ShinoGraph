@@ -25,6 +25,10 @@ scdb:Staff a rdfs:Class ;
     rdfs:label "スタッフ"@ja, "Staff"@en ;
     rdfs:subClassOf scdb:Character .
 
+scdb:Unit a rdfs:Class ;
+    rdfs:label "ユニット"@ja, "Unit"@en ;
+    rdfs:subClassOf :MusicGroup .
+
 scdb:VoiceActor a rdfs:Class ;
     rdfs:label "声優"@ja, "Voice Actor"@en ;
     rdfs:subClassOf dbo:VoiceActor .
