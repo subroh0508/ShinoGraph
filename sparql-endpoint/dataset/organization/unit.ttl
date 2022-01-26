@@ -18,6 +18,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "小さな光を宿す少女たちで結成された、新世代のアイドルユニット。今はまだかすかな輝きでも、時にぶつかり時に支え合いながら、一等星を目指して歩んでいく！"@ja ;
     :member idol:Sakuragi_Mano, idol:Kazano_Hiori, idol:Hachimiya_Meguru ;
     scdb:color "FFA200"^^xsd:hexBinary ;
+    scdb:announcementDate "2018-02-07"^^xsd:date ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/illuminationstars/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/illuminationSTARS> .
 
@@ -28,6 +30,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "胸に燻る焔を「ウタ」に、孤独な泪を「ネガイ」に変える、新世界の革命的アイドルユニット。ゴシックなドレスを纏い、彼女たちは希望を謳い続ける―。"@ja ;
     :member idol:Tsukioka_Kogane, idol:Mitsumine_Yuika, idol:Shirase_Sakuya, idol:Tanaka_Mamimi, idol:Yukoku_Kiriko ;
     scdb:color "833696"^^xsd:hexBinary ;
+    scdb:announcementDate "2018-02-14"^^xsd:date ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/lantica/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/L%27Antica> .
 
@@ -38,6 +42,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "個性と個性がぶつかり合う全力系アイドルユニット。全身全霊でアイドル道を突き進む彼女達の姿こそ、\"クライマックス\"の証。ファンもプロデューサーも世界も巻き込んでアイドル界のてっぺんを目指す！！"@ja ;
     :member idol:Komiya_Kaho, idol:Saijo_Juri, idol:Arisugawa_Natsuha, idol:Morino_Rinze, idol:Sonoda_Chiyoko ;
     scdb:color "FF4800"^^xsd:hexBinary ;
+    scdb:announcementDate "2018-03-05"^^xsd:date ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/hokagoclimaxgirls/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA> .
 
@@ -48,6 +54,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "ポップでハッピーな3人組アイドルユニット。アルストロメリアの花言葉「未来への憧れ」を胸に抱き、今日もシアワセなパフォーマンスで会場に笑顔を咲かせます！"@ja ;
     :member idol:Kuwayama_Chiyuki, idol:Osaki_Tenka, idol:Osaki_Amana ;
     scdb:color "E6277C"^^xsd:hexBinary ;
+    scdb:announcementDate "2018-02-21"^^xsd:date ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/alstroemeria/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/ALSTROEMERIA> .
 
@@ -58,6 +66,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "実在と非実在を行き来するカリスマ的アイドルユニット。アイドルというアバターを身に纏い、歌うは真実か、狂気か。解き放たれた迷光が、今日も世界を奔る。"@ja ;
     :member idol:Serizawa_Asahi, idol:Izumi_Mei, idol:Mayuzumi_Fuyuko ;
     scdb:color "A51F24"^^xsd:hexBinary ;
+    scdb:announcementDate "2019-03-10"^^xsd:date ;
+    scdb:debutDate "2019-03-22"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/straylight/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Straylight> .
 
@@ -68,6 +78,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "幼なじみ４人で結成された、透明感あふれるアイドルユニット。誰かになる必要なんてない──。走り出す波を追って、少女たちは碧い風になる。"@ja ;
     :member idol:Asakura_Toru, idol:Higuchi_Madoka, idol:Fukumaru_Koito, idol:Ichikawa_Hinana ;
     scdb:color "34498F"^^xsd:hexBinary ;
+    scdb:announcementDate "2020-03-22"^^xsd:date ;
+    scdb:debutDate "2020-03-23"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/noctchill/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/noctchill> .
 
@@ -78,6 +90,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "スパイシー＆ガーリーなダンスポップユニット。音楽はとまらない。だから黙って聴いていて。駆け出す心のBPMを、抑えられない旋律を。わたし(she)がわたし(she)になるための、1000カラットの物語を。"@ja ;
     :member idol:Nanakusa_Nichika, idol:Aketa_Mikoto ;
     scdb:color "1C8971"^^xsd:hexBinary ;
+    scdb:announcementDate "2021-03-21"^^xsd:date ;
+    scdb:debutDate "2021-03-22"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/shhis/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/SHHis> .
 
