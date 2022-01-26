@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :member idol:Sakuragi_Mano, idol:Kazano_Hiori, idol:Hachimiya_Meguru ;
     scdb:color "FFA200"^^xsd:hexBinary ;
     scdb:announcementDate "2018-02-07"^^xsd:date ;
-    scdb:releaseDate "2018-04-24"^^xsd:date ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/illuminationstars/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/illuminationSTARS> .
 
@@ -31,7 +31,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :member idol:Tsukioka_Kogane, idol:Mitsumine_Yuika, idol:Shirase_Sakuya, idol:Tanaka_Mamimi, idol:Yukoku_Kiriko ;
     scdb:color "833696"^^xsd:hexBinary ;
     scdb:announcementDate "2018-02-14"^^xsd:date ;
-    scdb:releaseDate "2018-04-24"^^xsd:date ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/lantica/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/L%27Antica> .
 
@@ -43,7 +43,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :member idol:Komiya_Kaho, idol:Saijo_Juri, idol:Arisugawa_Natsuha, idol:Morino_Rinze, idol:Sonoda_Chiyoko ;
     scdb:color "FF4800"^^xsd:hexBinary ;
     scdb:announcementDate "2018-03-05"^^xsd:date ;
-    scdb:releaseDate "2018-04-24"^^xsd:date ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/hokagoclimaxgirls/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA> .
 
@@ -55,7 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :member idol:Kuwayama_Chiyuki, idol:Osaki_Tenka, idol:Osaki_Amana ;
     scdb:color "E6277C"^^xsd:hexBinary ;
     scdb:announcementDate "2018-02-21"^^xsd:date ;
-    scdb:releaseDate "2018-04-24"^^xsd:date ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/alstroemeria/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/ALSTROEMERIA> .
 
@@ -67,7 +67,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :member idol:Serizawa_Asahi, idol:Izumi_Mei, idol:Mayuzumi_Fuyuko ;
     scdb:color "A51F24"^^xsd:hexBinary ;
     scdb:announcementDate "2019-03-10"^^xsd:date ;
-    scdb:releaseDate "2019-03-22"^^xsd:date ;
+    scdb:debutDate "2019-03-22"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/straylight/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Straylight> .
 
@@ -79,7 +79,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :member idol:Asakura_Toru, idol:Higuchi_Madoka, idol:Fukumaru_Koito, idol:Ichikawa_Hinana ;
     scdb:color "34498F"^^xsd:hexBinary ;
     scdb:announcementDate "2020-03-22"^^xsd:date ;
-    scdb:releaseDate "2020-03-23"^^xsd:date ;
+    scdb:debutDate "2020-03-23"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/noctchill/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/noctchill> .
 
@@ -91,7 +91,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :member idol:Nanakusa_Nichika, idol:Aketa_Mikoto ;
     scdb:color "1C8971"^^xsd:hexBinary ;
     scdb:announcementDate "2021-03-21"^^xsd:date ;
-    scdb:releaseDate "2021-03-22"^^xsd:date ;
+    scdb:debutDate "2021-03-22"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/shhis/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/SHHis> .
 
