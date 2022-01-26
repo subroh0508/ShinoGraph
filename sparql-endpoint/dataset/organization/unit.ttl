@@ -18,6 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "小さな光を宿す少女たちで結成された、新世代のアイドルユニット。今はまだかすかな輝きでも、時にぶつかり時に支え合いながら、一等星を目指して歩んでいく！"@ja ;
     :member idol:Sakuragi_Mano, idol:Kazano_Hiori, idol:Hachimiya_Meguru ;
     scdb:color "FFA200"^^xsd:hexBinary ;
+    scdb:announcementDate "2018-02-07"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/illuminationstars/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/illuminationSTARS> .
 
@@ -28,6 +29,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "胸に燻る焔を「ウタ」に、孤独な泪を「ネガイ」に変える、新世界の革命的アイドルユニット。ゴシックなドレスを纏い、彼女たちは希望を謳い続ける―。"@ja ;
     :member idol:Tsukioka_Kogane, idol:Mitsumine_Yuika, idol:Shirase_Sakuya, idol:Tanaka_Mamimi, idol:Yukoku_Kiriko ;
     scdb:color "833696"^^xsd:hexBinary ;
+    scdb:announcementDate "2018-02-14"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/lantica/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/L%27Antica> .
 
@@ -38,6 +40,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "個性と個性がぶつかり合う全力系アイドルユニット。全身全霊でアイドル道を突き進む彼女達の姿こそ、\"クライマックス\"の証。ファンもプロデューサーも世界も巻き込んでアイドル界のてっぺんを目指す！！"@ja ;
     :member idol:Komiya_Kaho, idol:Saijo_Juri, idol:Arisugawa_Natsuha, idol:Morino_Rinze, idol:Sonoda_Chiyoko ;
     scdb:color "FF4800"^^xsd:hexBinary ;
+    scdb:announcementDate "2018-03-05"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/hokagoclimaxgirls/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA> .
 
@@ -48,6 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "ポップでハッピーな3人組アイドルユニット。アルストロメリアの花言葉「未来への憧れ」を胸に抱き、今日もシアワセなパフォーマンスで会場に笑顔を咲かせます！"@ja ;
     :member idol:Kuwayama_Chiyuki, idol:Osaki_Tenka, idol:Osaki_Amana ;
     scdb:color "E6277C"^^xsd:hexBinary ;
+    scdb:announcementDate "2018-02-21"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/alstroemeria/> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/ALSTROEMERIA> .
 

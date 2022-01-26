@@ -67,3 +67,11 @@ scdb:color a rdf:Property ;
 scdb:idolListURL a rdf:Property ;
     rdfs:label "アイドル名鑑URL"@ja, "Idol List URL"@en ;
     rdfs:domain scdb:Idol .
+
+scdb:announcementDate a rdf:Property ;
+    rdfs:label "発表日"@ja, "Announcement Date"@en ;
+    rdfs:range xsd:date .
+
+scdb:releaseDate a rdf:Property ;
+    rdfs:label "公開日"@ja, "Release Date"@en ;
+    rdfs:range xsd:date .
