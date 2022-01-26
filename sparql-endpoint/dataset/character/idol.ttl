@@ -1,8 +1,8 @@
-BASE <https://283db.org/resource/idol/>
-PREFIX scdb: <https://283db.org/283db-schema#>
+BASE <https://283db.org/resource/character/idol/>
+PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
-PREFIX actor: <https://283db.org/resource/voice-actor/>
-PREFIX hometown: <https://283db.org/resource/hometown/>
+PREFIX actor: <https://283db.org/resource/prop/voice-actor/>
+PREFIX hometown: <https://283db.org/resource/prop/hometown/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>

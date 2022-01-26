@@ -1,5 +1,5 @@
-BASE <https://283db.org/resource/hometown/>
-PREFIX scdb: <https://283db.org/283db-schema#>
+BASE <https://283db.org/resource/prop/hometown/>
+PREFIX scdb: <https://283db.org/schema#>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>

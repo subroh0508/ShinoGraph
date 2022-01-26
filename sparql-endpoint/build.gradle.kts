@@ -8,7 +8,8 @@ object Dir {
     const val jar = "jar"
     const val lib = "lib"
     const val bin = "bin"
-    const val dataset = "dataset/*"
+    const val dataset = "dataset/**/*"
+    const val schema = "dataset/schema.ttl"
     const val tdb = "run/dataset"
 }
 
@@ -70,7 +71,7 @@ val tdbLoad by tasks.creating(Task::class) {
 
         exec {
             executable("sh")
-            args("-c", "bin/tdb1.xloader --loc ${Dir.tdb} ${Dir.dataset}")
+            args("-c", "bin/tdb1.xloader --loc ${Dir.tdb} ${Dir.dataset} ${Dir.schema}")
         }
     }
 }

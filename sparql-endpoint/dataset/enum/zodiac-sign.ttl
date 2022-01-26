@@ -1,0 +1,120 @@
+BASE <https://283db.org/resource/enum/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# 星座
+<ZodiacSign> a rdfs:Class ;
+    rdfs:label "星座"@ja, "Zodiac Sign"@en, "星座" ;
+    rdfs:subClassOf dbo:Constellation ;
+    owl:equivalentClass [
+        a rdfs:Class ;
+        owl:oneOf (
+                <ZodiacSign.Aries>
+                <ZodiacSign.Taurus>
+                <ZodiacSign.Gemini>
+                <ZodiacSign.Cancer>
+                <ZodiacSign.Leo>
+                <ZodiacSign.Virgo>
+                <ZodiacSign.Libra>
+                <ZodiacSign.Scorpio>
+                <ZodiacSign.Sagittarius>
+                <ZodiacSign.Capricorn>
+                <ZodiacSign.Aquarius>
+                <ZodiacSign.Pisces>
+        )
+    ] .
+
+<ZodiacSign.Aries> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "牡羊座" ;
+    :name "牡羊座" ;
+    :sameAs <http://dbpedia.org/resource/Aries_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/おひつじ座> .
+
+<ZodiacSign.Taurus> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "牡牛座" ;
+    :name "牡牛座" ;
+    :sameAs <http://dbpedia.org/resource/Taurus_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/おうし座> .
+
+<ZodiacSign.Gemini> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "双子座" ;
+    :name "双子座" ;
+    :sameAs <http://dbpedia.org/resource/Gemini_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/ふたご座> .
+
+<ZodiacSign.Cancer> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "蟹座" ;
+    :name "蟹座" ;
+    :sameAs <http://dbpedia.org/resource/Cancer_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/かに座> .
+
+<ZodiacSign.Leo> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "獅子座" ;
+    :name "獅子座" ;
+    :sameAs <http://dbpedia.org/resource/Leo_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/しし座> .
+
+<ZodiacSign.Virgo> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "乙女座" ;
+    :name "乙女座" ;
+    :sameAs <http://dbpedia.org/resource/Virgo_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/おとめ座> .
+
+<ZodiacSign.Libra> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "天秤座" ;
+    :name "天秤座" ;
+    :sameAs <http://dbpedia.org/resource/Libra_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/てんびん座> .
+
+<ZodiacSign.Scorpio> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "蠍座" ;
+    :name "蠍座" ;
+    :sameAs <http://dbpedia.org/resource/Scorpio_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/さそり座> .
+
+<ZodiacSign.Sagittarius> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "射手座" ;
+    :name "射手座" ;
+    :sameAs <http://dbpedia.org/resource/Sagittarius_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/いて座> .
+
+<ZodiacSign.Capricorn> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "山羊座" ;
+    :name "山羊座" ;
+    :sameAs <http://dbpedia.org/resource/Capricorn_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/やぎ座> .
+
+<ZodiacSign.Aquarius> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "水瓶座" ;
+    :name "水瓶座" ;
+    :sameAs <http://dbpedia.org/resource/Aquarius_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/みずがめ座> .
+
+<ZodiacSign.Pisces> a <ZodiacSign>, owl:NamedIndividual ;
+    rdfs:label "魚座" ;
+    :name "魚座" ;
+    :sameAs <http://dbpedia.org/resource/Pisces_(constellation)> ;
+    :sameAs <http://ja.dbpedia.org/resource/うお座> .
+
+[ rdf:type owl:AllDifferent;
+    owl:distinctMembers (
+            <ZodiacSign.Aries>
+            <ZodiacSign.Taurus>
+            <ZodiacSign.Gemini>
+            <ZodiacSign.Cancer>
+            <ZodiacSign.Leo>
+            <ZodiacSign.Virgo>
+            <ZodiacSign.Libra>
+            <ZodiacSign.Scorpio>
+            <ZodiacSign.Sagittarius>
+            <ZodiacSign.Capricorn>
+            <ZodiacSign.Aquarius>
+            <ZodiacSign.Pisces>
+    )
+] .

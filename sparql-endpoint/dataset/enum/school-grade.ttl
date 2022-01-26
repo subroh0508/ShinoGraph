@@ -1,0 +1,150 @@
+BASE <https://283db.org/resource/enum/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# 学年
+<SchoolGrade> a rdfs:Class ;
+    rdfs:label "学年"@ja, "Grade of School"@en, "学年" ;
+    rdfs:subClassOf owl:Thing ;
+        owl:equivalentClass [
+            a rdfs:Class ;
+            owl:oneOf (
+                    <SchoolGrade.ES01>
+                    <SchoolGrade.ES02>
+                    <SchoolGrade.ES03>
+                    <SchoolGrade.ES04>
+                    <SchoolGrade.ES05>
+                    <SchoolGrade.ES06>
+                    <SchoolGrade.JHS01>
+                    <SchoolGrade.JHS02>
+                    <SchoolGrade.JHS03>
+                    <SchoolGrade.HS01>
+                    <SchoolGrade.HS02>
+                    <SchoolGrade.HS03>
+                    <SchoolGrade.VS01>
+                    <SchoolGrade.VS02>
+                    <SchoolGrade.VS03>
+                    <SchoolGrade.JC01>
+                    <SchoolGrade.JC02>
+                    <SchoolGrade.C01>
+                    <SchoolGrade.C02>
+                    <SchoolGrade.C03>
+                    <SchoolGrade.C04>
+            )
+        ] .
+
+<SchoolGrade.ES01> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "小学1年生" ;
+    :name "小学1年生", "小1" .
+
+<SchoolGrade.ES02> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "小学2年生" ;
+    :name "小学2年生", "小2" .
+
+<SchoolGrade.ES03> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "小学3年生" ;
+    :name "小学3年生", "小3" .
+
+<SchoolGrade.ES04> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "小学4年生" ;
+    :name "小学4年生", "小4" .
+
+<SchoolGrade.ES05> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "小学5年生" ;
+    :name "小学5年生", "小5" .
+
+<SchoolGrade.ES06> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "小学6年生" ;
+    :name "小学6年生", "小6" .
+
+<SchoolGrade.JHS01> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "中学1年生" ;
+    :name "中学1年生", "中1" .
+
+<SchoolGrade.JHS02> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "中学2年生" ;
+    :name "中学2年生", "中2" .
+
+<SchoolGrade.JHS03> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "中学3年生" ;
+    :name "中学3年生", "中3" .
+
+<SchoolGrade.HS01> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "高校1年生" ;
+    :name "高校1年生", "高1" .
+
+<SchoolGrade.HS02> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "高校2年生" ;
+    :name "高校2年生", "高2" .
+
+<SchoolGrade.HS03> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "高校3年生" ;
+    :name "高校3年生", "高3" .
+
+<SchoolGrade.VS1> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "専門学校1年生" ;
+    :name "専門学校1年生", "専1" .
+
+<SchoolGrade.VS2> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "専門学校2年生" ;
+    :name "専門学校2年生", "専2" .
+
+<SchoolGrade.VS3> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "専門学校3年生" ;
+    :name "専門学校3年生", "専3" .
+
+<SchoolGrade.JC01> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "短大1年生" ;
+    :name "短大1年生", "短大1" .
+
+<SchoolGrade.JC02> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "短大2年生" ;
+    :name "短大2年生", "短大2" .
+
+<SchoolGrade.C01> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "大学1年生" ;
+    :name "大学1年生", "大1" .
+
+<SchoolGrade.C02> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "大学2年生" ;
+    :name "大学2年生", "大2" .
+
+<SchoolGrade.C03> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "大学3年生" ;
+    :name "大学3年生", "大3" .
+
+<SchoolGrade.C04> a <SchoolGrade>, owl:NamedIndividual ;
+    rdfs:label "大学4年生" ;
+    :name "大学4年生", "大4" .
+
+[ rdf:type owl:AllDifferent;
+    owl:distinctMembers (
+                    <SchoolGrade.ES01>
+                    <SchoolGrade.ES02>
+                    <SchoolGrade.ES03>
+                    <SchoolGrade.ES04>
+                    <SchoolGrade.ES05>
+                    <SchoolGrade.ES06>
+                    <SchoolGrade.JHS01>
+                    <SchoolGrade.JHS02>
+                    <SchoolGrade.JHS03>
+                    <SchoolGrade.HS01>
+                    <SchoolGrade.HS02>
+                    <SchoolGrade.HS03>
+                    <SchoolGrade.VS01>
+                    <SchoolGrade.VS02>
+                    <SchoolGrade.VS03>
+                    <SchoolGrade.JC01>
+                    <SchoolGrade.JC02>
+                    <SchoolGrade.C01>
+                    <SchoolGrade.C02>
+                    <SchoolGrade.C03>
+                    <SchoolGrade.C04>
+    )
+] .

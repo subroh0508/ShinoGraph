@@ -1,4 +1,4 @@
-PREFIX scdb: <https://283db.org/283db-schema#>
+PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>

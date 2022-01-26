@@ -3,7 +3,7 @@
 </script>
 
 <script lang='ts'>
-  let query = `PREFIX scdb: <https://283db.org/283db-schema#>
+  let query = `PREFIX scdb: <https://283db.org/schema#>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://ja.dbpedia.org/resource/>
