@@ -661,3 +661,28 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "760E10"^^xsd:hexBinary ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50025> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Aketa_Mikoto> .
+
+<Ikaruga_Luca> a scdb:Idol ;
+    rdfs:label "斑鳩ルカ" ;
+    :name "斑鳩ルカ"@ja, "いかるがるか"@ja-hira, "Luca Ikaruga"@en, "斑鳩ルカ" ;
+    :familyName "斑鳩"@ja, "いかるが"@ja-hira, "Ikaruga"@en, "斑鳩" ;
+    :givenName "ルカ"@ja, "るか"@ja-hira, "Luca"@en, "ルカ" ;
+    dbo:age 20 ;
+    dbo:bloodType enum:BloodType.A ;
+    :birthdate "--01-31"^^xsd:gMonthDay ;
+    dbo:zodiacSign enum:ZodiacSign.Aquarius ;
+    :height 161.0 ;
+    :weight 44.0 ;
+    # dbo:handedness enum:Handedness.Right ;
+    dbo:bustSize 76.0 ;
+    dbo:waistSize 54.0 ;
+    dbo:hipSize 78.0 ;
+    dbo:hometown hometown:Japan, hometown:Kanagawa ;
+    # scdb:hobby ""@ja, "" ;
+    # scdb:skill ""@ja, "" ;
+    scdb:cv actor:Kawaguchi_Rina ;
+    :gender :Female ;
+    :description "話題沸騰中のソロアイドル。悩める現代女子たちの『カミサマ』として一部でカルト的な人気を集めている。理由は不明だが、283プロを敵視している。"@ja ;
+    scdb:color "1E140E"^^xsd:hexBinary ;
+    # scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/> ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Ikaruga_Luca> .

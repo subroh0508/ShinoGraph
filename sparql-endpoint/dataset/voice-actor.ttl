@@ -11,134 +11,167 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <Sekine_Hitomi> a scdb:VoiceActor ;
     rdfs:label "関根瞳" ;
     :name "関根瞳"@ja, "Hitomi Sekine"@en, "関根瞳" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/関根瞳> .
 
 <Kondo_Reina> a scdb:VoiceActor ;
     rdfs:label "近藤玲奈" ;
     :name "近藤玲奈"@ja, "Reina Kondo"@en, "近藤玲奈" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/近藤玲奈> .
 
 <Mineda_Mayu> a scdb:VoiceActor ;
     rdfs:label "峯田茉優" ;
     :name "峯田茉優"@ja, "Mayu Mineda"@en, "峯田茉優" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/峯田茉優> .
 
 <Isobe_Karin> a scdb:VoiceActor ;
     rdfs:label "礒部花凜" ;
     :name "礒部花凜"@ja, "Karin Isobe"@en, "礒部花凜" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/礒部花凜> .
 
 <Kisui_Shio> a scdb:VoiceActor ;
     rdfs:label "希水しお" ;
     :name "希水しお"@ja, "Shio Kisui"@en, "希水しお" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/希水しお> .
 
 <Narumi_Runa> a scdb:VoiceActor ;
     rdfs:label "成海瑠奈" ;
     :name "成海瑠奈"@ja, "Runa Narumi"@en, "成海瑠奈" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/成海瑠奈> .
 
 <Yamaki_Anna> a scdb:VoiceActor ;
     rdfs:label "八巻アンナ" ;
     :name "八巻アンナ"@ja, "Anna Yamaki"@en, "八巻アンナ" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/八巻アンナ> .
 
 <Suganuma_Chisa> a scdb:VoiceActor ;
     rdfs:label "菅沼千紗" ;
     :name "菅沼千紗"@ja, "Chisa Suganuma"@en, "菅沼千紗" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/菅沼千紗> .
 
 <Yuina_Miduki> a scdb:VoiceActor ;
     rdfs:label "結名美月" ;
     :name "結名美月"@ja, "Miduki Yuina"@en, "結名美月" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/結名美月> .
 
 <Kono_Hiyori> a scdb:VoiceActor ;
     rdfs:label "河野ひより" ;
     :name "河野ひより"@ja, "Hiyori Kono"@en, "河野ひより" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/河野ひより> .
 
 <Nagai_Mariko> a scdb:VoiceActor ;
     rdfs:label "永井真理子" ;
     :name "永井真理子"@ja, "Mariko Nagai"@en, "永井真理子" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/永井真理子> .
 
 <Suzumoto_Akiho> a scdb:VoiceActor ;
     rdfs:label "涼本あきほ" ;
     :name "涼本あきほ"@ja, "Akiho Suzumoto"@en, "涼本あきほ" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/涼本あきほ> .
 
 <Maruoka_Wakana> a scdb:VoiceActor ;
     rdfs:label "丸岡和佳奈" ;
     :name "丸岡和佳奈"@ja, "Wakana Maruoka"@en, "丸岡和佳奈" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/丸岡和佳奈> .
 
 <Shiraishi_Haruka> a scdb:VoiceActor ;
     rdfs:label "白石晴香" ;
     :name "白石晴香"@ja, "Haruka Shiraishi"@en, "白石晴香" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/白石晴香> .
 
 <Shibasaki_Noriko> a scdb:VoiceActor ;
     rdfs:label "芝崎典子" ;
     :name "芝崎典子"@ja, "Noriko Shibasaki"@en, "芝崎典子" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/芝崎典子> .
 
 <Maekawa_Ryoko> a scdb:VoiceActor ;
     rdfs:label "前川涼子" ;
     :name "前川涼子"@ja, "Ryoko Maekawa"@en, "前川涼子" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/前川涼子> .
 
 <Kuroki_Honoka> a scdb:VoiceActor ;
     rdfs:label "黒木ほの香" ;
     :name "黒木ほの香"@ja, "Honoka Kuroki"@en, "黒木ほの香" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/黒木ほの香> .
 
 <Tanaka_Yuki> a scdb:VoiceActor ;
     rdfs:label "田中有紀" ;
     :name "田中有紀"@ja, "Yuki Tanaka"@en, "田中有紀" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/田中有紀> .
 
 <Kitahara_Sayaka> a scdb:VoiceActor ;
     rdfs:label "北原沙弥香" ;
     :name "北原沙弥香"@ja, "Kitahara Sayaka"@en, "北原沙弥香" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/北原沙弥香> .
 
 <Yukimura_Eri> a scdb:VoiceActor ;
     rdfs:label "幸村恵理" ;
     :name "幸村恵理"@ja, "Eri Yukimura"@en, "幸村恵理" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/幸村恵理> .
 
 <Wakui_Yu> a scdb:VoiceActor ;
     rdfs:label "和久井優" ;
     :name "和久井優"@ja, "Yu Wakui"@en, "和久井優" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/和久井優> .
 
 <Tsuchiya_Rio> a scdb:VoiceActor ;
     rdfs:label "土屋李央" ;
     :name "土屋李央"@ja, "Tsuchiya Rio"@en, "土屋李央" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/土屋李央> .
 
 <Tajima_Saran> a scdb:VoiceActor ;
     rdfs:label "田嶌紗蘭" ;
     :name "田嶌紗蘭"@ja, "Saran Tajima"@en, "田嶌紗蘭" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/田嶌紗蘭> .
 
 <Okasaki_Miho> a scdb:VoiceActor ;
     rdfs:label "岡咲美保" ;
     :name "岡咲美保"@ja, "Miho Okasaki"@en, "岡咲美保" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/岡咲美保> .
 
 <Sizuki_Azusa> a scdb:VoiceActor ;
     rdfs:label "紫月杏朱彩" ;
     :name "紫月杏朱彩"@ja, "Azusa Shizuki"@en, "紫月杏朱彩" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/紫月杏朱彩> .
 
 <Yamane_Aya> a scdb:VoiceActor ;
     rdfs:label "山根綺" ;
     :name "山根綺"@ja, "Aya Yamane"@en, "山根綺" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/山根綺> .
+
+<Kawaguchi_Rina> a scdb:VoiceActor ;
+    rdfs:label "川口莉奈" ;
+    :name "川口莉奈"@ja, "Rina Kawaguchi"@en, "川口莉奈" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/川口莉奈> .
 
 <Yamamura_Hibiku> a scdb:VoiceActor ;
     rdfs:label "山村響" ;
     :name "山村響"@ja, "Hibiku Yamamura"@en, "山村響" ;
+    :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/山村響> .
