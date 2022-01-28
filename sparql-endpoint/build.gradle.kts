@@ -8,7 +8,6 @@ object Dir {
     const val jar = "jar"
     const val lib = "lib"
     const val bin = "bin"
-    const val dataset = "dataset/**/*"
     const val schema = "dataset/schema.ttl"
     const val tdb = "run/dataset"
 }
@@ -69,9 +68,13 @@ val tdbLoad by tasks.creating(Task::class) {
             delete(Dir.tdb)
         }
 
+        val dataset = fileTree("${projectDir.path}/dataset").matching {
+            include("**/*.ttl")
+        }.joinToString(" ", transform = File::getPath)
+
         exec {
             executable("sh")
-            args("-c", "bin/tdb1.xloader --loc ${Dir.tdb} ${Dir.dataset} ${Dir.schema}")
+            args("-c", "bin/tdb1.xloader --loc ${Dir.tdb} ${Dir.schema} $dataset")
         }
     }
 }

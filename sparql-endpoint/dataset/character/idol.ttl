@@ -37,7 +37,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50011> ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Sakuragi_Mano> .
 
-<Hiori_Kazano> a scdb:Idol ;
+<Kazano_Hiori> a scdb:Idol ;
     rdfs:label "風野灯織" ;
     :name "風野灯織"@ja, "かざのひおり"@ja-hira, "Hiori Kazano"@en, "風野灯織" ;
     :familyName "風野"@ja, "かざの"@ja-hira, "Kazano"@en, "風野" ;

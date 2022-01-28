@@ -1,0 +1,82 @@
+BASE <https://283db.org/resource/music/album/brilliant-wing/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
+PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX series: <https://283db.org/resource/music/album/series/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<BW01> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!" ;
+    :name
+        "BRILLI@NT WING 01"@ja, "BRILLI@NT WING 01"@en, "BRILLI@NT WING 01",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            :recordingOf song:Spread_the_Wings%21%21 ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        idol:Sakuragi_Mano,
+                        idol:Kazano_Hiori,
+                        idol:Hachimiya_Meguru,
+                        idol:Tsukioka_Kogane,
+                        idol:Mitsumine_Yuika,
+                        idol:Shirase_Sakuya,
+                        idol:Tanaka_Mamimi,
+                        idol:Yukoku_Kiriko,
+                        idol:Komiya_Kaho,
+                        idol:Saijo_Juri,
+                        idol:Arisugawa_Natsuha,
+                        idol:Morino_Rinze,
+                        idol:Sonoda_Chiyoko,
+                        idol:Kuwayama_Chiyuki,
+                        idol:Osaki_Tenka,
+                        idol:Osaki_Amana ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            :recordingOf song:Multicolored_Sky ;
+            :position 2 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        idol:Sakuragi_Mano,
+                        idol:Kazano_Hiori,
+                        idol:Hachimiya_Meguru,
+                        idol:Tsukioka_Kogane,
+                        idol:Mitsumine_Yuika,
+                        idol:Shirase_Sakuya,
+                        idol:Tanaka_Mamimi,
+                        idol:Yukoku_Kiriko,
+                        idol:Komiya_Kaho,
+                        idol:Saijo_Juri,
+                        idol:Arisugawa_Natsuha,
+                        idol:Morino_Rinze,
+                        idol:Sonoda_Chiyoko,
+                        idol:Kuwayama_Chiyuki,
+                        idol:Osaki_Tenka,
+                        idol:Osaki_Amana ;
+            ]
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14781/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/jk_LACM-14781.jpg> ;
+        :catalogNumber "LACM-14781" ;
+        :datePublished "2018-06-06"^^xsd:date
+    ] ;
+    :isPartOf series:BW .
