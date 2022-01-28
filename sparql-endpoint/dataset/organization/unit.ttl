@@ -2,7 +2,7 @@ BASE <https://283db.org/resource/organization/unit/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
-PREFIX actor: <https://283db.org/resource/common/voice-actor/>
+PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>

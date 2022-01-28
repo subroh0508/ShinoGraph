@@ -1,7 +1,7 @@
 BASE <https://283db.org/resource/character/staff/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
-PREFIX actor: <https://283db.org/resource/common/voice-actor/>
+PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX hometown: <https://283db.org/resource/common/hometown/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>

@@ -1,4 +1,4 @@
-BASE <https://283db.org/resource/common/voice-actor/>
+BASE <https://283db.org/resource/artist/voice-actor/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
