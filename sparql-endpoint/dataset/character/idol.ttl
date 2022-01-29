@@ -29,7 +29,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "お出かけ"@ja, "公園で日向ぼっこ"@ja, "お出かけ", "公園で日向ぼっこ" ;
     scdb:skill "鳥に好かれる"@ja, "鳥に好かれる" ;
-    scdb:cv actor:Sekine_Hitomi ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.関根瞳" ;
+            dbo:performer actor:Sekine_Hitomi ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "ほんわかした癒し系の女の子で、心優しい性格。見ていて守りたくなるタイプで、一緒にいるだけで何となく幸せな気持ちになる。高校1年生。"@ja ;
     scdb:color "FFBAD6"^^xsd:hexBinary ;
@@ -55,7 +60,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "音楽鑑賞"@ja, "綺麗な景色を探すこと"@ja, "占い"@ja, "音楽鑑賞", "綺麗な景色を探すこと", "占い" ;
     scdb:skill "料理"@ja, "スケジュール管理"@ja, "料理", "スケジュール管理" ;
-    scdb:cv actor:Kondo_Reina ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.近藤玲奈" ;
+            dbo:performer actor:Kondo_Reina ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "後ろでまとめた黒髪が印象的な、クール系美少女。自分が納得するまで努力を欠かさないストイックな性格の持ち主。高校1年生。"@ja ;
     scdb:color "144384"^^xsd:hexBinary ;
@@ -81,7 +91,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:USA, hometown:Massachusetts ;
     scdb:hobby "人と話すこと"@ja, "体を動かすこと"@ja, "人と話すこと", "体を動かすこと" ;
     scdb:skill "スポーツ全般"@ja, "スポーツ全般" ;
-    scdb:cv actor:Mineda_Mayu ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.峯田茉優" ;
+            dbo:performer actor:Mineda_Mayu ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "天真爛漫な性格で、誰にでも積極的に話しかける。とにかく元気で友達想いの女の子。日本人の父とアメリカ人の母を持つ。高校1年生。"@ja ;
     scdb:color "FFE012"^^xsd:hexBinary ;
@@ -107,7 +122,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Nagasaki ;
     scdb:hobby "うちの手料理、なんでも絶品たい！"@ja, "うちの手料理、なんでも絶品たい！" ;
     scdb:skill "そっくりな似顔絵ば描けるたい！"@ja, "そっくりな似顔絵ば描けるたい！" ;
-    scdb:cv actor:Isobe_Karin ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.礒部花凜" ;
+            dbo:performer actor:Isobe_Karin ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "自信たっぷりで何があってもポジティブな性格。スタイルもよく人目を引く可愛さだが、よく転ぶ、ダンスを間違えるなどのドジな一面も併せ持つ。"@ja ;
     scdb:color "F84CAD"^^xsd:hexBinary ;
@@ -132,7 +152,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Fukushima ;
     scdb:hobby "アイドルライブ鑑賞"@ja, "カメラ"@ja, "ゲーム"@ja, "アニメ"@ja, "読書"@ja, "アイドルライブ鑑賞", "カメラ", "ゲーム", "アニメ", "読書" ;
     scdb:skill "勉強"@ja, "推しに一早く認知されること"@ja, "勉強", "推しに一早く認知されること" ;
-    scdb:cv actor:Kisui_Shio ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.希水しお" ;
+            dbo:performer actor:Kisui_Shio ;
+            scdb:announcementDate "2022-01-18"^^xsd:date ;
+            # scdb:debutDate "2022-04-01"^^xsd:date
+    ] , [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.成海瑠奈" ;
+            dbo:performer actor:Narumi_Runa ;
+            scdb:debutDate "2018-04-24"^^xsd:date ;
+            # scdb:retireDate "2022-04-01"^^xsd:date
+    ] ;
     scdb:pastCv actor:Narumi_Runa ;
     :gender :Female ;
     :description "自由奔放で掴みどころのないサブカル系眼鏡女子。美人でノリもよく、初対面の人に対しても気後れせずに話しができる。大学1年生。"@ja ;
@@ -159,7 +191,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Kochi ;
     scdb:hobby "色々な所に出かける"@ja, "色々な所に出かける" ;
     scdb:skill "自分を最大限カッコ良く見せる立ち振る舞い"@ja, "自分を最大限カッコ良く見せる立ち振る舞い" ;
-    scdb:cv actor:Yamaki_Anna ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.八巻アンナ" ;
+            dbo:performer actor:Yamaki_Anna ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "女子校に通い、スポーツ万能、学業優秀、容姿端麗なモデル系美人。立ち居振舞いも王子様のようにかっこよく、女子からの人気が高い。高校3年生。"@ja ;
     scdb:color "006047"^^xsd:hexBinary ;
@@ -185,7 +222,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Kanagawa ;
     scdb:hobby "放浪"@ja, "人をからかう"@ja, "放浪", "人をからかう" ;
     scdb:skill "自分で髪を切る"@ja, "自分で髪を切る" ;
-    scdb:cv actor:Suganuma_Chisa ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.菅沼千紗" ;
+            dbo:performer actor:Suganuma_Chisa ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "ダウナー系で、面倒なことが嫌いなパンキッシュガール。顔もスタイルも抜群の美少女だが、自分の興味を持ったこと以外には無頓着な性格。高校3年生。"@ja ;
     scdb:color "A846FB"^^xsd:hexBinary ;
@@ -211,7 +253,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Aomori ;
     scdb:hobby "かわいいもの全般の収集"@ja, "手芸"@ja, "献血"@ja, "かわいいもの全般の収集", "手芸", "献血" ;
     scdb:skill "包帯を綺麗に巻く"@ja, "足音を立てない"@ja, "りんごの皮むき"@ja, "包帯を綺麗に巻く", "足音を立てない", "りんごの皮むき" ;
-    scdb:cv actor:Yuina_Miduki ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.結名美月" ;
+            dbo:performer actor:Yuina_Miduki ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "ミステリアスな雰囲気を醸し出す銀髪の女の子。儚げな雰囲気とぐるぐると巻いた包帯が特徴的。口数は少ないが、心優しい性格。高校2年生。"@ja ;
     scdb:color "D9F2FF"^^xsd:hexBinary ;
@@ -237,7 +284,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "日曜日朝の子供向け番組を見る事"@ja, "グッズ集め"@ja, "日曜日朝の子供向け番組を見る事", "グッズ集め" ;
     scdb:skill "好きな番組の決め台詞を数多く覚えている"@ja, "好きな番組の決め台詞を数多く覚えている" ;
-    scdb:cv actor:Kono_Hiyori ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.河野ひより" ;
+            dbo:performer actor:Kono_Hiyori ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "大人びた容姿と高い身長が特徴の女の子。何にでも興味津々で純粋な様子は、まるで子犬のよう。特撮モノが大好きでヒーローに憧れている。小学6年生。"@ja ;
     scdb:color "E5461C"^^xsd:hexBinary ;
@@ -263,7 +315,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Kanagawa ;
     scdb:hobby "洋楽"@ja, "ゲーム"@ja, "洋楽", "ゲーム" ;
     scdb:skill "スポーツ全般"@ja, "（中2までは）バスケ"@ja, "スポーツ全般", "（中2までは）バスケ" ;
-    scdb:cv actor:Nagai_Mariko ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.永井真理子" ;
+            dbo:performer actor:Nagai_Mariko ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "ボーイッシュでクールな女の子。言葉遣いが乱暴なので人に怖がられることが多いが、根は純情で、素直になれないタイプ。高校2年生。"@ja ;
     scdb:color "FFC602"^^xsd:hexBinary ;
@@ -289,7 +346,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Aichi ;
     scdb:hobby "トレーニング"@ja, "ストレッチ"@ja, "トレーニング", "ストレッチ" ;
     scdb:skill "トータルコーディネート"@ja, "トータルコーディネート" ;
-    scdb:cv actor:Suzumoto_Akiho ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.涼本あきほ" ;
+            dbo:performer actor:Suzumoto_Akiho ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "裕福な家庭に生まれた社長令嬢。家名に誇りを持ち、自らもその肩書に恥じぬよう日々鍛錬を積んでいる。スタイルがよく、引き締まっている。大学2年生。"@ja ;
     scdb:color "90E667"^^xsd:hexBinary ;
@@ -315,7 +377,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tottori ;
     scdb:hobby "少女漫画"@ja, "芸道全般"@ja, "少女漫画", "芸道全般" ;
     scdb:skill "折り紙"@ja, "百人一首"@ja, "折り紙", "百人一首" ;
-    scdb:cv actor:Maruoka_Wakana ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.丸岡和佳奈" ;
+            dbo:performer actor:Maruoka_Wakana ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "落ち着いた佇まいの大和撫子。常に礼儀正しく、一歩引いて相手を立てる性格。少女漫画好きという意外な趣味を持つ。高校1年生。"@ja ;
     scdb:color "89C3EB"^^xsd:hexBinary ;
@@ -341,7 +408,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Chiba ;
     scdb:hobby "スイーツ店巡り"@ja, "スイーツ店巡り" ;
     scdb:skill "たくさん食べられること"@ja, "たくさん食べられること" ;
-    scdb:cv actor:Shiraishi_Haruka ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.白石晴香" ;
+            dbo:performer actor:Shiraishi_Haruka ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "クラスに一人はいるごく普通の女の子。明るく親しみやすい性格で、甘いものが大好き。名前にちなんで、チョコ好きアイドルを売りにしている。高校2年生。"@ja ;
     scdb:color "F93B90"^^xsd:hexBinary ;
@@ -367,7 +439,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Yamaguchi ;
     scdb:hobby "雑貨作り"@ja, "雑貨作り" ;
     scdb:skill "裁縫"@ja, "道案内"@ja, "裁縫", "道案内" ;
-    scdb:cv actor:Shibasaki_Noriko ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.芝崎典子" ;
+            dbo:performer actor:Shibasaki_Noriko ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "優しい笑顔が印象的な、事務所のお姉さん的存在。母性溢れる落ち着いた佇まいが特徴。手先が器用で、かわいい小物を作るのが趣味。"@ja ;
     scdb:color "FBFAFA"^^xsd:hexBinary ;
@@ -393,7 +470,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Toyama ;
     scdb:hobby "お昼寝"@ja, "ネットサーフィン"@ja, "アニメ"@ja, "ゲーム"@ja, "お昼寝", "ネットサーフィン", "アニメ", "ゲーム" ;
     scdb:skill "特に無い"@ja, "特に無い" ;
-    scdb:cv actor:Maekawa_Ryoko ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.前川涼子" ;
+            dbo:performer actor:Maekawa_Ryoko ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "大崎姉妹の双子の姉。幼い頃から妹の甘奈に面倒を見てもらっている。人と話すのが苦手で、アニメやゲームなど、インドアな趣味が多い。高校2年生。"@ja ;
     scdb:color "E75BEC"^^xsd:hexBinary ;
@@ -420,7 +502,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Toyama ;
     scdb:hobby "ショッピング"@ja, "ネイル"@ja, "自撮り"@ja, "ショッピング", "ネイル", "自撮り" ;
     scdb:skill "早起き"@ja, "倹約"@ja, "早起き", "倹約" ;
-    scdb:cv actor:Kuroki_Honoka ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.黒木ほの香" ;
+            dbo:performer actor:Kuroki_Honoka ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "大崎姉妹の双子の妹。誰とでも分け隔てなく接する天真爛漫なギャル。今しかできないことを全力で楽しみたい今ドキの女の子。高校2年生。"@ja ;
     scdb:color "F54275"^^xsd:hexBinary ;
@@ -446,7 +533,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "人間観察"@ja, "人に話しかけること"@ja, "人間観察", "人に話しかけること" ;
     scdb:skill "記憶力がいい"@ja, "記憶力がいい" ;
-    scdb:cv actor:Tanaka_Yuki ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.田中有紀" ;
+            dbo:performer actor:Tanaka_Yuki ;
+            scdb:debutDate "2019-03-22"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "常に面白いことを探し、じっとしていることがない、探究心の強い女の子。興味を持ったら一直線だが、飽きっぽい一面も持つ中学2年生。"@ja ;
     scdb:color "F30100"^^xsd:hexBinary ;
@@ -472,7 +564,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Saitama ;
     scdb:hobby "友達と遊ぶ"@ja, "最近の曲を聴く"@ja, "友達と遊ぶ", "最近の曲を聴く" ;
     scdb:skill "何時間でも電話できること"@ja, "何時間でも電話できること" ;
-    scdb:cv actor:Kitahara_Sayaka ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.北原沙弥香" ;
+            dbo:performer actor:Kitahara_Sayaka ;
+            scdb:debutDate "2019-03-22"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "ノリがよく、楽天的で大雑把な性格の女の子。難しいことを考えるのは苦手だが、親しみやすい高校3年生。"@ja ;
     scdb:color "FF00FF"^^xsd:hexBinary ;
@@ -498,7 +595,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Ibaraki ;
     scdb:hobby "お友達とおしゃべり♪"@ja, "お友達とおしゃべり♪" ;
     scdb:skill "みんなと仲良くなること♪"@ja, "みんなと仲良くなること♪" ;
-    scdb:cv actor:Yukimura_Eri ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.幸村恵理" ;
+            dbo:performer actor:Yukimura_Eri ;
+            scdb:debutDate "2019-03-22"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "常に控えめな笑顔で、清楚に見える女の子。可愛いものが大好きで、周囲への気配りをするなど人に好かれるように振る舞う。専門学校1年生。"@ja ;
     scdb:color "5CE626"^^xsd:hexBinary ;
@@ -524,7 +626,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "映画やドラマを見ること"@ja, "映画やドラマを見ること" ;
     scdb:skill "人の顔を覚えること"@ja, "人の顔を覚えること" ;
-    scdb:cv actor:Wakui_Yu ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.和久井優" ;
+            dbo:performer actor:Wakui_Yu ;
+            scdb:debutDate "2020-03-23"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "自然体で飾らない性格。周囲からどう見られるかということを気にせず、おおらかでマイペース。しかしその透明感あふれる佇まいには誰をも惹きつけるオーラがある。高校2年生。"@ja ;
     scdb:color "50D0D0"^^xsd:hexBinary ;
@@ -550,7 +657,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "別にないです"@ja, "別にないです" ;
     scdb:skill "別にないです"@ja, "別にないです" ;
-    scdb:cv actor:Tsuchiya_Rio ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.土屋李央" ;
+            dbo:performer actor:Tsuchiya_Rio ;
+            scdb:debutDate "2020-03-23"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "クールでシニカルな高校2年生。涼しげな目元と泣きぼくろが特徴。プロデューサーに冷たい態度を取る。"@ja ;
     scdb:color "BE1E3E"^^xsd:hexBinary ;
@@ -576,7 +688,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Tokyo ;
     scdb:hobby "読書"@ja, "読書" ;
     scdb:skill "勉強"@ja, "勉強" ;
-    scdb:cv actor:Tajima_Saran ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.田嶌紗蘭" ;
+            dbo:performer actor:Tajima_Saran ;
+            scdb:debutDate "2020-03-23"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "内弁慶な小動物系の女の子。真面目な努力家で、勉強が得意。騙されやすく、幼なじみによくからかわれている。高校1年生。"@ja ;
     scdb:color "7967C3"^^xsd:hexBinary ;
@@ -602,7 +719,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Kanagawa ;
     scdb:hobby "なんでもそれなりに好き～"@ja, "なんでもそれなりに好き～" ;
     scdb:skill "なんでもそれなりにできる～"@ja, "なんでもそれなりにできる～" ;
-    scdb:cv actor:Okasaki_Miho ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.岡咲美保" ;
+            dbo:performer actor:Okasaki_Miho ;
+            scdb:debutDate "2020-03-23"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "自分の「しあわせ」に向かって突き進む、奔放な女の子。幼馴染みで先輩の透を慕っている。高校1年生。"@ja ;
     scdb:color "FFC639"^^xsd:hexBinary ;
@@ -629,7 +751,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Saitama ;
     scdb:hobby "音楽鑑賞"@ja, "音楽鑑賞" ;
     scdb:skill "家事"@ja, "家事" ;
-    scdb:cv actor:Shizuki_Azusa ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.紫月杏朱彩" ;
+            dbo:performer actor:Shizuki_Azusa ;
+            scdb:debutDate "2021-03-22"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "気が強く甘え上手な「みんなの妹」アイドルに強い憧れを抱いており、譲れない思いや負けず嫌いな面をのぞかせることも。高校1年生。"@ja ;
     scdb:color "A5CFB6"^^xsd:hexBinary ;
@@ -655,7 +782,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Hokkaido ;
     scdb:hobby "作詞作曲"@ja, "作詞作曲" ;
     scdb:skill "ダンスの振り付け"@ja, "ダンスの振り付け" ;
-    scdb:cv actor:Yamane_Aya ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.山根綺" ;
+            dbo:performer actor:Yamane_Aya ;
+            scdb:debutDate "2021-03-22"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "一途でひたむきな美人だが、寝食など身の回りのことを疎かにしがち。アイドル経験者でもあり、誰よりも『アイドル』への想いが強い。"@ja ;
     scdb:color "760E10"^^xsd:hexBinary ;
@@ -680,7 +812,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Kanagawa ;
     # scdb:hobby ""@ja, "" ;
     # scdb:skill ""@ja, "" ;
-    scdb:cv actor:Kawaguchi_Rina ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.川口莉奈" ;
+            dbo:performer actor:Kawaguchi_Rina ;
+            scdb:debutDate "2021-04-08"^^xsd:date
+    ] ;
     :gender :Female ;
     :description "話題沸騰中のソロアイドル。悩める現代女子たちの『カミサマ』として一部でカルト的な人気を集めている。理由は不明だが、283プロを敵視している。"@ja ;
     scdb:color "1E140E"^^xsd:hexBinary ;

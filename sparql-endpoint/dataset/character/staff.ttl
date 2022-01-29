@@ -21,6 +21,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :jobTitle "事務員"@ja, "office assistant"@en, "事務員" ;
     dbo:zodiacSign enum:ZodiacSign.Aquarius ;
     dbo:hometown hometown:Japan, hometown:Saitama ;
-    scdb:cv actor:Yamamura_Hibiku ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.山村響" ;
+            dbo:performer actor:Yamanura_Hibiku ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
     :gender :Female ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Nanakusa_Haduki> .
