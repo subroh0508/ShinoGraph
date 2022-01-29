@@ -34,7 +34,12 @@ scdb:VoiceActor a rdfs:Class ;
     rdfs:subClassOf dbo:VoiceActor .
 
 scdb:CharacterVoice a rdfs:Class ;
-    rdfs:label "担当声優"@ja, "Character Voice"@en .
+    rdfs:label "担当声優"@ja, "Character Voice"@en ;
+    rdfs:subClassOf :Person .
+
+scdb:Singer a rdfs:Class ;
+    rdfs:label "歌唱"@ja, "Singer"@en ;
+    rdfs:subClassOf dbo:Singer .
 
 scdb:SongWriter a rdfs:Class ;
     rdfs:label "作曲家・作詞家"@ja, "Composer・Lyricist"@en ;
@@ -51,10 +56,15 @@ scdb:skill a rdf:Property ;
     rdfs:domain scdb:Idol ;
     rdfs:range xsd:string .
 
+scdb:character a rdf:Property ;
+    rdfs:label "キャラクター"@ja, "Character"@en ;
+    rdfs:domain scdb:Singer ;
+    rdfs:range scdb:Character .
+
 scdb:cv a rdf:Property ;
     rdfs:label "担当声優"@ja, "CV"@en ;
-    rdfs:domain scdb:Idol, :MusicGroup ;
-    rdfs:range scdb:CharacterVoice .
+    rdfs:domain scdb:Idol, scdb:Singer, :MusicGroup ;
+    rdfs:range scdb:CharacterVoice, scdb:VoiceActor .
 
 scdb:schoolGrade a rdf:Property ;
     rdfs:label "学年"@ja, "Grade of School"@en ;
