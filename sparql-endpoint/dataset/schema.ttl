@@ -56,11 +56,6 @@ scdb:cv a rdf:Property ;
     rdfs:domain scdb:Idol, :MusicGroup ;
     rdfs:range scdb:CharacterVoice .
 
-scdb:pastCv a rdf:Property ;
-    rdfs:label "過去の担当声優@ja", "past CV"@en ;
-    rdfs:domain scdb:Idol ;
-    rdfs:range scdb:VoiceActor .
-
 scdb:schoolGrade a rdf:Property ;
     rdfs:label "学年"@ja, "Grade of School"@en ;
     rdfs:domain scdb:Idol ;
