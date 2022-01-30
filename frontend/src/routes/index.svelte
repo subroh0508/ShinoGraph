@@ -23,7 +23,7 @@ LIMIT 25
 
   const submit = async () => {
     const res = await fetch(
-      `http://localhost:3000/sample/query?query=${encodeURIComponent(query)}`,
+      `http://localhost:3000/spql/query?query=${encodeURIComponent(query)}`,
       {
         method: 'GET',
         headers: { 'Accept': 'application/sparql-results+json' },
