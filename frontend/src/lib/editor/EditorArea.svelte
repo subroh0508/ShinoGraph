@@ -1,11 +1,11 @@
 <script lang='ts'>
   import { onMount } from 'svelte';
   import { createEventDispatcher } from 'svelte';
-  import type { Editor, EditorConfiguration } from 'codemirror';
+  import type { Editor, EditorFromTextArea, EditorConfiguration } from 'codemirror';
 
   const dispatch = createEventDispatcher();
 
-  export let editor = null;
+  export let editor: EditorFromTextArea = null;
   export let readonly = false;
   export let code = '';
 
@@ -31,10 +31,6 @@
       CodeMirror = (await import('./codemirror.js')).default;
     }
 
-    if (editor) {
-      refs.editor.innerHTML = '';
-    }
-
     await createEditor();
   });
 
@@ -55,11 +51,11 @@
   <textarea
     bind:this={ refs.editor }
     readonly
-    value={code}
+    value={ code }
   ></textarea>
 
   {#if !CodeMirror}
-    <pre style="position: absolute; inset-inline-start: 0; inset-block-start: 0">{code}</pre>
+    <pre style="position: absolute; inset-inline-start: 0; inset-block-start: 0">{ code }</pre>
 
     <div style="position: absolute; inline-size: 100%; inset-block-end: 0">
       <div>loading editor...</div>
