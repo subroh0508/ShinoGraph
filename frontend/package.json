@@ -34,6 +34,7 @@
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "codemirror": "^5.65.1",
-    "cookie": "^0.4.1"
+    "cookie": "^0.4.1",
+    "purecss": "^2.0.6"
   }
 }
