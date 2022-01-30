@@ -3,7 +3,7 @@
 </script>
 
 <script lang='ts'>
-  import Editor from '$lib/Editor.svelte';
+  import SparqlEditor from '$lib/editor/SparqlEditor.svelte';
   import { onMount } from 'svelte';
 
   let editor;
@@ -17,15 +17,16 @@
 
   }
 
-  function changed(event) {
-    console.log('changed');
-    // console.log(event.detail)
+  function onQueryChanged(event: CustomEvent) {
+    const query = event.detail.value;
+
+    console.log('changed: ', query);
   }
 </script>
 
-<Editor on:activity={ cursorMoved } on:change={ changed } bind:editor={ editor } class="editor"/>
+<SparqlEditor on:activity={ cursorMoved } on:change={ onQueryChanged } bind:editor={ editor }/>
 <p>
-  Cursor Activity: {cursor}
+  Cursor Activity: { cursor }
 </p>
 <div>
   <button on:click={() => editor.execCommand('selectAll')}>
