@@ -62,7 +62,8 @@ LIMIT 25`;
     on:activity={ cursorMoved }
     on:change={ onQueryChanged }
   />
-  <button on:click={handleClick}>Submit</button>
+  <button class='pure-button pure-button-primary'
+    on:click={handleClick}>Submit</button>
 </div>
 <div>
   <pre>{result}</pre>
