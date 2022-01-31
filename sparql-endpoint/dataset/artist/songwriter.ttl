@@ -31,3 +31,471 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "高田暁"@ja, "Kyo Takada"@en, "高田暁" ;
     :gender :Male ;
     :sameAs <http://ja.dbpedia.org/resource/高田暁> .
+
+<Nakamura_Kanata> a scdb:SongWriter ;
+    rdfs:label "中村彼方" ;
+    :name "中村彼方"@ja, "Kanata Nakamura"@en, "中村彼方" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/中村彼方> .
+
+<Nakano_Ryota> a scdb:SongWriter ;
+    rdfs:label "中野領太(onetrap)" ;
+    :name "中野領太"@ja, "Ryota Nakano"@en, "中野領太(onetrap)"@ja, "Ryota Nakano(onetrap)"@en, "中野領太(onetrap)" ;
+    :gender :Male .
+
+<Fujisue_Miki> a scdb:SongWriter ;
+    rdfs:label "藤末樹" ;
+    :name "藤末樹"@ja, "Miki Fujisue"@en, "藤末樹" ;
+    :sameAs <http://ja.dbpedia.org/resource/藤末樹> .
+
+<Masaki_Erika> a scdb:SongWriter ;
+    rdfs:label "真崎エリカ" ;
+    :name "真崎エリカ"@ja, "Erika Masaki"@en, "真崎エリカ" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/真崎エリカ> .
+
+<Minamida_Kengo> a scdb:SongWriter ;
+    rdfs:label "南田健吾(onetrap)" ;
+    :name "南田健吾"@ja, "Minamida Kengo"@en, "南田健吾(onetrap)"@ja, "Minamida Kengo(onetrap)"@en, "南田健吾(onetrap)" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/南田健吾> .
+
+<no_my> a scdb:SongWriter ;
+    rdfs:label "no_my" ;
+    :name "no_my"@ja, ""no_my"@en, "no_my" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/no_my> .
+
+<Furuya_Makoto> a scdb:SongWriter ;
+    rdfs:label "古屋真" ;
+    :name "古屋真"@ja, "Shin Furuya"@en, "古屋真" ;
+    :gender :Male .
+
+<Suzuki_Shizuna> a scdb:SongWriter ;
+    rdfs:label "鈴木静那" ;
+    :name "鈴木静那"@ja, "Shizuna Suzuki"@en, "鈴木静那" ;
+    :gender :Female .
+
+<Morimoto_Takahiro> a scdb:SongWriter ;
+    rdfs:label "森本貴大" ;
+    :name "森本貴大"@ja, "Takahiro Morimoto"@en, "森本貴大" ;
+    :gender :Male .
+
+<SHOW> a scdb:SongWriter ;
+    rdfs:label "SHOW(Digz, Inc. Group)" ;
+    :name "SHOW"@ja, "SHOW"@en, "SHOW(Digz, Inc. Group)"@en, "SHOW(Digz, Inc. Group)"@ja, "SHOW(Digz, Inc. Group)" ;
+    :gender :Male .
+
+<Yamada_Tomokazu> a scdb:SongWriter ;
+    rdfs:label "山田智和" ;
+    :name "山田智和"@ja, "Tomokazu Yamada"@en, "山田智和" ;
+    :gender :Male .
+
+<Sumiya_Shohei> a scdb:SongWriter ;
+    rdfs:label "住谷翔平" ;
+    :name "住谷翔平"@ja, "Shohei Sumiya"@en, "住谷翔平" ;
+    :gender :Male .
+
+<Hasegawa_Tomoki> a scdb:SongWriter ;
+    rdfs:label "長谷川智樹" ;
+    :name "長谷川智樹"@ja, "Tomoki Hasegawa"@en, "長谷川智樹" ;
+    :gender :Male .
+
+<Onishi_Katsumi> a scdb:SongWriter ;
+    rdfs:label "大西克巳" ;
+    :name "大西克巳"@ja, "Katsumi Onishi"@en, "大西克巳" ;
+    :gender :Male .
+
+<Giz%27Mo> a scdb:SongWriter ;
+    rdfs:label "Giz'Mo(from Jam9)" ;
+    :name "Giz'Mo"@ja, "Giz'Mo"@en, "Giz'Mo(from Jam9)"@ja, "Giz'Mo(from Jam9)"@en, "Giz'Mo(from Jam9)" ;
+    :gender :Male .
+
+<ArmySlick> a scdb:SongWriter ;
+    rdfs:label "ArmySlick" ;
+    :name "ArmySlick"@ja, "ArmySlick"@en, "ArmySlick" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/高田暁> .
+
+<Nabeya_Takuma> a scdb:SongWriter ;
+    rdfs:label "鍋谷卓摩(luxis)" ;
+    :name "鍋谷卓摩"@ja, "Takuma Nabeya"@en, "鍋谷卓摩(luxis)"@ja, "Takuma Nabeya(luxis)"@en, "鍋谷卓摩(luxis)" ;
+    :gender :Male .
+
+<Endo_Naoki> a scdb:SongWriter ;
+    rdfs:label "遠藤ナオキ(HOVERBOARD,Inc.)" ;
+    :name "遠藤ナオキ"@ja, "Naoki Endo"@en, "遠藤ナオキ(HOVERBOARD,Inc.)"@ja, "Naoki Endo(HOVERBOARD,Inc.)"@en, "遠藤ナオキ(HOVERBOARD,Inc.)" ;
+    :gender :Male .
+
+<Iehara_Masaki> a scdb:SongWriter ;
+    rdfs:label "家原正樹" ;
+    :name "家原正樹"@ja, "Masaki Iehara"@en, "家原正樹" ;
+    :gender :Male .
+
+<Lauren_Kaori> a scdb:SongWriter ;
+    rdfs:label "Lauren Kaori" ;
+    :name "Lauren Kaori"@ja, Lauren Kaori@en, "Lauren Kaori" ;
+    :gender :Female .
+
+<GAKU> a scdb:SongWriter ;
+    rdfs:label "GAKU" ;
+    :name "GAKU"@ja, "GAKU"@en, "GAKU" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/GAKU> .
+
+<Watanabe_Toru> a scdb:SongWriter ;
+    rdfs:label "渡辺徹" ;
+    :name "渡辺徹"@ja, "Toru Watanabe"@en, "渡辺徹" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/渡辺徹_(作曲家)> .
+
+<Kokubo_Yuki> a scdb:SongWriter ;
+    rdfs:label "小久保祐希" ;
+    :name "小久保祐希"@ja, "Yuki Kokubo"@en, "小久保祐希" ;
+    :gender :Male .
+
+<YUU_for_YOU> a scdb:SongWriter ;
+    rdfs:label "YUU for YOU" ;
+    :name "YUU for YOU"@ja, "YUU for YOU"@en, "YUU for YOU" ;
+    :gender :Male .
+
+<Kitanohara_Ryo> a scdb:SongWriter ;
+    rdfs:label "北ノ原凉" ;
+    :name "北ノ原凉"@ja, "Kyo Takada"@en, "北ノ原凉" .
+
+<Ito_Ritsu> a scdb:SongWriter ;
+    rdfs:label "伊藤立" ;
+    :name "伊藤立"@ja, "Ritsu Ito"@en, "伊藤立" .
+
+<Jam9> a scdb:SongWriter ;
+    rdfs:label "Jam9" ;
+    :name "Jam9"@ja, "Jam9"@en, "Jam9" ;
+    :sameAs <http://ja.dbpedia.org/resource/Jam9> .
+
+<Mori_Yuya> a scdb:SongWriter ;
+    rdfs:label "森悠也" ;
+    :name "森悠也"@ja, "Yuya Mori"@en, "森悠也" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/森悠也> .
+
+<Shimoji_Yu> a scdb:SongWriter ;
+    rdfs:label "下地悠" ;
+    :name "下地悠"@ja, "Yu Shimoji"@en, "下地悠" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/下地悠> .
+
+<R・O・N> a scdb:SongWriter ;
+    rdfs:label "R・O・N" ;
+    :name "R・O・N"@ja, "R・O・N"@en, "R・O・N" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/R・O・N> .
+
+<Hige_Driver> a scdb:SongWriter ;
+    rdfs:label "ヒゲドライバー" ;
+    :name "ヒゲドライバー"@ja, "Hige Driver"@en, "ヒゲドライバー" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/ヒゲドライバー> .
+
+<Karasuya_Sabo> a scdb:SongWriter ;
+    rdfs:label "烏屋茶房" ;
+    :name "烏屋茶房"@ja, "Sabo Karasuya"@en, "烏屋茶房" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/烏屋茶房> .
+
+<Watanabe_Akiko> a scdb:SongWriter ;
+    rdfs:label "渡邊亜希子" ;
+    :name "渡邊亜希子"@ja, "Akiko Watanabe"@en, "渡邊亜希子" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/渡邊亜希子> .
+
+<Ito_Ken> a scdb:SongWriter ;
+    rdfs:label "伊藤賢" ;
+    :name "伊藤賢"@ja, "Ken Ito"@en, "伊藤賢" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/伊藤賢> .
+
+<Honda_Yuki> a scdb:SongWriter ;
+    rdfs:label "本多友紀(Arte Refact)" ;
+    :name "本多友紀"@ja, "Yuki Honda"@en, "本多友紀(Arte Refact)"@ja, "Yuki Honda(Arte Refact)"@en, "本多友紀(Arte Refact)" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/本多友紀> .
+
+<Harada_Atsushi> a scdb:SongWriter ;
+    rdfs:label "原田篤(Arte Refact)" ;
+    :name "原田篤"@ja, "Atsushi Harada"@en, "原田篤(Arte Refact)"@ja, "Atsushi Harada(Arte Refact)"@en, "原田篤(Arte Refact)" ;
+    :gender :Male .
+
+<Miura_Seiji> a scdb:SongWriter ;
+    rdfs:label "三浦誠司" ;
+    :name "三浦誠司"@ja, "Seiji Miura"@en, "三浦誠司" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/三浦誠司> .
+
+<Sasakura_Yugo> a scdb:SongWriter ;
+    rdfs:label "佐々倉有吾" ;
+    :name "佐々倉有吾"@ja, "Yugo Sasakura"@en, "佐々倉有吾" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/佐々倉有吾> .
+
+<Maruyama_Mayuko> a scdb:SongWriter ;
+    rdfs:label "丸山真由子" ;
+    :name "丸山真由子"@ja, "Mayuko Maruyama"@en, "丸山真由子" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/丸山真由子> .
+
+<ats-> a scdb:SongWriter ;
+    rdfs:label "ats-" ;
+    :name "ats-"@ja, "ats-"@en, "ats-" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/ats-> .
+
+<Miyoshi_Keita> a scdb:SongWriter ;
+    rdfs:label "三好啓太" ;
+    :name "三好啓太"@ja, "Keita Miyoshi"@en, "三好啓太" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/三好啓太> .
+
+<Kawai_Taishi> a scdb:SongWriter ;
+    rdfs:label "河合泰志(Arte Refact)" ;
+    :name "河合泰志"@ja, "Taishi Kawai"@en, "河合泰志(Arte Refact)"@ja, "Taishi Kawai(Arte Refact)"@en, "河合泰志(Arte Refact)" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/河合泰志> .
+
+<Akiura_Tomohiro> a scdb:SongWriter ;
+    rdfs:label "秋浦智裕(onetrap)" ;
+    :name "秋浦智裕"@ja, "Tomohiro Akiura"@en, "秋浦智裕(onetrap)"@ja, "Tomohiro Akiura(onetrap)"@en, "秋浦智裕(onetrap)" ;
+    :gender :Male .
+
+<Kimoko> a scdb:SongWriter ;
+    rdfs:label "きみコ" ;
+    :name "きみコ"@ja, "Kimiko"@en, "きみコ" ;
+    :gender :Female .
+
+<Lantan> a scdb:SongWriter ;
+    rdfs:label "Lantan" ;
+    :name "Lantan"@ja, "Lantan"@en, "Lantan" .
+
+<Sonoda_Kentaro> a scdb:SongWriter ;
+    rdfs:label "園田健太郎" ;
+    :name "園田健太郎"@ja, "Kentaro Sonoda"@en, "園田健太郎" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/園田健太郎> .
+
+<Co-sho> a scdb:SongWriter ;
+    rdfs:label "Co-sho" ;
+    :name "Co-sho"@ja, "Co-sho"@en, "Co-sho" ;
+    :gender :Male .
+
+<YHANAEL> a scdb:SongWriter ;
+    rdfs:label "YHANAEL" ;
+    :name "YHANAEL"@ja, "YHANAEL"@en, "YHANAEL" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/YHANAEL> .
+
+<Ito_Kazuma> a scdb:SongWriter ;
+    rdfs:label "伊藤和馬(Arte Refact)" ;
+    :name "伊藤和馬(Arte Refact)"@ja, "Kazuma Ito(Arte Refact)"@en, "伊藤和馬(Arte Refact)"@ja, "Kazuma Ito(Arte Refact)"@en, "伊藤和馬(Arte Refact)" ;
+    :gender :Male .
+
+<INN> a scdb:SongWriter ;
+    rdfs:label "INN" ;
+    :name "INN"@ja, "INN"@en, "INN" .
+
+<Ishii_Kentaro> a scdb:SongWriter ;
+    rdfs:label "石井健太郎" ;
+    :name "石井健太郎"@ja, "Kentaro Ishii"@en, "石井健太郎" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/石井健太郎> .
+
+<Kusano_Masashi> a scdb:SongWriter ;
+    rdfs:label "草野将史" ;
+    :name "草野将史"@ja, "Masashi Kusano"@en, "草野将史" ;
+    :gender :Male .
+
+<Tokuda_Mitsuki> a scdb:SongWriter ;
+    rdfs:label "徳田光希" ;
+    :name "徳田光希"@ja, "Mitsuki Tokuda"@en, "徳田光希" ;
+    :gender :Male .
+
+<Waki_Masatomi> a scdb:SongWriter ;
+    rdfs:label "脇眞富(Arte Refact)" ;
+    :name "脇眞富"@ja, "Masatomi Waki"@en, "脇眞富(Arte Refact)"@ja, "Masatomi Waki(Arte Refact)"@en, "脇眞富(Arte Refact)" ;
+    :gender :Male .
+
+<Eunsol%281008%28> a scdb:SongWriter ;
+    rdfs:label "Eunsol(1008)" ;
+    :name "Eunsol(1008)"@ja, "Eunsol(1008)"@en, "Eunsol(1008)" ;
+    :gender :Male .
+
+<Kohei_Yokono> a scdb:SongWriter ;
+    rdfs:label "Kohei Yokono" ;
+    :name "Kohei Yokono"@ja, "Kohei Yokono"@en, "Kohei Yokono" ;
+    :gender :Male .
+
+<JUNE> a scdb:SongWriter ;
+    rdfs:label "JUNE" ;
+    :name "JUNE"@ja, "JUNE"@en, "JUNE" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/JUNE> .
+
+<Watanabe_Takuya> a scdb:SongWriter ;
+    rdfs:label "渡辺拓也" ;
+    :name "渡辺拓也"@ja, "Takuya Watanabe"@en, "渡辺拓也" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/渡辺拓也> .
+
+<Hitsuji> a scdb:SongWriter ;
+    rdfs:label "羊" ;
+    :name "羊"@ja, "Hitsuji"@en, "羊" .
+
+<Honda_Masaki> a scdb:SongWriter ;
+    rdfs:label "本田正樹(Dream Monster)" ;
+    :name "本田正樹(Dream Monster)"@ja, "Honda Masaki(Dream Monster)"@en, "本田正樹"@ja, "Honda Masaki"@en, "本田正樹(Dream Monster)" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/本田正樹> .
+
+<Kodama_Ameko> a scdb:SongWriter ;
+    rdfs:label "児玉雨子" ;
+    :name "児玉雨子"@ja, "Ameko Kodama"@en, "児玉雨子" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/児玉雨子> .
+
+<h-wonder> a scdb:SongWriter ;
+    rdfs:label "h-wonder" ;
+    :name "h-wonder"@ja, "h-wonder"@en, "h-wonder" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/h-wonder> .
+
+<Takao_Sonosuke> a scdb:SongWriter ;
+    rdfs:label "高尾奏之介" ;
+    :name "高尾奏之介"@ja, "Sonosuke Takao"@en, "高尾奏之介" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/高尾奏之介> .
+
+<Takada_Kyo> a scdb:SongWriter ;
+    rdfs:label "矢鴇つかさ(Arte Refact)" ;
+    :name "矢鴇つかさ(Arte Refact)"@ja, "Tsukasa Yatoki(Arte Refact)"@en, "矢鴇つかさ"@ja, "Tsukasa Yatoki"@en, "矢鴇つかさ(Arte Refact)" ;
+    :gender :Male .
+
+<JUVENILE> a scdb:SongWriter ;
+    rdfs:label "JUVENILE" ;
+    :name "JUVENILE"@ja, "JUVENILE"@en, "JUVENILE" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/JUVENILE> .
+
+<Taguma_Tomoari> a scdb:SongWriter ;
+    rdfs:label "田熊知存(Dream Monster)" ;
+    :name "田熊知存(Dream Monster)"@ja, "Tomoari_Taguma(Dream Monster)"@en, "田熊知存"@ja, "Tomoari_Taguma"@en, "田熊知存(Dream Monster)" ;
+    :gender :Male .
+
+<Yabuki_Kana> a scdb:SongWriter ;
+    rdfs:label "矢吹香那" ;
+    :name "矢吹香那"@ja, "Kana Yabuki"@en, "矢吹香那" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/矢吹香那> .
+
+<Maeguchi_Wataru> a scdb:SongWriter ;
+    rdfs:label "前口ワタル" ;
+    :name "前口ワタル"@ja, "Wataru Maeguchi"@en, "前口ワタル" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/前口渉> .
+
+<Hibino_Hirofumi> a scdb:SongWriter ;
+    rdfs:label "日比野裕史" ;
+    :name "日比野裕史"@ja, "Hirofumi Hibino"@en, "日比野裕史" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/日比野裕史> .
+
+<rionos> a scdb:SongWriter ;
+    rdfs:label "rionos" ;
+    :name "rionos"@ja, "rionos"@en, "rionos" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/rionos> .
+
+<Iwakoshi_Ryota> a scdb:SongWriter ;
+    rdfs:label "岩越涼大" ;
+    :name "岩越涼大"@ja, "Ryota Iwakoshi"@en, "岩越涼大" ;
+    :gender :Male .
+
+<Fujii_Kentaro> a scdb:SongWriter ;
+    rdfs:label "藤井健太郎(HANO)" ;
+    :name "藤井健太郎"@ja, "Kentaro Fujii"@en, "藤井健太郎(HANO)"@ja, "Kentaro Fujii(HANO)"@en, "藤井健太郎(HANO)" ;
+    :gender :Male .
+
+<Tani_Naoki> a scdb:SongWriter ;
+    rdfs:label "谷ナオキ(HANO)" ;
+    :name "谷ナオキ"@ja, "Naoki Tani"@en, "谷ナオキ(HANO)"@ja, "Naoki Tani(HANO)"@en, "谷ナオキ(HANO)" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/谷ナオキ> .
+
+<Suyama_Jun> a scdb:SongWriter ;
+    rdfs:label "陶山隼" ;
+    :name "陶山隼"@ja, "Jun Suyama"@en, "陶山隼" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/陶山隼> .
+
+<Minami_Naohiro> a scdb:SongWriter ;
+    rdfs:label "南直博" ;
+    :name "南直博"@ja, "南直博"@en, "南直博" ;
+    :gender :Male .
+
+<Mutsuki_Shuhei> a scdb:SongWriter ;
+    rdfs:label "睦月周平" ;
+    :name "睦月周平"@ja, "Shuhei Mutsuki"@en, "睦月周平" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/睦月周平> .
+
+<Itagaki_Yusuke> a scdb:SongWriter ;
+    rdfs:label "板垣祐介" ;
+    :name "板垣祐介"@ja, "Yusuke Itagaki"@en, "板垣祐介" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/板垣祐介> .
+
+<Maeda_Kanro> a scdb:SongWriter ;
+    rdfs:label "前田甘露" ;
+    :name "前田甘露"@ja, "Kanro Maeda"@en, "前田甘露" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/前田甘露> .
+
+<Fukagawa_Kotomi> a scdb:SongWriter ;
+    rdfs:label "深川琴美" ;
+    :name "深川琴美"@ja, "Kotomi Fukagawa"@en, "深川琴美" ;
+    :gender :Female ;
+    :sameAs <http://ja.dbpedia.org/resource/深川琴美> .
+
+<NA%2EZU%2ENA> a scdb:SongWriter ;
+    rdfs:label "NA.ZU.NA" ;
+    :name "NA.ZU.NA"@ja, "NA.ZU.NA"@en, "NA.ZU.NA" ;
+    :gender :Male .
+
+<Hono_Satoshi> a scdb:SongWriter ;
+    rdfs:label "宝野聡史" ;
+    :name "宝野聡史"@ja, "Satoshi Hono"@en, "宝野聡史" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/宝野聡史> .
+
+<Kageyama_Shota> a scdb:SongWriter ;
+    rdfs:label "景山将太" ;
+    :name "景山将太"@ja, "Shota Kageyama"@en, "景山将太" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/景山将太> .
+
+<Momoki_Eiji> a scdb:SongWriter ;
+    rdfs:label "モモキエイジ" ;
+    :name "モモキエイジ"@ja, "Eiji Momoki"@en, "モモキエイジ" ;
+    :gender :Male .
+
+<Sato_Takafumi> a scdb:SongWriter ;
+    rdfs:label "BNSI(佐藤貴文)" ;
+    :name "佐藤貴文"@ja, "Takafumi Sato"@en, "BNSI(佐藤貴文)"@ja, "BNSI(Takafumi Sato)"@en, "BNSI(佐藤貴文)" ;
+    :gender :Male .
+
+<Inoue_Keita> a scdb:SongWriter ;
+    rdfs:label "井上馨太(MONACA)" ;
+    :name "井上馨太"@ja, "Keita Inoue"@en, "井上馨太(MONACA)"@ja, "Keita Inoue(MONACA)"@en, "井上馨太(MONACA)" ;
+    :gender :Male .
+
+<Mizunoya_Ren> a scdb:SongWriter ;
+    rdfs:label "水野谷怜(Arte Refact)" ;
+    :name "水野谷怜"@ja, "Ren Mizunoya"@en, "水野谷怜(Arte Refact)"@ja, "Ren Mizunoya(Arte Refact)"@en, "水野谷怜(Arte Refact)" ;
+    :gender :Male .
