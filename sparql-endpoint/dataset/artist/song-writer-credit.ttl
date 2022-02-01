@@ -1,0 +1,470 @@
+BASE <https://283db.org/resource/artist/song-writer-credit/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX songwriter: <https://283db.org/resource/artist/song-writer/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Kodama_Saori> a scdb:SongWriterCredit ;
+    rdfs:label "こだまさおり" ;
+    :name "こだまさおり"@ja, "Saori Kodama"@en, "こだまさおり" ;
+    :sameAs songwriter:Kodama_Saori .
+
+<Yamaguchi_Akihiko> a scdb:SongWriterCredit ;
+    rdfs:label "山口朗彦" ;
+    :name "山口朗彦"@ja, "Akihiko Yamaguchi"@en, "山口朗彦" ;
+    :sameAs songwriter:Yamaguchi_Akihiko .
+
+<Matsui_Yohei> a scdb:SongWriterCredit ;
+    rdfs:label "松井洋平" ;
+    :name "松井洋平"@ja, "Yohei Matsui"@en, "松井洋平" ;
+    :sameAs songwriter:Matsui_Yohei .
+
+<Takada_Kyo> a scdb:SongWriterCredit ;
+    rdfs:label "高田暁" ;
+    :name "高田暁"@ja, "Kyo Takada"@en, "高田暁" ;
+    :sameAs songwriter:Takada_Kyo .
+
+<Nakamura_Kanata> a scdb:SongWriterCredit ;
+    rdfs:label "中村彼方" ;
+    :name "中村彼方"@ja, "Kanata Nakamura"@en, "中村彼方" ;
+    :sameAs songwriter:Nakamura_Kanata .
+
+<Nakano_Ryota> a scdb:SongWriterCredit ;
+    rdfs:label "中野領太" ;
+    :name "中野領太"@ja, "Ryota Nakano"@en, "中野領太" ;
+    :sameAs songwriter:Nakano_Ryota .
+
+<Nakano_Ryota%28onetrap%28> a scdb:SongWriterCredit ;
+    rdfs:label "中野領太(onetrap)" ;
+    :name "中野領太(onetrap)"@ja, "Ryota Nakano(onetrap)"@en, "中野領太(onetrap)" ;
+    :sameAs songwriter:Nakano_Ryota .
+
+<Fujisue_Miki> a scdb:SongWriterCredit ;
+    rdfs:label "藤末樹" ;
+    :name "藤末樹"@ja, "Miki Fujisue"@en, "藤末樹" ;
+    :sameAs songwriter:Fujisue_Miki .
+
+<Masaki_Erika> a scdb:SongWriterCredit ;
+    rdfs:label "真崎エリカ" ;
+    :name "真崎エリカ"@ja, "Erika Masaki"@en, "真崎エリカ" ;
+    :sameAs songwriter:Masaki_Erika .
+
+<Minamida_Kengo%28onetrap%28> a scdb:SongWriterCredit ;
+    rdfs:label "南田健吾(onetrap)" ;
+    :name "南田健吾(onetrap)"@ja, "Minamida Kengo(onetrap)"@en, "南田健吾(onetrap)" ;
+    :sameAs songwriter:Minamida_Kengo .
+
+<no_my> a scdb:SongWriterCredit ;
+    rdfs:label "no_my" ;
+    :name "no_my"@ja, "no_my"@en, "no_my" ;
+    :sameAs songwriter:no_my .
+
+<Furuya_Makoto> a scdb:SongWriterCredit ;
+    rdfs:label "古屋真" ;
+    :name "古屋真"@ja, "Shin Furuya"@en, "古屋真" ;
+    :sameAs songwriter:Furuya_Makoto .
+
+<Suzuki_Shizuna> a scdb:SongWriterCredit ;
+    rdfs:label "鈴木静那" ;
+    :name "鈴木静那"@ja, "Shizuna Suzuki"@en, "鈴木静那" ;
+    :sameAs songwriter:Suzuki_Shizuna .
+
+<Morimoto_Takahiro> a scdb:SongWriterCredit ;
+    rdfs:label "森本貴大" ;
+    :name "森本貴大"@ja, "Takahiro Morimoto"@en, "森本貴大" ;
+    :sameAs songwriter:Morimoto_Takahiro .
+
+<SHOW%28Digz%2C_Inc%2E_Group%28> a scdb:SongWriterCredit ;
+    rdfs:label "SHOW(Digz, Inc. Group)" ;
+    :name "SHOW(Digz, Inc. Group)"@ja, "SHOW(Digz, Inc. Group)"@en, "SHOW(Digz, Inc. Group)" ;
+    :sameAs songwriter:SHOW .
+
+<Yamada_Tomokazu> a scdb:SongWriterCredit ;
+    rdfs:label "山田智和" ;
+    :name "山田智和"@ja, "Tomokazu Yamada"@en, "山田智和" ;
+    :sameAs songwriter:Yamada_Tomokazu .
+
+<Sumiya_Shohei> a scdb:SongWriterCredit ;
+    rdfs:label "住谷翔平" ;
+    :name "住谷翔平"@ja, "Shohei Sumiya"@en, "住谷翔平" ;
+    :sameAs songwriter:Sumiya_Shohei .
+
+<Hasegawa_Tomoki> a scdb:SongWriterCredit ;
+    rdfs:label "長谷川智樹" ;
+    :name "長谷川智樹"@ja, "Tomoki Hasegawa"@en, "長谷川智樹" ;
+    :sameAs songwriter:Hasegawa_Tomoki .
+
+<Onishi_Katsumi> a scdb:SongWriterCredit ;
+    rdfs:label "大西克巳" ;
+    :name "大西克巳"@ja, "Katsumi Onishi"@en, "大西克巳" ;
+    :sameAs songwriter:Onishi_Katsumi .
+
+<Giz%27Mo%28from_Jam9%28> a scdb:SongWriterCredit ;
+    rdfs:label "Giz'Mo(from Jam9)" ;
+    :name "Giz'Mo(from Jam9)"@ja, "Giz'Mo(from Jam9)"@en, "Giz'Mo(from Jam9)" ;
+    :sameAs songwriter:Giz%27Mo .
+
+<ArmySlick> a scdb:SongWriterCredit ;
+    rdfs:label "ArmySlick" ;
+    :name "ArmySlick"@ja, "ArmySlick"@en, "ArmySlick" ;
+    :sameAs songwriter:ArmySlick .
+
+<Nabeya_Takuma%28luxis%28> a scdb:SongWriterCredit ;
+    rdfs:label "鍋谷卓摩(luxis)" ;
+    :name "鍋谷卓摩(luxis)"@ja, "Takuma Nabeya(luxis)"@en, "鍋谷卓摩(luxis)" ;
+    :sameAs songwriter:Nabeya_Takuma .
+
+<Endo_Naoki%28HOVERBOARD%2CInc%2E%28> a scdb:SongWriterCredit ;
+    rdfs:label "遠藤ナオキ(HOVERBOARD,Inc.)" ;
+    :name "遠藤ナオキ(HOVERBOARD,Inc.)"@ja, "Naoki Endo(HOVERBOARD,Inc.)"@en, "遠藤ナオキ(HOVERBOARD,Inc.)" ;
+    :sameAs songwriter:Endo_Naoki .
+
+<Iehara_Masaki> a scdb:SongWriterCredit ;
+    rdfs:label "家原正樹" ;
+    :name "家原正樹"@ja, "Masaki Iehara"@en, "家原正樹" ;
+    :sameAs songwriter:Iehara_Masaki .
+
+<Lauren_Kaori> a scdb:SongWriterCredit ;
+    rdfs:label "Lauren Kaori" ;
+    :name "Lauren Kaori"@ja, "Lauren Kaori"@en, "Lauren Kaori" ;
+    :sameAs songwriter:Lauren_Kaori .
+
+<GAKU> a scdb:SongWriterCredit ;
+    rdfs:label "GAKU" ;
+    :name "GAKU"@ja, "GAKU"@en, "GAKU" ;
+    :sameAs songwriter:GAKU .
+
+<Watanabe_Toru> a scdb:SongWriterCredit ;
+    rdfs:label "渡辺徹" ;
+    :name "渡辺徹"@ja, "Toru Watanabe"@en, "渡辺徹" ;
+    :sameAs songwriter:Watanabe_Toru .
+
+<Kokubo_Yuki> a scdb:SongWriterCredit ;
+    rdfs:label "小久保祐希" ;
+    :name "小久保祐希"@ja, "Yuki Kokubo"@en, "小久保祐希" ;
+    :sameAs songwriter:Kokubo_Yuki .
+
+<YUU_for_YOU> a scdb:SongWriterCredit ;
+    rdfs:label "YUU for YOU" ;
+    :name "YUU for YOU"@ja, "YUU for YOU"@en, "YUU for YOU" ;
+    :sameAs songwriter:YUU_for_YOU .
+
+<Kitanohara_Ryo> a scdb:SongWriterCredit ;
+    rdfs:label "北ノ原凉" ;
+    :name "北ノ原凉"@ja, "Kyo Takada"@en, "北ノ原凉" ;
+    :sameAs songwriter:Kitanohara_Ryo .
+
+<Ito_Ritsu> a scdb:SongWriterCredit ;
+    rdfs:label "伊藤立" ;
+    :name "伊藤立"@ja, "Ritsu Ito"@en, "伊藤立" ;
+    :sameAs songwriter:Ito_Ritsu .
+
+<Jam9> a scdb:SongWriterCredit ;
+    rdfs:label "Jam9" ;
+    :name "Jam9"@ja, "Jam9"@en, "Jam9" ;
+    :sameAs songwriter:Jam9 .
+
+<Mori_Yuya> a scdb:SongWriterCredit ;
+    rdfs:label "森悠也" ;
+    :name "森悠也"@ja, "Yuya Mori"@en, "森悠也" ;
+    :sameAs songwriter:Mori_Yuya .
+
+<Shimoji_Yu> a scdb:SongWriterCredit ;
+    rdfs:label "下地悠" ;
+    :name "下地悠"@ja, "Yu Shimoji"@en, "下地悠" ;
+    :sameAs songwriter:Shimoji_Yu .
+
+<R・O・N> a scdb:SongWriterCredit ;
+    rdfs:label "R・O・N" ;
+    :name "R・O・N"@ja, "R・O・N"@en, "R・O・N" ;
+    :sameAs songwriter:R・O・N .
+
+<Hige_Driver> a scdb:SongWriterCredit ;
+    rdfs:label "ヒゲドライバー" ;
+    :name "ヒゲドライバー"@ja, "Hige Driver"@en, "ヒゲドライバー" ;
+    :sameAs songwriter:Hige_Driver .
+
+<Karasuya_Sabo> a scdb:SongWriterCredit ;
+    rdfs:label "烏屋茶房" ;
+    :name "烏屋茶房"@ja, "Sabo Karasuya"@en, "烏屋茶房" ;
+    :sameAs songwriter:Karasuya_Sabo .
+
+<Watanabe_Akiko> a scdb:SongWriterCredit ;
+    rdfs:label "渡邊亜希子" ;
+    :name "渡邊亜希子"@ja, "Akiko Watanabe"@en, "渡邊亜希子" ;
+    :sameAs songwriter:Watanabe_Akiko .
+
+<Ito_Ken> a scdb:SongWriterCredit ;
+    rdfs:label "伊藤賢" ;
+    :name "伊藤賢"@ja, "Ken Ito"@en, "伊藤賢" ;
+    :sameAs songwriter:Ito_Ken .
+
+<Honda_Yuki%28Arte_Refact%28> a scdb:SongWriterCredit ;
+    rdfs:label "本多友紀(Arte Refact)" ;
+    :name "本多友紀(Arte Refact)"@ja, "Yuki Honda(Arte Refact)"@en, "本多友紀(Arte Refact)" ;
+    :sameAs songwriter:Honda_Yuki .
+
+<Harada_Atsushi%28Arte_Refact%28> a scdb:SongWriterCredit ;
+    rdfs:label "原田篤(Arte Refact)" ;
+    :name "原田篤(Arte Refact)"@ja, "Atsushi Harada(Arte Refact)"@en, "原田篤(Arte Refact)" ;
+    :sameAs songwriter:Harada_Atsushi .
+
+<Miura_Seiji> a scdb:SongWriterCredit ;
+    rdfs:label "三浦誠司" ;
+    :name "三浦誠司"@ja, "Seiji Miura"@en, "三浦誠司" ;
+    :sameAs songwriter:Miura_Seiji .
+
+<Sasakura_Yugo> a scdb:SongWriterCredit ;
+    rdfs:label "佐々倉有吾" ;
+    :name "佐々倉有吾"@ja, "Yugo Sasakura"@en, "佐々倉有吾" ;
+    :sameAs songwriter:Sasakura_Yugo .
+
+<Maruyama_Mayuko> a scdb:SongWriterCredit ;
+    rdfs:label "丸山真由子" ;
+    :name "丸山真由子"@ja, "Mayuko Maruyama"@en, "丸山真由子" ;
+    :sameAs songwriter:Maruyama_Mayuko .
+
+<ats-> a scdb:SongWriterCredit ;
+    rdfs:label "ats-" ;
+    :name "ats-"@ja, "ats-"@en, "ats-" ;
+    :sameAs songwriter:ats- .
+
+<Miyoshi_Keita> a scdb:SongWriterCredit ;
+    rdfs:label "三好啓太" ;
+    :name "三好啓太"@ja, "Keita Miyoshi"@en, "三好啓太" ;
+    :sameAs songwriter:Miyoshi_Keita .
+
+<Kawai_Taishi%28Arte_Refact%28> a scdb:SongWriterCredit ;
+    rdfs:label "河合泰志(Arte Refact)" ;
+    :name "河合泰志(Arte Refact)"@ja, "Taishi Kawai(Arte Refact)"@en, "河合泰志(Arte Refact)" ;
+    :sameAs songwriter:Kawai_Taishi .
+
+<Akiura_Tomohiro> a scdb:SongWriterCredit ;
+    rdfs:label "秋浦智裕" ;
+    :name "秋浦智裕"@ja, "Tomohiro Akiura"@en, "秋浦智裕" ;
+    :sameAs songwriter:Akiura_Tomohiro .
+
+<Akiura_Tomohiro%28onetrap%28> a scdb:SongWriterCredit ;
+    rdfs:label "秋浦智裕(onetrap)" ;
+    :name "秋浦智裕(onetrap)"@ja, "Tomohiro Akiura(onetrap)"@en, "秋浦智裕(onetrap)" ;
+    :sameAs songwriter:Akiura_Tomohiro .
+
+<Kimoko> a scdb:SongWriterCredit ;
+    rdfs:label "きみコ" ;
+    :name "きみコ"@ja, "Kimiko"@en, "きみコ" ;
+    :sameAs songwriter:Kimoko .
+
+<Lantan> a scdb:SongWriterCredit ;
+    rdfs:label "Lantan" ;
+    :name "Lantan"@ja, "Lantan"@en, "Lantan" ;
+    :sameAs songwriter:Lantan .
+
+<Sonoda_Kentaro> a scdb:SongWriterCredit ;
+    rdfs:label "園田健太郎" ;
+    :name "園田健太郎"@ja, "Kentaro Sonoda"@en, "園田健太郎" ;
+    :sameAs songwriter:Sonoda_Kentaro .
+
+<Co-sho> a scdb:SongWriterCredit ;
+    rdfs:label "Co-sho" ;
+    :name "Co-sho"@ja, "Co-sho"@en, "Co-sho" ;
+    :sameAs songwriter:Co-sho .
+
+<YHANAEL> a scdb:SongWriterCredit ;
+    rdfs:label "YHANAEL" ;
+    :name "YHANAEL"@ja, "YHANAEL"@en, "YHANAEL" ;
+    :sameAs songwriter:YHANAEL .
+
+<Ito_Kazuma%28Arte_Refact%28> a scdb:SongWriterCredit ;
+    rdfs:label "伊藤和馬(Arte Refact)" ;
+    :name "伊藤和馬(Arte Refact)"@ja, "Kazuma Ito(Arte Refact)"@en, "伊藤和馬(Arte Refact)" ;
+    :sameAs songwriter:Ito_Kazuma .
+
+<INN> a scdb:SongWriterCredit ;
+    rdfs:label "INN" ;
+    :name "INN"@ja, "INN"@en, "INN" ;
+    :sameAs songwriter:INN .
+
+<Ishii_Kentaro> a scdb:SongWriterCredit ;
+    rdfs:label "石井健太郎" ;
+    :name "石井健太郎"@ja, "Kentaro Ishii"@en, "石井健太郎" ;
+    :sameAs songwriter:Ishii_Kentaro .
+
+<Kusano_Masashi> a scdb:SongWriterCredit ;
+    rdfs:label "草野将史" ;
+    :name "草野将史"@ja, "Masashi Kusano"@en, "草野将史" ;
+    :sameAs songwriter:Kusano_Masashi .
+
+<Tokuda_Mitsuki> a scdb:SongWriterCredit ;
+    rdfs:label "徳田光希" ;
+    :name "徳田光希"@ja, "Mitsuki Tokuda"@en, "徳田光希" ;
+    :sameAs songwriter:Tokuda_Mitsuki .
+
+<Waki_Masatomi%28Arte_Refact%28> a scdb:SongWriterCredit ;
+    rdfs:label "脇眞富(Arte Refact)" ;
+    :name "脇眞富(Arte Refact)"@ja, "Masatomi Waki(Arte Refact)"@en, "脇眞富(Arte Refact)" ;
+    :sameAs songwriter:Waki_Masatomi .
+
+<Eunsol%281008%28> a scdb:SongWriterCredit ;
+    rdfs:label "Eunsol(1008)" ;
+    :name "Eunsol(1008)"@ja, "Eunsol(1008)"@en, "Eunsol(1008)" ;
+    :sameAs songwriter:Eunsol%281008%28 .
+
+<Kohei_Yokono> a scdb:SongWriterCredit ;
+    rdfs:label "Kohei Yokono" ;
+    :name "Kohei Yokono"@ja, "Kohei Yokono"@en, "Kohei Yokono" ;
+    :sameAs songwriter:Kohei_Yokono .
+
+<JUNE> a scdb:SongWriterCredit ;
+    rdfs:label "JUNE" ;
+    :name "JUNE"@ja, "JUNE"@en, "JUNE" ;
+    :sameAs songwriter:JUNE .
+
+<Watanabe_Takuya> a scdb:SongWriterCredit ;
+    rdfs:label "渡辺拓也" ;
+    :name "渡辺拓也"@ja, "Takuya Watanabe"@en, "渡辺拓也" ;
+    :sameAs songwriter:Watanabe_Takuya .
+
+<Hitsuji> a scdb:SongWriterCredit ;
+    rdfs:label "羊" ;
+    :name "羊"@ja, "Hitsuji"@en, "羊" ;
+    :sameAs songwriter:Hitsuji .
+
+<Honda_Masaki%28Dream_Monster%28> a scdb:SongWriterCredit ;
+    rdfs:label "本田正樹(Dream Monster)" ;
+    :name "本田正樹(Dream Monster)"@ja, "Honda Masaki(Dream Monster)"@en, "本田正樹(Dream Monster)" ;
+    :sameAs songwriter:Honda_Masaki .
+
+<Kodama_Ameko> a scdb:SongWriterCredit ;
+    rdfs:label "児玉雨子" ;
+    :name "児玉雨子"@ja, "Ameko Kodama"@en, "児玉雨子" ;
+    :sameAs songwriter:Kodama_Ameko .
+
+<h-wonder> a scdb:SongWriterCredit ;
+    rdfs:label "h-wonder" ;
+    :name "h-wonder"@ja, "h-wonder"@en, "h-wonder" ;
+    :sameAs songwriter:h-wonder .
+
+<Takao_Sonosuke> a scdb:SongWriterCredit ;
+    rdfs:label "高尾奏之介" ;
+    :name "高尾奏之介"@ja, "Sonosuke Takao"@en, "高尾奏之介" ;
+    :sameAs songwriter:Takao_Sonosuke .
+
+<Takada_Kyo%28Arte_Refact%28> a scdb:SongWriterCredit ;
+    rdfs:label "矢鴇つかさ(Arte Refact)" ;
+    :name "矢鴇つかさ(Arte Refact)"@ja, "Tsukasa Yatoki(Arte Refact)"@en, "矢鴇つかさ(Arte Refact)" ;
+    :sameAs songwriter:Takada_Kyo .
+
+<JUVENILE> a scdb:SongWriterCredit ;
+    rdfs:label "JUVENILE" ;
+    :name "JUVENILE"@ja, "JUVENILE"@en, "JUVENILE" ;
+    :sameAs songwriter:JUVENILE .
+
+<Taguma_Tomoari%28Dream_Monster%28> a scdb:SongWriterCredit ;
+    rdfs:label "田熊知存(Dream Monster)" ;
+    :name "田熊知存(Dream Monster)"@ja, "Tomoari_Taguma(Dream Monster)"@en, "田熊知存(Dream Monster)" ;
+    :sameAs songwriter:Taguma_Tomoari .
+
+<Yabuki_Kana> a scdb:SongWriterCredit ;
+    rdfs:label "矢吹香那" ;
+    :name "矢吹香那"@ja, "Kana Yabuki"@en, "矢吹香那" ;
+    :sameAs songwriter:Yabuki_Kana .
+
+<Maeguchi_Wataru> a scdb:SongWriterCredit ;
+    rdfs:label "前口ワタル" ;
+    :name "前口ワタル"@ja, "Wataru Maeguchi"@en, "前口ワタル" ;
+    :sameAs songwriter:Maeguchi_Wataru .
+
+<Hibino_Hirofumi> a scdb:SongWriterCredit ;
+    rdfs:label "日比野裕史" ;
+    :name "日比野裕史"@ja, "Hirofumi Hibino"@en, "日比野裕史" ;
+    :sameAs songwriter:Hibino_Hirofumi .
+
+<rionos> a scdb:SongWriterCredit ;
+    rdfs:label "rionos" ;
+    :name "rionos"@ja, "rionos"@en, "rionos" ;
+    :sameAs songwriter:rionos .
+
+<Iwakoshi_Ryota> a scdb:SongWriterCredit ;
+    rdfs:label "岩越涼大" ;
+    :name "岩越涼大"@ja, "Ryota Iwakoshi"@en, "岩越涼大" ;
+    :sameAs songwriter:Iwakoshi_Ryota .
+
+<Fujii_Kentaro%28HANO%28> a scdb:SongWriterCredit ;
+    rdfs:label "藤井健太郎(HANO)" ;
+    :name "藤井健太郎(HANO)"@ja, "Kentaro Fujii(HANO)"@en, "藤井健太郎(HANO)" ;
+    :sameAs songwriter:Fujii_Kentaro .
+
+<Tani_Naoki%28HANO%28> a scdb:SongWriterCredit ;
+    rdfs:label "谷ナオキ(HANO)" ;
+    :name "谷ナオキ(HANO)"@ja, "Naoki Tani(HANO)"@en, "谷ナオキ(HANO)" ;
+    :sameAs songwriter:Tani_Naoki .
+
+<Suyama_Jun> a scdb:SongWriterCredit ;
+    rdfs:label "陶山隼" ;
+    :name "陶山隼"@ja, "Jun Suyama"@en, "陶山隼" ;
+    :sameAs songwriter:Suyama_Jun .
+
+<Minami_Naohiro> a scdb:SongWriterCredit ;
+    rdfs:label "南直博" ;
+    :name "南直博"@ja, "南直博"@en, "南直博" ;
+    :sameAs songwriter:Minami_Naohiro .
+
+<Mutsuki_Shuhei> a scdb:SongWriterCredit ;
+    rdfs:label "睦月周平" ;
+    :name "睦月周平"@ja, "Shuhei Mutsuki"@en, "睦月周平" ;
+    :sameAs songwriter:Mutsuki_Shuhei .
+
+<Itagaki_Yusuke> a scdb:SongWriterCredit ;
+    rdfs:label "板垣祐介" ;
+    :name "板垣祐介"@ja, "Yusuke Itagaki"@en, "板垣祐介" ;
+    :sameAs songwriter:Itagaki_Yusuke .
+
+<Maeda_Kanro> a scdb:SongWriterCredit ;
+    rdfs:label "前田甘露" ;
+    :name "前田甘露"@ja, "Kanro Maeda"@en, "前田甘露" ;
+    :sameAs songwriter:Maeda_Kanro .
+
+<Fukagawa_Kotomi> a scdb:SongWriterCredit ;
+    rdfs:label "深川琴美" ;
+    :name "深川琴美"@ja, "Kotomi Fukagawa"@en, "深川琴美" ;
+    :sameAs songwriter:Fukagawa_Kotomi .
+
+<NA%2EZU%2ENA> a scdb:SongWriterCredit ;
+    rdfs:label "NA.ZU.NA" ;
+    :name "NA.ZU.NA"@ja, "NA.ZU.NA"@en, "NA.ZU.NA" ;
+    :sameAs songwriter:NA%2EZU%2ENA .
+
+<Hono_Satoshi> a scdb:SongWriterCredit ;
+    rdfs:label "宝野聡史" ;
+    :name "宝野聡史"@ja, "Satoshi Hono"@en, "宝野聡史" ;
+    :sameAs songwriter:Hono_Satoshi .
+
+<Kageyama_Shota> a scdb:SongWriterCredit ;
+    rdfs:label "景山将太" ;
+    :name "景山将太"@ja, "Shota Kageyama"@en, "景山将太" ;
+    :sameAs songwriter:Kageyama_Shota .
+
+<Momoki_Eiji> a scdb:SongWriterCredit ;
+    rdfs:label "モモキエイジ" ;
+    :name "モモキエイジ"@ja, "Eiji Momoki"@en, "モモキエイジ" ;
+    :sameAs songwriter:Yashiro_Yuta .
+
+<BNSI%28Sato_Takafumi%28> a scdb:SongWriterCredit ;
+    rdfs:label "BNSI(佐藤貴文)" ;
+    :name "BNSI(佐藤貴文)"@ja, "BNSI(Takafumi Sato)"@en, "BNSI(佐藤貴文)" ;
+    :sameAs songwriter:Sato_Takafumi .
+
+<Inoue_Keita%28MONACA%28> a scdb:SongWriterCredit ;
+    rdfs:label "井上馨太(MONACA)" ;
+    :name "井上馨太(MONACA)"@ja, "Keita Inoue(MONACA)"@en, "井上馨太(MONACA)" ;
+    :sameAs songwriter:Inoue_Keita .
+
+<Mizunoya_Ren%28Arte_Refact%28> a scdb:SongWriterCredit ;
+    rdfs:label "水野谷怜(Arte Refact)" ;
+    :name "水野谷怜(Arte Refact)"@ja, "Ren Mizunoya(Arte Refact)"@en, "水野谷怜(Arte Refact)" ;
+    :sameAs songwriter:Mizunoya_Ren .

@@ -42,7 +42,11 @@ scdb:Singer a rdfs:Class ;
     rdfs:subClassOf dbo:Singer .
 
 scdb:SongWriter a rdfs:Class ;
-    rdfs:label "作曲家・作詞家"@ja, "Composer・Lyricist"@en ;
+    rdfs:label "作曲家・作詞家"@ja, "Composer or Lyricist"@en ;
+    rdfs:subClassOf dbo:MusicalArtist .
+
+scdb:SongWriterCredit a rdfs:Class ;
+    rdfs:label "CDのクレジット上の名義で表記された作曲家・作詞家"@ja, "Composers or Lyricists listed by name in the CD credits"@en ;
     rdfs:subClassOf dbo:MusicalArtist .
 
 # Properties
@@ -93,5 +97,9 @@ scdb:retireDate a rdf:Property ;
     rdfs:range xsd:date .
 
 scdb:youtubeUrl a rdf:Property ;
+    rdfs:label "YouTube動画のURL"@ja, "URL of YouTube"@en ;
+    rdfs:range xsd:uri .
+
+scdb:credit a rdf:Property ;
     rdfs:label "YouTube動画のURL"@ja, "URL of YouTube"@en ;
     rdfs:range xsd:uri .

@@ -1,6 +1,6 @@
 BASE <https://283db.org/resource/music/song/>
 PREFIX scdb: <https://283db.org/schema#>
-PREFIX songwriter: <https://283db.org/resource/artist/songwriter/>
+PREFIX credit: <https://283db.org/resource/artist/song-writer-credit/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -12,13 +12,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <Spread_the_Wings%21%21> a :MusicComposition ;
     rdfs:label "Spread the Wings!!" ;
     :name "Spread the Wings!!"@ja, "Spread the Wings!!"@en, "Spread the Wings!!" ;
-    :lyricist songwriter:Kodama_Saori ;
-    :composer songwriter:Yamaguchi_Akihiko ;
-    :editor songwriter:Yamaguchi_Akihiko .
+    :lyricist credit:Kodama_Saori ;
+    :composer credit:Yamaguchi_Akihiko ;
+    :editor credit:Yamaguchi_Akihiko .
 
 <Multicolored_Sky> a :MusicComposition ;
     rdfs:label "Multicolored Sky" ;
     :name "Multicolored Sky"@ja, "Multicolored Sky"@en, "Multicolored Sky" ;
-    :lyricist songwriter:Matsui_Yohei ;
-    :composer songwriter:Takada_Kyo ;
-    :editor songwriter:Takada_Kyo .
+    :lyricist credit:Matsui_Yohei ;
+    :composer credit:Takada_Kyo ;
+    :editor credit:Takada_Kyo .
