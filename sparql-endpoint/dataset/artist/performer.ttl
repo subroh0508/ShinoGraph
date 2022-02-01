@@ -1,4 +1,4 @@
-BASE <https://283db.org/resource/artist/singer/>
+BASE <https://283db.org/resource/artist/performer/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
@@ -10,137 +10,137 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<Sakuragi_Mano_%28CV_Sekine_Hitomi%28> a scdb:Singer ;
+<Sakuragi_Mano_%28CV_Sekine_Hitomi%28> a scdb:Performer ;
     rdfs:label "櫻木真乃(CV.関根瞳)" ;
     scdb:character idol:Sakuragi_Mano ;
     scdb:cv actor:Sekine_Hitomi .
 
-<Kazano_Hiori_%28CV_Kondo_Reina%28> a scdb:Singer ;
+<Kazano_Hiori_%28CV_Kondo_Reina%28> a scdb:Performer ;
     rdfs:label "風野灯織(CV.近藤玲奈)" ;
     scdb:character idol:Kazano_Hiori ;
     scdb:cv actor:Kondo_Reina .
 
-<Hachimiya_Meguru_%28CV_Mineda_Mayu%28> a scdb:Singer ;
+<Hachimiya_Meguru_%28CV_Mineda_Mayu%28> a scdb:Performer ;
     rdfs:label "八宮めぐる(CV.峯田茉優)" ;
     scdb:character idol:Hachimiya_Meguru ;
     scdb:cv actor:Mineda_Mayu .
 
-<Tsukioka_Kogane_%28CV_Isobe_Karin%28> a scdb:Singer ;
+<Tsukioka_Kogane_%28CV_Isobe_Karin%28> a scdb:Performer ;
     rdfs:label "月岡恋鐘(CV.礒部花凜)" ;
     scdb:character idol:Tsukioka_Kogane ;
     scdb:cv actor:Isobe_Karin .
 
-<Mitsumine_Yuika_%28CV_Kisui_Shio%28> a scdb:Singer ;
+<Mitsumine_Yuika_%28CV_Kisui_Shio%28> a scdb:Performer ;
     rdfs:label "三峰結華(CV.希水しお)" ;
     scdb:character idol:Mitsumine_Yuika ;
     scdb:cv actor:Kisui_Shio .
 
-<Mitsumine_Yuika_%28CV_Narumi_Runa%28> a scdb:Singer ;
+<Mitsumine_Yuika_%28CV_Narumi_Runa%28> a scdb:Performer ;
     rdfs:label "三峰結華(CV.成海瑠奈)" ;
     scdb:character idol:Mitsumine_Yuika ;
     scdb:cv actor:Narumi_Runa .
 
-<Shirase_Sakuya_%28CV_Yamaki_Anna%28> a scdb:Singer ;
+<Shirase_Sakuya_%28CV_Yamaki_Anna%28> a scdb:Performer ;
     rdfs:label "白瀬咲耶(CV.八巻アンナ)" ;
     scdb:character idol:Shirase_Sakuya ;
     scdb:cv actor:Yamaki_Anna .
 
-<Tanaka_Mamimi_%28CV_Suganuma_Chisa%28> a scdb:Singer ;
+<Tanaka_Mamimi_%28CV_Suganuma_Chisa%28> a scdb:Performer ;
     rdfs:label "田中摩美々(CV.菅沼千紗)" ;
     scdb:character idol:Tanaka_Mamimi ;
     scdb:cv actor:Suganuma_Chisa .
 
-<Yukoku_Kiriko_%28CV_Yuina_Miduki%28> a scdb:Singer ;
+<Yukoku_Kiriko_%28CV_Yuina_Miduki%28> a scdb:Performer ;
     rdfs:label "幽谷霧子(CV.結名美月)" ;
     scdb:character idol:Yukoku_Kiriko ;
     scdb:cv actor:Yuina_Miduki .
 
-<Komiya_Kaho_%28CV_Kono_Hiyori%28> a scdb:Singer ;
+<Komiya_Kaho_%28CV_Kono_Hiyori%28> a scdb:Performer ;
     rdfs:label "小宮果穂(CV.河野ひより)" ;
     scdb:character idol:Komiya_Kaho ;
     scdb:cv actor:Kono_Hiyori .
 
-<Saijo_Juri_%28CV_Nagai_Mariko%28> a scdb:Singer ;
+<Saijo_Juri_%28CV_Nagai_Mariko%28> a scdb:Performer ;
     rdfs:label "西城樹里(CV.永井真理子)" ;
     scdb:character idol:Saijo_Juri ;
     scdb:cv actor:Nagai_Mariko .
 
-<Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28> a scdb:Singer ;
+<Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28> a scdb:Performer ;
     rdfs:label "有栖川夏葉(CV.涼本あきほ)" ;
     scdb:character idol:Arisugawa_Natsuha ;
     scdb:cv actor:Suzumoto_Akiho .
 
-<Morino_Rinze_%28CV_Maruoka_Wakana%28> a scdb:Singer ;
+<Morino_Rinze_%28CV_Maruoka_Wakana%28> a scdb:Performer ;
     rdfs:label "杜野凛世(CV.丸岡和佳奈)" ;
     scdb:character idol:Morino_Rinze ;
     scdb:cv actor:Maruoka_Wakana .
 
-<Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28> a scdb:Singer ;
+<Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28> a scdb:Performer ;
     rdfs:label "園田千代子(CV.白石晴香)" ;
     scdb:character idol:Sonoda_Chiyoko ;
     scdb:cv actor:Shiraishi_Haruka .
 
-<Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28> a scdb:Singer ;
+<Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28> a scdb:Performer ;
     rdfs:label "桑山千雪(CV.芝崎典子)" ;
     scdb:character idol:Kuwayama_Chiyuki ;
     scdb:cv actor:Shibasaki_Noriko .
 
-<Osaki_Tenka_%28CV_Maekawa_Ryoko%28> a scdb:Singer ;
+<Osaki_Tenka_%28CV_Maekawa_Ryoko%28> a scdb:Performer ;
     rdfs:label "大崎甜花(CV.前川涼子)" ;
     scdb:character idol:Osaki_Tenka ;
     scdb:cv actor:Maekawa_Ryoko .
 
-<Osaki_Amana_%28CV_Kuroki_Honoka%28> a scdb:Singer ;
+<Osaki_Amana_%28CV_Kuroki_Honoka%28> a scdb:Performer ;
     rdfs:label "大崎甘奈(CV.黒木ほの香)" ;
     scdb:character idol:Osaki_Amana ;
     scdb:cv actor:Kuroki_Honoka .
 
-<Serizawa_Asahi_%28CV_Tanaka_Yuki%28> a scdb:Singer ;
+<Serizawa_Asahi_%28CV_Tanaka_Yuki%28> a scdb:Performer ;
     rdfs:label "芹沢あさひ(CV.田中有紀)" ;
     scdb:character idol:Serizawa_Asahi ;
     scdb:cv actor:Tanaka_Yuki .
 
-<Izumi_Mei_%28CV_Kitahara_Sayaka%28> a scdb:Singer ;
+<Izumi_Mei_%28CV_Kitahara_Sayaka%28> a scdb:Performer ;
     rdfs:label "和泉愛依(CV.北原沙弥香)" ;
     scdb:character idol:Izumi_Mei ;
     scdb:cv actor:Kitahara_Sayaka .
 
-<Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28> a scdb:Singer ;
+<Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28> a scdb:Performer ;
     rdfs:label "黛冬優子(CV.幸村恵理)" ;
     scdb:character idol:Mayuzumi_Fuyuko ;
     scdb:cv actor:Yukimura_Eri .
 
-<Asakura_Toru_%28CV_Wakui_Yu%28> a scdb:Singer ;
+<Asakura_Toru_%28CV_Wakui_Yu%28> a scdb:Performer ;
     rdfs:label "浅倉透(CV.和久井優)" ;
     scdb:character idol:Asakura_Toru ;
     scdb:cv actor:Wakui_Yu .
 
-<Higuchi_Madoka_%28CV_Tsuchiya_Rio%28> a scdb:Singer ;
+<Higuchi_Madoka_%28CV_Tsuchiya_Rio%28> a scdb:Performer ;
     rdfs:label "樋口円香(CV.土屋李央)" ;
     scdb:character idol:Higuchi_Madoka ;
     scdb:cv actor:Tsuchiya_Rio .
 
-<Fukumaru_Koito_%28CV_Tajima_Saran%28> a scdb:Singer ;
+<Fukumaru_Koito_%28CV_Tajima_Saran%28> a scdb:Performer ;
     rdfs:label "福丸小糸(CV.田嶌紗蘭)" ;
     scdb:character idol:Fukumaru_Koito ;
     scdb:cv actor:Tajima_Saran .
 
-<Ichikawa_Hinana_%28CV_Okasaki_Miho%28> a scdb:Singer ;
+<Ichikawa_Hinana_%28CV_Okasaki_Miho%28> a scdb:Performer ;
     rdfs:label "市川雛菜(CV.岡咲美保)" ;
     scdb:character idol:Ichikawa_Hinana ;
     scdb:cv actor:Okasaki_Miho .
 
-<Nanakusa_Nichika_%28CV_Shizuki_Azusa%28> a scdb:Singer ;
+<Nanakusa_Nichika_%28CV_Shizuki_Azusa%28> a scdb:Performer ;
     rdfs:label "七草にちか(CV.紫月杏朱彩)" ;
     scdb:character idol:Nanakusa_Nichika ;
     scdb:cv actor:Shizuki_Azusa .
 
-<Aketa_Mikoto_%28CV_Yamane_Aya%28> a scdb:Singer ;
+<Aketa_Mikoto_%28CV_Yamane_Aya%28> a scdb:Performer ;
     rdfs:label "緋田美琴(CV.山根綺)" ;
     scdb:character idol:Aketa_Mikoto ;
     scdb:cv actor:Yamane_Aya .
 
-<Ikaruga_Luca_%28CV_Kawaguchi_Rina%28> a scdb:Singer ;
+<Ikaruga_Luca_%28CV_Kawaguchi_Rina%28> a scdb:Performer ;
     rdfs:label "斑鳩ルカ(CV.川口莉奈)" ;
     scdb:character idol:Ikaruga_Luca ;
     scdb:cv actor:Kawaguchi_Rina .

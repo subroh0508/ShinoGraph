@@ -1,6 +1,6 @@
 BASE <https://283db.org/resource/music/album/brilliant-wing/>
 PREFIX scdb: <https://283db.org/schema#>
-PREFIX singer: <https://283db.org/resource/artist/singer/>
+PREFIX perform: <https://283db.org/resource/artist/performer/>
 PREFIX song: <https://283db.org/resource/music/song/>
 PREFIX series: <https://283db.org/resource/music/album/series/>
 PREFIX : <http://schema.org/>
@@ -28,22 +28,22 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     rdfs:label "シャイニーカラーズ" ;
                     :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
                     :member
-                        singer:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
-                        singer:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
-                        singer:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
-                        singer:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
-                        singer:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
-                        singer:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
-                        singer:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
-                        singer:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
-                        singer:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
-                        singer:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
-                        singer:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
-                        singer:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
-                        singer:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
-                        singer:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
-                        singer:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
-                        singer:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
             ]
     ], [
         a :MusicRecoding ;
@@ -55,22 +55,22 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     rdfs:label "シャイニーカラーズ" ;
                     :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
                     :member
-                        singer:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
-                        singer:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
-                        singer:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
-                        singer:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
-                        singer:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
-                        singer:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
-                        singer:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
-                        singer:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
-                        singer:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
-                        singer:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
-                        singer:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
-                        singer:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
-                        singer:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
-                        singer:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
-                        singer:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
-                        singer:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
             ]
     ] ;
     :albumRelease [
