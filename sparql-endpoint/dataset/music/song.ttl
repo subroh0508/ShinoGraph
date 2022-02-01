@@ -1,6 +1,6 @@
 BASE <https://283db.org/resource/music/song/>
 PREFIX scdb: <https://283db.org/schema#>
-PREFIX credit: <https://283db.org/resource/artist/song-writer-credit/>
+PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>

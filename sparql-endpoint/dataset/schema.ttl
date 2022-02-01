@@ -45,7 +45,7 @@ scdb:SongWriter a rdfs:Class ;
     rdfs:label "作曲家・作詞家"@ja, "Composer or Lyricist"@en ;
     rdfs:subClassOf dbo:MusicalArtist .
 
-scdb:SongWriterCredit a rdfs:Class ;
+scdb:CreditSongWriter a rdfs:Class ;
     rdfs:label "CDのクレジット上の名義で表記された作曲家・作詞家"@ja, "Composers or Lyricists listed by name in the CD credits"@en ;
     rdfs:subClassOf dbo:MusicalArtist .
 
