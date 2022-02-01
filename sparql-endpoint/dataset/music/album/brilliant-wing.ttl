@@ -20,6 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :numTracks 2 ;
     :track [
         a :MusicRecording ;
+            rdfs:label "Spread the Wings!!" ;
             :recordingOf song:Spread_the_Wings%21%21 ;
             :position 1 ;
             :byArtist [
@@ -46,6 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             ]
     ], [
         a :MusicRecoding ;
+            rdfs:label "Multicolored Sky" ;
             :recordingOf song:Multicolored_Sky ;
             :position 2 ;
             :byArtist [
