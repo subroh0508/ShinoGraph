@@ -1,6 +1,7 @@
 BASE <https://283db.org/resource/artist/performer/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX unit: <https://283db.org/resource/character/unit/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -144,3 +145,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "斑鳩ルカ(CV.川口莉奈)" ;
     scdb:character idol:Ikaruga_Luca ;
     scdb:cv actor:Kawaguchi_Rina .
+
+<illumination_STARS> a :MusicGroup ;
+    rdfs:label "イルミネーションスターズ" ;
+    :name "イルミネーションスターズ"@ja, "illumination STARS"@ja, "illumination STARS"@en, "イルミネーションスターズ" ;
+    :member
+        <Sakuragi_Mano_%28CV_Sekine_Hitomi%28> ,
+        <Kazano_Hiori_%28CV_Kondo_Reina%28> ,
+        <Hachimiya_Meguru_%28CV_Mineda_Mayu%28> ;
+    :sameAs unit:illumination_STARS .
+

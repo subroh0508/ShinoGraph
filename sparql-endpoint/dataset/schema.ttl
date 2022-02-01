@@ -49,6 +49,14 @@ scdb:CreditSongWriter a rdfs:Class ;
     rdfs:label "CDのクレジット上の名義で表記された作曲家・作詞家"@ja, "Composers or Lyricists listed by name in the CD credits"@en ;
     rdfs:subClassOf dbo:MusicalArtist .
 
+scdb:AudioDrama a rdfs:Class ;
+    rdfs:label "オーディオドラマ"@ja, "Audio Drama"@en ;
+    rdfs:subClassOf :Episode .
+
+scdb:Commu a rdfs:Class ;
+    rdfs:label "コミュ"@ja, "Commu"@en ;
+    rdfs:subClassOf :Episode .
+
 # Properties
 scdb:hobby a rdf:Property ;
     rdfs:label "趣味"@ja, "hobby"@en ;
@@ -100,6 +108,7 @@ scdb:youtubeUrl a rdf:Property ;
     rdfs:label "YouTube動画のURL"@ja, "URL of YouTube"@en ;
     rdfs:range xsd:uri .
 
-scdb:credit a rdf:Property ;
-    rdfs:label "YouTube動画のURL"@ja, "URL of YouTube"@en ;
-    rdfs:range xsd:uri .
+scdb:price a rdf:Property ;
+    rdfs:label "日本円での価格(税抜)"@ja, "Price in Japanese Yen(Tax Excluded)"@en ;
+    rdfs:domain :MusicRelease ;
+    rdfs:range xsd:integer .

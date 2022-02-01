@@ -78,6 +78,51 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14781/> ;
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/jk_LACM-14781.jpg> ;
         :catalogNumber "LACM-14781" ;
-        :datePublished "2018-06-06"^^xsd:date
+        :datePublished "2018-06-06"^^xsd:date ;
+        scdb:price 1300
+    ] ;
+    :isPartOf series:BW .
+
+<BW02> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 02 ヒカリのdestination" ;
+    :name
+        "BRILLI@NT WING 02"@ja, "BRILLI@NT WING 02"@en, "BRILLI@NT WING 02",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 02"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 02"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 02",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 02 ヒカリのdestination"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 02 Hikari no destination"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 02 ヒカリのdestination" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "ヒカリのdestination" ;
+            :recordingOf song:Hikari_no_destination ;
+            :position 1 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a :MusicRecording ;
+            rdfs:label "虹になれ" ;
+            :recordingOf song:Niji_ni_Nare ;
+            :position 2 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Spread the Wings!! (イルミネーションスターズ Ver.)" ;
+            :recordingOf song:Spread_the_Wings%21%21 ;
+            :position 3 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「イルミネーションスターズ・イン・ストア」" ;
+            :position 4 ;
+            :actor
+                perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14782/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14782.jpg> ;
+        :catalogNumber "LACM-14782" ;
+        :datePublished "2018-07-04"^^xsd:date ;
+        scdb:price 1800
     ] ;
     :isPartOf series:BW .

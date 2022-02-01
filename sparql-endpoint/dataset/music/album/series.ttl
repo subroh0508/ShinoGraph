@@ -17,4 +17,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :startDate "2018-06-06"^^xsd:date ;
     :endDate "2018-10-03"^^xsd:date ;
     :hasPart
-        album:BW01 .
+        album:BW01 ,
+        album:BW02 .
