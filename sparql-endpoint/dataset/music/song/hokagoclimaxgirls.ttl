@@ -1,0 +1,66 @@
+BASE <https://283db.org/resource/music/song/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Yumesaki_After_school> a :MusicComposition ;
+    rdfs:label "夢咲きAfter school" ;
+    :name "夢咲きAfter school"@ja, "Yumesaki After school"@en, "夢咲きAfter school" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Minamida_Kengo%28onetrap%28 ;
+    :editor credit:Minamida_Kengo%28onetrap%28 .
+
+<Taiyou_Kiss> a :MusicComposition ;
+    rdfs:label "太陽キッス" ;
+    :name "太陽キッス"@ja, "Taiyou Kiss"@en, "太陽キッス" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:no_my ;
+    :editor credit:no_my .
+
+<Beach_Braver> a :MusicComposition ;
+    rdfs:label "ビーチブレイバー" ;
+    :name "ビーチブレイバー"@ja, "Beach Braver"@en, "ビーチブレイバー" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:GAKU ;
+    :editor credit:Watanabe_Toru .
+
+<Yorimichi_Sunset> a :MusicComposition ;
+    rdfs:label "よりみちサンセット" ;
+    :name "よりみちサンセット"@ja, "Yorimichi Sunset"@en, "よりみちサンセット" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Kokubo_Yuki, credit:YUU_for_YOU ;
+    :editor credit:YUU_for_YOU .
+
+<Itsutsuza_Ryuuseigun> a :MusicComposition ;
+    rdfs:label "五ツ座流星群" ;
+    :name "五ツ座流星群"@ja, "Itsutsuza Ryuuseigun"@en, "五ツ座流星群" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Miura_Seiji ;
+    :editor credit:Miura_Seiji .
+
+<Gakusai_Kakumei_Yoakemae> a :MusicComposition ;
+    rdfs:label "学祭革命夜明け前" ;
+    :name "学祭革命夜明け前"@ja, "Gakusai Kakumei Yoakemae"@en, "学祭革命夜明け前" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Sasakura_Yugo ;
+    :editor credit:Sasakura_Yugo .
+
+<Climax_Island> a :MusicComposition ;
+    rdfs:label "クライマックスアイランド" ;
+    :name "クライマックスアイランド"@ja, "Climax Island"@en, "クライマックスアイランド" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:INN ;
+    :editor credit:INN .
+
+<Haikei_Time_Capsule> a :MusicComposition ;
+    rdfs:label "拝啓タイムカプセル" ;
+    :name "拝啓タイムカプセル"@ja, "Haikei Time Capsule"@en, "拝啓タイムカプセル" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Kokubo_Yuki, credit:YUU_for_YOU ;
+    :editor credit:YUU_for_YOU .

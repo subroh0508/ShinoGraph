@@ -22,3 +22,45 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :lyricist credit:Nakamura_Kanata ;
     :composer credit:Fujisue_Miki ;
     :editor credit:Fujisue_Miki .
+
+<We_can_go_now%21> a :MusicComposition ;
+    rdfs:label "We can go now!" ;
+    :name "We can go now!"@ja, "We can go now!"@en, "We can go now!" ;
+    :lyricist credit:Nakamura_Kanata ;
+    :composer credit:Onishi_Katsumi ;
+    :editor credit:Onishi_Katsumi .
+
+<Triangle> a :MusicComposition ;
+    rdfs:label "トライアングル" ;
+    :name "トライアングル"@ja, "Triangle"@en, "トライアングル" ;
+    :lyricist credit:Nakamura_Kanata ;
+    :composer credit:Giz%27Mo%28from_Jam9%28, credit:ArmySlick ;
+    :editor credit:ArmySlick .
+
+<Twinkle_way> a :MusicComposition ;
+    rdfs:label "Twinkle way" ;
+    :name "Twinkle way"@ja, "Twinkle way"@en, "Twinkle way" ;
+    :lyricist credit:Watanabe_Akiko ;
+    :composer credit:Nabeya_Takuma%28luxis%28 ;
+    :editor credit:Ito_Ken .
+
+<Happy_Funny_Lucky> a :MusicComposition ;
+    rdfs:label "Happy Funny Lucky" ;
+    :name "Happy Funny Lucky"@ja, "Happy Funny Lucky"@en, "Happy Funny Lucky" ;
+    :lyricist credit:Watanabe_Akiko ;
+    :composer credit:Nakano_Ryota%28onetrap%28 ;
+    :editor credit:Nakano_Ryota%28onetrap%28 .
+
+<PRISISM> a :MusicComposition ;
+    rdfs:label "PRISISM" ;
+    :name "PRISISM"@ja, "PRISISM"@en, "PRISISM" ;
+    :lyricist credit:Watanabe_Akiko ;
+    :composer credit:Miyoshi_Keita ;
+    :editor credit:Miyoshi_Keita .
+
+<Smile_Symphonia> a :MusicComposition ;
+    rdfs:label "スマイルシンフォニア" ;
+    :name "スマイルシンフォニア"@ja, "Smile Symphonia"@en, "スマイルシンフォニア" ;
+    :lyricist credit:Watanabe_Akiko ;
+    :composer credit:Miyoshi_Keita ;
+    :editor credit:Miyoshi_Keita .

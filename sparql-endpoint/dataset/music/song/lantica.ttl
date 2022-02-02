@@ -1,0 +1,66 @@
+BASE <https://283db.org/resource/music/song/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Babel_City_Grace> a :MusicComposition ;
+    rdfs:label "バベルシティ・グレイス" ;
+    :name "バベルシティ・グレイス"@ja, "Babel City Grace"@en, "バベルシティ・グレイス" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Minamida_Kengo%28onetrap%28 ;
+    :editor credit:Minamida_Kengo%28onetrap%28 .
+
+<Genwaku_SILHOUETTE> a :MusicComposition ;
+    rdfs:label "幻惑SILHOUETTE" ;
+    :name "幻惑SILHOUETTE"@ja, "Genwaku SILHOUETTE"@en, "幻惑SILHOUETTE" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:no_my ;
+    :editor credit:no_my .
+
+<NEO_THEORY_FANTASY> a :MusicComposition ;
+    rdfs:label "NEO THEORY FANTASY" ;
+    :name "NEO THEORY FANTASY"@ja, "NEO THEORY FANTASY"@en, "NEO THEORY FANTASY" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Nabeya_Takuma%28luxis%28 ;
+    :editor credit:Endo_Naoki%28HOVERBOARD%2CInc%2E%28 .
+
+<Labyrinth_Resistance> a :MusicComposition ;
+    rdfs:label "ラビリンス・レジスタンス" ;
+    :name "ラビリンス・レジスタンス"@ja, "Labyrinth Resistance"@en, "ラビリンス・レジスタンス" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Iehara_Masaki, credit:Lauren_Kaori ;
+    :editor credit:Iehara_Masaki .
+
+<Black_Reverie> a :MusicComposition ;
+    rdfs:label "Black Reverie" ;
+    :name "Black Reverie"@ja, "Black Reverie"@en, "Black Reverie" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Honda_Yuki%28Arte_Refact%28 ;
+    :editor credit:Honda_Yuki%28Arte_Refact%28 .
+
+<Junpaku_Träumerei> a :MusicComposition ;
+    rdfs:label "純白トロイメライ" ;
+    :name "純白トロイメライ"@ja, "純白トロイメライ"@en, "純白トロイメライ" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Harada_Atsushi%28Arte_Refact%28 ;
+    :editor credit:Harada_Atsushi%28Arte_Refact%28 .
+
+<abyss_of_conflict> a :MusicComposition ;
+    rdfs:label "abyss of conflict" ;
+    :name "abyss of conflict"@ja, "abyss of conflict"@en, "abyss of conflict" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Harada_Atsushi%28Arte_Refact%28 ;
+    :editor credit:Harada_Atsushi%28Arte_Refact%28 .
+
+<Kakumei_Shinkaron> a :MusicComposition ;
+    rdfs:label "革命進化論" ;
+    :name "革命進化論"@ja, "Kakumei Shinkaron"@en, "革命進化論" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Ito_Kazuma%28Arte_Refact%28 ;
+    :editor credit:Ito_Kazuma%28Arte_Refact%28 .

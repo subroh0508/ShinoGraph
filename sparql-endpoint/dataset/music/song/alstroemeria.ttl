@@ -1,0 +1,66 @@
+BASE <https://283db.org/resource/music/song/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Alstroemeria> a :MusicComposition ;
+    rdfs:label "アルストロメリア" ;
+    :name "アルストロメリア"@ja, "Alstroemeria"@en, "アルストロメリア" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:Morimoto_Takahiro ;
+    :editor credit:Morimoto_Takahiro .
+
+<Happy_Lily> a :MusicComposition ;
+    rdfs:label "ハピリリ" ;
+    :name "ハピリリ"@ja, "Happy Lily"@en, "ハピリリ" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:SHOW%28Digz%2C_Inc%2E_Group%28 ;
+    :editor credit:SHOW%28Digz%2C_Inc%2E_Group%28 .
+
+<Bloomy%21> a :MusicComposition ;
+    rdfs:label "Bloomy!" ;
+    :name "Bloomy!"@ja, "Bloomy!"@en, "Bloomy!" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:Kitanohara_Ryo ;
+    :editor credit:Ito_Ritsu .
+
+<Love_Addiction> a :MusicComposition ;
+    rdfs:label "Love Addiction" ;
+    :name "Love Addiction"@ja, "Love Addiction"@en, "Love Addiction" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:Iehara_Masaki, credit:Jam9 ;
+    :editor credit:Iehara_Masaki, credit:Mori_Yuya .
+
+<Double_Effect> a :MusicComposition ;
+    rdfs:label "ダブル・イフェクト" ;
+    :name "ダブル・イフェクト"@ja, "Double Effect"@en, "ダブル・イフェクト" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:Maruyama_Mayuko ;
+    :editor credit:ats- .
+
+<Anniversary> a :MusicComposition ;
+    rdfs:label "Anniversary" ;
+    :name "Anniversary"@ja, "Anniversary"@en, "Anniversary" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:Miyoshi_Keita ;
+    :editor credit:Miyoshi_Keita .
+
+<Pastel_Color_Pascala_Color> a :MusicComposition ;
+    rdfs:label "パステルカラー パスカラカラー" ;
+    :name "パステルカラー パスカラカラー"@ja, "Pastel Color Pascala Color"@en, "パステルカラー パスカラカラー" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:YUU_for_YOU, credit:Giz%27Mo%28from_Jam9%28 ;
+    :editor credit:YUU_for_YOU .
+
+<Love_Bon_Appétit> a :MusicComposition ;
+    rdfs:label "ラブ・ボナペティート" ;
+    :name "ラブ・ボナペティート"@ja, "Love Bon Appétit"@en, "ラブ・ボナペティート" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:Ishii_Kentaro ;
+    :editor credit:Ishii_Kentaro .
