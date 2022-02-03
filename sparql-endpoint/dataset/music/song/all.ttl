@@ -22,3 +22,45 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :lyricist credit:Matsui_Yohei ;
     :composer credit:Takada_Kyo ;
     :editor credit:Takada_Kyo .
+
+<Ambitious_Eve> a :MusicComposition ;
+    rdfs:label "Ambitious Eve" ;
+    :name "Ambitious Eve"@ja, "Ambitious Eve"@en, "Ambitious Eve" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Yamada_Tomokazu ;
+    :editor credit:Sumiya_Shohei .
+
+<Itsuka_Shiny_Days> a :MusicComposition ;
+    rdfs:label "いつか Shiny Days" ;
+    :name "いつか Shiny Days"@ja, "Itsuka Shiny Days"@en, "いつか Shiny Days" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:Yamada_Tomokazu ;
+    :editor credit:Hasegawa_Tomoki .
+
+<Shinography> a :MusicComposition ;
+    rdfs:label "シャイノグラフィ" ;
+    :name "シャイノグラフィ"@ja, "Shinography"@en, "シャイノグラフィ" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Hige_Driver ;
+    :editor credit:Hige_Driver .
+
+<Dye_the_sky%2E> a :MusicComposition ;
+    rdfs:label "Dye the sky." ;
+    :name "Dye the sky."@ja, "Dye the sky."@en, "Dye the sky." ;
+    :lyricist credit:Karasuya_Sabo ;
+    :composer credit:Hige_Driver ;
+    :editor credit:Hige_Driver .
+
+<Resonance⁺> a :MusicComposition ;
+    rdfs:label "Resonance⁺" ;
+    :name "Resonance⁺"@ja, "Resonance⁺"@en, "Resonance⁺" ;
+    :lyricist credit:Sonoda_Kentaro ;
+    :composer credit:Sonoda_Kentaro ;
+    :editor credit:Sonoda_Kentaro .
+
+<Color_Days> a :MusicComposition ;
+    rdfs:label "Color Days" ;
+    :name "Color Days"@ja, "Color Days"@en, "Color Days" ;
+    :lyricist credit:Co-sho ;
+    :composer credit:Iehara_Masaki, credit:Kokubo_Yuki, credit:YHANAEL ;
+    :editor credit:YUU_for_YOU .
