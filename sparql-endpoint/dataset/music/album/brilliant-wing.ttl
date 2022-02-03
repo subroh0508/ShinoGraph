@@ -126,3 +126,139 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         scdb:price 1800
     ] ;
     :isPartOf series:BW .
+
+<BW03> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 03 バベルシティ・グレイス" ;
+    :name
+        "BRILLI@NT WING 03"@ja, "BRILLI@NT WING 03"@en, "BRILLI@NT WING 03",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 03"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 03"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 03",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 03 バベルシティ・グレイス"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 03 Babel City Grace"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 03 バベルシティ・グレイス" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "バベルシティ・グレイス" ;
+            :recordingOf song:Babel_City_Grace ;
+            :position 1 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a :MusicRecording ;
+            rdfs:label "幻惑SILHOUETTE" ;
+            :recordingOf song:Genwaku_SILHOUETTE ;
+            :position 2 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Spread the Wings!! (アンティーカ Ver.)" ;
+            :recordingOf song:Spread_the_Wings%21%21 ;
+            :position 3 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「アンティーカより愛を込めて」" ;
+            :position 4 ;
+            :actor
+                perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14783/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14783.jpg> ;
+        :catalogNumber "LACM-14783" ;
+        :datePublished "2018-08-01"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:BW .
+
+<BW04> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 04 夢咲きAfter school" ;
+    :name
+        "BRILLI@NT WING 04"@ja, "BRILLI@NT WING 04"@en, "BRILLI@NT WING 04",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 04"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 04"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 04",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 04 夢咲きAfter school"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 04 Yumesaki After school"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 04 夢咲きAfter school" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "夢咲きAfter school" ;
+            :recordingOf song:Yumesaki_After_school ;
+            :position 1 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a :MusicRecording ;
+            rdfs:label "太陽キッス" ;
+            :recordingOf song:Taiyou_Kiss ;
+            :position 2 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Spread the Wings!! (放課後クライマックスガールズ Ver.)" ;
+            :recordingOf song:Spread_the_Wings%21%21 ;
+            :position 3 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「果穂のワクワク観察日記」" ;
+            :position 4 ;
+            :actor
+                perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14784/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14784.jpg> ;
+        :catalogNumber "LACM-14784" ;
+        :datePublished "2018-09-05"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:BW .
+
+<BW05> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05 アルストロメリア" ;
+    :name
+        "BRILLI@NT WING 05"@ja, "BRILLI@NT WING 05"@en, "BRILLI@NT WING 05",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05",
+        "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05 アルストロメリア"@ja, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05 ALSTROEMERIA"@en, "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 05 アルストロメリア" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "アルストロメリア" ;
+            :recordingOf song:Alstroemeria ;
+            :position 1 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a :MusicRecording ;
+            rdfs:label "ハピリリ" ;
+            :recordingOf song:Happy_Lily ;
+            :position 2 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Spread the Wings!! (アルストロメリア Ver.)" ;
+            :recordingOf song:Spread_the_Wings%21%21 ;
+            :position 3 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「かぜっぴきパニック！」" ;
+            :position 4 ;
+            :actor
+                perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14785/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14785.jpg> ;
+        :catalogNumber "LACM-14785" ;
+        :datePublished "2018-10-03"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:BW .

@@ -155,3 +155,82 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Hachimiya_Meguru_%28CV_Mineda_Mayu%28> ;
     :sameAs unit:illumination_STARS .
 
+<L%27Antica> a :MusicGroup ;
+    rdfs:label "アンティーカ" ;
+    :name "アンティーカ"@ja, "L'Antica"@ja, "L'Antica"@en, "アンティーカ" ;
+    :member
+        <Tsukioka_Kogane_%28CV_Isobe_Karin%28> ,
+        <Mitsumine_Yuika_%28CV_Kisui_Shio%28> ,
+        <Shirase_Sakuya_%28CV_Yamaki_Anna%28> ,
+        <Tanaka_Mamimi_%28CV_Suganuma_Chisa%28> ,
+        <Yukoku_Kiriko_%28CV_Yuina_Miduki%28> ;
+    :sameAs unit:L%27Antica .
+
+<L%27Antica> a :MusicGroup ;
+    rdfs:label "アンティーカ" ;
+    :name "アンティーカ"@ja, "L'Antica"@ja, "L'Antica"@en, "アンティーカ" ;
+    :member
+        <Tsukioka_Kogane_%28CV_Isobe_Karin%28> ,
+        <Mitsumine_Yuika_%28CV_Kisui_Shio%28> ,
+        <Shirase_Sakuya_%28CV_Yamaki_Anna%28> ,
+        <Tanaka_Mamimi_%28CV_Suganuma_Chisa%28> ,
+        <Yukoku_Kiriko_%28CV_Yuina_Miduki%28> ;
+    :sameAs unit:L%27Antica .
+
+<L%27Antica_2018> a :MusicGroup ;
+    rdfs:label "アンティーカ" ;
+    :name "アンティーカ"@ja, "L'Antica"@ja, "L'Antica"@en, "アンティーカ" ;
+    :member
+        <Tsukioka_Kogane_%28CV_Isobe_Karin%28> ,
+        <Mitsumine_Yuika_%28CV_Narumi_Runa%28> ,
+        <Shirase_Sakuya_%28CV_Yamaki_Anna%28> ,
+        <Tanaka_Mamimi_%28CV_Suganuma_Chisa%28> ,
+        <Yukoku_Kiriko_%28CV_Yuina_Miduki%28> ;
+    :sameAs unit:L%27Antica .
+
+<Hokago_Climax_Girls> a :MusicGroup ;
+    rdfs:label "放課後クライマックスガールズ" ;
+    :name "放課後クライマックスガールズ"@ja, "Hokago Climax Girls"@en, "放課後クライマックスガールズ" ;
+    :member
+        <Komiya_Kaho_%28CV_Kono_Hiyori%28> ,
+        <Saijo_Juri_%28CV_Nagai_Mariko%28> ,
+        <Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28> ,
+        <Morino_Rinze_%28CV_Maruoka_Wakana%28> ,
+        <Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28> ;
+    :sameAs unit:Hokago_Climax_Girls .
+
+<ALSTROEMERIA> a :MusicGroup ;
+    rdfs:label "アルストロメリア" ;
+    :name "アルストロメリア"@ja, "ALSTROEMERIA"@en, "アルストロメリア" ;
+    :member
+        <Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28> ,
+        <Osaki_Tenka_%28CV_Maekawa_Ryoko%28> ,
+        <Osaki_Amana_%28CV_Kuroki_Honoka%28> ;
+    :sameAs unit:ALSTROEMERIA .
+
+<Straylight> a :MusicGroup ;
+    rdfs:label "ストレイライト" ;
+    :name "ストレイライト"@ja, "Straylight"@en, "ストレイライト" ;
+    :member
+        <Serizawa_Asahi_%28CV_Tanaka_Yuki%28> ,
+        <Izumi_Mei_%28CV_Kitahara_Sayaka%28> ,
+        <Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28> ;
+    :sameAs unit:Straylight .
+
+<noctchill> a :MusicGroup ;
+    rdfs:label "ノクチル" ;
+    :name "ノクチル"@ja, "noctchill"@en, "ノクチル" ;
+    :member
+        <Asakura_Toru_%28CV_Wakui_Yu%28> ,
+        <Higuchi_Madoka_%28CV_Tsuchiya_Rio%28> ,
+        <Fukumaru_Koito_%28CV_Tajima_Saran%28> ,
+        <Ichikawa_Hinana_%28CV_Okasaki_Miho%28> ;
+    :sameAs unit:noctchill .
+
+<SHHis> a :MusicGroup ;
+    rdfs:label "シーズ" ;
+    :name "シーズ"@ja, "SHHis"@en, "シーズ" ;
+    :member
+        <Nanakusa_Nichika_%28CV_Shizuki_Azusa%28> ,
+        <Aketa_Mikoto_%28CV_Yamane_Aya%28> ;
+    :sameAs unit:SHHis .
