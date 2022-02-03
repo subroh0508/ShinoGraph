@@ -1,0 +1,25 @@
+BASE <https://283db.org/resource/music/song/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<OH_MY_GOD> a :MusicComposition ;
+    rdfs:label "OH MY GOD" ;
+    :name "OH MY GOD"@ja, "OH MY GOD"@en, "OH MY GOD" ;
+    :lyricist credit:Co-sho ;
+    :composer credit:Kokubo_Yuki, credit:Eunsol%281008%28 ;
+    :editor credit:Eunsol%281008%28 .
+
+<Fly_and_Fly> a :MusicComposition ;
+    rdfs:label "Fly and Fly" ;
+    :name "Fly and Fly"@ja, "Fly and Fly"@en, "Fly and Fly" ;
+    :lyricist credit:Co-sho ;
+    :composer credit:Kohei_Yokono, credit:Kokubo_Yuki, credit:JUNE ;
+    :editor credit:Kohei_Yokono .
+

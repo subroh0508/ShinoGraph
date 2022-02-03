@@ -1,0 +1,52 @@
+BASE <https://283db.org/resource/music/song/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Wandering_Dream_Chaser> a :MusicComposition ;
+    rdfs:label "Wandering Dream Chaser" ;
+    :name "Wandering Dream Chaser"@ja, "Wandering Dream Chaser"@en, "Wandering Dream Chaser" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:Kokubo_Yuki, credit:YUU_for_YOU ;
+    :editor credit:YUU_for_YOU .
+
+<Transcending_The_World> a :MusicComposition ;
+    rdfs:label "Transcending The World" ;
+    :name "Transcending The World"@ja, "Transcending The World"@en, "Transcending The World" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:R・O・N ;
+    :editor credit:R・O・N .
+
+<Hide_%26_Attack> a :MusicComposition ;
+    rdfs:label "Hide & Attack" ;
+    :name "Hide & Attack"@ja, "Hide & Attack"@en, "Hide & Attack" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:Honda_Yuki%28Arte_Refact%28 ;
+    :editor credit:Kawai_Taishi%28Arte_Refact%28 .
+
+<Destined_Rival> a :MusicComposition ;
+    rdfs:label "Destined Rival" ;
+    :name "Destined Rival"@ja, "Destined Rival"@en, "Destined Rival" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:Onishi_Katsumi ;
+    :editor credit:Onishi_Katsumi .
+
+<Another_Rampage> a :MusicComposition ;
+    rdfs:label "Another Rampage" ;
+    :name "Another Rampage"@ja, "Another Rampage"@en, "Another Rampage" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:Kusano_Masashi ;
+    :editor credit:Kusano_Masashi .
+
+<Timeless_Shooting_Star> a :MusicComposition ;
+    rdfs:label "Timeless Shooting Star" ;
+    :name "Timeless Shooting Star"@ja, "Timeless Shooting Star"@en, "Timeless Shooting Star" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:Tokuda_Mitsuki ;
+    :editor credit:Tokuda_Mitsuki .
