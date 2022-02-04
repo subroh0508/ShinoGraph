@@ -21,4 +21,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:BW02 ,
         album:BW03 ,
         album:BW04 ,
-        album:BW05 ;
+        album:BW05 .
+
+<FW> a :CreativeWorkSeries ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS FR@GMENT WING" ;
+    :name
+        "FR@GMENT WING"@ja, "FR@GMENT WING"@en, "FR@GMENT WING",
+        "THE IDOLM@STER SHINY COLORS FR@GMENT WING"@ja, "THE IDOLM@STER SHINY COLORS FR@GMENT WING"@en, "THE IDOLM@STER SHINY COLORS FR@GMENT WING" ;
+    :startDate "2019-04-10"^^xsd:date ;
+    :endDate "2018-10-03"^^xsd:date ;
+    :hasPart
+        album:FW01 ,
+        album:FW02 ,
+        album:FW03 ,
+        album:FW04 ,
+        album:FW05 ,
+        album:FW06 .

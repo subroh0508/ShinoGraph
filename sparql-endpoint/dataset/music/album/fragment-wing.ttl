@@ -1,0 +1,308 @@
+BASE <https://283db.org/resource/music/album/fragment-wing/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX perform: <https://283db.org/resource/artist/performer/>
+PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX series: <https://283db.org/resource/music/album/series/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<FW01> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS FR@GMENT WING 01" ;
+    :name
+        "FR@GMENT WING 01"@ja, "FR@GMENT WING 01"@en, "FR@GMENT WING 01",
+        "THE IDOLM@STER SHINY COLORS FR@GMENT WING 01"@ja, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 01"@en, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 01" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "Ambitious Eve" ;
+            :recordingOf song:Ambitious_Eve ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "いつか Shiny Days" ;
+            :recordingOf song:Itsuka_Shiny_Days ;
+            :position 2 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+            ]
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14861/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14861.jpg> ;
+        :catalogNumber "LACM-14861" ;
+        :datePublished "2019-04-10"^^xsd:date ;
+        scdb:price 1300
+    ] ;
+    :isPartOf series:FW .
+
+<FW02> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS FR@GMENT WING 02" ;
+    :name
+        "FR@GMENT WING 02"@ja, "FR@GMENT WING 02"@en, "FR@GMENT WING 02",
+        "THE IDOLM@STER SHINY COLORS FR@GMENT WING 02"@ja, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 02"@en, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 02" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "We can go now!" ;
+            :recordingOf song:We_can_go_now%21 ;
+            :position 1 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a :MusicRecording ;
+            rdfs:label "トライアングル" ;
+            :recordingOf song:Triangle ;
+            :position 2 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Ambitious Eve (イルミネーションスターズ Ver.)" ;
+            :recordingOf song:Ambitious_Eve ;
+            :position 3 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「輝く笑顔に向かって」" ;
+            :position 4 ;
+            :actor
+                perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14862/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14862.jpg> ;
+        :catalogNumber "LACM-14862" ;
+        :datePublished "2019-05-08"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:FW .
+
+<FW03> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS FR@GMENT WING 03" ;
+    :name
+        "FR@GMENT WING 03"@ja, "FR@GMENT WING 03"@en, "FR@GMENT WING 03",
+        "THE IDOLM@STER SHINY COLORS FR@GMENT WING 03"@ja, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 03"@en, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 03" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "NEO THEORY FANTASY" ;
+            :recordingOf song:NEO_THEORY_FANTASY ;
+            :position 1 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a :MusicRecording ;
+            rdfs:label "ラビリンス・レジスタンス" ;
+            :recordingOf song:Labyrinth_Resistance ;
+            :position 2 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Ambitious Eve (アンティーカ Ver.)" ;
+            :recordingOf song:Ambitious_Eve ;
+            :position 3 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「千変万化のアンティーカ」" ;
+            :position 4 ;
+            :actor
+                perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14863/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14863.jpg> ;
+        :catalogNumber "LACM-14863" ;
+        :datePublished "2019-06-12"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:FW .
+
+<FW04> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS FR@GMENT WING 04" ;
+    :name
+        "FR@GMENT WING 04"@ja, "FR@GMENT WING 04"@en, "FR@GMENT WING 04",
+        "THE IDOLM@STER SHINY COLORS FR@GMENT WING 04"@ja, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 04"@en, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 04" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "ビーチブレイバー" ;
+            :recordingOf song:Beach_Braver ;
+            :position 1 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a :MusicRecording ;
+            rdfs:label "よりみちサンセット" ;
+            :recordingOf song:Yorimichi_Sunset ;
+            :position 2 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Ambitious Eve (放課後クライマックスガールズ Ver.)" ;
+            :recordingOf song:Ambitious_Eve ;
+            :position 3 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「放課後テーマパーク」" ;
+            :position 4 ;
+            :actor
+                perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14864/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14864.jpg> ;
+        :catalogNumber "LACM-14864" ;
+        :datePublished "2019-07-10"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:FW .
+
+<FW05> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS FR@GMENT WING 05" ;
+    :name
+        "FR@GMENT WING 05"@ja, "FR@GMENT WING 05"@en, "FR@GMENT WING 05",
+        "THE IDOLM@STER SHINY COLORS FR@GMENT WING 05"@ja, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 05"@en, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 05" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "Bloomy!" ;
+            :recordingOf song:Bloomy%21 ;
+            :position 1 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Love Addiction" ;
+            :recordingOf song:Love_Addiction ;
+            :position 2 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Ambitious Eve (アルストロメリア Ver.)" ;
+            :recordingOf song:Ambitious_Eve ;
+            :position 3 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「つないだ手と手」" ;
+            :position 4 ;
+            :actor
+                perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14865/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14865.jpg> ;
+        :catalogNumber "LACM-14865" ;
+        :datePublished "2019-08-21"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:FW .
+
+<FW06> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS FR@GMENT WING 06" ;
+    :name
+        "FR@GMENT WING 06"@ja, "FR@GMENT WING 06"@en, "FR@GMENT WING 06",
+        "THE IDOLM@STER SHINY COLORS FR@GMENT WING 06"@ja, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 06"@en, "THE IDOLM@STER SHINY COLORS FR@GMENT WING 06" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "Wandering Dream Chaser" ;
+            :recordingOf song:Wandering_Dream_Chaser ;
+            :position 1 ;
+            :byArtist perform:Straylight
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Transcending The World" ;
+            :recordingOf song:Transcending_The_World ;
+            :position 2 ;
+            :byArtist perform:Straylight
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Ambitious Eve (ストレイライト Ver.)" ;
+            :recordingOf song:Ambitious_Eve ;
+            :position 3 ;
+            :byArtist perform:Straylight
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「イーティング・エクスペディション」" ;
+            :position 4 ;
+            :actor
+                perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14866/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14866.jpg> ;
+        :catalogNumber "LACM-14866" ;
+        :datePublished "2019-09-11"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:FW .
