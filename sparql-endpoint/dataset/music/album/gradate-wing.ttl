@@ -238,7 +238,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :track [
         a :MusicRecording ;
             rdfs:label "ダブル・イフェクト" ;
-            :recordingOf song:Double_Effect1 ;
+            :recordingOf song:Double_Effect ;
             :position 1 ;
             :byArtist perform:ALSTROEMERIA
     ], [

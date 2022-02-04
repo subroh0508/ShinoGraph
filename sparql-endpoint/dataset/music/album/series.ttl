@@ -53,3 +53,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:GW05 ,
         album:GW06 ,
         album:GW07 .
+
+<LW> a :CreativeWorkSeries ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING" ;
+    :name
+        "L@YERED WING"@ja, "L@YERED WING"@en, "L@YERED WING",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING" ;
+    :startDate "2021-04-14"^^xsd:date ;
+    :endDate "2021-11-10"^^xsd:date ;
+    :hasPart
+        album:LW01 ,
+        album:LW02 ,
+        album:LW03 ,
+        album:LW04 ,
+        album:LW05 ,
+        album:LW06 ,
+        album:LW07 ,
+        album:LW08 .

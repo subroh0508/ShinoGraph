@@ -1,0 +1,486 @@
+BASE <https://283db.org/resource/music/album/layered-wing/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX perform: <https://283db.org/resource/artist/performer/>
+PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX series: <https://283db.org/resource/music/album/series/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<LW01> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING 01" ;
+    :name
+        "L@YERED WING 01"@ja, "L@YERED WING 01"@en, "L@YERED WING 01",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING 01"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING 01"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING 01" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ,
+                        perform:Asakura_Toru_%28CV_Wakui_Yu%28 ,
+                        perform:Higuchi_Madoka_%28CV_Tsuchiya_Rio%28 ,
+                        perform:Fukumaru_Koito_%28CV_Tajima_Saran%28 ,
+                        perform:Ichikawa_Hinana_%28CV_Okasaki_Miho%28 ,
+                        perform:Nanakusa_Nichika_%28CV_Shizuki_Azusa%28 ,
+                        perform:Aketa_Mikoto_%28CV_Yamane_Aya%28 ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Color Days" ;
+            :recordingOf song:Color_Days ;
+            :position 2 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ,
+                        perform:Asakura_Toru_%28CV_Wakui_Yu%28 ,
+                        perform:Higuchi_Madoka_%28CV_Tsuchiya_Rio%28 ,
+                        perform:Fukumaru_Koito_%28CV_Tajima_Saran%28 ,
+                        perform:Ichikawa_Hinana_%28CV_Okasaki_Miho%28 ,
+                        perform:Nanakusa_Nichika_%28CV_Shizuki_Azusa%28 ,
+                        perform:Aketa_Mikoto_%28CV_Yamane_Aya%28 ;
+            ]
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺ (Off Vocal)" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 3 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Color Days (Off Vocal)" ;
+            :recordingOf song:Color_Days ;
+            :position 4 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24111/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24111.jpg> ;
+        :catalogNumber "LACM-24111" ;
+        :datePublished "2021-04-14"^^xsd:date ;
+        scdb:price 1300
+    ] ;
+    :isPartOf series:LW .
+
+<LW02> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING 02" ;
+    :name
+        "L@YERED WING 02"@ja, "L@YERED WING 02"@en, "L@YERED WING 02",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING 02"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING 02"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING 02" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "PRISISM" ;
+            :recordingOf song:PRISISM ;
+            :position 1 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a :MusicRecording ;
+            rdfs:label "スマイルシンフォニア" ;
+            :recordingOf song:Smile_Symphonia ;
+            :position 2 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺ (イルミネーションスターズ Ver.)" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 3 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「Step ＆ Stop」" ;
+            :position 4 ;
+            :actor
+                perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "PRISISM (Off Vocal)" ;
+            :recordingOf song:PRISISM ;
+            :position 5 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "スマイルシンフォニア (Off Vocal)" ;
+            :recordingOf song:Smile_Symphonia ;
+            :position 6 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24112/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24112.jpg> ;
+        :catalogNumber "LACM-24112" ;
+        :datePublished "2021-05-19"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:LW .
+
+<LW03> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING 03" ;
+    :name
+        "L@YERED WING 03"@ja, "L@YERED WING 03"@en, "L@YERED WING 03",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING 03"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING 03"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING 03" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "abyss of conflict" ;
+            :recordingOf song:abyss_of_conflict ;
+            :position 1 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a :MusicRecording ;
+            rdfs:label "革命進化論" ;
+            :recordingOf song:Kakumei_Shinkaron ;
+            :position 2 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺ (アンティーカ Ver.)" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 3 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「Labyrinthus」" ;
+            :position 4 ;
+            :actor
+                perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "abyss of conflict (Off Vocal)" ;
+            :recordingOf song:abyss_of_conflict ;
+            :position 5 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "革命進化論 (Off Vocal)" ;
+            :recordingOf song:Kakumei_Shinkaron ;
+            :position 6 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24113/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24113.jpg> ;
+        :catalogNumber "LACM-24113" ;
+        :datePublished "2021-06-09"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:LW .
+
+<LW04> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING 04" ;
+    :name
+        "L@YERED WING 04"@ja, "L@YERED WING 04"@en, "L@YERED WING 04",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING 04"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING 04"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING 04" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "クライマックスアイランド" ;
+            :recordingOf song:Climax_Island ;
+            :position 1 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a :MusicRecording ;
+            rdfs:label "拝啓タイムカプセル" ;
+            :recordingOf song:Haikei_Time_Capsule ;
+            :position 2 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺ (放課後クライマックスガールズ Ver.)" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 3 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「アタシらしく」" ;
+            :position 4 ;
+            :actor
+                perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "クライマックスアイランド (Off Vocal)" ;
+            :recordingOf song:Climax_Island ;
+            :position 5 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "拝啓タイムカプセル (Off Vocal)" ;
+            :recordingOf song:Haikei_Time_Capsule ;
+            :position 6 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24114/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24114.jpg> ;
+        :catalogNumber "LACM-24114" ;
+        :datePublished "2021-07-14"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:LW .
+
+<LW05> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING 05" ;
+    :name
+        "L@YERED WING 05"@ja, "L@YERED WING 05"@en, "L@YERED WING 05",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING 05"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING 05"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING 05" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "パステルカラー パスカラカラー" ;
+            :recordingOf song:Pastel_Color_Pascala_Color ;
+            :position 1 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a :MusicRecording ;
+            rdfs:label "ラブ・ボナペティート" ;
+            :recordingOf song:Love_Bon_Appétit ;
+            :position 2 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺ (アルストロメリア Ver.)" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 3 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「小さな鍵の物語」" ;
+            :position 4 ;
+            :actor
+                perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "パステルカラー パスカラカラー (Off Vocal)" ;
+            :recordingOf song:Pastel_Color_Pascala_Color ;
+            :position 5 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "ラブ・ボナペティート (Off Vocal)" ;
+            :recordingOf song:Love_Bon_Appétit ;
+            :position 6 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24115/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24115.jpg> ;
+        :catalogNumber "LACM-24115" ;
+        :datePublished "2021-08-18"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:LW .
+
+<LW06> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING 06" ;
+    :name
+        "L@YERED WING 06"@ja, "L@YERED WING 06"@en, "L@YERED WING 06",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING 06"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING 06"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING 06" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "Another Rampage" ;
+            :recordingOf song:Another_Rampage ;
+            :position 1 ;
+            :byArtist perform:Straylight
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Timeless Shooting Star" ;
+            :recordingOf song:Timeless_Shooting_Star ;
+            :position 2 ;
+            :byArtist perform:Straylight
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺ (ストレイライト Ver.)" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 3 ;
+            :byArtist perform:Straylight
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「ミッドナイト・ファイア」" ;
+            :position 4 ;
+            :actor
+                perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Another Rampage (Off Vocal)" ;
+            :recordingOf song:Another_Rampage ;
+            :position 5 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Timeless Shooting Star (Off Vocal)" ;
+            :recordingOf song:Timeless_Shooting_Star ;
+            :position 6 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24116/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24116.jpg> ;
+        :catalogNumber "LACM-24116" ;
+        :datePublished "2021-09-08"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:LW .
+
+<LW07> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING 07" ;
+    :name
+        "L@YERED WING 07"@ja, "L@YERED WING 07"@en, "L@YERED WING 07",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING 07"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING 07"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING 07" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "僕らだけの未来の空" ;
+            :recordingOf song:Bokura_Dake_no_Mirai_no_Sora ;
+            :position 1 ;
+            :byArtist perform:noctchill
+    ], [
+        a :MusicRecording ;
+            rdfs:label "今しかない瞬間を" ;
+            :recordingOf song:Ima_Shikanai_Shunkan_o ;
+            :position 2 ;
+            :byArtist perform:noctchill
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺ (ノクチル Ver.)" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 3 ;
+            :byArtist perform:noctchill
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「スパイシーキッチン」" ;
+            :position 4 ;
+            :actor
+                perform:Asakura_Toru_%28CV_Wakui_Yu%28 ,
+                perform:Higuchi_Madoka_%28CV_Tsuchiya_Rio%28 ,
+                perform:Fukumaru_Koito_%28CV_Tajima_Saran%28 ,
+                perform:Ichikawa_Hinana_%28CV_Okasaki_Miho%28 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "僕らだけの未来の空 (Off Vocal)" ;
+            :recordingOf song:Bokura_Dake_no_Mirai_no_Sora ;
+            :position 5 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "今しかない瞬間を (Off Vocal)" ;
+            :recordingOf song:Ima_Shikanai_Shunkan_o ;
+            :position 6 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24117/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24117.jpg> ;
+        :catalogNumber "LACM-24117" ;
+        :datePublished "2021-10-13"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:LW .
+
+<LW08> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING 08" ;
+    :name
+        "L@YERED WING 08"@ja, "L@YERED WING 08"@en, "L@YERED WING 08",
+        "THE IDOLM@STER SHINY COLORS L@YERED WING 08"@ja, "THE IDOLM@STER SHINY COLORS L@YERED WING 08"@en, "THE IDOLM@STER SHINY COLORS L@YERED WING 08" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "OH MY GOD" ;
+            :recordingOf song:OH_MY_GOD ;
+            :position 1 ;
+            :byArtist perform:SHHis
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Fly and Fly" ;
+            :recordingOf song:Fly_and_Fly ;
+            :position 2 ;
+            :byArtist perform:SHHis
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Resonance⁺ (シーズ Ver.)" ;
+            :recordingOf song:Resonance⁺ ;
+            :position 3 ;
+            :byArtist perform:SHHis
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「匣の中」" ;
+            :position 4 ;
+            :actor
+                perform:Nanakusa_Nichika_%28CV_Shizuki_Azusa%28 ,
+                perform:Aketa_Mikoto_%28CV_Yamane_Aya%28 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "OH MY GOD (Off Vocal)" ;
+            :recordingOf song:OH_MY_GOD ;
+            :position 5 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Fly and Fly (Off Vocal)" ;
+            :recordingOf song:Fly_and_Fly ;
+            :position 6 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24118/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24118.jpeg> ;
+        :catalogNumber "LACM-24118" ;
+        :datePublished "2021-11-10"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:LW .
