@@ -29,7 +29,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "FR@GMENT WING"@ja, "FR@GMENT WING"@en, "FR@GMENT WING",
         "THE IDOLM@STER SHINY COLORS FR@GMENT WING"@ja, "THE IDOLM@STER SHINY COLORS FR@GMENT WING"@en, "THE IDOLM@STER SHINY COLORS FR@GMENT WING" ;
     :startDate "2019-04-10"^^xsd:date ;
-    :endDate "2018-10-03"^^xsd:date ;
+    :endDate "2019-09-11"^^xsd:date ;
     :hasPart
         album:FW01 ,
         album:FW02 ,
@@ -37,3 +37,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:FW04 ,
         album:FW05 ,
         album:FW06 .
+
+<GW> a :CreativeWorkSeries ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS GR@DATE WING" ;
+    :name
+        "GR@DATE WING"@ja, "GR@DATE WING"@en, "GR@DATE WING",
+        "THE IDOLM@STER SHINY COLORS GR@DATE WING"@ja, "THE IDOLM@STER SHINY COLORS GR@DATE WING"@en, "THE IDOLM@STER SHINY COLORS GR@DATE WING" ;
+    :startDate "2020-04-08"^^xsd:date ;
+    :endDate "2020-12-09"^^xsd:date ;
+    :hasPart
+        album:GW01 ,
+        album:GW02 ,
+        album:GW03 ,
+        album:GW04 ,
+        album:GW05 ,
+        album:GW06 ,
+        album:GW07 .

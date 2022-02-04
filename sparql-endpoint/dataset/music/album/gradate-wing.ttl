@@ -1,0 +1,360 @@
+BASE <https://283db.org/resource/music/album/gradate-wing/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX perform: <https://283db.org/resource/artist/performer/>
+PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX series: <https://283db.org/resource/music/album/series/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<GW01> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS GR@DATE WING 01" ;
+    :name
+        "GR@DATE WING 01"@ja, "GR@DATE WING 01"@en, "GR@DATE WING 01",
+        "THE IDOLM@STER SHINY COLORS GR@DATE WING 01"@ja, "THE IDOLM@STER SHINY COLORS GR@DATE WING 01"@en, "THE IDOLM@STER SHINY COLORS GR@DATE WING 01" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "シャイノグラフィ" ;
+            :recordingOf song:Shinography ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ,
+                        perform:Asakura_Toru_%28CV_Wakui_Yu%28 ,
+                        perform:Higuchi_Madoka_%28CV_Tsuchiya_Rio%28 ,
+                        perform:Fukumaru_Koito_%28CV_Tajima_Saran%28 ,
+                        perform:Ichikawa_Hinana_%28CV_Okasaki_Miho%28 ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Dye the sky." ;
+            :recordingOf song:Dye_the_sky%2E ;
+            :position 2 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ,
+                        perform:Asakura_Toru_%28CV_Wakui_Yu%28 ,
+                        perform:Higuchi_Madoka_%28CV_Tsuchiya_Rio%28 ,
+                        perform:Fukumaru_Koito_%28CV_Tajima_Saran%28 ,
+                        perform:Ichikawa_Hinana_%28CV_Okasaki_Miho%28 ;
+            ]
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14982/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14982.jpg> ;
+        :catalogNumber "LACM-14982" ;
+        :datePublished "2020-04-08"^^xsd:date ;
+        scdb:price 2800
+    ] ;
+    :isPartOf series:GW .
+
+<GW02> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS GR@DATE WING 02" ;
+    :name
+        "GR@DATE WING 02"@ja, "GR@DATE WING 02"@en, "GR@DATE WING 02",
+        "THE IDOLM@STER SHINY COLORS GR@DATE WING 02"@ja, "THE IDOLM@STER SHINY COLORS GR@DATE WING 02"@en, "THE IDOLM@STER SHINY COLORS GR@DATE WING 02" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "Twinkle way!" ;
+            :recordingOf song:Twinkle_way ;
+            :position 1 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Happy Funny Lucky" ;
+            :recordingOf song:Happy_Funny_Lucky ;
+            :position 2 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a :MusicRecording ;
+            rdfs:label "シャイノグラフィ (イルミネーションスターズ Ver.)" ;
+            :recordingOf song:Shinography ;
+            :position 3 ;
+            :byArtist perform:illumination_STARS
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「ようこそ、283カフェへ」" ;
+            :position 4 ;
+            :actor
+                perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14983/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14983.jpg> ;
+        :catalogNumber "LACM-14983" ;
+        :datePublished "2020-10-14"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:GW .
+
+<GW03> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS GR@DATE WING 03" ;
+    :name
+        "GR@DATE WING 03"@ja, "GR@DATE WING 03"@en, "GR@DATE WING 03",
+        "THE IDOLM@STER SHINY COLORS GR@DATE WING 03"@ja, "THE IDOLM@STER SHINY COLORS GR@DATE WING 03"@en, "THE IDOLM@STER SHINY COLORS GR@DATE WING 03" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "Black Reverie" ;
+            :recordingOf song:Black_Reverie ;
+            :position 1 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a :MusicRecording ;
+            rdfs:label "純白トロイメライ" ;
+            :recordingOf song:Junpaku_Träumerei ;
+            :position 2 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a :MusicRecording ;
+            rdfs:label "シャイノグラフィ (アンティーカ Ver.)" ;
+            :recordingOf song:Shinography ;
+            :position 3 ;
+            :byArtist perform:L%27Antica_2018
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「雨の日にステップを」" ;
+            :position 4 ;
+            :actor
+                perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14984/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14984-1.jpg> ;
+        :catalogNumber "LACM-14984" ;
+        :datePublished "2020-11-04"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:GW .
+
+<GW04> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS GR@DATE WING 04" ;
+    :name
+        "GR@DATE WING 04"@ja, "GR@DATE WING 04"@en, "GR@DATE WING 04",
+        "THE IDOLM@STER SHINY COLORS GR@DATE WING 04"@ja, "THE IDOLM@STER SHINY COLORS GR@DATE WING 04"@en, "THE IDOLM@STER SHINY COLORS GR@DATE WING 04" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "五ツ座流星群" ;
+            :recordingOf song:Itsutsuza_Ryuuseigun ;
+            :position 1 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a :MusicRecording ;
+            rdfs:label "学祭革命夜明け前" ;
+            :recordingOf song:Gakusai_Kakumei_Yoakemae ;
+            :position 2 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a :MusicRecording ;
+            rdfs:label "シャイノグラフィ (放課後クライマックスガールズ Ver.)" ;
+            :recordingOf song:Shinography ;
+            :position 3 ;
+            :byArtist perform:Hokago_Climax_Girls
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「欠けたることも」" ;
+            :position 4 ;
+            :actor
+                perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14985/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14985.jpg> ;
+        :catalogNumber "LACM-14985" ;
+        :datePublished "2020-11-18"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:GW .
+
+<GW05> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS GR@DATE WING 05" ;
+    :name
+        "GR@DATE WING 05"@ja, "GR@DATE WING 05"@en, "GR@DATE WING 05",
+        "THE IDOLM@STER SHINY COLORS GR@DATE WING 05"@ja, "THE IDOLM@STER SHINY COLORS GR@DATE WING 05"@en, "THE IDOLM@STER SHINY COLORS GR@DATE WING 05" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "ダブル・イフェクト" ;
+            :recordingOf song:Double_Effect1 ;
+            :position 1 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Anniversary" ;
+            :recordingOf song:Anniversary ;
+            :position 2 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a :MusicRecording ;
+            rdfs:label "シャイノグラフィ (アルストロメリア Ver.)" ;
+            :recordingOf song:Shinography ;
+            :position 3 ;
+            :byArtist perform:ALSTROEMERIA
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「グッド☆モーニング」" ;
+            :position 4 ;
+            :actor
+                perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14986/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14986.jpg> ;
+        :catalogNumber "LACM-14986" ;
+        :datePublished "2020-12-09"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:GW .
+
+<GW06> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS GR@DATE WING 06" ;
+    :name
+        "GR@DATE WING 06"@ja, "GR@DATE WING 06"@en, "GR@DATE WING 06",
+        "THE IDOLM@STER SHINY COLORS GR@DATE WING 06"@ja, "THE IDOLM@STER SHINY COLORS GR@DATE WING 06"@en, "THE IDOLM@STER SHINY COLORS GR@DATE WING 06" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "Hide & Attack" ;
+            :recordingOf song:Hide_%26_Attack ;
+            :position 1 ;
+            :byArtist perform:Straylight
+    ], [
+        a :MusicRecording ;
+            rdfs:label "Destined Rival" ;
+            :recordingOf song:Destined_Rival ;
+            :position 2 ;
+            :byArtist perform:Straylight
+    ], [
+        a :MusicRecording ;
+            rdfs:label "シャイノグラフィ (ストレイライト Ver.)" ;
+            :recordingOf song:Shinography ;
+            :position 3 ;
+            :byArtist perform:Straylight
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「ホット・リレイション」" ;
+            :position 4 ;
+            :actor
+                perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14987/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14987.jpg> ;
+        :catalogNumber "LACM-14987" ;
+        :datePublished "2020-08-19"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:GW .
+
+<GW07> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS GR@DATE WING 07" ;
+    :name
+        "GR@DATE WING 07"@ja, "GR@DATE WING 07"@en, "GR@DATE WING 07",
+        "THE IDOLM@STER SHINY COLORS GR@DATE WING 07"@ja, "THE IDOLM@STER SHINY COLORS GR@DATE WING 07"@en, "THE IDOLM@STER SHINY COLORS GR@DATE WING 07" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "いつだって僕らは" ;
+            :recordingOf song:Itsudatte_Bokura_wa ;
+            :position 1 ;
+            :byArtist perform:noctchill
+    ], [
+        a :MusicRecording ;
+            rdfs:label "あの花のように" ;
+            :recordingOf song:Ano_Hana_no_You_ni ;
+            :position 2 ;
+            :byArtist perform:noctchill
+    ], [
+        a :MusicRecording ;
+            rdfs:label "シャイノグラフィ (ノクチル Ver.)" ;
+            :recordingOf song:Shinography ;
+            :position 3 ;
+            :byArtist perform:noctchill
+    ], [
+        a scdb:AudioDrama ;
+            rdfs:label "スペシャルオーディオドラマ「方・游」" ;
+            :position 4 ;
+            :actor
+                perform:Asakura_Toru_%28CV_Wakui_Yu%28 ,
+                perform:Higuchi_Madoka_%28CV_Tsuchiya_Rio%28 ,
+                perform:Fukumaru_Koito_%28CV_Tajima_Saran%28 ,
+                perform:Ichikawa_Hinana_%28CV_Okasaki_Miho%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-24005/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24005.jpg> ;
+        :catalogNumber "LACM-24005" ;
+        :datePublished "2020-09-16"^^xsd:date ;
+        scdb:price 1800
+    ] ;
+    :isPartOf series:GW .
