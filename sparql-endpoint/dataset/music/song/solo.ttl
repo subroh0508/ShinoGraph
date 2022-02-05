@@ -1,0 +1,59 @@
+BASE <https://283db.org/resource/music/song/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Arittake_no_Kagayaki_de> a :MusicComposition ;
+    rdfs:label "ありったけの輝きで" ;
+    :name "ありったけの輝きで"@ja, "Arittake no Kagayaki de"@en, "ありったけの輝きで" ;
+    :lyricist credit:Kodama_Saori ;
+    :composer credit:Hitsuji ;
+    :editor credit:Hitsuji .
+
+<Hoshi_o_Mezashite> a :MusicComposition ;
+    rdfs:label "星をめざして" ;
+    :name "星をめざして"@ja, "Hoshi o Mezashite "@en, "星をめざして" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:Miyoshi_Keita ;
+    :editor credit:Miyoshi_Keita .
+
+<Yumemidori> a :MusicComposition ;
+    rdfs:label "夢見鳥" ;
+    :name "夢見鳥"@ja, "Yumemidori"@en, "夢見鳥" ;
+    :lyricist credit:Akiura_Tomohiro ;
+    :composer credit:Iehara_Masaki, credit:Jam9 ;
+    :editor credit:Iehara_Masaki .
+
+<Appoint_Signal> a :MusicComposition ;
+    rdfs:label "アポイント・シグナル" ;
+    :name "アポイント・シグナル"@ja, "Appoint Signal"@en, "アポイント・シグナル" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Honda_Masaki%28Dream_Monster%28 ;
+    :editor credit:Honda_Masaki%28Dream_Monster%28 .
+
+<Choco_Date_Sunday> a :MusicComposition ;
+    rdfs:label "チョコデート・サンデー" ;
+    :name "チョコデート・サンデー"@ja, "Choco Date Sunday"@en, "チョコデート・サンデー" ;
+    :lyricist credit:Kodama_Ameko ;
+    :composer credit:Nakano_Ryota ;
+    :editor credit:Nakano_Ryota .
+
+<Sweet_Memories> a :MusicComposition ;
+    rdfs:label "Sweet Memories" ;
+    :name "Sweet Memories"@ja, "Sweet Memories"@en, "Sweet Memories" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:h-wonder ;
+    :editor credit:h-wonder .
+
+<Hanamaru_Badge> a :MusicComposition ;
+    rdfs:label "ハナマルバッジ" ;
+    :name "ハナマルバッジ"@ja, "Hanamaru Badge"@en, "ハナマルバッジ" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Furuya_Makoto, credit:YUU_for_YOU ;
+    :editor credit:YUU_for_YOU .
