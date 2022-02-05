@@ -23,6 +23,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :composer credit:Takada_Kyo ;
     :editor credit:Takada_Kyo .
 
+<SNOW_FLAKES_MEMORIES> a :MusicComposition ;
+    rdfs:label "SNOW FLAKES MEMORIES" ;
+    :name "SNOW FLAKES MEMORIES"@ja, "SNOW FLAKES MEMORIES"@en, "SNOW FLAKES MEMORIES" ;
+    :lyricist credit:Matsui_Yohei ;
+    :composer credit:Nakano_Ryota%28onetrap%28 ;
+    :editor credit:Nakano_Ryota%28onetrap%28 .
+
+<Let%27s_get_a_chance> a :MusicComposition ;
+    rdfs:label "Let's get a chance" ;
+    :name "Let's get a chance"@ja, "Let's get a chance"@en, "Let's get a chance" ;
+    :lyricist credit:Watanabe_Takuya ;
+    :composer credit:Watanabe_Takuya ;
+    :editor credit:Sumiya_Shohei .
+
 <Ambitious_Eve> a :MusicComposition ;
     rdfs:label "Ambitious Eve" ;
     :name "Ambitious Eve"@ja, "Ambitious Eve"@en, "Ambitious Eve" ;
