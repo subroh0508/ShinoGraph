@@ -92,6 +92,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14982.jpg> ;
         :catalogNumber "LACM-14982" ;
         :datePublished "2020-04-08"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 2800
     ] ;
     :isPartOf series:GW .
@@ -135,6 +136,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14983.jpg> ;
         :catalogNumber "LACM-14983" ;
         :datePublished "2020-10-14"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:GW .
@@ -180,6 +182,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14984-1.jpg> ;
         :catalogNumber "LACM-14984" ;
         :datePublished "2020-11-04"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:GW .
@@ -225,6 +228,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14985.jpg> ;
         :catalogNumber "LACM-14985" ;
         :datePublished "2020-11-18"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:GW .
@@ -268,6 +272,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14986.jpg> ;
         :catalogNumber "LACM-14986" ;
         :datePublished "2020-12-09"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:GW .
@@ -311,6 +316,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14987.jpg> ;
         :catalogNumber "LACM-14987" ;
         :datePublished "2020-08-19"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:GW .
@@ -355,6 +361,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-24005.jpg> ;
         :catalogNumber "LACM-24005" ;
         :datePublished "2020-09-16"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:GW .

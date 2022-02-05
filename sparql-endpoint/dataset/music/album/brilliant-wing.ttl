@@ -79,6 +79,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/jk_LACM-14781.jpg> ;
         :catalogNumber "LACM-14781" ;
         :datePublished "2018-06-06"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1300
     ] ;
     :isPartOf series:BW .
@@ -123,6 +124,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14782.jpg> ;
         :catalogNumber "LACM-14782" ;
         :datePublished "2018-07-04"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:BW .
@@ -169,6 +171,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14783.jpg> ;
         :catalogNumber "LACM-14783" ;
         :datePublished "2018-08-01"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:BW .
@@ -215,6 +218,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14784.jpg> ;
         :catalogNumber "LACM-14784" ;
         :datePublished "2018-09-05"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:BW .
@@ -259,6 +263,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14785.jpg> ;
         :catalogNumber "LACM-14785" ;
         :datePublished "2018-10-03"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
     :isPartOf series:BW .
