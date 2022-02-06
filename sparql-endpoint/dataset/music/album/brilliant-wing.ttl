@@ -1,5 +1,6 @@
 BASE <https://283db.org/resource/music/album/>
 PREFIX scdb: <https://283db.org/schema#>
+PREFIX unit: <https://283db.org/resource/character/unit/>
 PREFIX perform: <https://283db.org/resource/artist/performer/>
 PREFIX song: <https://283db.org/resource/music/song/>
 PREFIX series: <https://283db.org/resource/music/album/series/>
@@ -127,6 +128,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
+    :byArtist unit:illumination_STARS ;
     :isPartOf series:BW .
 
 <BW03> a :MusicAlbum ;
@@ -174,6 +176,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
+    :byArtist unit:L%27Antica ;
     :isPartOf series:BW .
 
 <BW04> a :MusicAlbum ;
@@ -221,6 +224,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
+    :byArtist unit:Hokago_Climax_Girls ;
     :isPartOf series:BW .
 
 <BW05> a :MusicAlbum ;
@@ -266,4 +270,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :musicReleaseFormat :CDFormat ;
         scdb:price 1800
     ] ;
+    :byArtist unit:ALSTROEMERIA ;
     :isPartOf series:BW .

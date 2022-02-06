@@ -1,5 +1,6 @@
 BASE <https://283db.org/resource/music/album/>
 PREFIX scdb: <https://283db.org/schema#>
+PREFIX unit: <https://283db.org/resource/character/unit/>
 PREFIX perform: <https://283db.org/resource/artist/performer/>
 PREFIX song: <https://283db.org/resource/music/song/>
 PREFIX series: <https://283db.org/resource/music/album/series/>
@@ -88,6 +89,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :musicReleaseFormat :CDFormat ;
         scdb:price 2500
     ] ;
+    :byArtist unit:Team%2EStella ;
     :isPartOf series:CF .
 
 <Luna> a :MusicAlbum ;
@@ -174,6 +176,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :musicReleaseFormat :CDFormat ;
         scdb:price 2500
     ] ;
+    :byArtist unit:Team%2ELuna ;
     :isPartOf series:CF .
 
 <Sol> a :MusicAlbum ;
@@ -233,7 +236,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             :byArtist perform:Asakura_Toru_%28CV_Wakui_Yu%28 ;
     ], [
         a :MusicRecording ;
-            rdfs:label "SOLAR WAY ;
+            rdfs:label "SOLAR WAY" ;
             :recordingOf song:SOLAR_WAY ;
             :position 9 ;
             :byArtist [
@@ -260,4 +263,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :musicReleaseFormat :CDFormat ;
         scdb:price 2500
     ] ;
+    :byArtist unit:Team%2ESol ;
     :isPartOf series:CF .
