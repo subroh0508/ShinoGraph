@@ -2,6 +2,7 @@ BASE <https://283db.org/resource/organization/unit/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX album: <https://283db.org/resource/music/album/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -16,12 +17,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "イルミネーションスターズ"@ja, "illumination STARS"@en, "イルミネーションスターズ" ;
     :slogan "瞳に輝く、無限の可能性"@ja, "Infinite Possibilities, Shining in Their Eyes"@en, "瞳に輝く、無限の可能性" ;
     :description "小さな光を宿す少女たちで結成された、新世代のアイドルユニット。今はまだかすかな輝きでも、時にぶつかり時に支え合いながら、一等星を目指して歩んでいく！"@ja ;
-    :member idol:Sakuragi_Mano, idol:Kazano_Hiori, idol:Hachimiya_Meguru ;
+    :member
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
     scdb:color "FFA200"^^xsd:hexBinary ;
     scdb:announcementDate "2018-02-07"^^xsd:date ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/illuminationstars/> ;
     scdb:youtubeUrl <https://www.youtube.com/watch?v=3JZvcuxByGc> ;
+    :album
+        album:BW02 ,
+        album:FW02 ,
+        album:GW02 ,
+        album:LW02 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/illuminationSTARS> .
 
 <L%27Antica> a scdb:Unit ;
@@ -29,12 +38,22 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "アンティーカ"@ja, "L'Antica"@en, "アンティーカ" ;
     :slogan "回せ、錆びついた運命の鍵を"@ja, "Turn, the Rusted Key of Fate"@en, "回せ、錆びついた運命の鍵を" ;
     :description "胸に燻る焔を「ウタ」に、孤独な泪を「ネガイ」に変える、新世界の革命的アイドルユニット。ゴシックなドレスを纏い、彼女たちは希望を謳い続ける―。"@ja ;
-    :member idol:Tsukioka_Kogane, idol:Mitsumine_Yuika, idol:Shirase_Sakuya, idol:Tanaka_Mamimi, idol:Yukoku_Kiriko ;
+    :member
+        idol:Tsukioka_Kogane ,
+        idol:Mitsumine_Yuika ,
+        idol:Shirase_Sakuya ,
+        idol:Tanaka_Mamimi ,
+        idol:Yukoku_Kiriko ;
     scdb:color "833696"^^xsd:hexBinary ;
     scdb:announcementDate "2018-02-14"^^xsd:date ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/lantica/> ;
     scdb:youtubeUrl <https://www.youtube.com/watch?v=gIjvqXlsBes> ;
+    :album
+        album:BW03 ,
+        album:FW03 ,
+        album:GW03 ,
+        album:LW03 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/L%27Antica> .
 
 <Hokago_Climax_Girls> a scdb:Unit ;
@@ -42,12 +61,22 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "放課後クライマックスガールズ"@ja, "Hokago Climax Girls"@en, "放課後クライマックスガールズ" ;
     :slogan "女の子はいつだって放課後がクライマックス！"@ja, "Girls Reaching For the CLIMAX Of their Afterschool Life!"@en, "女の子はいつだって放課後がクライマックス！" ;
     :description "個性と個性がぶつかり合う全力系アイドルユニット。全身全霊でアイドル道を突き進む彼女達の姿こそ、\"クライマックス\"の証。ファンもプロデューサーも世界も巻き込んでアイドル界のてっぺんを目指す！！"@ja ;
-    :member idol:Komiya_Kaho, idol:Saijo_Juri, idol:Arisugawa_Natsuha, idol:Morino_Rinze, idol:Sonoda_Chiyoko ;
+    :member
+        idol:Komiya_Kaho ,
+        idol:Saijo_Juri ,
+        idol:Arisugawa_Natsuha ,
+        idol:Morino_Rinze ,
+        idol:Sonoda_Chiyoko ;
     scdb:color "FF4800"^^xsd:hexBinary ;
     scdb:announcementDate "2018-03-05"^^xsd:date ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/hokagoclimaxgirls/> ;
     scdb:youtubeUrl <https://www.youtube.com/watch?v=p9WfsKWNNZE> ;
+    :album
+        album:BW04 ,
+        album:FW04 ,
+        album:GW04 ,
+        album:LW04 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA> .
 
 <ALSTROEMERIA> a scdb:Unit ;
@@ -55,12 +84,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "アルストロメリア"@ja, "ALSTROEMERIA"@en, "アルストロメリア" ;
     :slogan "花ざかり、私達の幸福論"@ja, "Blooming Flowers, Our Theory Of Happiness"@en, "花ざかり、私達の幸福論" ;
     :description "ポップでハッピーな3人組アイドルユニット。アルストロメリアの花言葉「未来への憧れ」を胸に抱き、今日もシアワセなパフォーマンスで会場に笑顔を咲かせます！"@ja ;
-    :member idol:Kuwayama_Chiyuki, idol:Osaki_Tenka, idol:Osaki_Amana ;
+    :member
+        idol:Kuwayama_Chiyuki ,
+        idol:Osaki_Tenka ,
+        idol:Osaki_Amana ;
     scdb:color "E6277C"^^xsd:hexBinary ;
     scdb:announcementDate "2018-02-21"^^xsd:date ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/alstroemeria/> ;
     scdb:youtubeUrl <https://www.youtube.com/watch?v=EsqpddjlGlY> ;
+    :album
+        album:BW05 ,
+        album:FW05 ,
+        album:GW05 ,
+        album:LW05 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/ALSTROEMERIA> .
 
 <Straylight> a scdb:Unit ;
@@ -68,12 +105,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "ストレイライト"@ja, "Straylight"@en, "ストレイライト" ;
     :slogan "身に纏うは迷光、少女たちは偶像となる"@ja, "Clad in Straylight, These Girls Become Idols"@en, "身に纏うは迷光、少女たちは偶像となる" ;
     :description "実在と非実在を行き来するカリスマ的アイドルユニット。アイドルというアバターを身に纏い、歌うは真実か、狂気か。解き放たれた迷光が、今日も世界を奔る。"@ja ;
-    :member idol:Serizawa_Asahi, idol:Izumi_Mei, idol:Mayuzumi_Fuyuko ;
+    :member
+        idol:Serizawa_Asahi ,
+        idol:Izumi_Mei ,
+        idol:Mayuzumi_Fuyuko ;
     scdb:color "A51F24"^^xsd:hexBinary ;
     scdb:announcementDate "2019-03-10"^^xsd:date ;
     scdb:debutDate "2019-03-22"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/straylight/> ;
     scdb:youtubeUrl <https://www.youtube.com/watch?v=ebThDhPAcv8> ;
+    :album
+        album:FW06 ,
+        album:GW06 ,
+        album:LW06 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Straylight> .
 
 <noctchill> a scdb:Unit ;
@@ -81,12 +125,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "ノクチル"@ja, "noctchill"@en, "ノクチル" ;
     :slogan "さよなら、透明だった僕たち(チルアウト・ノクチルカ)"@ja, "Goodbye, To Our Transpicuous Selves(Chillout, Noctiluca)"@en, "さよなら、透明だった僕たち(チルアウト・ノクチルカ)" ;
     :description "幼なじみ４人で結成された、透明感あふれるアイドルユニット。誰かになる必要なんてない──。走り出す波を追って、少女たちは碧い風になる。"@ja ;
-    :member idol:Asakura_Toru, idol:Higuchi_Madoka, idol:Fukumaru_Koito, idol:Ichikawa_Hinana ;
+    :member
+        idol:Asakura_Toru ,
+        idol:Higuchi_Madoka ,
+        idol:Fukumaru_Koito ,
+        idol:Ichikawa_Hinana ;
     scdb:color "34498F"^^xsd:hexBinary ;
     scdb:announcementDate "2020-03-22"^^xsd:date ;
     scdb:debutDate "2020-03-23"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/noctchill/> ;
     scdb:youtubeUrl <https://www.youtube.com/watch?v=b22lBj3P74c> ;
+    :album
+        album:GW07 ,
+        album:LW07 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/noctchill> .
 
 <SHHis> a scdb:Unit ;
@@ -94,28 +145,63 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "シーズ"@ja, "SHHis"@en, "シーズ" ;
     :slogan "耀いて、スパンコール・シャンデリア"@ja, "Shining, sequin chandelier"@en, "耀いて、スパンコール・シャンデリア" ;
     :description "スパイシー＆ガーリーなダンスポップユニット。音楽はとまらない。だから黙って聴いていて。駆け出す心のBPMを、抑えられない旋律を。わたし(she)がわたし(she)になるための、1000カラットの物語を。"@ja ;
-    :member idol:Nanakusa_Nichika, idol:Aketa_Mikoto ;
+    :member
+        idol:Nanakusa_Nichika ,
+        idol:Aketa_Mikoto ;
     scdb:color "1C8971"^^xsd:hexBinary ;
     scdb:announcementDate "2021-03-21"^^xsd:date ;
     scdb:debutDate "2021-03-22"^^xsd:date ;
     :url <https://shinycolors.idolmaster.jp/idol/shhis/> ;
     scdb:youtubeUrl <https://www.youtube.com/watch?v=jFD9cSD7z7c> ;
+    :album
+        album:LW08 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/SHHis> .
 
 <Team%2EStella> a scdb:Unit ;
     rdfs:label "Team.Stella" ;
     :name "Team.Stella"@ja, "ちーむすてら"@ja-hira, "Team.Stella"@en, "Team.Stella" ;
-    :member idol:Sakuragi_Mano, idol:Tsukioka_Kogane, idol:Komiya_Kaho, idol:Sonoda_Chiyoko, idol:Osaki_Amana, idol:Serizawa_Asahi, idol:Higuchi_Madoka, idol:Aketa_Mikoto ;
+    :member
+        idol:Sakuragi_Mano ,
+        idol:Tsukioka_Kogane ,
+        idol:Komiya_Kaho ,
+        idol:Sonoda_Chiyoko ,
+        idol:Osaki_Amana ,
+        idol:Serizawa_Asahi ,
+        idol:Higuchi_Madoka ,
+        idol:Aketa_Mikoto ;
+    :album
+        album:Stella ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Team%2EStella> .
 
 <Team%2ELuna> a scdb:Unit ;
     rdfs:label "Team.Luna" ;
     :name "Team.Luna"@ja, "ちーむるな"@ja-hira, "Team.Luna"@en, "Team.Luna" ;
-    :member idol:Kazano_Hiori, idol:Tanaka_Mamimi, idol:Mitsumine_Yuika, idol:Yukoku_Kiriko, idol:Morino_Rinze, idol:Izumi_Mei, idol:Fukumaru_Koito, idol:Osaki_Tenka ;
+    :member
+        idol:Kazano_Hiori ,
+        idol:Tanaka_Mamimi ,
+        idol:Mitsumine_Yuika ,
+        idol:Yukoku_Kiriko ,
+        idol:Morino_Rinze ,
+        idol:Izumi_Mei ,
+        idol:Fukumaru_Koito ,
+        idol:Osaki_Tenka ;
+    :album
+        album:Luna ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Team%2ELuna> .
 
 <Team%2ESol> a scdb:Unit ;
     rdfs:label "Team.Sol" ;
     :name "Team.Sol"@ja, "ちーむそる"@ja-hira, "Team.Sol"@en, "Team.Sol" ;
-    :member idol:Hachimiya_Meguru, idol:Sirase_Sakuya, idol:Saijo_Juri, idol:Arisugawa_Natsuha, idol:Kuwayama_Chiyuki, idol:Asakura_Toru, idol:Ichikawa_Hinana, idol:Mayuzumi_Fuyuko, idol:Nanakusa_Nichika ;
+    :member
+        idol:Hachimiya_Meguru ,
+        idol:Sirase_Sakuya ,
+        idol:Saijo_Juri ,
+        idol:Arisugawa_Natsuha ,
+        idol:Kuwayama_Chiyuki ,
+        idol:Asakura_Toru ,
+        idol:Ichikawa_Hinana ,
+        idol:Mayuzumi_Fuyuko ,
+        idol:Nanakusa_Nichika ;
+    :album
+        album:Sol ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Team%2ESol> .
