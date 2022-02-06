@@ -3,6 +3,7 @@ PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX hometown: <https://283db.org/resource/common/hometown/>
+PREFIX song: <https://283db.org/resource/music/song/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -40,6 +41,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "FFBAD6"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50011> ;
+    scdb:song
+        song:Arittake_no_Kagayaki_de ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Sakuragi_Mano> .
 
 <Kazano_Hiori> a scdb:Idol ;
@@ -71,6 +74,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "144384"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50007> ;
+    scdb:song
+        song:Slow_Motion ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Kazano_Hiori> .
 
 <Hachimiya_Meguru> a scdb:Idol ;
@@ -102,6 +107,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "FFE012"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50017> ;
+    scdb:song
+        song:HAREBARE%21%21 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Hachimiya_Meguru> .
 
 <Tsukioka_Kogane> a scdb:Idol ;
@@ -132,6 +139,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "自信たっぷりで何があってもポジティブな性格。スタイルもよく人目を引く可愛さだが、よく転ぶ、ダンスを間違えるなどのドジな一面も併せ持つ。"@ja ;
     scdb:color "F84CAD"^^xsd:hexBinary ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50016> ;
+    scdb:song
+        song:Appoint_Signal ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Tsukioka_Kogane> .
 
 <Mitsumine_Yuika> a scdb:Idol ;
@@ -170,6 +179,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "3B91C4"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.C01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50021> ;
+    scdb:song
+        song:Plastic_Umbrella ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Mitsumine_Yuika> .
 
 <Shirase_Sakuya> a scdb:Idol ;
@@ -201,6 +212,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "006047"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS03 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50012> ;
+    scdb:song
+        song:Senya_Aria ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Shirase_Sakuya> .
 
 <Tanaka_Mamimi> a scdb:Idol ;
@@ -232,6 +245,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "A846FB"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS03 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50015> ;
+    scdb:song
+        song:Tasogare_Identity ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Tanaka_Mamimi> .
 
 <Yukoku_Kiriko> a scdb:Idol ;
@@ -263,6 +278,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "D9F2FF"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50023> ;
+    scdb:song
+        song:Setsugetsufuuka ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Yukoku_Kiriko> .
 
 <Komiya_Kaho> a scdb:Idol ;
@@ -294,6 +311,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "E5461C"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.ES06 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50009> ;
+    scdb:song
+        song:Zettai_Seigi_EVERY_DAY ,
+        song:Hanamaru_Badge ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Komiya_Kaho> .
 
 <Saijo_Juri> a scdb:Idol ;
@@ -325,6 +345,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "FFC602"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50010> ;
+    scdb:song
+        song:Kajunsei_Breach ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Saijo_Juri> .
 
 <Arisugawa_Natsuha> a scdb:Idol ;
@@ -356,6 +378,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "90E667"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.C02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50002> ;
+    scdb:song
+        song:Damascus_Cocktail ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Arisugawa_Natsuha> .
 
 <Morino_Rinze> a scdb:Idol ;
@@ -387,6 +411,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "89C3EB"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50022> ;
+    scdb:song
+        song:Tokosaki_no_Niwa ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Morino_Rinze> .
 
 <Sonoda_Chiyoko> a scdb:Idol ;
@@ -418,6 +444,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "F93B90"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50014> ;
+    scdb:song
+        song:Choco_Date_Sundae ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Sonoda_Chiyoko> .
 
 <Kuwayama_Chiyuki> a scdb:Idol ;
@@ -448,6 +476,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "優しい笑顔が印象的な、事務所のお姉さん的存在。母性溢れる落ち着いた佇まいが特徴。手先が器用で、かわいい小物を作るのが趣味。"@ja ;
     scdb:color "FBFAFA"^^xsd:hexBinary ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50008> ;
+    scdb:song
+        song:Darling_you%21 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Kuwayama_Chiyuki> .
 
 <Osaki_Tenka> a scdb:Idol ;
@@ -480,6 +510,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "E75BEC"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50006> ;
+    scdb:song
+        song:Devitaro_no_Uta,
+        song:Mata_Ashita ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Osaki_Tenka> .
 
 <Osaki_Amana> a scdb:Idol ;
@@ -512,6 +545,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "F54275"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50005> ;
+    scdb:song
+        song:Sweet_Memories ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Osaki_Amana> .
 
 <Serizawa_Asahi> a scdb:Idol ;
@@ -543,6 +578,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "F30100"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.JHS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50013> ;
+    scdb:song
+        song:Hoshi_o_Mezashite ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Serizawa_Asahi> .
 
 <Izumi_Mei> a scdb:Idol ;
@@ -574,6 +611,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "FF00FF"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS03 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50003> ;
+    scdb:song
+        song:Going_my_way ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Izumi_Mei> .
 
 <Mayuzumi_Fuyuko> a scdb:Idol ;
@@ -605,6 +644,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "5CE626"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.VS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50020> ;
+    scdb:song
+        song:SOS ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Mayuzumi_Fuyuko> .
 
 <Asakura_Toru> a scdb:Idol ;
@@ -636,6 +677,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "50D0D0"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50001> ;
+    scdb:song
+        song:statice ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Asakura_Toru> .
 
 <Higuchi_Madoka> a scdb:Idol ;
@@ -667,6 +710,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "BE1E3E"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS02 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50018> ;
+    scdb:song
+        song:Yumemidori ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Higuchi_Madoka> .
 
 <Fukumaru_Koito> a scdb:Idol ;
@@ -698,6 +743,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "7967C3"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50019> ;
+    scdb:song
+        song:Watashi_no_Shujinkou_wa_Watashi_Dakara%21 ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Fukumaru_Koito> .
 
 <Ichikawa_Hinana> a scdb:Idol ;
@@ -729,6 +776,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "FFC639"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50004> ;
+    scdb:song
+        song:Aozora_Cider ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Ichikawa_Hinana> .
 
 <Nanakusa_Nichika> a scdb:Idol ;
@@ -761,6 +810,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:color "A5CFB6"^^xsd:hexBinary ;
     scdb:schoolGrade enum:SchoolGrade.HS01 ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50024> ;
+    # scdb:song
+    #     song: ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Nanakusa_Nichika> .
 
 <Aketa_Mikoto> a scdb:Idol ;
@@ -791,6 +842,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "一途でひたむきな美人だが、寝食など身の回りのことを疎かにしがち。アイドル経験者でもあり、誰よりも『アイドル』への想いが強い。"@ja ;
     scdb:color "760E10"^^xsd:hexBinary ;
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50025> ;
+    # scdb:song
+    #     song: ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Aketa_Mikoto> .
 
 <Ikaruga_Luca> a scdb:Idol ;
@@ -821,4 +874,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :description "話題沸騰中のソロアイドル。悩める現代女子たちの『カミサマ』として一部でカルト的な人気を集めている。理由は不明だが、283プロを敵視している。"@ja ;
     scdb:color "1E140E"^^xsd:hexBinary ;
     # scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/> ;
+    scdb:song
+        song:Kamisama_wa_Shinda%2C_tte;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Ikaruga_Luca> .

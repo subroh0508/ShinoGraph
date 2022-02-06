@@ -3,6 +3,7 @@ PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX album: <https://283db.org/resource/music/album/>
+PREFIX song: <https://283db.org/resource/music/song/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -31,6 +32,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:FW02 ,
         album:GW02 ,
         album:LW02 ;
+    scdb:song
+        song:Hikari_no_destination,
+        song:Niji_ni_Nare,
+        song:We_can_go_now%21 ,
+        song:Triangle ,
+        song:Twinkle_way ,
+        song:Happy_Funny_Lucky ,
+        song:PRISISM ,
+        song:Smile_Symphonia ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/illuminationSTARS> .
 
 <L%27Antica> a scdb:Unit ;
@@ -54,6 +64,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:FW03 ,
         album:GW03 ,
         album:LW03 ;
+    scdb:song
+        song:Babel_City_Grace ,
+        song:Genwaku_SILHOUETTE ,
+        song:NEO_THEORY_FANTASY ,
+        song:Labyrinth_Resistance ,
+        song:Black_Reverie ,
+        song:Junpaku_Träumerei ,
+        song:abyss_of_conflict ,
+        song:Kakumei_Shinkaron ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/L%27Antica> .
 
 <Hokago_Climax_Girls> a scdb:Unit ;
@@ -77,6 +96,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:FW04 ,
         album:GW04 ,
         album:LW04 ;
+    scdb:song
+        song:Yumesaki_After_school ,
+        song:Taiyou_Kiss ,
+        song:Beach_Braver ,
+        song:Yorimichi_Sunset ,
+        song:Itsutsuza_Ryuuseigun ,
+        song:Gakusai_Kakumei_Yoakemae ,
+        song:Climax_Island ,
+        song:Haikei_Time_Capsule ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA> .
 
 <ALSTROEMERIA> a scdb:Unit ;
@@ -98,6 +126,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:FW05 ,
         album:GW05 ,
         album:LW05 ;
+    scdb:song
+        song:Alstroemeria ,
+        song:Happy_Lily ,
+        song:Bloomy%21 ,
+        song:Love_Addiction ,
+        song:Double_Effect ,
+        song:Anniversary ,
+        song:Pastel_Color_Pascala_Color ,
+        song:Love_Bon_Appétit ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/ALSTROEMERIA> .
 
 <Straylight> a scdb:Unit ;
@@ -118,6 +155,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:FW06 ,
         album:GW06 ,
         album:LW06 ;
+    scdb:song
+        song:Wandering_Dream_Chaser ,
+        song:Transcending_The_World ,
+        song:Hide_%26_Attack ,
+        song:Destined_Rival ,
+        song:Another_Rampage ,
+        song:Timeless_Shooting_Star ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Straylight> .
 
 <noctchill> a scdb:Unit ;
@@ -138,6 +182,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :album
         album:GW07 ,
         album:LW07 ;
+    scdb:song
+        song:Itsudatte_Bokura_wa ,
+        song:Ano_Hana_no_You_ni ,
+        song:Bokura_Dake_no_Mirai_no_Sora ,
+        song:Ima_Shikanai_Shunkan_o ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/noctchill> .
 
 <SHHis> a scdb:Unit ;
@@ -155,6 +204,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:youtubeUrl <https://www.youtube.com/watch?v=jFD9cSD7z7c> ;
     :album
         album:LW08 ;
+    scdb:song
+        song:OH_MY_GOD ,
+        song:Fly_and_Fly ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/SHHis> .
 
 <Team%2EStella> a scdb:Unit ;
@@ -171,6 +223,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Aketa_Mikoto ;
     :album
         album:Stella ;
+    scdb:song
+        song:Planisphere ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Team%2EStella> .
 
 <Team%2ELuna> a scdb:Unit ;
@@ -187,6 +241,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Osaki_Tenka ;
     :album
         album:Luna ;
+    scdb:song
+        song:Reflect_Sign ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Team%2ELuna> .
 
 <Team%2ESol> a scdb:Unit ;
@@ -204,4 +260,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Nanakusa_Nichika ;
     :album
         album:Sol ;
+    scdb:song
+        song:SOLAR_WAY ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Team%2ESol> .

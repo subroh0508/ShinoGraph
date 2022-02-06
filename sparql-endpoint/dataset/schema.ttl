@@ -108,6 +108,16 @@ scdb:youtubeUrl a rdf:Property ;
     rdfs:label "YouTube動画のURL"@ja, "URL of YouTube"@en ;
     rdfs:range xsd:uri .
 
+scdb:song a rdf:Property ;
+    rdfs:label "ユニット楽曲・ソロ楽曲"@ja, "Unit Song or Solo Song"@en ;
+    rdfs:domain scdb:Idol, scdb:Unit ;
+    rdfs:range :MusicComposition .
+
+scdb:originalMember a rdf:Property ;
+    rdfs:label "楽曲のオリジナル歌唱メンバー"@ja, "Original Member of Song"@en ;
+    rdfs:domain :MusicComposition ;
+    rdfs:range scdb:Idol, :MusicGroup .
+
 scdb:price a rdf:Property ;
     rdfs:label "日本円での価格(税抜)"@ja, "Price in Japanese Yen(Tax Excluded)"@en ;
     rdfs:domain :MusicRelease ;
