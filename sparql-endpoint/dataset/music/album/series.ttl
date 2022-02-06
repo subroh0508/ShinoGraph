@@ -54,6 +54,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         album:GW06 ,
         album:GW07 .
 
+<CF> a :CreativeWorkSeries ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS" ;
+    :name
+        "COLORFUL FE@THERS"@ja, "COLORFUL FE@THERS"@en, "COLORFUL FE@THERS",
+        "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS"@ja, "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS"@en, "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS" ;
+    :startDate "2021-01-20"^^xsd:date ;
+    :endDate "2021-03-10"^^xsd:date ;
+    :hasPart
+        album:Strella ,
+        album:Luna ,
+        album:Sol .
+
 <LW> a :CreativeWorkSeries ;
     rdfs:label "THE IDOLM@STER SHINY COLORS L@YERED WING" ;
     :name

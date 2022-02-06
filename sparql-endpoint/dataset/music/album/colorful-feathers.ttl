@@ -1,0 +1,263 @@
+BASE <https://283db.org/resource/music/album/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX perform: <https://283db.org/resource/artist/performer/>
+PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX series: <https://283db.org/resource/music/album/series/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Strella> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Stella-" ;
+    :name
+        "Stella"@ja, "Stella"@en, "Stella",
+        "COLORFUL FE@THERS -Stella-"@ja, "COLORFUL FE@THERS -Stella-"@en, "COLORFUL FE@THERS -Stella-",
+        "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Stella-"@ja, "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Stella-"@en, "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Stella-" ;
+    :numTracks 8 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "プラニスフィア ～planisphere～" ;
+            :recordingOf song:Planisphere ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "Team.Stella" ;
+                    :name "Team.Stella"@ja, "Team.Stella"@en, "Team.Stella" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Higuchi_Madoka_%28CV_Tsuchiya_Rio%28 ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "ありったけの輝きで" ;
+            :recordingOf song:Arittake_no_Kagayaki_de ;
+            :position 2 ;
+            :byArtist perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "星をめざして" ;
+            :recordingOf song:Hoshi_o_Mezashite ;
+            :position 3 ;
+            :byArtist perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "夢見鳥" ;
+            :recordingOf song:Yumemidori ;
+            :position 4 ;
+            :byArtist perform:Higuchi_Madoka_%28CV_Tsuchiya_Rio%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "アポイント・シグナル" ;
+            :recordingOf song:Appoint_Signal ;
+            :position 5 ;
+            :byArtist perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "チョコデート・サンデー" ;
+            :recordingOf song:Choco_Date_Sundae ;
+            :position 6 ;
+            :byArtist perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Sweet Memories" ;
+            :recordingOf song:Sweet_Memories ;
+            :position 7 ;
+            :byArtist perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "ハナマルバッジ" ;
+            :recordingOf song:Hanamaru_Badge ;
+            :position 8 ;
+            :byArtist perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/laca-15861/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACA-15861.jpg> ;
+        :catalogNumber "LACA-15861" ;
+        :datePublished "2021-01-20"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
+        scdb:price 2500
+    ] ;
+    :isPartOf series:CF .
+
+<Luna> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Luna-" ;
+    :name
+        "Luna"@ja, "Luna"@en, "Luna",
+        "COLORFUL FE@THERS -Luna-"@ja, "COLORFUL FE@THERS -Luna-"@en, "COLORFUL FE@THERS -Luna-",
+        "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Luna-"@ja, "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Luna-"@en, "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Luna-" ;
+    :numTracks 8 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "リフレクトサイン" ;
+            :recordingOf song:Reflect_Sign ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "Team.Luna" ;
+                    :name "Team.Luna"@ja, "Team.Luna"@en, "Team.Luna" ;
+                    :member
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Fukumaru_Koito_%28CV_Tajima_Saran%28 ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "誰ソ彼アイデンティティー" ;
+            :recordingOf song:Tasogare_Identity ;
+            :position 2 ;
+            :byArtist perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "わたしの主人公はわたしだから！" ;
+            :recordingOf song:Watashi_no_Shujinkou_wa_Watashi_Dakara%21 ;
+            :position 3 ;
+            :byArtist perform:Fukumaru_Koito_%28CV_Tajima_Saran%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "また明日" ;
+            :recordingOf song:Mata_Ashita ;
+            :position 4 ;
+            :byArtist perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "常先の庭" ;
+            :recordingOf song:Tokosaki_no_Niwa ;
+            :position 5 ;
+            :byArtist perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "プラスチック・アンブレラ" ;
+            :recordingOf song:Plastic_Umbrella ;
+            :position 6 ;
+            :byArtist perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Going my way" ;
+            :recordingOf song:Going_my_way ;
+            :position 7 ;
+            :byArtist perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "雪・月・風・花" ;
+            :recordingOf song:Setsugetsufuuka ;
+            :position 8 ;
+            :byArtist perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "スローモーション" ;
+            :recordingOf song:Slow_Motion ;
+            :position 9 ;
+            :byArtist perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ;
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/laca-15862/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACA-15862.jpg> ;
+        :catalogNumber "LACA-15862" ;
+        :datePublished "2021-02-17"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
+        scdb:price 2500
+    ] ;
+    :isPartOf series:CF .
+
+<Sol> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Sol-" ;
+    :name
+        "Sol"@ja, "Sol"@en, "Sol",
+        "COLORFUL FE@THERS -Sol-"@ja, "COLORFUL FE@THERS -Sol-"@en, "COLORFUL FE@THERS -Sol-",
+        "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Sol-"@ja, "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Sol-"@en, "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Sol-" ;
+    :numTracks 8 ;
+    :track [
+        a :MusicRecoding ;
+            rdfs:label "千夜アリア" ;
+            :recordingOf song:Senya_Aria ;
+            :position 1 ;
+            :byArtist perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Damascus Cocktail" ;
+            :recordingOf song:Damascus_Cocktail ;
+            :position 2 ;
+            :byArtist perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Darling you!" ;
+            :recordingOf song:Darling_you%21 ;
+            :position 3 ;
+            :byArtist perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "あおぞらサイダー" ;
+            :recordingOf song:Aozora_Cider ;
+            :position 4 ;
+            :byArtist perform:Ichikawa_Hinana_%28CV_Okasaki_Miho%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "SOS" ;
+            :recordingOf song:SOS ;
+            :position 5 ;
+            :byArtist perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "過純性ブリーチ" ;
+            :recordingOf song:Kajunsei_Breach ;
+            :position 6 ;
+            :byArtist perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "HAREBARE!!" ;
+            :recordingOf song:HAREBARE%21%21 ;
+            :position 7 ;
+            :byArtist perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ;
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "statice" ;
+            :recordingOf song:statice ;
+            :position 8 ;
+            :byArtist perform:Asakura_Toru_%28CV_Wakui_Yu%28 ;
+    ], [
+        a :MusicRecording ;
+            rdfs:label "SOLAR WAY ;
+            :recordingOf song:SOLAR_WAY ;
+            :position 9 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "Team.Sol" ;
+                    :name "Team.Sol"@ja, "Team.Sol"@en, "Team.Sol" ;
+                    :member
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ,
+                        perform:Asakura_Toru_%28CV_Wakui_Yu%28 ,
+                        perform:Ichikawa_Hinana_%28CV_Okasaki_Miho%28 ;
+            ]
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/laca-15863/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACA-15863.jpg> ;
+        :catalogNumber "LACA-15863" ;
+        :datePublished "2021-03-10"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
+        scdb:price 2500
+    ] ;
+    :isPartOf series:CF .

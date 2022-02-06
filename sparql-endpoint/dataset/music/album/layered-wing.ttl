@@ -1,4 +1,4 @@
-BASE <https://283db.org/resource/music/album/layered-wing/>
+BASE <https://283db.org/resource/music/album/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX perform: <https://283db.org/resource/artist/performer/>
 PREFIX song: <https://283db.org/resource/music/song/>
