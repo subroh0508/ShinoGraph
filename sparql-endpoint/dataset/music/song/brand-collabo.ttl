@@ -1,0 +1,24 @@
+BASE <https://283db.org/resource/music/song/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Nandodemo_Waraou> a :MusicComposition ;
+    rdfs:label "なんどでも笑おう" ;
+    :name "なんどでも笑おう"@ja, "Nandodemo Waraou"@en, "なんどでも笑おう" ;
+    :lyricist credit:Momoki_Eiji ;
+    :composer credit:BNSI%28Sato_Takafumi%28 ;
+    :editor credit:BNSI%28Torine%28 .
+
+<VOY%40GER> a :MusicComposition ;
+    rdfs:label "VOY@GER" ;
+    :name "VOY@GER"@ja, "VOY@GER"@en, "VOY@GER" ;
+    :lyricist credit:Karasuya_Sabo ;
+    :composer credit:Inoue_Keita%28MONACA%28 ;
+    :editor credit:Inoue_Keita%28MONACA%28 .

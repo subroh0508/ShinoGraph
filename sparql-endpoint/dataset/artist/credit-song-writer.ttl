@@ -459,6 +459,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "BNSI(佐藤貴文)"@ja, "BNSI(Takafumi Sato)"@en, "BNSI(佐藤貴文)" ;
     :sameAs songwriter:Sato_Takafumi .
 
+<BNSI%28Torine%28> a scdb:CreditSongWriter ;
+    rdfs:label "BNSI(トリ音)" ;
+    :name "BNSI(トリ音)"@ja, "BNSI(トリ音)"@en, "BNSI(トリ音)" ;
+    :sameAs songwriter:Torine .
+
 <Inoue_Keita%28MONACA%28> a scdb:CreditSongWriter ;
     rdfs:label "井上馨太(MONACA)" ;
     :name "井上馨太(MONACA)"@ja, "Keita Inoue(MONACA)"@en, "井上馨太(MONACA)" ;

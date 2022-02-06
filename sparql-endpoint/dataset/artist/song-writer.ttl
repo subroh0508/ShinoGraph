@@ -489,6 +489,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "佐藤貴文"@ja, "Takafumi Sato"@en, "佐藤貴文" ;
     :gender :Male .
 
+<Torine> a scdb:SongWriter ;
+    rdfs:label "トリ音" ;
+    :name "トリ音"@ja, "Torine"@en, "トリ音" ;
+    :gender :Female .
+
 <Inoue_Keita> a scdb:SongWriter ;
     rdfs:label "井上馨太" ;
     :name "井上馨太"@ja, "Keita Inoue"@en, "井上馨太" ;
