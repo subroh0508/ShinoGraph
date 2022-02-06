@@ -37,9 +37,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :composer credit:Honda_Masaki%28Dream_Monster%28 ;
     :editor credit:Honda_Masaki%28Dream_Monster%28 .
 
-<Choco_Date_Sunday> a :MusicComposition ;
+<Choco_Date_Sundae> a :MusicComposition ;
     rdfs:label "チョコデート・サンデー" ;
-    :name "チョコデート・サンデー"@ja, "Choco Date Sunday"@en, "チョコデート・サンデー" ;
+    :name "チョコデート・サンデー"@ja, "Choco Date Sundae"@en, "チョコデート・サンデー" ;
     :lyricist credit:Kodama_Ameko ;
     :composer credit:Nakano_Ryota ;
     :editor credit:Nakano_Ryota .
@@ -57,3 +57,115 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :lyricist credit:Furuya_Makoto ;
     :composer credit:Furuya_Makoto, credit:YUU_for_YOU ;
     :editor credit:YUU_for_YOU .
+
+<Tasogare_Identity> a :MusicComposition ;
+    rdfs:label "誰ソ彼アイデンティティー" ;
+    :name "誰ソ彼アイデンティティー"@ja, "Tasogare Identity"@en, "誰ソ彼アイデンティティー" ;
+    :lyricist credit:Matsui_Yohei ;
+    :composer credit:Takao_Sonosuke ;
+    :editor credit:Takao_Sonosuke .
+
+<Watashi_no_Shujinkou_wa_Watashi_Dakara%21> a :MusicComposition ;
+    rdfs:label "わたしの主人公はわたしだから！" ;
+    :name "わたしの主人公はわたしだから！"@ja, "Watashi no Shujinkou wa Watashi Dakara!"@en, "わたしの主人公はわたしだから！" ;
+    :lyricist credit:Akiura_Tomohiro ;
+    :composer credit:Honda_Yuki%28Arte_Refact%28 ;
+    :editor credit:Yatoki_Tsukasa%28Arte_Refact%28 .
+
+<Mata_Ashita> a :MusicComposition ;
+    rdfs:label "また明日" ;
+    :name "また明日"@ja, "Mata Ashita"@en, "また明日" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:JUVENILE ;
+    :editor credit:JUVENILE .
+
+<Tokosaki_no_Niwa> a :MusicComposition ;
+    rdfs:label "常先の庭" ;
+    :name "常先の庭"@ja, "Tokosaki no Niwa"@en, "常先の庭" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Taguma_Tomoari%28Dream_Monster%28 ;
+    :editor credit:Taguma_Tomoari%28Dream_Monster%28 .
+
+<Plastic_Umbrella> a :MusicComposition ;
+    rdfs:label "プラスチック・アンブレラ" ;
+    :name "プラスチック・アンブレラ"@ja, "Plastic Umbrella"@en, "プラスチック・アンブレラ" ;
+    :lyricist credit:Kodama_Ameko ;
+    :composer credit:Yabuki_Kana ;
+    :editor credit:Maeguchi_Wataru .
+
+<Going_my_way> a :MusicComposition ;
+    rdfs:label "Going my way" ;
+    :name "Going my way"@ja, "Going my way"@en, "Going my way" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:Watanabe_Toru ;
+    :editor credit:Hibino_Hirofumi .
+
+<Setsugetsufuuka> a :MusicComposition ;
+    rdfs:label "雪・月・風・花" ;
+    :name "雪・月・風・花"@ja, "Setsugetsufuuka"@en, "雪・月・風・花" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:rionos ;
+    :editor credit:rionos .
+
+<Slow_Motion> a :MusicComposition ;
+    rdfs:label "スローモーション" ;
+    :name "スローモーション"@ja, "Slow Motion"@en, "スローモーション" ;
+    :lyricist credit:Nakamura_Kanata ;
+    :composer credit:Iwakoshi_Ryota ;
+    :editor credit:Miyoshi_Keita .
+
+<Senya_Aria> a :MusicComposition ;
+    rdfs:label "千夜アリア" ;
+    :name "千夜アリア"@ja, "Senya Aria"@en, "千夜アリア" ;
+    :lyricist credit:Masaki_Erika ;
+    :composer credit:Fujii_Kentaro%28HANO%28, credit:Tani_Naoki%28HANO%28 ;
+    :editor credit:Fujii_Kentaro%28HANO%28, credit:Tani_Naoki%28HANO%28 .
+
+<Damascus_Cocktail> a :MusicComposition ;
+    rdfs:label "Damascus Cocktail" ;
+    :name "Damascus Cocktail"@ja, "Damascus Cocktail"@en, "Damascus Cocktail" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Suyama_Jun ;
+    :editor credit:Suyama_Jun .
+
+<Darling_you%21> a :MusicComposition ;
+    rdfs:label "Darling you!" ;
+    :name "Darling you!"@ja, "Darling you!"@en, "Darling you!" ;
+    :lyricist credit:Suzuki_Shizuna ;
+    :composer credit:Minami_Naohiro ;
+    :editor credit:Minami_Naohiro .
+
+<Aozora_Cider> a :MusicComposition ;
+    rdfs:label "あおぞらサイダー" ;
+    :name "あおぞらサイダー"@ja, "Aozora Cider"@en, "あおぞらサイダー" ;
+    :lyricist credit:Akiura_Tomohiro ;
+    :composer credit:Kokubo_Yuki, credit:YUU_for_YOU ;
+    :editor credit:YUU_for_YOU .
+
+<SOS> a :MusicComposition ;
+    rdfs:label "SOS" ;
+    :name "SOS"@ja, "SOS"@en, "SOS" ;
+    :lyricist credit:Shimoji_Yu ;
+    :composer credit:Mutsuki_Shuhei ;
+    :editor credit:Mutsuki_Shuhei .
+
+<Kajunsei_Breach> a :MusicComposition ;
+    rdfs:label "過純性ブリーチ" ;
+    :name "過純性ブリーチ"@ja, "Kajunsei Breach"@en, "過純性ブリーチ" ;
+    :lyricist credit:Furuya_Makoto ;
+    :composer credit:Onishi_Katsumi ;
+    :editor credit:Onishi_Katsumi .
+
+<HAREBARE%21%21> a :MusicComposition ;
+    rdfs:label "HAREBARE!!" ;
+    :name "HAREBARE!!"@ja, "HAREBARE!!"@en, "HAREBARE!!" ;
+    :lyricist credit:Watanabe_Akiko ;
+    :composer credit:Onishi_Katsumi ;
+    :editor credit:Onishi_Katsumi .
+
+<statice> a :MusicComposition ;
+    rdfs:label "statice" ;
+    :name "statice"@ja, "statice"@en, "statice" ;
+    :lyricist credit:Akiura_Tomohiro ;
+    :composer credit:Iehara_Masaki, credit:Jam9 ;
+    :editor credit:Iehara_Masaki .

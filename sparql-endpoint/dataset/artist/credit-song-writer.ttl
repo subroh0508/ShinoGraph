@@ -354,7 +354,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "高尾奏之介"@ja, "Sonosuke Takao"@en, "高尾奏之介" ;
     :sameAs songwriter:Takao_Sonosuke .
 
-<Takada_Kyo%28Arte_Refact%28> a scdb:CreditSongWriter ;
+<Yatoki_Tsukasa%28Arte_Refact%28> a scdb:CreditSongWriter ;
     rdfs:label "矢鴇つかさ(Arte Refact)" ;
     :name "矢鴇つかさ(Arte Refact)"@ja, "Tsukasa Yatoki(Arte Refact)"@en, "矢鴇つかさ(Arte Refact)" ;
     :sameAs songwriter:Takada_Kyo .
