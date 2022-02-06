@@ -9,6 +9,20 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<Devitaro_no_Uta> a :MusicComposition ;
+    rdfs:label "デビ太郎のうた" ;
+    :name "デビ太郎のうた"@ja, "Devitaro no Uta"@en, "デビ太郎のうた" ;
+    :lyricist credit:Fukagawa_Kotomi ;
+    :composer credit:Hono_Satoshi ;
+    :editor credit:Hono_Satoshi .
+
+<Zettai_Seigi_EVERY_DAY> a :MusicComposition ;
+    rdfs:label "絶対正義 EVERY DAY" ;
+    :name "絶対正義 EVERY DAY"@ja, "Zettai Seigi EVERY DAY"@en, "絶対正義 EVERY DAY" ;
+    :lyricist credit:Maeda_Kanro ;
+    :composer credit:Kageyama_Shota ;
+    :editor credit:Kageyama_Shota .
+
 <Arittake_no_Kagayaki_de> a :MusicComposition ;
     rdfs:label "ありったけの輝きで" ;
     :name "ありったけの輝きで"@ja, "Arittake no Kagayaki de"@en, "ありったけの輝きで" ;
@@ -169,3 +183,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :lyricist credit:Akiura_Tomohiro ;
     :composer credit:Iehara_Masaki, credit:Jam9 ;
     :editor credit:Iehara_Masaki .
+
+<Kamisama_wa_Shinda%2C_tte> a :MusicComposition ;
+    rdfs:label "神様は死んだ、って" ;
+    :name "神様は死んだ、って"@ja, "Kamisama wa Shinda, tte"@en, "神様は死んだ、って" ;
+    :lyricist credit:Karasuya_Sabo ;
+    :composer credit:Mizunoya_Ren%28Arte_Refact%28 ;
+    :editor credit:Mizunoya_Ren%28Arte_Refact%28 .
