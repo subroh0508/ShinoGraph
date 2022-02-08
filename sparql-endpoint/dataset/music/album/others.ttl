@@ -1,0 +1,197 @@
+BASE <https://283db.org/resource/music/album/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX perform: <https://283db.org/resource/artist/performer/>
+PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX series: <https://283db.org/resource/music/album/series/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<FUTURITY_SMILE> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS FUTURITY SMILE" ;
+    :name
+        "FUTURITY SMILE"@ja, "FUTURITY SMILE"@en, "FUTURITY SMILE",
+        "THE IDOLM@STER SHINY COLORS FUTURITY SMILE"@ja, "THE IDOLM@STER SHINY COLORS FUTURITY SMILE"@en, "THE IDOLM@STER SHINY COLORS FUTURITY SMILE" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "FUTURITY SMILE" ;
+            :recordingOf song:FUTURITY_SMILE ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Spread the Wings!! -19 colors-" ;
+            :recordingOf song:Spread_the_Wings%21%21 ;
+            :position 2 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+            ]
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14906/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14906.jpg> ;
+        :catalogNumber "LACM-14906" ;
+        :datePublished "2019-12-18"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
+        scdb:price 1300
+    ] .
+
+<SWEET%E2%99%A1STEP> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS SWEET♡STEP" ;
+    :name
+        "SWEET♡STEP"@ja, "SWEET♡STEP"@en, "SWEET♡STEP",
+        "THE IDOLM@STER SHINY COLORS SWEET♡STEP"@ja, "THE IDOLM@STER SHINY COLORS SWEET♡STEP"@en, "THE IDOLM@STER SHINY COLORS SWEET♡STEP" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "SWEET♡STEP" ;
+            :recordingOf song:SWEET%E2%99%A1STEP ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Multicolored Sky -19 colors-" ;
+            :recordingOf song:Multicolored_Sky ;
+            :position 2 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ,
+                        perform:Serizawa_Asahi_%28CV_Tanaka_Yuki%28 ,
+                        perform:Izumi_Mei_%28CV_Kitahara_Sayaka%28 ,
+                        perform:Mayuzumi_Fuyuko_%28CV_Yukimura_Eri%28 ;
+            ]
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14965/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14965.jpg> ;
+        :catalogNumber "LACM-14965" ;
+        :datePublished "2020-02-12"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
+        scdb:price 1300
+    ] .
+
+<Devitaro_VS_Justice_V> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS デビ太郎 VS ジャスティスV" ;
+    :name
+        "デビ太郎 VS ジャスティスV"@ja, "Devitaro VS Justice V"@en, "デビ太郎 VS ジャスティスVP",
+        "THE IDOLM@STER SHINY COLORS デビ太郎 VS ジャスティスV"@ja, "THE IDOLM@STER SHINY COLORS Devitaro VS Justice V"@en, "THE IDOLM@STER SHINY COLORS デビ太郎 VS ジャスティスV" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "デビ太郎のうた" ;
+            :recordingOf song:Devitaro_no_Uta ;
+            :position 1 ;
+            :byArtist perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "絶対正義 EVERY DAY" ;
+            :recordingOf song:Zettai_Seigi_EVERY_DAY ;
+            :position 2 ;
+            :byArtist perform:Komiya_Kaho_%28CV_Kono_Hiyori%28
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacz-10033/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACZ-10033.jpg> ;
+        :catalogNumber "LACM-10033" ;
+        :datePublished "2020-07-29"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
+        scdb:price 1182
+    ] .
+
+

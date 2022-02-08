@@ -1,0 +1,82 @@
+BASE <https://283db.org/resource/music/album/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX perform: <https://283db.org/resource/artist/performer/>
+PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<SE%40SONAL_WINTER> a :MusicAlbum ;
+    rdfs:label "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER" ;
+    :name
+        "SE@SONAL WINTER"@ja, "SE@SONAL WINTER"@en, "SE@SONAL WINTER",
+        "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER"@ja, "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER"@en, "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "SNOW FLAKES MEMORIES" ;
+            :recordingOf song:SNOW_FLAKES_MEMORIES ;
+            :position 1 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+            ]
+    ], [
+        a :MusicRecoding ;
+            rdfs:label "Let's get a chance" ;
+            :recordingOf song:Let%27s_get_a_chance ;
+            :position 2 ;
+            :byArtist [
+                a :MusicGroup ;
+                    rdfs:label "シャイニーカラーズ" ;
+                    :name "シャイニーカラーズ"@ja, "Shinycolors"@en, "シャイニーカラーズ" ;
+                    :member
+                        perform:Sakuragi_Mano_%28CV_Sekine_Hitomi%28 ,
+                        perform:Kazano_Hiori_%28CV_Kondo_Reina%28 ,
+                        perform:Hachimiya_Meguru_%28CV_Mineda_Mayu%28 ,
+                        perform:Tsukioka_Kogane_%28CV_Isobe_Karin%28 ,
+                        perform:Mitsumine_Yuika_%28CV_Narumi_Runa%28 ,
+                        perform:Shirase_Sakuya_%28CV_Yamaki_Anna%28 ,
+                        perform:Tanaka_Mamimi_%28CV_Suganuma_Chisa%28 ,
+                        perform:Yukoku_Kiriko_%28CV_Yuina_Miduki%28 ,
+                        perform:Komiya_Kaho_%28CV_Kono_Hiyori%28 ,
+                        perform:Saijo_Juri_%28CV_Nagai_Mariko%28 ,
+                        perform:Arisugawa_Natsuha_%28CV_Suzumoto_Akiho%28 ,
+                        perform:Morino_Rinze_%28CV_Maruoka_Wakana%28 ,
+                        perform:Sonoda_Chiyoko_%28CV_Shiraishi_Haruka%28 ,
+                        perform:Kuwayama_Chiyuki_%28CV_Shibasaki_Noriko%28 ,
+                        perform:Osaki_Tenka_%28CV_Maekawa_Ryoko%28 ,
+                        perform:Osaki_Amana_%28CV_Kuroki_Honoka%28 ;
+            ]
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lacm-14820/> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LACM-14820.jpg> ;
+        :catalogNumber "LACM-14820" ;
+        :datePublished "2018-12-19"^^xsd:date ;
+        :musicReleaseFormat :CDFormat ;
+        scdb:price 1300
+    ] .

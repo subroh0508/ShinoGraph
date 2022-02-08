@@ -58,7 +58,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :composer credit:ArmySlick, credit:Giz%27Mo%28from_Jam9%28 ;
     :editor credit:ArmySlick, credit:Mori_Yuya .
 
-<SWEET♡STEP> a :MusicComposition ;
+<SWEET%E2%99%A1STEP> a :MusicComposition ;
     rdfs:label "SWEET♡STEP" ;
     :name "SWEET♡STEP"@ja, "SWEET♡STEP"@en, "SWEET♡STEP" ;
     :lyricist credit:Fukagawa_Kotomi ;
