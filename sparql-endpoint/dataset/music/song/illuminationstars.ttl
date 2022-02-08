@@ -1,6 +1,7 @@
 BASE <https://283db.org/resource/music/song/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX unit: <https://283db.org/resource/character/unit/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -14,53 +15,61 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "ヒカリのdestination"@ja, "Hikari no destination"@en, "ヒカリのdestination" ;
     :lyricist credit:Nakamura_Kanata ;
     :composer credit:Nakano_Ryota%28onetrap%28 ;
-    :editor credit:Nakano_Ryota%28onetrap%28 .
+    :editor credit:Nakano_Ryota%28onetrap%28 ;
+    scdb:originalArtist unit:illumination_STARS .
 
 <Niji_ni_Nare> a :MusicComposition ;
     rdfs:label "虹になれ" ;
     :name "虹になれ"@ja, "Niji ni Nare"@en, "虹になれ" ;
     :lyricist credit:Nakamura_Kanata ;
     :composer credit:Fujisue_Miki ;
-    :editor credit:Fujisue_Miki .
+    :editor credit:Fujisue_Miki ;
+    scdb:originalArtist unit:illumination_STARS .
 
 <We_can_go_now%21> a :MusicComposition ;
     rdfs:label "We can go now!" ;
     :name "We can go now!"@ja, "We can go now!"@en, "We can go now!" ;
     :lyricist credit:Nakamura_Kanata ;
     :composer credit:Onishi_Katsumi ;
-    :editor credit:Onishi_Katsumi .
+    :editor credit:Onishi_Katsumi ;
+    scdb:originalArtist unit:illumination_STARS .
 
 <Triangle> a :MusicComposition ;
     rdfs:label "トライアングル" ;
     :name "トライアングル"@ja, "Triangle"@en, "トライアングル" ;
     :lyricist credit:Nakamura_Kanata ;
     :composer credit:Giz%27Mo%28from_Jam9%28, credit:ArmySlick ;
-    :editor credit:ArmySlick .
+    :editor credit:ArmySlick ;
+    scdb:originalArtist unit:illumination_STARS .
 
 <Twinkle_way> a :MusicComposition ;
     rdfs:label "Twinkle way" ;
     :name "Twinkle way"@ja, "Twinkle way"@en, "Twinkle way" ;
     :lyricist credit:Watanabe_Akiko ;
     :composer credit:Nabeya_Takuma%28luxis%28 ;
-    :editor credit:Ito_Ken .
+    :editor credit:Ito_Ken ;
+    scdb:originalArtist unit:illumination_STARS .
 
 <Happy_Funny_Lucky> a :MusicComposition ;
     rdfs:label "Happy Funny Lucky" ;
     :name "Happy Funny Lucky"@ja, "Happy Funny Lucky"@en, "Happy Funny Lucky" ;
     :lyricist credit:Watanabe_Akiko ;
     :composer credit:Nakano_Ryota%28onetrap%28 ;
-    :editor credit:Nakano_Ryota%28onetrap%28 .
+    :editor credit:Nakano_Ryota%28onetrap%28 ;
+    scdb:originalArtist unit:illumination_STARS .
 
 <PRISISM> a :MusicComposition ;
     rdfs:label "PRISISM" ;
     :name "PRISISM"@ja, "PRISISM"@en, "PRISISM" ;
     :lyricist credit:Watanabe_Akiko ;
     :composer credit:Miyoshi_Keita ;
-    :editor credit:Miyoshi_Keita .
+    :editor credit:Miyoshi_Keita ;
+    scdb:originalArtist unit:illumination_STARS .
 
 <Smile_Symphonia> a :MusicComposition ;
     rdfs:label "スマイルシンフォニア" ;
     :name "スマイルシンフォニア"@ja, "Smile Symphonia"@en, "スマイルシンフォニア" ;
     :lyricist credit:Watanabe_Akiko ;
     :composer credit:Miyoshi_Keita ;
-    :editor credit:Miyoshi_Keita .
+    :editor credit:Miyoshi_Keita ;
+    scdb:originalArtist unit:illumination_STARS .

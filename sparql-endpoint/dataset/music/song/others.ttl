@@ -1,6 +1,7 @@
 BASE <https://283db.org/resource/music/song/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX unit: <https://283db.org/resource/character/unit/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -14,18 +15,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "プラニスフィア ～planisphere～"@ja, "Planisphere"@en, "プラニスフィア ～planisphere～" ;
     :lyricist credit:Matsui_Yohei ;
     :composer credit:ArmySlick, credit:Giz%27Mo%28from_Jam9%28 ;
-    :editor credit:Yamaguchi_Akihiko .
+    :editor credit:Yamaguchi_Akihiko ;
+    scdb:originalArtist unit:Team%2EStella .
 
 <Reflect_Sign> a :MusicComposition ;
     rdfs:label "リフレクトサイン" ;
     :name "リフレクトサイン"@ja, "Reflect Sign"@en, "リフレクトサイン" ;
     :lyricist credit:Masaki_Erika ;
     :composer credit:Iehara_Masaki, credit:Lauren_Kaori ;
-    :editor credit:Iehara_Masaki .
+    :editor credit:Iehara_Masaki ;
+    scdb:originalArtist unit:Team%2ELuna .
 
 <SOLAR_WAY> a :MusicComposition ;
     rdfs:label "SOLAR WAY" ;
     :name "SOLAR WAY"@ja, "SOLAR WAY"@en, "SOLAR WAY" ;
     :lyricist credit:Furuya_Makoto ;
     :composer credit:Itagaki_Yusuke ;
-    :editor credit:Itagaki_Yusuke .
+    :editor credit:Itagaki_Yusuke ;
+    scdb:originalArtist unit:Team%2ESol .

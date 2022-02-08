@@ -1,6 +1,7 @@
 BASE <https://283db.org/resource/music/song/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX unit: <https://283db.org/resource/character/unit/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -14,25 +15,29 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "いつだって僕らは"@ja, "Itsudatte Bokura wa"@en, "いつだって僕らは" ;
     :lyricist credit:Akiura_Tomohiro%28onetrap%28 ;
     :composer credit:Akiura_Tomohiro%28onetrap%28 ;
-    :editor credit:Akiura_Tomohiro%28onetrap%28 .
+    :editor credit:Akiura_Tomohiro%28onetrap%28 ;
+    scdb:originalArtist unit:noctchill .
 
 <Ano_Hana_no_You_ni> a :MusicComposition ;
     rdfs:label "あの花のように" ;
     :name "あの花のように"@ja, "Ano Hana no You ni"@en, "あの花のように" ;
     :lyricist credit:Kimoko ;
     :composer credit:Lantan ;
-    :editor credit:Lantan .
+    :editor credit:Lantan ;
+    scdb:originalArtist unit:noctchill .
 
 <Bokura_Dake_no_Mirai_no_Sora> a :MusicComposition ;
     rdfs:label "僕らだけの未来の空" ;
     :name "僕らだけの未来の空"@ja, "Bokura Dake no Mirai no Sora"@en, "僕らだけの未来の空" ;
     :lyricist credit:Akiura_Tomohiro%28onetrap%28 ;
     :composer credit:Ishii_Kentaro ;
-    :editor credit:Ishii_Kentaro .
+    :editor credit:Ishii_Kentaro ;
+    scdb:originalArtist unit:noctchill .
 
 <Ima_Shikanai_Shunkan_o> a :MusicComposition ;
     rdfs:label "今しかない瞬間を" ;
     :name "今しかない瞬間を"@ja, "Ima Shikanai Shunkan o"@en, "今しかない瞬間を" ;
     :lyricist credit:Akiura_Tomohiro%28onetrap%28 ;
     :composer credit:Honda_Yuki%28Arte_Refact%28 ;
-    :editor credit:Waki_Masatomi%28Arte_Refact%28 .
+    :editor credit:Waki_Masatomi%28Arte_Refact%28 ;
+    scdb:originalArtist unit:noctchill .

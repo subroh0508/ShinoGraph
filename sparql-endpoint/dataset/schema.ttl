@@ -113,7 +113,7 @@ scdb:song a rdf:Property ;
     rdfs:domain scdb:Idol, scdb:Unit ;
     rdfs:range :MusicComposition .
 
-scdb:originalMember a rdf:Property ;
+scdb:originalArtist a rdf:Property ;
     rdfs:label "楽曲のオリジナル歌唱メンバー"@ja, "Original Member of Song"@en ;
     rdfs:domain :MusicComposition ;
     rdfs:range scdb:Idol, :MusicGroup .

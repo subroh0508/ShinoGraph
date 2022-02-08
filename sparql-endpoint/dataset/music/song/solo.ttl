@@ -1,6 +1,7 @@
 BASE <https://283db.org/resource/music/song/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX credit: <https://283db.org/resource/artist/credit-song-writer/>
+PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -14,179 +15,205 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "デビ太郎のうた"@ja, "Devitaro no Uta"@en, "デビ太郎のうた" ;
     :lyricist credit:Fukagawa_Kotomi ;
     :composer credit:Hono_Satoshi ;
-    :editor credit:Hono_Satoshi .
+    :editor credit:Hono_Satoshi ;
+    scdb:originalArtist idol:Osaki_Tenka .
 
 <Zettai_Seigi_EVERY_DAY> a :MusicComposition ;
     rdfs:label "絶対正義 EVERY DAY" ;
     :name "絶対正義 EVERY DAY"@ja, "Zettai Seigi EVERY DAY"@en, "絶対正義 EVERY DAY" ;
     :lyricist credit:Maeda_Kanro ;
     :composer credit:Kageyama_Shota ;
-    :editor credit:Kageyama_Shota .
+    :editor credit:Kageyama_Shota ;
+    scdb:originalArtist idol:Komiya_Kaho .
 
 <Arittake_no_Kagayaki_de> a :MusicComposition ;
     rdfs:label "ありったけの輝きで" ;
     :name "ありったけの輝きで"@ja, "Arittake no Kagayaki de"@en, "ありったけの輝きで" ;
     :lyricist credit:Kodama_Saori ;
     :composer credit:Hitsuji ;
-    :editor credit:Hitsuji .
+    :editor credit:Hitsuji ;
+    scdb:originalArtist idol:Sakuragi_Mano .
 
 <Hoshi_o_Mezashite> a :MusicComposition ;
     rdfs:label "星をめざして" ;
     :name "星をめざして"@ja, "Hoshi o Mezashite "@en, "星をめざして" ;
     :lyricist credit:Shimoji_Yu ;
     :composer credit:Miyoshi_Keita ;
-    :editor credit:Miyoshi_Keita .
+    :editor credit:Miyoshi_Keita ;
+    scdb:originalArtist idol:Serizawa_Asahi .
 
 <Yumemidori> a :MusicComposition ;
     rdfs:label "夢見鳥" ;
     :name "夢見鳥"@ja, "Yumemidori"@en, "夢見鳥" ;
     :lyricist credit:Akiura_Tomohiro ;
     :composer credit:Iehara_Masaki, credit:Jam9 ;
-    :editor credit:Iehara_Masaki .
+    :editor credit:Iehara_Masaki ;
+    scdb:originalArtist idol:Higuchi_Madoka .
 
 <Appoint_Signal> a :MusicComposition ;
     rdfs:label "アポイント・シグナル" ;
     :name "アポイント・シグナル"@ja, "Appoint Signal"@en, "アポイント・シグナル" ;
     :lyricist credit:Masaki_Erika ;
     :composer credit:Honda_Masaki%28Dream_Monster%28 ;
-    :editor credit:Honda_Masaki%28Dream_Monster%28 .
+    :editor credit:Honda_Masaki%28Dream_Monster%28 ;
+    scdb:originalArtist idol:Tsukioka_Kogane .
 
 <Choco_Date_Sundae> a :MusicComposition ;
     rdfs:label "チョコデート・サンデー" ;
     :name "チョコデート・サンデー"@ja, "Choco Date Sundae"@en, "チョコデート・サンデー" ;
     :lyricist credit:Kodama_Ameko ;
     :composer credit:Nakano_Ryota ;
-    :editor credit:Nakano_Ryota .
+    :editor credit:Nakano_Ryota ;
+    scdb:originalArtist idol:Sonoda_Chiyoko .
 
 <Sweet_Memories> a :MusicComposition ;
     rdfs:label "Sweet Memories" ;
     :name "Sweet Memories"@ja, "Sweet Memories"@en, "Sweet Memories" ;
     :lyricist credit:Suzuki_Shizuna ;
     :composer credit:h-wonder ;
-    :editor credit:h-wonder .
+    :editor credit:h-wonder ;
+    scdb:originalArtist idol:Osaki_Amana .
 
 <Hanamaru_Badge> a :MusicComposition ;
     rdfs:label "ハナマルバッジ" ;
     :name "ハナマルバッジ"@ja, "Hanamaru Badge"@en, "ハナマルバッジ" ;
     :lyricist credit:Furuya_Makoto ;
     :composer credit:Furuya_Makoto, credit:YUU_for_YOU ;
-    :editor credit:YUU_for_YOU .
+    :editor credit:YUU_for_YOU ;
+    scdb:originalArtist idol:Komiya_Kaho .
 
 <Tasogare_Identity> a :MusicComposition ;
     rdfs:label "誰ソ彼アイデンティティー" ;
     :name "誰ソ彼アイデンティティー"@ja, "Tasogare Identity"@en, "誰ソ彼アイデンティティー" ;
     :lyricist credit:Matsui_Yohei ;
     :composer credit:Takao_Sonosuke ;
-    :editor credit:Takao_Sonosuke .
+    :editor credit:Takao_Sonosuke ;
+    scdb:originalArtist idol:Tanaka_Mamimi .
 
 <Watashi_no_Shujinkou_wa_Watashi_Dakara%21> a :MusicComposition ;
     rdfs:label "わたしの主人公はわたしだから！" ;
     :name "わたしの主人公はわたしだから！"@ja, "Watashi no Shujinkou wa Watashi Dakara!"@en, "わたしの主人公はわたしだから！" ;
     :lyricist credit:Akiura_Tomohiro ;
     :composer credit:Honda_Yuki%28Arte_Refact%28 ;
-    :editor credit:Yatoki_Tsukasa%28Arte_Refact%28 .
+    :editor credit:Yatoki_Tsukasa%28Arte_Refact%28 ;
+    scdb:originalArtist idol:Fukumaru_Koito .
 
 <Mata_Ashita> a :MusicComposition ;
     rdfs:label "また明日" ;
     :name "また明日"@ja, "Mata Ashita"@en, "また明日" ;
     :lyricist credit:Suzuki_Shizuna ;
     :composer credit:JUVENILE ;
-    :editor credit:JUVENILE .
+    :editor credit:JUVENILE ;
+    scdb:originalArtist idol:Osaki_Tenka .
 
 <Tokosaki_no_Niwa> a :MusicComposition ;
     rdfs:label "常先の庭" ;
     :name "常先の庭"@ja, "Tokosaki no Niwa"@en, "常先の庭" ;
     :lyricist credit:Furuya_Makoto ;
     :composer credit:Taguma_Tomoari%28Dream_Monster%28 ;
-    :editor credit:Taguma_Tomoari%28Dream_Monster%28 .
+    :editor credit:Taguma_Tomoari%28Dream_Monster%28 ;
+    scdb:originalArtist idol:Morino_Rinze .
 
 <Plastic_Umbrella> a :MusicComposition ;
     rdfs:label "プラスチック・アンブレラ" ;
     :name "プラスチック・アンブレラ"@ja, "Plastic Umbrella"@en, "プラスチック・アンブレラ" ;
     :lyricist credit:Kodama_Ameko ;
     :composer credit:Yabuki_Kana ;
-    :editor credit:Maeguchi_Wataru .
+    :editor credit:Maeguchi_Wataru ;
+    scdb:originalArtist idol:Mitsumine_Yuika .
 
 <Going_my_way> a :MusicComposition ;
     rdfs:label "Going my way" ;
     :name "Going my way"@ja, "Going my way"@en, "Going my way" ;
     :lyricist credit:Shimoji_Yu ;
     :composer credit:Watanabe_Toru ;
-    :editor credit:Hibino_Hirofumi .
+    :editor credit:Hibino_Hirofumi ;
+    scdb:originalArtist idol:Izumi_Mei .
 
 <Setsugetsufuuka> a :MusicComposition ;
     rdfs:label "雪・月・風・花" ;
     :name "雪・月・風・花"@ja, "Setsugetsufuuka"@en, "雪・月・風・花" ;
     :lyricist credit:Masaki_Erika ;
     :composer credit:rionos ;
-    :editor credit:rionos .
+    :editor credit:rionos ;
+    scdb:originalArtist idol:Yukoku_Kiriko .
 
 <Slow_Motion> a :MusicComposition ;
     rdfs:label "スローモーション" ;
     :name "スローモーション"@ja, "Slow Motion"@en, "スローモーション" ;
     :lyricist credit:Nakamura_Kanata ;
     :composer credit:Iwakoshi_Ryota ;
-    :editor credit:Miyoshi_Keita .
+    :editor credit:Miyoshi_Keita ;
+    scdb:originalArtist idol:Kazano_Hiori .
 
 <Senya_Aria> a :MusicComposition ;
     rdfs:label "千夜アリア" ;
     :name "千夜アリア"@ja, "Senya Aria"@en, "千夜アリア" ;
     :lyricist credit:Masaki_Erika ;
     :composer credit:Fujii_Kentaro%28HANO%28, credit:Tani_Naoki%28HANO%28 ;
-    :editor credit:Fujii_Kentaro%28HANO%28, credit:Tani_Naoki%28HANO%28 .
+    :editor credit:Fujii_Kentaro%28HANO%28, credit:Tani_Naoki%28HANO%28 ;
+    scdb:originalArtist idol:Shirase_Sakuya .
 
 <Damascus_Cocktail> a :MusicComposition ;
     rdfs:label "Damascus Cocktail" ;
     :name "Damascus Cocktail"@ja, "Damascus Cocktail"@en, "Damascus Cocktail" ;
     :lyricist credit:Furuya_Makoto ;
     :composer credit:Suyama_Jun ;
-    :editor credit:Suyama_Jun .
+    :editor credit:Suyama_Jun ;
+    scdb:originalArtist idol:Arisugawa_Natsuha .
 
 <Darling_you%21> a :MusicComposition ;
     rdfs:label "Darling you!" ;
     :name "Darling you!"@ja, "Darling you!"@en, "Darling you!" ;
     :lyricist credit:Suzuki_Shizuna ;
     :composer credit:Minami_Naohiro ;
-    :editor credit:Minami_Naohiro .
+    :editor credit:Minami_Naohiro ;
+    scdb:originalArtist idol:Kuwayama_Chiyuki .
 
 <Aozora_Cider> a :MusicComposition ;
     rdfs:label "あおぞらサイダー" ;
     :name "あおぞらサイダー"@ja, "Aozora Cider"@en, "あおぞらサイダー" ;
     :lyricist credit:Akiura_Tomohiro ;
     :composer credit:Kokubo_Yuki, credit:YUU_for_YOU ;
-    :editor credit:YUU_for_YOU .
+    :editor credit:YUU_for_YOU ;
+    scdb:originalArtist idol:Ichikawa_Hinana .
 
 <SOS> a :MusicComposition ;
     rdfs:label "SOS" ;
     :name "SOS"@ja, "SOS"@en, "SOS" ;
     :lyricist credit:Shimoji_Yu ;
     :composer credit:Mutsuki_Shuhei ;
-    :editor credit:Mutsuki_Shuhei .
+    :editor credit:Mutsuki_Shuhei ;
+    scdb:originalArtist idol:Mayuzumi_Fuyuko .
 
 <Kajunsei_Breach> a :MusicComposition ;
     rdfs:label "過純性ブリーチ" ;
     :name "過純性ブリーチ"@ja, "Kajunsei Breach"@en, "過純性ブリーチ" ;
     :lyricist credit:Furuya_Makoto ;
     :composer credit:Onishi_Katsumi ;
-    :editor credit:Onishi_Katsumi .
+    :editor credit:Onishi_Katsumi ;
+    scdb:originalArtist idol:Saijo_Juri .
 
 <HAREBARE%21%21> a :MusicComposition ;
     rdfs:label "HAREBARE!!" ;
     :name "HAREBARE!!"@ja, "HAREBARE!!"@en, "HAREBARE!!" ;
     :lyricist credit:Watanabe_Akiko ;
     :composer credit:Onishi_Katsumi ;
-    :editor credit:Onishi_Katsumi .
+    :editor credit:Onishi_Katsumi ;
+    scdb:originalArtist idol:Hachimiya_Meguru .
 
 <statice> a :MusicComposition ;
     rdfs:label "statice" ;
     :name "statice"@ja, "statice"@en, "statice" ;
     :lyricist credit:Akiura_Tomohiro ;
     :composer credit:Iehara_Masaki, credit:Jam9 ;
-    :editor credit:Iehara_Masaki .
+    :editor credit:Iehara_Masaki ;
+    scdb:originalArtist idol:Asakura_Toru .
 
 <Kamisama_wa_Shinda%2C_tte> a :MusicComposition ;
     rdfs:label "神様は死んだ、って" ;
     :name "神様は死んだ、って"@ja, "Kamisama wa Shinda, tte"@en, "神様は死んだ、って" ;
     :lyricist credit:Karasuya_Sabo ;
     :composer credit:Mizunoya_Ren%28Arte_Refact%28 ;
-    :editor credit:Mizunoya_Ren%28Arte_Refact%28 .
+    :editor credit:Mizunoya_Ren%28Arte_Refact%28 ;
+    scdb:originalArtist idol:Ikaruga_Luca .
