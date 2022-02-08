@@ -2,6 +2,7 @@ BASE <https://283db.org/resource/character/idol/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
+PREFIX staff: <https://283db.org/resource/character/staff/>
 PREFIX hometown: <https://283db.org/resource/common/hometown/>
 PREFIX song: <https://283db.org/resource/music/song/>
 PREFIX : <http://schema.org/>
@@ -785,7 +786,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "七草にちか"@ja, "ななくさにちか"@ja-hira, "Nichika Nanakusa"@en, "七草にちか" ;
     :familyName "七草"@ja, "ななくさ"@ja-hira, "Nanakusa"@en, "七草" ;
     :givenName "にちか"@ja, "にちか"@ja-hira, "Nichika"@en, "にちか" ;
-    :sibling <Nanakusa_Haduki> ;
+    :sibling staff:Nanakusa_Haduki ;
     dbo:age 16 ;
     dbo:bloodType enum:BloodType.O ;
     :birthdate "--07-26"^^xsd:gMonthDay ;

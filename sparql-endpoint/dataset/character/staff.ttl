@@ -2,6 +2,7 @@ BASE <https://283db.org/resource/character/staff/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
+PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX hometown: <https://283db.org/resource/common/hometown/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -16,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "七草はづき"@ja, "ななくさはづき"@ja-hira, "Haduki Nanakusa"@en, "七草はづき" ;
     :familyName "七草"@ja, "ななくさ"@ja-hira, "Nanakusa"@en, "七草" ;
     :givenName "はづき"@ja, "はづき"@ja-hira, "Haduki"@en, "はづき" ;
-    :sibling <Nanakusa_Nichika> ;
+    :sibling idol:Nanakusa_Nichika ;
     :birthdate "--02-03"^^xsd:gMonthDay ;
     :jobTitle "事務員"@ja, "office assistant"@en, "事務員" ;
     dbo:zodiacSign enum:ZodiacSign.Aquarius ;
