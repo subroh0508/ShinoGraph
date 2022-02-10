@@ -1,0 +1,41 @@
+BASE <https://283db.org/resource/music/album/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX perform: <https://283db.org/resource/artist/performer/>
+PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Kamisama_wa_Shinda%2C_tte> a :MusicAlbum ;
+    rdfs:label "神様は死んだ、って" ;
+    :name "神様は死んだ、って"@ja, "Kamisama wa Shinda, tte"@en, "神様は死んだ、って" ;
+    :numTracks 2 ;
+    :track [
+        a :MusicRecording ;
+            rdfs:label "神様は死んだ、って" ;
+            :recordingOf song:Kamisama_wa_Shinda%2C_tte ;
+            :position 1 ;
+            :byArtist perform:Ikaruga_Luca_%28CV_Kawaguchi_Rina%28
+    ], [
+        a :MusicRecording ;
+            rdfs:label "神様は死んだ、って (Off Vocal)" ;
+            :recordingOf song:Kamisama_wa_Shinda%2C_tte ;
+            :position 1 ;
+            :byArtist perform:Ikaruga_Luca_%28CV_Kawaguchi_Rina%28
+    ] ;
+    :albumRelease [
+        a :MusicRelease ;
+        :url <https://shinycolors.lantis.jp/releaseinfo/lzc-2059/> ;
+        :url <https://music.apple.com/jp/album/1597703892> ;
+        :url <https://mora.jp/package/43000152/LZC-2059/> ;
+        :url <https://recochoku.jp/album/A2002558271/album> ;
+        :url <https://pc.animelo.jp/portals/album/70432755> ;
+        :image <https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2021/12/LZC-2059-1.jpg> ;
+        :catalogNumber "LZC-2059" ;
+        :datePublished "2021-12-20"^^xsd:date ;
+        :musicReleaseFormat :DigitalFormat
+    ] .
