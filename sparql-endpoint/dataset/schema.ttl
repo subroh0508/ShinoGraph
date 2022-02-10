@@ -69,6 +69,26 @@ scdb:Commu a rdfs:Class ;
     rdfs:label "コミュ"@ja, "Commu"@en ;
     rdfs:subClassOf :Episode .
 
+scdb:ProduceEvent a rdfs:Class ;
+    rdfs:label "プロデュースイベント"@ja, "Produce Event"@en ;
+    rdfs:subClassOf :Clip .
+
+scdb:IdolEvent a rdfs:Class ;
+    rdfs:label "アイドルイベント"@ja, "Idol Event"@en ;
+    rdfs:subClassOf :Clip .
+
+scdb:IdolEvent_TrueEnd a rdfs:Class ;
+    rdfs:label "アイドルイベント(True End)"@ja, "Idol Event(True End)"@en ;
+    rdfs:subClassOf scdb:IdolEvent .
+
+scdb:SupportEvent a rdfs:Class ;
+    rdfs:label "サポートイベント"@ja, "Support Event"@en ;
+    rdfs:subClassOf :Clip .
+
+scdb:ScenarioClip a rdfs:Class ;
+    rdfs:label "イベントコミュの1話"@ja, "A Chip of Event Commu"@en ;
+    rdfs:subClassOf :Clip .
+
 # Properties
 scdb:hobby a rdf:Property ;
     rdfs:label "趣味"@ja, "hobby"@en ;

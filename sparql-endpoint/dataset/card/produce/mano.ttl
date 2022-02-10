@@ -3,6 +3,7 @@ PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX unit: <https://283db.org/resource/character/unit/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX commu: <https://283db.org/resource/commu/idol-event/mano/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -49,7 +50,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:character idol:Sakuragi_Mano ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
-    scdb:acquiredBy enum:Gacha.Permanent .
+    scdb:acquiredBy enum:Gacha.Permanent ;
+    :about commu:PSSR1 .
 
 <PSSR2> a scdb:ProduceIdol ;
     rdfs:label "【ハ♡トフェルトゥギフト】櫻木真乃" ;
@@ -59,4 +61,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:character idol:Sakuragi_Mano ;
     scdb:debutDate "2019-01-31"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
-    scdb:acquiredBy enum:Gacha.Limited .
+    scdb:acquiredBy enum:Gacha.Limited ;
+    :about commu:PSSR2 .

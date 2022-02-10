@@ -1,0 +1,144 @@
+BASE <https://283db.org/resource/commu/idol-event/mano/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX staff: <https://283db.org/resource/character/staff/>
+PREFIX card: <https://283db.org/resource/card/mano/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<PSSR1> a scdb:Commu ;
+    rdfs:label "【ほわっとスマイル】櫻木真乃" ;
+    :name
+        "ほわっとスマイル"@ja, "Warm Smile"@en,
+        "【ほわっとスマイル】櫻木真乃"@ja, "[Warm Smile] Mano Sakuragi"@en, "【ほわっとスマイル】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSSR1_1> ,
+        <PSSR1_2> ,
+        <PSSR1_3> ,
+        <PSSR1_4> ,
+        <PSSR1_TE> ;
+    :subjectOf card:PSSR1 .
+
+<PSSR1_1> a scdb:IdolEvent ;
+    rdfs:label "ほわほわアイドル" ;
+    :name
+        "ほわほわアイドル"@ja, "Dreamy Idol"@en, "ほわほわアイドル" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR1> .
+
+<PSSR1_2> a scdb:IdolEvent ;
+    rdfs:label "真乃ならできる" ;
+    :name
+        "真乃ならできる"@ja, "You Can Do It, Mano"@en, "真乃ならできる" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR1> .
+
+<PSSR1_3> a scdb:IdolEvent ;
+    rdfs:label "成長の話" ;
+    :name
+        "成長の話"@ja, "Signs of Growth"@en, "成長の話" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR1> .
+
+<PSSR1_4> a scdb:IdolEvent ;
+    rdfs:label "いつかの気持ち" ;
+    :name
+        "いつかの気持ち"@ja, "Feelings of Someday"@en, "いつかの気持ち" ;
+    :clipNumber 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR1> .
+
+<PSSR1_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "ずっと続く夢の先へ" ;
+    :name
+        "ずっと続く夢の先へ"@ja, "Beyond the Neverending Dream"@en, "ずっと続く夢の先へ" ;
+    :clipNumber 5 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR1> .
+
+<PSSR2> a scdb:Commu ;
+    rdfs:label "【ハ♡トフェルトゥギフト】櫻木真乃" ;
+    :name
+        "ハ♡トフェルトゥギフト"@ja, "Heart♡felt Gift"@en,
+        "【ハ♡トフェルトゥギフト】櫻木真乃"@ja, "[Heart♡felt Gift] Mano Sakuragi"@en, "【ハ♡トフェルトゥギフト】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSSR2_1> ,
+        <PSSR2_2> ,
+        <PSSR2_3> ,
+        <PSSR2_4> ,
+        <PSSR2_TE> ;
+    :subjectOf card:PSSR2 .
+
+<PSSR2_1> a scdb:IdolEvent ;
+    rdfs:label "ぽかぽか陽気に誘われて" ;
+    :name
+        "ぽかぽか陽気に誘われて"@ja, "Sweet and Warm Invitation"@en, "ぽかぽか陽気に誘われて" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR2> .
+
+<PSSR2_2> a scdb:IdolEvent ;
+    rdfs:label "旅のお供に" ;
+    :name
+        "旅のお供に"@ja, "Together On The Trip"@en, "旅のお供に" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR2> .
+
+<PSSR2_3> a scdb:IdolEvent ;
+    rdfs:label "春の足音" ;
+    :name
+        "春の足音"@ja, "Spring Footsteps"@en, "春の足音" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR2> .
+
+<PSSR2_4> a scdb:IdolEvent ;
+    rdfs:label "あなたへ贈り物" ;
+    :name
+        "あなたへ贈り物"@ja, "A Gift For You"@en, "あなたへ贈り物" ;
+    :clipNumber 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR2> .
+
+<PSSR2_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "ゆるりと流れる時間の中で" ;
+    :name
+        "ゆるりと流れる時間の中で"@ja, "At The Time That Flows Slowly"@en, "ゆるりと流れる時間の中で" ;
+    :clipNumber 5 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR2> .
