@@ -11,42 +11,52 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<R_White_Wings> a scdb:ProduceIdol ;
-    rdfs:label "【白いツバサ】櫻木 真乃" ;
+<R> a scdb:ProduceIdol ;
+    rdfs:label "【白いツバサ】櫻木真乃" ;
     :name
         "白いツバサ"@ja, "White Wings"@en,
-        "【白いツバサ】櫻木 真乃"@ja, "[White Wings] Mano Sakuragi"@en, "【白いツバサ】櫻木 真乃" ;
+        "【白いツバサ】櫻木真乃"@ja, "[White Wings] Mano Sakuragi"@en, "【白いツバサ】櫻木真乃" ;
     scdb:character idol:Sakuragi_Mano ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     scdb:rarity enum:Rarity.R ;
     scdb:acquiredBy enum:Gacha.Permanent .
 
-<SR_White_Wings> a scdb:ProduceIdol ;
-    rdfs:label "【白いツバサ】櫻木 真乃" ;
+<Idol_Road_SR> a scdb:ProduceIdol ;
+    rdfs:label "【白いツバサ】櫻木真乃" ;
     :name
         "白いツバサ"@ja, "White Wings"@en,
-        "【白いツバサ】櫻木 真乃"@ja, "[White Wings] Mano Sakuragi"@en, "【白いツバサ】櫻木 真乃" ;
+        "【白いツバサ】櫻木真乃"@ja, "[White Wings] Mano Sakuragi"@en, "【白いツバサ】櫻木真乃" ;
     scdb:character idol:Sakuragi_Mano ;
     scdb:debutDate "2020-04-13"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
-    scdb:acquiredBy enum:Gacha.Permanent .
+    scdb:acquiredBy enum:Idol_Road .
 
-<Idol_Road> a scdb:ProduceIdol ;
-    rdfs:label "【アイドルロード】櫻木 真乃" ;
+<Idol_Road_SSR> a scdb:ProduceIdol ;
+    rdfs:label "【アイドルロード】櫻木真乃" ;
     :name
         "アイドルロード"@ja, "Idol Road"@en,
-        "【アイドルロード】櫻木 真乃"@ja, "[Idol Road] Mano Sakuragi"@en, "【アイドルロード】櫻木 真乃" ;
+        "【アイドルロード】櫻木真乃"@ja, "[Idol Road] Mano Sakuragi"@en, "【アイドルロード】櫻木真乃" ;
     scdb:character idol:Sakuragi_Mano ;
     scdb:debutDate "2020-04-13"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
-    scdb:acquiredBy enum:Gacha.Permanent .
+    scdb:acquiredBy enum:Idol_Road .
 
-<Warm_Smile> a scdb:ProduceIdol ;
-    rdfs:label "【ほわっとスマイル】櫻木 真乃" ;
+<PSSR1> a scdb:ProduceIdol ;
+    rdfs:label "【ほわっとスマイル】櫻木真乃" ;
     :name
         "ほわっとスマイル"@ja, "Warm Smile"@en,
-        "【ほわっとスマイル】櫻木 真乃"@ja, "[Warm Smile] Mano Sakuragi"@en, "【ほわっとスマイル】櫻木 真乃" ;
+        "【ほわっとスマイル】櫻木真乃"@ja, "[Warm Smile] Mano Sakuragi"@en, "【ほわっとスマイル】櫻木真乃" ;
     scdb:character idol:Sakuragi_Mano ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:Gacha.Permanent .
+
+<PSSR2> a scdb:ProduceIdol ;
+    rdfs:label "【ハ♡トフェルトゥギフト】櫻木真乃" ;
+    :name
+        "ハ♡トフェルトゥギフト"@ja, "Heart♡felt Gift"@en,
+        "【ハ♡トフェルトゥギフト】櫻木真乃"@ja, "[Heart♡felt Gift] Mano Sakuragi"@en, "【ハ♡トフェルトゥギフト】櫻木真乃" ;
+    scdb:character idol:Sakuragi_Mano ;
+    scdb:debutDate "2019-01-31"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:Gacha.Limited .

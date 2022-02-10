@@ -16,6 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             owl:oneOf (
                 <Gacha.Permanent>
                 <Gacha.Limited>
+                <Idol_Road>
                 <Campaign>
             )
         ] .
@@ -27,6 +28,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <Gacha.Limited> a <AcquiredBy>, owl:NamedIndividual ;
     rdfs:label "限定ガシャ" ;
     :name "限定ガシャ"@ja, "Limited Gacha"@en, "限定ガシャ" .
+
+<Idol_Road> a <AcquiredBy>, owl:NamedIndividual ;
+    rdfs:label "アイドルロード" ;
+    :name "アイドルロード"@ja, "Idol Road"@en, "アイドルロード" .
 
 <Campaign> a <AcquiredBy>, owl:NamedIndividual ;
     rdfs:label "キャンペーン" ;

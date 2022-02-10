@@ -20,14 +20,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             )
         ] .
 
-<Rearity.R> a <Rarity>, owl:NamedIndividual ;
+<Rarity.R> a <Rarity>, owl:NamedIndividual ;
     rdfs:label "R" ;
     :name "レア"@ja, "R"@en, "R" .
 
-<Rearity.SR> a <Rarity>, owl:NamedIndividual ;
+<Rarity.SR> a <Rarity>, owl:NamedIndividual ;
     rdfs:label "SR" ;
     :name "Sレア"@ja, "SR"@en, "SR" .
 
-<Rearity.SSR> a <Rarity>, owl:NamedIndividual ;
+<Rarity.SSR> a <Rarity>, owl:NamedIndividual ;
     rdfs:label "SSR" ;
     :name "SSレア"@ja, "SSR"@en, "SSR" .
