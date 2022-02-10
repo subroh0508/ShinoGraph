@@ -1,0 +1,52 @@
+BASE <https://283db.org/resource/card/mano/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX enum: <https://283db.org/resource/enum/>
+PREFIX unit: <https://283db.org/resource/character/unit/>
+PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<R_White_Wings> a scdb:ProduceIdol ;
+    rdfs:label "【白いツバサ】櫻木 真乃" ;
+    :name
+        "白いツバサ"@ja, "White Wings"@en,
+        "【白いツバサ】櫻木 真乃"@ja, "[White Wings] Mano Sakuragi"@en, "【白いツバサ】櫻木 真乃" ;
+    scdb:character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
+    scdb:rarity enum:Rarity.R ;
+    scdb:acquiredBy enum:Gacha.Permanent .
+
+<SR_White_Wings> a scdb:ProduceIdol ;
+    rdfs:label "【白いツバサ】櫻木 真乃" ;
+    :name
+        "白いツバサ"@ja, "White Wings"@en,
+        "【白いツバサ】櫻木 真乃"@ja, "[White Wings] Mano Sakuragi"@en, "【白いツバサ】櫻木 真乃" ;
+    scdb:character idol:Sakuragi_Mano ;
+    scdb:debutDate "2020-04-13"^^xsd:date ;
+    scdb:rarity enum:Rarity.SR ;
+    scdb:acquiredBy enum:Gacha.Permanent .
+
+<Idol_Road> a scdb:ProduceIdol ;
+    rdfs:label "【アイドルロード】櫻木 真乃" ;
+    :name
+        "アイドルロード"@ja, "Idol Road"@en,
+        "【アイドルロード】櫻木 真乃"@ja, "[Idol Road] Mano Sakuragi"@en, "【アイドルロード】櫻木 真乃" ;
+    scdb:character idol:Sakuragi_Mano ;
+    scdb:debutDate "2020-04-13"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:Gacha.Permanent .
+
+<Warm_Smile> a scdb:ProduceIdol ;
+    rdfs:label "【ほわっとスマイル】櫻木 真乃" ;
+    :name
+        "ほわっとスマイル"@ja, "Warm Smile"@en,
+        "【ほわっとスマイル】櫻木 真乃"@ja, "[Warm Smile] Mano Sakuragi"@en, "【ほわっとスマイル】櫻木 真乃" ;
+    scdb:character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:Gacha.Permanent .

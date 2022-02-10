@@ -82,7 +82,7 @@ scdb:skill a rdf:Property ;
 
 scdb:character a rdf:Property ;
     rdfs:label "キャラクター"@ja, "Character"@en ;
-    rdfs:domain scdb:Performer ;
+    rdfs:domain scdb:Performer, scdb:IdolCard ;
     rdfs:range scdb:Character .
 
 scdb:cv a rdf:Property ;
@@ -134,3 +134,14 @@ scdb:price a rdf:Property ;
     rdfs:label "日本円での価格(税抜)"@ja, "Price in Japanese Yen(Tax Excluded)"@en ;
     rdfs:domain :MusicRelease ;
     rdfs:range xsd:integer .
+
+scdb:rarity a rdf:Property ;
+    rdfs:label "レアリティ"@ja, "Rarity"@en ;
+    rdfs:domain scdb:IdolCard ;
+    rdfs:range enum:Rarity .
+
+scdb:acquiredBy a rdf:Property ;
+    rdfs:label "入手方法"@ja, "How to get"@en ;
+    rdfs:domain scdb:IdolCard ;
+    rdfs:range enum:AcquiredBy .
+
