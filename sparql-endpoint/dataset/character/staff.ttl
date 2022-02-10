@@ -30,3 +30,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     ] ;
     :gender :Female ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Nanakusa_Haduki> .
+
+<Amai_Tsutomu> a scdb:Staff ;
+    rdfs:label "天井努" ;
+    :name "天井努"@ja, "あまいつとむ"@ja-hira, "Haduki Nanakusa"@en, "天井努" ;
+    :familyName "天井"@ja, "あまい"@ja-hira, "Nanakusa"@en, "天井" ;
+    :givenName "努"@ja, "つとむ"@ja-hira, "Haduki"@en, "努" ;
+    :jobTitle "社長"@ja, "President"@en, "社長" ;
+    scdb:cv [
+        a scdb:CharacterVoice ;
+            rdfs:label "CV.津田健次郎" ;
+            dbo:performer actor:Tsuda_Kenjiro ;
+            scdb:debutDate "2018-04-24"^^xsd:date
+    ] ;
+    :gender :Male ;
+    :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Amai_Tsutomu> .
+
+<Producer> a scdb:Staff ;
+    rdfs:label "プロデューサー" ;
+    :name
+        "シャニP"@ja, "しゃにぴー"@ja-hira, "Shani P"@en,
+        "プロデューサー"@ja, "ぷろでゅーさー"@ja-hira, "Producer"@en, "プロデューサー" ;
+    :jobTitle "プロデューサー"@ja, "producer"@en, "プロデューサー" .

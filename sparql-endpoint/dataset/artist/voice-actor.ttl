@@ -175,3 +175,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name "山村響"@ja, "Hibiku Yamamura"@en, "山村響" ;
     :gender :Female ;
     :sameAs <http://ja.dbpedia.org/resource/山村響> .
+
+<Tsuda_Kenjiro> a scdb:VoiceActor ;
+    rdfs:label "津田健次郎" ;
+    :name "津田健次郎"@ja, "Kenjiro Tsuda"@en, "津田健次郎" ;
+    :gender :Male ;
+    :sameAs <http://ja.dbpedia.org/resource/津田健次郎> .
