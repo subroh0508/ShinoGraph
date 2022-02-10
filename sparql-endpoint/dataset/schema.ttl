@@ -53,6 +53,18 @@ scdb:AudioDrama a rdfs:Class ;
     rdfs:label "オーディオドラマ"@ja, "Audio Drama"@en ;
     rdfs:subClassOf :Episode .
 
+scdb:IdolCard a rdfs:Class ;
+    rdfs:label "ゲーム内に登場するカード"@ja, "Card in the game"@en ;
+    rdfs:subClassOf :Thing .
+
+scdb:ProduceIdol a rdfs:Class ;
+    rdfs:label "プロデュースアイドルのカード"@ja, "Card of Produce Idol"@en ;
+    rdfs:subClassOf scdb:IdolCard .
+
+scdb:SupportIdol a rdfs:Class ;
+    rdfs:label "サポートアイドルのカード"@ja, "Card of Support Idol"@en ;
+    rdfs:subClassOf scdb:IdolCard .
+
 scdb:Commu a rdfs:Class ;
     rdfs:label "コミュ"@ja, "Commu"@en ;
     rdfs:subClassOf :Episode .
