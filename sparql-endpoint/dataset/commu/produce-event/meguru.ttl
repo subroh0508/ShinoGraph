@@ -1,4 +1,4 @@
-BASE <https://283db.org/resource/commu/produce-event/mano/>
+BASE <https://283db.org/resource/commu/produce-event/meguru/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "W.I.N.G.編" ;
     :name
         "W.I.N.G.編"@ja, "W.I.N.G."@en, "W.I.N.G.編" ;
-    :character idol:Sakuragi_Mano ;
+    :character idol:Hachimiya_Meguru ;
     :hasPart
         <WING_Prologue> ,
         <WING_1> ,
@@ -50,55 +50,55 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <WING_After_F> ,
         <WING_Epilogue_Lose> ,
         <WING_Epilogue_Win> ;
-    :subjectOf idol:Sakuragi_Mano .
+    :subjectOf idol:Hachimiya_Meguru .
 
 <WING_Prologue> a scdb:ProduceEvent ;
-    rdfs:label "公園の歌声" ;
+    rdfs:label "輝きはめまぐるしく" ;
     :name
-        "公園の歌声"@ja, "公園の歌声" ;
+        "輝きはめまぐるしく"@ja, "輝きはめまぐるしく" ;
     :position 1 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
 <WING_1> a scdb:ProduceEvent ;
-    rdfs:label "自信のありか" ;
+    rdfs:label "アイドルとして" ;
     :name
-        "自信のありか"@ja, "自信のありか" ;
+        "アイドルとして"@ja, "アイドルとして" ;
     :position 2 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
 <WING_2> a scdb:ProduceEvent ;
-    rdfs:label "ありのままで" ;
+    rdfs:label "無限に広がる未来への" ;
     :name
-        "ありのままで"@ja, "ありのままで" ;
+        "無限に広がる未来への"@ja, "無限に広がる未来への" ;
     :position 3 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
 <WING_3> a scdb:ProduceEvent ;
-    rdfs:label "頑張りすぎ" ;
+    rdfs:label "大切、選べないから" ;
     :name
-        "頑張りすぎ"@ja, "頑張りすぎ" ;
+        "大切、選べないから"@ja, "大切、選べないから" ;
     :position 4 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
 <WING_4> a scdb:ProduceEvent ;
-    rdfs:label "自分を信じて" ;
+    rdfs:label "これがわたしだから" ;
     :name
-        "自分を信じて"@ja, "自分を信じて" ;
+        "これがわたしだから"@ja, "これがわたしだから" ;
     :position 5 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -108,7 +108,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "シーズン1 (クリア)"@ja, "Season 1 (Cleared)"@en, "シーズン1 (クリア)" ;
     :position 6 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -118,7 +118,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "シーズン1 (失敗)"@ja, "Season 1 (Failed)"@en, "シーズン1 (失敗)" ;
     :position 7 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -128,7 +128,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "シーズン2 (クリア)"@ja, "Season 2 (Cleared)"@en, "シーズン2 (クリア)" ;
     :position 8 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -138,7 +138,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "シーズン2 (失敗)"@ja, "Season 2 (Failed)"@en, "シーズン2 (失敗)" ;
     :position 9 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -148,7 +148,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "シーズン3 (クリア)"@ja, "Season 3 (Cleared)"@en, "シーズン3 (クリア)" ;
     :position 10 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -158,7 +158,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "シーズン3 (失敗)"@ja, "Season 3 (Failed)"@en, "シーズン3 (失敗)" ;
     :position 11 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -168,7 +168,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "シーズン4 (クリア)"@ja, "Season 4 (Cleared)"@en, "シーズン4 (クリア)" ;
     :position 12 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -178,7 +178,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "シーズン4 (失敗)"@ja, "Season 4 (Failed)"@en, "シーズン4 (失敗)" ;
     :position 13 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -188,7 +188,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション前①"@ja, "Before Audition (1)"@en, "オーディション前①" ;
     :position 14 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -198,7 +198,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション前②"@ja, "Before Audition (2)"@en, "オーディション前②" ;
     :position 15 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -208,7 +208,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション前③"@ja, "Before Audition (3)"@en, "オーディション前③" ;
     :position 16 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -218,7 +218,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション前④"@ja, "Before Audition (4)"@en, "オーディション前④" ;
     :position 17 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -228,7 +228,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション前⑤"@ja, "Before Audition (5)"@en, "オーディション前⑤" ;
     :position 18 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -238,7 +238,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション前⑥"@ja, "Before Audition (6)"@en, "オーディション前⑥" ;
     :position 19 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -248,7 +248,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション後 勝利①"@ja, "After Audition Win (1)"@en, "オーディション後 勝利①" ;
     :position 20 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -258,7 +258,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション後 勝利②"@ja, "After Audition Win (2)"@en, "オーディション後 勝利②" ;
     :position 21 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -268,7 +268,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション後 敗北①"@ja, "Before Audition Lose (1)"@en, "オーディション後 敗北①" ;
     :position 22 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -278,7 +278,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "オーディション後 敗北②"@ja, "Before Audition Lose (2)"@en, "オーディション後 敗北②" ;
     :position 23 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -288,7 +288,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "TV出演後コミュ①"@ja, "After TV show (1)"@en, "TV出演後コミュ①" ;
     :position 24 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -298,7 +298,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "TV出演後コミュ②"@ja, "After TV show (2)"@en, "TV出演後コミュ②" ;
     :position 25 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -308,7 +308,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "準決勝前コミュ"@ja, "Before Semi Final"@en, "準決勝前コミュ" ;
     :position 26 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -318,7 +318,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "敗退コミュ"@ja, "Lose W.I.N.G."@en, "敗退コミュ" ;
     :position 27 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -328,7 +328,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "準決勝後コミュ"@ja, "After Semi Final"@en, "準決勝後コミュ" ;
     :position 28 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -338,7 +338,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "決勝前コミュ"@ja, "Before Final"@en, "決勝前コミュ" ;
     :position 29 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -348,27 +348,27 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "決勝後コミュ"@ja, "After Final"@en, "決勝後コミュ" ;
     :position 30 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
 <WING_Epilogue_Lose> a scdb:ProduceEvent ;
-    rdfs:label "未来へはばたく" ;
+    rdfs:label "後ろは振り向かない" ;
     :name
-        "未来へはばたく"@ja, "未来へはばたく" ;
+        "後ろは振り向かない"@ja, "後ろは振り向かない" ;
     :position 31 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
 <WING_Epilogue_Win> a scdb:ProduceEvent ;
-    rdfs:label "これからも飛んでいきたい" ;
+    rdfs:label "たくさんの応援を力に変えて" ;
     :name
-        "これからも飛んでいきたい"@ja, "これからも飛んでいきたい" ;
+        "たくさんの応援を力に変えて"@ja, "たくさんの応援を力に変えて" ;
     :position 32 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <WING> .
 
@@ -376,7 +376,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "感謝祭編" ;
     :name
        "感謝祭編"@ja, "Fan Festival"@en, "感謝祭編" ;
-    :character idol:Sakuragi_Mano ;
+    :character idol:Hachimiya_Meguru ;
     :hasPart
         <FanFes_Prologue> ,
         common:FanFes_Prologue ,
@@ -393,16 +393,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <FanFes_Before_Stage> ,
         <FanFes_Epilogue> ;
     :subjectOf
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         unit:illumination_STARS .
 
 <FanFes_Prologue> a scdb:ProduceEvent ;
-    rdfs:label "あんをつつむあったかい気持ち" ;
+    rdfs:label "『きんいろ』の" ;
     :name
-        "あんをつつむあったかい気持ち"@ja, "あんをつつむあったかい気持ち" ;
+        "『きんいろ』の"@ja, "『きんいろ』の" ;
     :position 1 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <FanFes> .
 
@@ -412,7 +412,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "リハーサル前"@ja, "Before Rehearsal"@en, "リハーサル前" ;
     :position 11 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <FanFes> .
 
@@ -422,7 +422,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "リハーサル後"@ja, "After Rehearsal"@en, "リハーサル後" ;
     :position 12 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <FanFes> .
 
@@ -432,16 +432,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "感謝祭本番前"@ja, "Before Fan Festival Stage"@en, "感謝祭本番前" ;
     :position 13 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <FanFes> .
 
 <FanFes_Epilogue> a scdb:ProduceEvent ;
-    rdfs:label "きらめきを詰めてすすむしっぽ" ;
+    rdfs:label "『ほんとう』の" ;
     :name
-        "きらめきを詰めてすすむしっぽ"@ja, "きらめきを詰めてすすむしっぽ" ;
+        "『ほんとう』の"@ja, "『ほんとう』の" ;
     :position 14 ;
     :character
-        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf <FanFes> .

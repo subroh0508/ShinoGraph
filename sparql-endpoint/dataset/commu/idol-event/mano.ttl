@@ -29,7 +29,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "ほわほわアイドル" ;
     :name
         "ほわほわアイドル"@ja, "Dreamy Idol"@en, "ほわほわアイドル" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -39,7 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "真乃ならできる" ;
     :name
         "真乃ならできる"@ja, "You Can Do It, Mano"@en, "真乃ならできる" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -49,7 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "成長の話" ;
     :name
         "成長の話"@ja, "Signs of Growth"@en, "成長の話" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -59,7 +59,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "いつかの気持ち" ;
     :name
         "いつかの気持ち"@ja, "Feelings of Someday"@en, "いつかの気持ち" ;
-    :clipNumber 4 ;
+    :position 4 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -69,7 +69,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "ずっと続く夢の先へ" ;
     :name
         "ずっと続く夢の先へ"@ja, "Beyond the Neverending Dream"@en, "ずっと続く夢の先へ" ;
-    :clipNumber 5 ;
+    :position 5 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -93,7 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "ぽかぽか陽気に誘われて" ;
     :name
         "ぽかぽか陽気に誘われて"@ja, "Sweet and Warm Invitation"@en, "ぽかぽか陽気に誘われて" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -103,7 +103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "旅のお供に" ;
     :name
         "旅のお供に"@ja, "Together On The Trip"@en, "旅のお供に" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -113,7 +113,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "春の足音" ;
     :name
         "春の足音"@ja, "Spring Footsteps"@en, "春の足音" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -123,7 +123,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "あなたへ贈り物" ;
     :name
         "あなたへ贈り物"@ja, "A Gift For You"@en, "あなたへ贈り物" ;
-    :clipNumber 4 ;
+    :position 4 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -133,7 +133,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "ゆるりと流れる時間の中で" ;
     :name
         "ゆるりと流れる時間の中で"@ja, "At The Time That Flows Slowly"@en, "ゆるりと流れる時間の中で" ;
-    :clipNumber 5 ;
+    :position 5 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -157,7 +157,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "緑色が運ぶ、夏の" ;
     :name
         "緑色が運ぶ、夏の"@ja, "The Green That Carries Over Summer"@en, "緑色が運ぶ、夏の" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -167,7 +167,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "狙う、その間の" ;
     :name
         "狙う、その間の"@ja, "Aiming, In The Meantime"@en, "狙う、その間の" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -177,7 +177,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "交す、ことばの" ;
     :name
         "交す、ことばの"@ja, "Exchanging Words"@en, "交す、ことばの" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -187,7 +187,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "涼やかな、夏の" ;
     :name
         "涼やかな、夏の"@ja, "Refreshing, Summer"@en, "涼やかな、夏の" ;
-    :clipNumber 4 ;
+    :position 4 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -197,7 +197,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "気遣い、一粒" ;
     :name
         "気遣い、一粒"@ja, "Solicitude, Once Again"@en, "気遣い、一粒" ;
-    :clipNumber 5 ;
+    :position 5 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -221,7 +221,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "秋香る" ;
     :name
         "秋香る"@ja, "Autumn's Aroma"@en, "秋香る" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -231,7 +231,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "響くやわらか" ;
     :name
         "響くやわらか"@ja, "Gentle Resonate"@en, "響くやわらか" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -241,7 +241,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "空の下" ;
     :name
         "空の下"@ja, "Under The Sky"@en, "空の下" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -251,7 +251,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "染まる景色に" ;
     :name
         "染まる景色に"@ja, "The Scenery That Dyes"@en, "染まる景色に" ;
-    :clipNumber 4 ;
+    :position 4 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -261,7 +261,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "薫る秋" ;
     :name
         "薫る秋"@ja, "Autumn's Fragrant"@en, "薫る秋" ;
-    :clipNumber 5 ;
+    :position 5 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -285,7 +285,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "ささやかな" ;
     :name
         "ささやかな"@ja, "ささやかな" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -295,7 +295,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "あめのひ" ;
     :name
         "あめのひ"@ja, "あめのひ" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -305,7 +305,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "そらをおよぐ鳥" ;
     :name
         "そらをおよぐ鳥"@ja, "そらをおよぐ鳥" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -315,7 +315,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "ゆっくりでいい。そうきみにも" ;
     :name
         "ゆっくりでいい。そうきみにも"@ja, "ゆっくりでいい。そうきみにも" ;
-    :clipNumber 4 ;
+    :position 4 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -325,7 +325,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "たとえ何光年離れていたとしても" ;
     :name
         "たとえ何光年離れていたとしても"@ja, "たとえ何光年離れていたとしても" ;
-    :clipNumber 5 ;
+    :position 5 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -349,7 +349,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "はずむ、こころ" ;
     :name
         "はずむ、こころ"@ja, "はずむ、こころ" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -359,7 +359,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "カメラレッスン" ;
     :name
         "カメラレッスン"@ja, "カメラレッスン" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -369,7 +369,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "やわらかくつつんで、春" ;
     :name
         "やわらかくつつんで、春"@ja, "やわらかくつつんで、春" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -379,7 +379,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "想い、その手にのせて" ;
     :name
         "想い、その手にのせて"@ja, "想い、その手にのせて" ;
-    :clipNumber 4 ;
+    :position 4 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -389,7 +389,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "散りつもるように、幸福" ;
     :name
         "散りつもるように、幸福"@ja, "散りつもるように、幸福" ;
-    :clipNumber 5 ;
+    :position 5 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -413,7 +413,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "新しい空をゆくために" ;
     :name
         "新しい空をゆくために"@ja, "新しい空をゆくために" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -423,7 +423,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "はらはら、雪が重なるように" ;
     :name
         "はらはら、雪が重なるように"@ja, "はらはら、雪が重なるように" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -433,7 +433,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "雪割草のあたま" ;
     :name
         "雪割草のあたま"@ja, "雪割草のあたま" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -443,7 +443,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "勇気をくださいました" ;
     :name
         "勇気をくださいました"@ja, "勇気をくださいました" ;
-    :clipNumber 4 ;
+    :position 4 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -453,7 +453,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "2ステップめ" ;
     :name
         "2ステップめ"@ja, "2ステップめ" ;
-    :clipNumber 5 ;
+    :position 5 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -475,7 +475,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "ショッピング日和" ;
     :name
         "ショッピング日和"@ja, "Perfect Day for Shopping"@en, "ショッピング日和" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -485,7 +485,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "自然とはずむ心" ;
     :name
         "自然とはずむ心"@ja, "Natural Heart"@en, "自然とはずむ心" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -495,7 +495,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "感謝を形に" ;
     :name
         "感謝を形に"@ja, "Form of Gratitude"@en, "感謝を形に" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -517,7 +517,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "想いが重なる瞬間" ;
     :name
         "想いが重なる瞬間"@ja, "The Moment Our Feelings Connected"@en, "想いが重なる瞬間" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -527,7 +527,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "お腹が……" ;
     :name
         "お腹が……"@ja, "Feeling Hungry…"@en, "お腹が……" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -537,7 +537,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "癒して、癒されて" ;
     :name
         "癒して、癒されて"@ja, "Heal, Be Healed"@en, "癒して、癒されて" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -559,7 +559,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "しばしお別れ、しかしすぐに" ;
     :name
         "しばしお別れ、しかしすぐに"@ja, "A Brief Goodbye, But Right Away"@en, "しばしお別れ、しかしすぐに" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -569,7 +569,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "迎春の巡り逢い" ;
     :name
         "迎春の巡り逢い"@ja, "New Year Greetings"@en, "迎春の巡り逢い" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -579,7 +579,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "あのときの願い" ;
     :name
         "あのときの願い"@ja, "What I Wished for Back Then"@en, "あのときの願い" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -601,7 +601,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "まだ、かたく" ;
     :name
         "まだ、かたく"@ja, "まだ、かたく" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -611,7 +611,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "春へ、浮かされて" ;
     :name
         "春へ、浮かされて"@ja, "春へ、浮かされて" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -621,7 +621,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "ほころびる" ;
     :name
         "ほころびる"@ja, "ほころびる" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -642,7 +642,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "星降るよるに" ;
     :name
         "星降るよるに"@ja, "星降るよるに" ;
-    :clipNumber 1 ;
+    :position 1 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
@@ -652,7 +652,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "きをつけて" ;
     :name
         "きをつけて"@ja, "きをつけて" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;

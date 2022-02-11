@@ -3,6 +3,8 @@ PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
 PREFIX mano: <https://283db.org/resource/commu/produce-event/mano/>
+PREFIX hiori: <https://283db.org/resource/commu/produce-event/hiori/>
+PREFIX meguru: <https://283db.org/resource/commu/produce-event/meguru/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -15,133 +17,133 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "始まり、もう一度" ;
     :name
         "始まり、もう一度"@ja, "始まり、もう一度" ;
-    :clipNumber 2 ;
+    :position 2 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
 
 <FanFes_1> a scdb:ProduceEvent ;
     rdfs:label "『頑張りたい』" ;
     :name
         "『頑張りたい』"@ja, "『頑張りたい』" ;
-    :clipNumber 3 ;
+    :position 3 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
 
 <FanFes_2> a scdb:ProduceEvent ;
     rdfs:label "空が赤いから" ;
     :name
         "空が赤いから"@ja, "空が赤いから" ;
-    :clipNumber 4 ;
+    :position 4 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
 
 <FanFes_3> a scdb:ProduceEvent ;
     rdfs:label "雲なんて吹き飛ばして" ;
     :name
         "雲なんて吹き飛ばして"@ja, "雲なんて吹き飛ばして" ;
-    :clipNumber 5 ;
+    :position 5 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
 
 <FanFes_4> a scdb:ProduceEvent ;
     rdfs:label "星たちは駆けて輝く" ;
     :name
         "星たちは駆けて輝く"@ja, "星たちは駆けて輝く" ;
-    :clipNumber 6 ;
+    :position 6 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
 
 <FanFes_Before_Stage_Unit> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番前 (ユニット)" ;
     :name
         "感謝祭本番前 (ユニット)"@ja, "Before Fan Festival Stage (Unit)"@en, "感謝祭本番前 (ユニット)" ;
-    :clipNumber 7 ;
+    :position 7 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
 
 <FanFes_After_Stage> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番後 (通常)" ;
     :name
         "感謝祭本番後 (通常)"@ja, "After Fan Festival Stage (Normal)"@en, "感謝祭本番後 (通常)" ;
-    :clipNumber 8 ;
+    :position 8 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
 
 <FanFes_After_Stage_MVP> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番後 (MVP)" ;
     :name
         "感謝祭本番後 (MVP)"@ja, "After Fan Festival Stage (MVP)"@en, "感謝祭本番後 (MVP)" ;
-    :clipNumber 9 ;
+    :position 9 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
 
 <FanFes_Epilogue> a scdb:ProduceEvent ;
     rdfs:label "何度だって最高の晴れにしよう" ;
     :name
         "何度だって最高の晴れにしよう"@ja, "何度だって最高の晴れにしよう" ;
-    :clipNumber 10 ;
+    :position 10 ;
     :character
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes .
-        # hiori:FanFes ,
-        # meguru:FanFes .
+        mano:FanFes ,
+        hiori:FanFes ,
+        meguru:FanFes .
