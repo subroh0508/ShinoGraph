@@ -73,6 +73,10 @@ scdb:CommuClip a rdfs:Class ;
     rdfs:label "コミュの1話"@ja, "A Clip of Commu"@en ;
     rdfs:subClassOf :Clip .
 
+scdb:CommuConversation a rdfs:Class ;
+    rdfs:label "コミュ中の会話(例: WINGやGRADの勝利・敗退コミュ)"@ja, "Conversation of Commu(e.g. Win or Lose Commu of WING, GRAD etc.)"@en ;
+    rdfs:subClassOf :Conversation .
+
 scdb:ProduceEvent a rdfs:Class ;
     rdfs:label "プロデュースイベント"@ja, "Produce Event"@en ;
     rdfs:subClassOf scdb:CommuClip .
