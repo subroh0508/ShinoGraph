@@ -89,6 +89,50 @@ scdb:ScenarioClip a rdfs:Class ;
     rdfs:label "イベントコミュの1話"@ja, "A Chip of Event Commu"@en ;
     rdfs:subClassOf :Clip .
 
+scdb:Gacha a rdfs:Class ;
+    rdfs:label "ガシャ"@ja, "Gacha"@en, "ガシャ" ;
+    rdfs:subClassOf :Thing .
+
+scdb:PermanentGacha a rdfs:Class ;
+    rdfs:label "恒常ガシャ"@ja, "Permanent Gacha"@en ;
+    rdfs:subClassOf scdb:Gacha .
+
+scdb:LimitedGacha a rdfs:Class ;
+    rdfs:label "限定ガシャ"@ja, "Limited Gacha"@en ;
+    rdfs:subClassOf scdb:Gacha .
+
+scdb:GameEvent a rdfs:Class ;
+    rdfs:label "ゲーム内イベント"@ja, "Events in Game"@en ;
+    rdfs:subClassOf :Event .
+
+scdb:ScenarioEvent a rdfs:Class ;
+    rdfs:label "シナリオイベント"@ja, "Scenario Events"@en ;
+    rdfs:subClassOf scdb:GameEvent .
+
+scdb:ProduceEvent a rdfs:Class ;
+    rdfs:label "プロデュースイベント"@ja, "Produce Events"@en ;
+    rdfs:subClassOf scdb:GameEvent .
+
+scdb:FesEvent a rdfs:Class ;
+    rdfs:label "フェスイベント"@ja, "Fes Events"@en ;
+    rdfs:subClassOf scdb:GameEvent .
+
+scdb:PCup a rdfs:Class ;
+    rdfs:label "プロデューサーズカップ"@ja, "Producer's Cup"@en ;
+    rdfs:subClassOf scdb:GameEvent .
+
+scdb:Training a rdfs:Class ;
+    rdfs:label "育成イベント"@ja, "Training Events"@en ;
+    rdfs:subClassOf scdb:GameEvent .
+
+scdb:CollaboFes a rdfs:Class ;
+    rdfs:label "コラボフェス"@ja, "CollaboFes Events"@en ;
+    rdfs:subClassOf scdb:GameEvent .
+
+scdb:FesTours a rdfs:Class ;
+    rdfs:label "フェスツアーズ"@ja, "Fes Tours Events"@en ;
+    rdfs:subClassOf scdb:GameEvent .
+
 # Properties
 scdb:hobby a rdf:Property ;
     rdfs:label "趣味"@ja, "hobby"@en ;
