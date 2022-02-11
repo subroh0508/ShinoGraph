@@ -16,9 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ほわっとスマイル"@ja, "Warm Smile"@en,
         "【ほわっとスマイル】櫻木真乃"@ja, "[Warm Smile] Mano Sakuragi"@en, "【ほわっとスマイル】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSSR1_1> ,
         <PSSR1_2> ,
@@ -82,9 +80,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ハ♡トフェルトゥギフト"@ja, "Heart♡felt Gift"@en,
         "【ハ♡トフェルトゥギフト】櫻木真乃"@ja, "[Heart♡felt Gift] Mano Sakuragi"@en, "【ハ♡トフェルトゥギフト】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSSR2_1> ,
         <PSSR2_2> ,
@@ -148,9 +144,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "はじけてスマイル"@ja, "Bursting Smile"@en,
         "【はじけてスマイル】櫻木真乃"@ja, "[Bursting Smile] Mano Sakuragi"@en, "【はじけてスマイル】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSSR3_1> ,
         <PSSR3_2> ,
@@ -214,9 +208,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "深染め、いろみぐさ"@ja, "Deeply Dyed, Autumn Leaves"@en,
         "【深染め、いろみぐさ】櫻木真乃"@ja, "[Deeply Dyed, Autumn Leaves] Mano Sakuragi"@en, "【深染め、いろみぐさ】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSSR4_1> ,
         <PSSR4_2> ,
@@ -280,9 +272,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ソラを跳ね"@ja, "Splashing Sky"@en,
         "【ソラを跳ね】櫻木真乃"@ja, "[Splashing Sky] Mano Sakuragi"@en, "【ソラを跳ね】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSSR5_1> ,
         <PSSR5_2> ,
@@ -346,9 +336,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "花風Smiley"@ja, "Sakura Breeze Smiley"@en,
         "【花風Smiley】櫻木真乃"@ja, "[Sakura Breeze Smiley] Mano Sakuragi"@en, "【花風Smiley】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSSR6_1> ,
         <PSSR6_2> ,
@@ -412,9 +400,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ひとつ、はたたく"@ja, "Fluttering, Alone"@en,
         "【ひとつ、はたたく】櫻木真乃"@ja, "[Fluttering, Alone] Mano Sakuragi"@en, "【ひとつ、はたたく】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSSR7_1> ,
         <PSSR7_2> ,
@@ -478,9 +464,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ナチュラルモード"@ja, "Natural Mode"@en,
         "【ナチュラルモード】櫻木真乃"@ja, "[Natural Mode] Mano Sakuragi"@en, "【ナチュラルモード】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSR1_1> ,
         <PSR1_2> ,
@@ -522,9 +506,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ぐうぜんBOOKS"@ja, "Coincidental BOOKS"@en,
         "【ぐうぜんBOOKS】櫻木真乃"@ja, "[Coincidental BOOKS] Mano Sakuragi"@en, "【ぐうぜんBOOKS】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSR2_1> ,
         <PSR2_2> ,
@@ -566,9 +548,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "しじまに華ひととき"@ja, "A Blooming Moment"@en,
         "【しじまに華ひととき】櫻木真乃"@ja, "[A Blooming Moment] Mano Sakuragi"@en, "【しじまに華ひととき】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSR3_1> ,
         <PSR3_2> ,
@@ -610,9 +590,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "花結びゆくゆく"@ja, "Rosette On the Way"@en,
         "【花結びゆくゆく】櫻木真乃"@ja, "[Rosette On the Way] Mano Sakuragi"@en, "【花結びゆくゆく】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSR4_1> ,
         <PSR4_2> ,
@@ -654,9 +632,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "一番星の魔法"@ja, "Magic of the First Star"@en,
         "【一番星の魔法】櫻木真乃"@ja, "[Magic of the First Star] Mano Sakuragi"@en, "【一番星の魔法】櫻木真乃" ;
-    :character
-        idol:Sakuragi_Mano ,
-        staff:Producer ;
+    :character idol:Sakuragi_Mano ;
     :hasPart
         <PSR5_1> ,
         <PSR5_TE> ;

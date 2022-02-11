@@ -17,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "白いツバサ"@ja, "White Wings"@en,
         "【白いツバサ】櫻木真乃"@ja, "[White Wings] Mano Sakuragi"@en, "【白いツバサ】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     scdb:rarity enum:Rarity.R ;
     scdb:acquiredBy enum:PermanentGacha .
@@ -27,7 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "白いツバサ"@ja, "White Wings"@en,
         "【白いツバサ】櫻木真乃"@ja, "[White Wings] Mano Sakuragi"@en, "【白いツバサ】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2020-04-13"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:IdolRoad .
@@ -37,7 +37,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "アイドルロード"@ja, "Idol Road"@en,
         "【アイドルロード】櫻木真乃"@ja, "[Idol Road] Mano Sakuragi"@en, "【アイドルロード】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2020-04-13"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:IdolRoad .
@@ -47,7 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ほわっとスマイル"@ja, "Warm Smile"@en,
         "【ほわっとスマイル】櫻木真乃"@ja, "[Warm Smile] Mano Sakuragi"@en, "【ほわっとスマイル】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2018-04-24"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:PermanentGacha ;
@@ -58,7 +58,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ハ♡トフェルトゥギフト"@ja, "Heart♡felt Gift"@en,
         "【ハ♡トフェルトゥギフト】櫻木真乃"@ja, "[Heart♡felt Gift] Mano Sakuragi"@en, "【ハ♡トフェルトゥギフト】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2019-01-31"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:LimitedGacha ;
@@ -69,7 +69,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "はじけてスマイル"@ja, "Bursting Smile"@en,
         "【はじけてスマイル】櫻木真乃"@ja, "[Bursting Smile] Mano Sakuragi"@en, "【はじけてスマイル】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2019-08-09"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:PermanentGacha ;
@@ -80,7 +80,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "深染め、いろみぐさ"@ja, "Deeply Dyed, Autumn Leaves"@en,
         "【深染め、いろみぐさ】櫻木真乃"@ja, "[Deeply Dyed, Autumn Leaves] Mano Sakuragi"@en, "【深染め、いろみぐさ】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2019-10-31"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:LimitedGacha ;
@@ -91,7 +91,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ソラを跳ね"@ja, "Splashing Sky"@en,
         "【ソラを跳ね】櫻木真乃"@ja, "[Splashing Sky] Mano Sakuragi"@en, "【ソラを跳ね】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2020-07-10"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:PermanentGacha ;
@@ -102,7 +102,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "花風Smiley"@ja, "Sakura Breeze Smiley"@en,
         "【花風Smiley】櫻木真乃"@ja, "[Sakura Breeze Smiley] Mano Sakuragi"@en, "【花風Smiley】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2021-04-01"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:LimitedGacha ;
@@ -113,7 +113,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ひとつ、はたたく"@ja, "Fluttering, Alone"@en,
         "【ひとつ、はたたく】櫻木真乃"@ja, "[Fluttering, Alone] Mano Sakuragi"@en, "【ひとつ、はたたく】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2022-01-20"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:PermanentGacha ;
@@ -124,7 +124,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ナチュラルモード"@ja, "Natural Mode"@en,
         "【ナチュラルモード】櫻木真乃"@ja, "[Natural Mode] Mano Sakuragi"@en, "【ナチュラルモード】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2018-05-21"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:FesEvent ;
@@ -135,7 +135,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "ぐうぜんBOOKS"@ja, "Coincidental BOOKS"@en,
         "【ぐうぜんBOOKS】櫻木真乃"@ja, "[Coincidental BOOKS] Mano Sakuragi"@en, "【ぐうぜんBOOKS】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2018-09-30"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:PermanentGacha ;
@@ -146,7 +146,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "しじまに華ひととき"@ja, "A Blooming Moment"@en,
         "【しじまに華ひととき】櫻木真乃"@ja, "[A Blooming Moment] Mano Sakuragi"@en, "【しじまに華ひととき】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2019-01-01"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:LimitedGacha ;
@@ -157,7 +157,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "花結びゆくゆく"@ja, "Rosette On the Way"@en,
         "【花結びゆくゆく】櫻木真乃"@ja, "[Rosette On the Way] Mano Sakuragi"@en, "【花結びゆくゆく】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2020-03-10"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:PermanentGacha ;
@@ -168,7 +168,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :name
         "一番星の魔法"@ja, "Magic of the First Star"@en,
         "【一番星の魔法】櫻木真乃"@ja, "[Magic of the First Star] Mano Sakuragi"@en, "【一番星の魔法】櫻木真乃" ;
-    scdb:character idol:Sakuragi_Mano ;
+    :character idol:Sakuragi_Mano ;
     scdb:debutDate "2020-11-30"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:ProduceBoxEvent ;

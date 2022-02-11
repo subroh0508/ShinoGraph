@@ -55,7 +55,7 @@ scdb:AudioDrama a rdfs:Class ;
 
 scdb:IdolCard a rdfs:Class ;
     rdfs:label "ゲーム内に登場するカード"@ja, "Card in the game"@en ;
-    rdfs:subClassOf :Thing .
+    rdfs:subClassOf :CreativeWork .
 
 scdb:ProduceIdol a rdfs:Class ;
     rdfs:label "プロデュースアイドルのカード"@ja, "Card of Produce Idol"@en ;
@@ -69,25 +69,25 @@ scdb:Commu a rdfs:Class ;
     rdfs:label "コミュ"@ja, "Commu"@en ;
     rdfs:subClassOf :Episode .
 
+scdb:CommuClip a rdfs:Class ;
+    rdfs:label "コミュの1話"@ja, "A Clip of Commu"@en ;
+    rdfs:subClassOf :Clip .
+
 scdb:ProduceEvent a rdfs:Class ;
     rdfs:label "プロデュースイベント"@ja, "Produce Event"@en ;
-    rdfs:subClassOf :Clip .
+    rdfs:subClassOf scdb:CommuClip .
 
 scdb:IdolEvent a rdfs:Class ;
     rdfs:label "アイドルイベント"@ja, "Idol Event"@en ;
-    rdfs:subClassOf :Clip .
+    rdfs:subClassOf scdb:CommuClip .
 
 scdb:IdolEvent_TrueEnd a rdfs:Class ;
     rdfs:label "アイドルイベント(True End)"@ja, "Idol Event(True End)"@en ;
-    rdfs:subClassOf scdb:IdolEvent .
+    rdfs:subClassOf scdb:CommuClip, scdb:IdolEvent .
 
 scdb:SupportEvent a rdfs:Class ;
     rdfs:label "サポートイベント"@ja, "Support Event"@en ;
-    rdfs:subClassOf :Clip .
-
-scdb:ScenarioClip a rdfs:Class ;
-    rdfs:label "イベントコミュの1話"@ja, "A Chip of Event Commu"@en ;
-    rdfs:subClassOf :Clip .
+    rdfs:subClassOf scdb:CommuClip .
 
 scdb:Gacha a rdfs:Class ;
     rdfs:label "ガシャ"@ja, "Gacha"@en, "ガシャ" ;
@@ -144,9 +144,9 @@ scdb:skill a rdf:Property ;
     rdfs:domain scdb:Idol ;
     rdfs:range xsd:string .
 
-scdb:character a rdf:Property ;
+scdb:performAs a rdf:Property ;
     rdfs:label "キャラクター"@ja, "Character"@en ;
-    rdfs:domain scdb:Performer, scdb:IdolCard ;
+    rdfs:domain scdb:Performer ;
     rdfs:range scdb:Character .
 
 scdb:cv a rdf:Property ;
