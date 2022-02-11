@@ -109,7 +109,7 @@ scdb:ScenarioEvent a rdfs:Class ;
     rdfs:label "シナリオイベント"@ja, "Scenario Events"@en ;
     rdfs:subClassOf scdb:GameEvent .
 
-scdb:ProduceEvent a rdfs:Class ;
+scdb:ProduceBoxEvent a rdfs:Class ;
     rdfs:label "プロデュースイベント"@ja, "Produce Events"@en ;
     rdfs:subClassOf scdb:GameEvent .
 
@@ -121,7 +121,7 @@ scdb:PCup a rdfs:Class ;
     rdfs:label "プロデューサーズカップ"@ja, "Producer's Cup"@en ;
     rdfs:subClassOf scdb:GameEvent .
 
-scdb:Training a rdfs:Class ;
+scdb:TrainingEvent a rdfs:Class ;
     rdfs:label "育成イベント"@ja, "Training Events"@en ;
     rdfs:subClassOf scdb:GameEvent .
 

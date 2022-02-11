@@ -142,3 +142,542 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Sakuragi_Mano ,
         staff:Producer ;
     :isPartOf <PSSR2> .
+
+<PSSR3> a scdb:Commu ;
+    rdfs:label "【はじけてスマイル】櫻木真乃" ;
+    :name
+        "はじけてスマイル"@ja, "Bursting Smile"@en,
+        "【はじけてスマイル】櫻木真乃"@ja, "[Bursting Smile] Mano Sakuragi"@en, "【はじけてスマイル】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSSR3_1> ,
+        <PSSR3_2> ,
+        <PSSR3_3> ,
+        <PSSR3_4> ,
+        <PSSR3_TE> ;
+    :subjectOf card:PSSR3 .
+
+<PSSR3_1> a scdb:IdolEvent ;
+    rdfs:label "緑色が運ぶ、夏の" ;
+    :name
+        "緑色が運ぶ、夏の"@ja, "The Green That Carries Over Summer"@en, "緑色が運ぶ、夏の" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR3> .
+
+<PSSR3_2> a scdb:IdolEvent ;
+    rdfs:label "狙う、その間の" ;
+    :name
+        "狙う、その間の"@ja, "Aiming, In The Meantime"@en, "狙う、その間の" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR3> .
+
+<PSSR3_3> a scdb:IdolEvent ;
+    rdfs:label "交す、ことばの" ;
+    :name
+        "交す、ことばの"@ja, "Exchanging Words"@en, "交す、ことばの" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR3> .
+
+<PSSR3_4> a scdb:IdolEvent ;
+    rdfs:label "涼やかな、夏の" ;
+    :name
+        "涼やかな、夏の"@ja, "Refreshing, Summer"@en, "涼やかな、夏の" ;
+    :clipNumber 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR3> .
+
+<PSSR3_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "気遣い、一粒" ;
+    :name
+        "気遣い、一粒"@ja, "Solicitude, Once Again"@en, "気遣い、一粒" ;
+    :clipNumber 5 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR3> .
+
+<PSSR4> a scdb:Commu ;
+    rdfs:label "【深染め、いろみぐさ】櫻木真乃" ;
+    :name
+        "深染め、いろみぐさ"@ja, "Deeply Dyed, Autumn Leaves"@en,
+        "【深染め、いろみぐさ】櫻木真乃"@ja, "[Deeply Dyed, Autumn Leaves] Mano Sakuragi"@en, "【深染め、いろみぐさ】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSSR4_1> ,
+        <PSSR4_2> ,
+        <PSSR4_3> ,
+        <PSSR4_4> ,
+        <PSSR4_TE> ;
+    :subjectOf card:PSSR4 .
+
+<PSSR4_1> a scdb:IdolEvent ;
+    rdfs:label "秋香る" ;
+    :name
+        "秋香る"@ja, "Autumn's Aroma"@en, "秋香る" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR4> .
+
+<PSSR4_2> a scdb:IdolEvent ;
+    rdfs:label "響くやわらか" ;
+    :name
+        "響くやわらか"@ja, "Gentle Resonate"@en, "響くやわらか" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR4> .
+
+<PSSR4_3> a scdb:IdolEvent ;
+    rdfs:label "空の下" ;
+    :name
+        "空の下"@ja, "Under The Sky"@en, "空の下" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR4> .
+
+<PSSR4_4> a scdb:IdolEvent ;
+    rdfs:label "染まる景色に" ;
+    :name
+        "染まる景色に"@ja, "The Scenery That Dyes"@en, "染まる景色に" ;
+    :clipNumber 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR4> .
+
+<PSSR4_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "薫る秋" ;
+    :name
+        "薫る秋"@ja, "Autumn's Fragrant"@en, "薫る秋" ;
+    :clipNumber 5 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR4> .
+
+<PSSR5> a scdb:Commu ;
+    rdfs:label "【ソラを跳ね】櫻木真乃" ;
+    :name
+        "ソラを跳ね"@ja, "Splashing Sky"@en,
+        "【ソラを跳ね】櫻木真乃"@ja, "[Splashing Sky] Mano Sakuragi"@en, "【ソラを跳ね】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSSR5_1> ,
+        <PSSR5_2> ,
+        <PSSR5_3> ,
+        <PSSR5_4> ,
+        <PSSR5_TE> ;
+    :subjectOf card:PSSR5 .
+
+<PSSR5_1> a scdb:IdolEvent ;
+    rdfs:label "ささやかな" ;
+    :name
+        "ささやかな"@ja, "ささやかな" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR5> .
+
+<PSSR5_2> a scdb:IdolEvent ;
+    rdfs:label "あめのひ" ;
+    :name
+        "あめのひ"@ja, "あめのひ" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR5> .
+
+<PSSR5_3> a scdb:IdolEvent ;
+    rdfs:label "そらをおよぐ鳥" ;
+    :name
+        "そらをおよぐ鳥"@ja, "そらをおよぐ鳥" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR5> .
+
+<PSSR5_4> a scdb:IdolEvent ;
+    rdfs:label "ゆっくりでいい。そうきみにも" ;
+    :name
+        "ゆっくりでいい。そうきみにも"@ja, "ゆっくりでいい。そうきみにも" ;
+    :clipNumber 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR5> .
+
+<PSSR5_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "たとえ何光年離れていたとしても" ;
+    :name
+        "たとえ何光年離れていたとしても"@ja, "たとえ何光年離れていたとしても" ;
+    :clipNumber 5 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR5> .
+
+<PSSR6> a scdb:Commu ;
+    rdfs:label "【花風Smiley】櫻木真乃" ;
+    :name
+        "花風Smiley"@ja, "Sakura Breeze Smiley"@en,
+        "【花風Smiley】櫻木真乃"@ja, "[Sakura Breeze Smiley] Mano Sakuragi"@en, "【花風Smiley】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSSR6_1> ,
+        <PSSR6_2> ,
+        <PSSR6_3> ,
+        <PSSR6_4> ,
+        <PSSR6_TE> ;
+    :subjectOf card:PSSR6 .
+
+<PSSR6_1> a scdb:IdolEvent ;
+    rdfs:label "はずむ、こころ" ;
+    :name
+        "はずむ、こころ"@ja, "はずむ、こころ" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR6> .
+
+<PSSR6_2> a scdb:IdolEvent ;
+    rdfs:label "カメラレッスン" ;
+    :name
+        "カメラレッスン"@ja, "カメラレッスン" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR6> .
+
+<PSSR6_3> a scdb:IdolEvent ;
+    rdfs:label "やわらかくつつんで、春" ;
+    :name
+        "やわらかくつつんで、春"@ja, "やわらかくつつんで、春" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR6> .
+
+<PSSR6_4> a scdb:IdolEvent ;
+    rdfs:label "想い、その手にのせて" ;
+    :name
+        "想い、その手にのせて"@ja, "想い、その手にのせて" ;
+    :clipNumber 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR6> .
+
+<PSSR6_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "散りつもるように、幸福" ;
+    :name
+        "散りつもるように、幸福"@ja, "散りつもるように、幸福" ;
+    :clipNumber 5 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR6> .
+
+<PSSR7> a scdb:Commu ;
+    rdfs:label "【ひとつ、はたたく】櫻木真乃" ;
+    :name
+        "ひとつ、はたたく"@ja, "Fluttering, Alone"@en,
+        "【ひとつ、はたたく】櫻木真乃"@ja, "[Fluttering, Alone] Mano Sakuragi"@en, "【ひとつ、はたたく】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSSR7_1> ,
+        <PSSR7_2> ,
+        <PSSR7_3> ,
+        <PSSR7_4> ,
+        <PSSR7_TE> ;
+    :subjectOf card:PSSR7 .
+
+<PSSR7_1> a scdb:IdolEvent ;
+    rdfs:label "新しい空をゆくために" ;
+    :name
+        "新しい空をゆくために"@ja, "新しい空をゆくために" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR7> .
+
+<PSSR7_2> a scdb:IdolEvent ;
+    rdfs:label "はらはら、雪が重なるように" ;
+    :name
+        "はらはら、雪が重なるように"@ja, "はらはら、雪が重なるように" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR7> .
+
+<PSSR7_3> a scdb:IdolEvent ;
+    rdfs:label "雪割草のあたま" ;
+    :name
+        "雪割草のあたま"@ja, "雪割草のあたま" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR7> .
+
+<PSSR7_4> a scdb:IdolEvent ;
+    rdfs:label "勇気をくださいました" ;
+    :name
+        "勇気をくださいました"@ja, "勇気をくださいました" ;
+    :clipNumber 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR7> .
+
+<PSSR7_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "2ステップめ" ;
+    :name
+        "2ステップめ"@ja, "2ステップめ" ;
+    :clipNumber 5 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSSR7> .
+
+<PSR1> a scdb:Commu ;
+    rdfs:label "【ナチュラルモード】櫻木真乃" ;
+    :name
+        "ナチュラルモード"@ja, "Natural Mode"@en,
+        "【ナチュラルモード】櫻木真乃"@ja, "[Natural Mode] Mano Sakuragi"@en, "【ナチュラルモード】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSR1_1> ,
+        <PSR1_2> ,
+        <PSR1_TE> ;
+    :subjectOf card:PSR1 .
+
+<PSR1_1> a scdb:IdolEvent ;
+    rdfs:label "ショッピング日和" ;
+    :name
+        "ショッピング日和"@ja, "Perfect Day for Shopping"@en, "ショッピング日和" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR1> .
+
+<PSR1_2> a scdb:IdolEvent ;
+    rdfs:label "自然とはずむ心" ;
+    :name
+        "自然とはずむ心"@ja, "Natural Heart"@en, "自然とはずむ心" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR1> .
+
+<PSR1_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "感謝を形に" ;
+    :name
+        "感謝を形に"@ja, "Form of Gratitude"@en, "感謝を形に" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR1> .
+
+<PSR2> a scdb:Commu ;
+    rdfs:label "【ぐうぜんBOOKS】櫻木真乃" ;
+    :name
+        "ぐうぜんBOOKS"@ja, "Coincidental BOOKS"@en,
+        "【ぐうぜんBOOKS】櫻木真乃"@ja, "[Coincidental BOOKS] Mano Sakuragi"@en, "【ぐうぜんBOOKS】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSR2_1> ,
+        <PSR2_2> ,
+        <PSR2_TE> ;
+    :subjectOf card:PSR2 .
+
+<PSR2_1> a scdb:IdolEvent ;
+    rdfs:label "想いが重なる瞬間" ;
+    :name
+        "想いが重なる瞬間"@ja, "The Moment Our Feelings Connected"@en, "想いが重なる瞬間" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR2> .
+
+<PSR2_2> a scdb:IdolEvent ;
+    rdfs:label "お腹が……" ;
+    :name
+        "お腹が……"@ja, "Feeling Hungry…"@en, "お腹が……" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR2> .
+
+<PSR2_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "癒して、癒されて" ;
+    :name
+        "癒して、癒されて"@ja, "Heal, Be Healed"@en, "癒して、癒されて" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR2> .
+
+<PSR3> a scdb:Commu ;
+    rdfs:label "【しじまに華ひととき】櫻木真乃" ;
+    :name
+        "しじまに華ひととき"@ja, "A Blooming Moment"@en,
+        "【しじまに華ひととき】櫻木真乃"@ja, "[A Blooming Moment] Mano Sakuragi"@en, "【しじまに華ひととき】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSR3_1> ,
+        <PSR3_2> ,
+        <PSR3_TE> ;
+    :subjectOf card:PSR3 .
+
+<PSR3_1> a scdb:IdolEvent ;
+    rdfs:label "しばしお別れ、しかしすぐに" ;
+    :name
+        "しばしお別れ、しかしすぐに"@ja, "A Brief Goodbye, But Right Away"@en, "しばしお別れ、しかしすぐに" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR3> .
+
+<PSR3_2> a scdb:IdolEvent ;
+    rdfs:label "迎春の巡り逢い" ;
+    :name
+        "迎春の巡り逢い"@ja, "New Year Greetings"@en, "迎春の巡り逢い" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR3> .
+
+<PSR3_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "あのときの願い" ;
+    :name
+        "あのときの願い"@ja, "What I Wished for Back Then"@en, "あのときの願い" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR3> .
+
+<PSR4> a scdb:Commu ;
+    rdfs:label "【花結びゆくゆく】櫻木真乃" ;
+    :name
+        "花結びゆくゆく"@ja, "Rosette On the Way"@en,
+        "【花結びゆくゆく】櫻木真乃"@ja, "[Rosette On the Way] Mano Sakuragi"@en, "【花結びゆくゆく】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSR4_1> ,
+        <PSR4_2> ,
+        <PSR4_TE> ;
+    :subjectOf card:PSR4 .
+
+<PSR4_1> a scdb:IdolEvent ;
+    rdfs:label "まだ、かたく" ;
+    :name
+        "まだ、かたく"@ja, "まだ、かたく" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR4> .
+
+<PSR4_2> a scdb:IdolEvent ;
+    rdfs:label "春へ、浮かされて" ;
+    :name
+        "春へ、浮かされて"@ja, "春へ、浮かされて" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR4> .
+
+<PSR4_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "ほころびる" ;
+    :name
+        "ほころびる"@ja, "ほころびる" ;
+    :clipNumber 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR4> .
+
+<PSR5> a scdb:Commu ;
+    rdfs:label "【一番星の魔法】櫻木真乃" ;
+    :name
+        "一番星の魔法"@ja, "Magic of the First Star"@en,
+        "【一番星の魔法】櫻木真乃"@ja, "[Magic of the First Star] Mano Sakuragi"@en, "【一番星の魔法】櫻木真乃" ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :hasPart
+        <PSR5_1> ,
+        <PSR5_TE> ;
+    :subjectOf card:PSR5 .
+
+<PSR5_1> a scdb:IdolEvent ;
+    rdfs:label "星降るよるに" ;
+    :name
+        "星降るよるに"@ja, "星降るよるに" ;
+    :clipNumber 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR5> .
+
+<PSR5_TE> a scdb:IdolEvent_TrueEnd ;
+    rdfs:label "きをつけて" ;
+    :name
+        "きをつけて"@ja, "きをつけて" ;
+    :clipNumber 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        staff:Producer ;
+    :isPartOf <PSR5> .

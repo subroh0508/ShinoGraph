@@ -14,22 +14,52 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         owl:equivalentClass [
             a rdfs:Class ;
             owl:oneOf (
-                <Gacha.Permanent>
-                <Gacha.Limited>
-                <Idol_Road>
+                <PermanentGacha>
+                <LimitedGacha>
+                <ScenarioEvent>
+                <ProduceBoxEvent>
+                <FesEvent>
+                <TrainingEvent>
+                <CollaboFes>
+                <FesTours>
+                <IdolRoad>
                 <Campaign>
             )
         ] .
 
-<Gacha.Permanent> a <AcquiredBy>, owl:NamedIndividual ;
+<PermanentGacha> a <AcquiredBy>, owl:NamedIndividual ;
     rdfs:label "恒常ガシャ" ;
     :name "恒常ガシャ"@ja, "Permanent Gacha"@en, "恒常ガシャ" .
 
-<Gacha.Limited> a <AcquiredBy>, owl:NamedIndividual ;
+<LimitedGacha> a <AcquiredBy>, owl:NamedIndividual ;
     rdfs:label "限定ガシャ" ;
     :name "限定ガシャ"@ja, "Limited Gacha"@en, "限定ガシャ" .
 
-<Idol_Road> a <AcquiredBy>, owl:NamedIndividual ;
+<ScenarioEvent> a <AcquiredBy>, owl:NamedIndividual ;
+    rdfs:label "シナリオイベント" ;
+    :name "シナリオイベント"@ja, "Scenario Events"@en, "シナリオイベント" .
+
+<ProduceBoxEvent> a <AcquiredBy>, owl:NamedIndividual ;
+    rdfs:label "プロデュースイベント" ;
+    :name "プロデュースイベント"@ja, "Produce Events"@en, "プロデュースイベント" .
+
+<FesEvent> a <AcquiredBy>, owl:NamedIndividual ;
+    rdfs:label "フェスイベント" ;
+    :name "フェスイベント"@ja, "Fes Events"@en, "フェスイベント" .
+
+<TrainingEvent> a <AcquiredBy>, owl:NamedIndividual ;
+    rdfs:label "育成イベント" ;
+    :name "育成イベント"@ja, "Training Events"@en, "育成イベント" .
+
+<CollaboFes> a <AcquiredBy>, owl:NamedIndividual ;
+    rdfs:label "コラボフェス" ;
+    :name "コラボフェス"@ja, "CollaboFes Events"@en, "コラボフェス" .
+
+<FesTours> a <AcquiredBy>, owl:NamedIndividual ;
+    rdfs:label "フェスツアーズ" ;
+    :name "フェスツアーズ"@ja, "Fes Tours Events"@en, "フェスツアーズ" .
+
+<IdolRoad> a <AcquiredBy>, owl:NamedIndividual ;
     rdfs:label "アイドルロード" ;
     :name "アイドルロード"@ja, "Idol Road"@en, "アイドルロード" .
 
