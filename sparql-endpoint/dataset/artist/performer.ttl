@@ -1,7 +1,7 @@
 BASE <https://283db.org/resource/artist/performer/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
-PREFIX unit: <https://283db.org/resource/character/unit/>
+PREFIX unit: <https://283db.org/resource/organization/unit/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>

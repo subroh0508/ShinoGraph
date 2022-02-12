@@ -1,6 +1,6 @@
 BASE <https://283db.org/resource/music/album/>
 PREFIX scdb: <https://283db.org/schema#>
-PREFIX unit: <https://283db.org/resource/character/unit/>
+PREFIX unit: <https://283db.org/resource/organization/unit/>
 PREFIX perform: <https://283db.org/resource/artist/performer/>
 PREFIX song: <https://283db.org/resource/music/song/>
 PREFIX series: <https://283db.org/resource/music/album/series/>

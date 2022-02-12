@@ -1,7 +1,7 @@
 BASE <https://283db.org/resource/card/mano/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
-PREFIX unit: <https://283db.org/resource/character/unit/>
+PREFIX unit: <https://283db.org/resource/organization/unit/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX commu: <https://283db.org/resource/commu/idol-event/mano/>
 PREFIX : <http://schema.org/>
