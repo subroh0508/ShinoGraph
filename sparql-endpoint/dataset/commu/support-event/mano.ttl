@@ -1,0 +1,189 @@
+BASE <https://283db.org/resource/commu/support-event/mano/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX staff: <https://283db.org/resource/character/staff/>
+PREFIX card: <https://283db.org/resource/card/mano/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<SR> a scdb:Commu ;
+    rdfs:label "【283プロのヒナ】櫻木真乃" ;
+    :name
+        "283プロのヒナ"@ja, "283 Pro Hatchling"@en,
+        "【283プロのヒナ】櫻木真乃"@ja, "[283 Pro Hatchling] Mano Sakuragi"@en, "【283プロのヒナ】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SR_1> ,
+        <SR_2> ;
+    :subjectOf card:SR .
+
+<SSSR1> a scdb:Commu ;
+    rdfs:label "【トリプルイルミネーション】櫻木真乃" ;
+    :name
+        "トリプルイルミネーション"@ja, "Triple Illumination"@en,
+        "【トリプルイルミネーション】櫻木真乃"@ja, "[Triple Illumination] Mano Sakuragi"@en, "【トリプルイルミネーション】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR1_1> ,
+        <SSSR1_2> ,
+        <SSSR1_3> ,
+        <SSSR1_4> ;
+    :subjectOf card:SSSR1 .
+
+<SSSR2> a scdb:Commu ;
+    rdfs:label "【お揃いスナップ】櫻木真乃" ;
+    :name
+        "お揃いスナップ"@ja, "Matching Snapshots"@en,
+        "【お揃いスナップ】櫻木真乃"@ja, "[Matching Snapshots] Mano Sakuragi"@en, "【お揃いスナップ】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR2_1> ,
+        <SSSR2_2> ,
+        <SSSR2_3> ;
+    :subjectOf card:SSSR2 .
+
+<SSSR3> a scdb:Commu ;
+    rdfs:label "【スプラッシュビート】櫻木真乃" ;
+    :name
+        "スプラッシュビート"@ja, "Splash Beat"@en,
+        "【スプラッシュビート】櫻木真乃"@ja, "[Splash Beat] Mano Sakuragi"@en, "【スプラッシュビート】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR3_1> ,
+        <SSSR3_2> ,
+        <SSSR3_3> ;
+    :subjectOf card:SSSR3 .
+
+<SSSR4> a scdb:Commu ;
+    rdfs:label "【はじまりのエピローグ】櫻木真乃" ;
+    :name
+        "はじまりのエピローグ"@ja, "Epilogue of The Beginning"@en,
+        "【はじまりのエピローグ】櫻木真乃"@ja, "[Epilogue of The Beginning] Mano Sakuragi"@en, "【はじまりのエピローグ】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR4_1> ,
+        <SSSR4_2> ,
+        <SSSR4_3> ;
+    :subjectOf card:SSSR4 .
+
+<SSSR5> a scdb:Commu ;
+    rdfs:label "【冬街イルミネート】櫻木真乃" ;
+    :name
+        "冬街イルミネート"@ja, "Illuminating Winter Town"@en,
+        "【冬街イルミネート】櫻木真乃"@ja, "[Illuminating Winter Town] Mano Sakuragi"@en, "【冬街イルミネート】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR5_1> ,
+        <SSSR5_2> ,
+        <SSSR5_3> ;
+    :subjectOf card:SSSR5 .
+
+<SSSR6> a scdb:Commu ;
+    rdfs:label "【駅線上の日常】櫻木真乃" ;
+    :name
+        "駅線上の日常"@ja, "Daily Life on the Station Line"@en,
+        "【駅線上の日常】櫻木真乃"@ja, "[Daily Life on the Station Line] Mano Sakuragi"@en, "【駅線上の日常】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR6_1> ,
+        <SSSR6_2> ,
+        <SSSR6_3> ;
+    :subjectOf card:SSSR6 .
+
+<SSSR7> a scdb:Commu ;
+    rdfs:label "【つむぎ、まばゆく。星屑たち】櫻木真乃" ;
+    :name
+        "つむぎ、まばゆく。星屑たち"@ja, "Weaving, Dazzling. Stardust"@en,
+        "【つむぎ、まばゆく。星屑たち】櫻木真乃"@ja, "[Weaving, Dazzling. Stardust] Mano Sakuragi"@en, "【つむぎ、まばゆく。星屑たち】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR7_1> ,
+        <SSSR7_2> ,
+        <SSSR7_3> ;
+    :subjectOf card:SSSR7 .
+
+<SSSR8> a scdb:Commu ;
+    rdfs:label "【こころ、えんにならんで】櫻木真乃" ;
+    :name
+        "こころ、えんにならんで"@ja, "Hearts Lined Up by Fate"@en,
+        "【こころ、えんにならんで】櫻木真乃"@ja, "[Hearts Lined Up by Fate] Mano Sakuragi"@en, "【こころ、えんにならんで】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR8_1> ,
+        <SSSR8_2> ,
+        <SSSR8_3> ;
+    :subjectOf card:SSSR8 .
+
+<SSSR9> a scdb:Commu ;
+    rdfs:label "【泡沫の石たちに乾杯】櫻木真乃" ;
+    :name
+        "泡沫の石たちに乾杯"@ja, "Cheers, to the Transient Stones"@en,
+        "【泡沫の石たちに乾杯】櫻木真乃"@ja, "[Cheers, to the Transient Stones] Mano Sakuragi"@en, "【泡沫の石たちに乾杯】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR9_1> ,
+        <SSSR9_2> ,
+        <SSSR9_3> ;
+    :subjectOf card:SSSR9 .
+
+<SSSR10> a scdb:Commu ;
+    rdfs:label "【夏風渡るdiary】櫻木真乃" ;
+    :name
+        "夏風渡るdiary"@ja, "Summer Breeze diary"@en,
+        "【夏風渡るdiary】櫻木真乃"@ja, "[Summer Breeze diary] Mano Sakuragi"@en, "【夏風渡るdiary】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSSR10_1> ,
+        <SSSR10_2> ,
+        <SSSR10_3> ;
+    :subjectOf card:SSSR10 .
+
+<SSR1> a scdb:Commu ;
+    rdfs:label "【天然色ピクニック】櫻木真乃" ;
+    :name
+        "天然色ピクニック"@ja, "Natural-Colored Picnic"@en,
+        "【天然色ピクニック】櫻木真乃"@ja, "[Natural-Colored Picnic] Mano Sakuragi"@en, "【天然色ピクニック】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSR1_1> ,
+        <SSR1_2> ,
+        <SSR1_3> ;
+    :subjectOf card:SSR1 .
+
+<SSR2> a scdb:Commu ;
+    rdfs:label "【音、雨、パシャ、リ】櫻木真乃" ;
+    :name
+        "音、雨、パシャ、リ"@ja, "The Sound, of Rain, Spla, sh"@en,
+        "【音、雨、パシャ、リ】櫻木真乃"@ja, "[The Sound, of Rain, Spla, sh] Mano Sakuragi"@en, "【音、雨、パシャ、リ】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSR2_1> ,
+        <SSR2_2> ;
+    :subjectOf card:SSR2 .
+
+<SSR3> a scdb:Commu ;
+    rdfs:label "【by to illuminate】櫻木真乃" ;
+    :name
+        "by to illuminate"@ja, "by to illuminate"@en,
+        "【by to illuminate】櫻木真乃"@ja, "[by to illuminate] Mano Sakuragi"@en, "【by to illuminate】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSR3_1> ,
+        <SSR3_2> ;
+    :subjectOf card:SSR3 .
+
+<SSR4> a scdb:Commu ;
+    rdfs:label "【まわる音色、君色のかおり】櫻木真乃" ;
+    :name
+        "まわる音色、君色のかおり"@ja, "Turning Tone Color, Aroma of Your Colors"@en,
+        "【まわる音色、君色のかおり】櫻木真乃"@ja, "[Turning Tone Color, Aroma of Your Colors] Mano Sakuragi"@en, "【まわる音色、君色のかおり】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    :hasPart
+        <SSR4_1> ,
+        <SSR4_2> ;
+    :subjectOf card:SSR4 .
