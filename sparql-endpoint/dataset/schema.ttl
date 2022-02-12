@@ -19,11 +19,19 @@ scdb:Character a rdfs:Class ;
 
 scdb:Idol a rdfs:Class ;
     rdfs:label "アイドル"@ja, "Idol"@en ;
-    rdfs:subClassOf scdb:Character .
+    rdfs:subClassOf scdb:Character, :Person .
 
 scdb:Staff a rdfs:Class ;
     rdfs:label "スタッフ"@ja, "Staff"@en ;
-    rdfs:subClassOf scdb:Character .
+    rdfs:subClassOf scdb:Character, :Person .
+
+scdb:Mob a rdfs:Class ;
+    rdfs:label "モブキャラクター"@ja, "Character"@en ;
+    rdfs:subClassOf scdb:Character, :Person .
+
+scdb:CharacterWithinPlay a rdfs:Class ;
+    rdfs:label "劇中劇のキャラクター"@ja, "Character within Play"@en ;
+    rdfs:subClassOf scdb:Character, :Person .
 
 scdb:Unit a rdfs:Class ;
     rdfs:label "ユニット"@ja, "Unit"@en ;
@@ -147,6 +155,11 @@ scdb:skill a rdf:Property ;
     rdfs:label "特技"@ja, "skill"@en ;
     rdfs:domain scdb:Idol ;
     rdfs:range xsd:string .
+
+scdb:performedBy a rdf:Property ;
+    rdfs:label "劇中劇のキャラクターの演者"@ja, "The Actor of the Character within Play"@en ;
+    rdfs:domain scdb:CharacterWithinPlay ;
+    rdfs:range scdb:Character .
 
 scdb:performAs a rdf:Property ;
     rdfs:label "キャラクター"@ja, "Character"@en ;

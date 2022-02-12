@@ -1,0 +1,25 @@
+BASE <https://283db.org/resource/character/mob/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# 以下の条件のいずれかを満たす場合, モブキャラクターにもURIを与えることができる
+#
+# - 固有の名前を持つ
+#   - 例: さなぴー
+# - 今後別のコミュに登場した場合も、役職や台詞から同じ表記のキャラクターと明確に区別することができる
+#   - 例: 透のクラスの委員長, アプリコットの編集長
+#   - 基本方針として、URIを与えるタイミングは複数のコミュに登場したことが確認できた時点とする
+#
+# ※同一人物としていたモブが複数の人物だった場合、元のURIは変更せず新たに重複しないURIを用意し、定義を追加する
+# ※別人物としていたモブが同一人物だった場合、:sameAs属性の利用を検討する
+# ※定義済みのURIの変更コストは高くつくため、URIはできる限り具体的に命名する
+
+
+
+

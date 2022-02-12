@@ -46,6 +46,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :gender :Male ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Amai_Tsutomu> .
 
+<DanceTrainer> a scdb:Staff ;
+    rdfs:label "ダンストレーナー" ;
+    :name "ダンストレーナー"@ja, "Dance Trainer"@en, "ダンストレーナー" ;
+    :jobTitle "トレーナー"@ja, "Trainer"@en, "トレーナー" .
+
 <Producer> a scdb:Staff ;
     rdfs:label "プロデューサー" ;
     :name

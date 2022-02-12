@@ -2,6 +2,8 @@ BASE <https://283db.org/resource/commu/support-event/mano/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
+PREFIX mob: <https://283db.org/resource/character/mob/>
+PREFIX role: <https://283db.org/resource/character/within-play/>
 PREFIX card: <https://283db.org/resource/card/mano/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -22,6 +24,26 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SR_2> ;
     :subjectOf card:SR .
 
+<SR_1> a scdb:SupportEvent ;
+    rdfs:label "私たち次第" ;
+    :name
+        "私たち次第"@ja, "Depends On Us"@en, "私たち次第" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ;
+    :isPartOf <SR> .
+
+<SR_2> a scdb:SupportEvent ;
+    rdfs:label "誰のこと？" ;
+    :name
+        "誰のこと？"@ja, "Which One?"@en, "誰のこと？" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SR> .
+
 <SSSR1> a scdb:Commu ;
     rdfs:label "【トリプルイルミネーション】櫻木真乃" ;
     :name
@@ -35,6 +57,49 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR1_4> ;
     :subjectOf card:SSSR1 .
 
+<SSSR1_1> a scdb:SupportEvent ;
+    rdfs:label "始まりのステップ" ;
+    :name
+        "始まりのステップ"@ja, "Beginning Steps"@en, "始まりのステップ" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR1> .
+
+<SSSR1_2> a scdb:SupportEvent ;
+    rdfs:label "特訓の成果" ;
+    :name
+        "特訓の成果"@ja, "Results Of Special Training"@en, "特訓の成果" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR1> .
+
+<SSSR1_3> a scdb:SupportEvent ;
+    rdfs:label "輝き始めた3人" ;
+    :name
+        "輝き始めた3人"@ja, "Beginning To Shine With Us Three"@en, "輝き始めた3人" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR1> .
+
+<SSSR1_4> a scdb:SupportEvent ;
+    rdfs:label "3人で、手をつないで" ;
+    :name
+        "3人で、手をつないで"@ja, "Us Three, Hand In Hand"@en, "3人で、手をつないで" ;
+    :position 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR1> .
+
 <SSSR2> a scdb:Commu ;
     rdfs:label "【お揃いスナップ】櫻木真乃" ;
     :name
@@ -46,6 +111,39 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR2_2> ,
         <SSSR2_3> ;
     :subjectOf card:SSSR2 .
+
+<SSSR2_1> a scdb:SupportEvent ;
+    rdfs:label "夏と言えば……" ;
+    :name
+        "夏と言えば……"@ja, "Speaking Of Summer…"@en, "夏と言えば……" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR2> .
+
+<SSSR2_2> a scdb:SupportEvent ;
+    rdfs:label "サマータイム！" ;
+    :name
+        "サマータイム！"@ja, "Summertime!"@en, "サマータイム！" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR2> .
+
+<SSSR2_3> a scdb:SupportEvent ;
+    rdfs:label "色褪せないもの" ;
+    :name
+        "色褪せないもの"@ja, "It Will Never Fade"@en, "色褪せないもの" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR2> .
 
 <SSSR3> a scdb:Commu ;
     rdfs:label "【スプラッシュビート】櫻木真乃" ;
@@ -59,6 +157,39 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR3_3> ;
     :subjectOf card:SSSR3 .
 
+<SSSR3_1> a scdb:SupportEvent ;
+    rdfs:label "プールインサイド" ;
+    :name
+        "プールインサイド"@ja, "Inside Pool"@en, "プールインサイド" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR3> .
+
+<SSSR3_2> a scdb:SupportEvent ;
+    rdfs:label "ほんの少しのアドベンチャー" ;
+    :name
+        "ほんの少しのアドベンチャー"@ja, "Just A Little Adventure"@en, "ほんの少しのアドベンチャー" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR3> .
+
+<SSSR3_3> a scdb:SupportEvent ;
+    rdfs:label "ハッピーアイスクリーム" ;
+    :name
+        "ハッピーアイスクリーム"@ja, "Happy Ice Cream"@en, "ハッピーアイスクリーム" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR3> .
+
 <SSSR4> a scdb:Commu ;
     rdfs:label "【はじまりのエピローグ】櫻木真乃" ;
     :name
@@ -70,6 +201,40 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR4_2> ,
         <SSSR4_3> ;
     :subjectOf card:SSSR4 .
+
+<SSSR4_1> a scdb:SupportEvent ;
+    rdfs:label "心はずむパーティーグッズ" ;
+    :name
+        "心はずむパーティーグッズ"@ja, "Hearty Party Goods"@en, "心はずむパーティーグッズ" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR4> .
+
+<SSSR4_2> a scdb:SupportEvent ;
+    rdfs:label "希望の数字" ;
+    :name
+        "希望の数字"@ja, "Many Wishes"@en, "希望の数字" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        staff:Producer ;
+    :isPartOf <SSSR4> .
+
+<SSSR4_3> a scdb:SupportEvent ;
+    rdfs:label "ぽかぽかの秘密" ;
+    :name
+        "ぽかぽかの秘密"@ja, "Warm Secret"@en, "ぽかぽかの秘密" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR4> .
 
 <SSSR5> a scdb:Commu ;
     rdfs:label "【冬街イルミネート】櫻木真乃" ;
@@ -83,6 +248,39 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR5_3> ;
     :subjectOf card:SSSR5 .
 
+<SSSR5_1> a scdb:SupportEvent ;
+    rdfs:label "冬のとおり道" ;
+    :name
+        "冬のとおり道"@ja, "Winter Town"@en, "冬のとおり道" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR5> .
+
+<SSSR5_2> a scdb:SupportEvent ;
+    rdfs:label "一緒に行けたなら" ;
+    :name
+        "一緒に行けたなら"@ja, "If You Can Go Together"@en, "一緒に行けたなら" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR5> .
+
+<SSSR5_3> a scdb:SupportEvent ;
+    rdfs:label "きっと、何よりも輝いて" ;
+    :name
+        "きっと、何よりも輝いて"@ja, "Surely, Shine More Than Anything Else"@en, "きっと、何よりも輝いて" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR5> .
+
 <SSSR6> a scdb:Commu ;
     rdfs:label "【駅線上の日常】櫻木真乃" ;
     :name
@@ -94,6 +292,39 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR6_2> ,
         <SSSR6_3> ;
     :subjectOf card:SSSR6 .
+
+<SSSR6_1> a scdb:SupportEvent ;
+    rdfs:label "お　い　し　い" ;
+    :name
+        "お　い　し　い"@ja, "Delicious"@en, "お　い　し　い" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR6> .
+
+<SSSR6_2> a scdb:SupportEvent ;
+    rdfs:label "期限切れにご注意を" ;
+    :name
+        "期限切れにご注意を"@ja, "Careful With The Expiration Date"@en, "期限切れにご注意を" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR6> .
+
+<SSSR6_3> a scdb:SupportEvent ;
+    rdfs:label "みっつステップ" ;
+    :name
+        "みっつステップ"@ja, "Three Steps"@en, "みっつステップ" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR6> .
 
 <SSSR7> a scdb:Commu ;
     rdfs:label "【つむぎ、まばゆく。星屑たち】櫻木真乃" ;
@@ -107,6 +338,38 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR7_3> ;
     :subjectOf card:SSSR7 .
 
+<SSSR7_1> a scdb:SupportEvent ;
+    rdfs:label "両手に持てるだけの星屑" ;
+    :name
+        "両手に持てるだけの星屑"@ja, "両手に持てるだけの星屑" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR7> .
+
+<SSSR7_2> a scdb:SupportEvent ;
+    rdfs:label "今はとけても。いつかは" ;
+    :name
+        "今はとけても。いつかは"@ja, "今はとけても。いつかは" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR7> .
+
+<SSSR7_3> a scdb:SupportEvent ;
+    rdfs:label "いずれもまばゆい宝物" ;
+    :name
+        "いずれもまばゆい宝物"@ja, "いずれもまばゆい宝物" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR7> .
+
 <SSSR8> a scdb:Commu ;
     rdfs:label "【こころ、えんにならんで】櫻木真乃" ;
     :name
@@ -118,6 +381,40 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR8_2> ,
         <SSSR8_3> ;
     :subjectOf card:SSSR8 .
+
+<SSSR8_1> a scdb:SupportEvent ;
+    rdfs:label "ステージ。あの日の" ;
+    :name
+        "ステージ。あの日の"@ja, "ステージ。あの日の" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR8> .
+
+<SSSR8_2> a scdb:SupportEvent ;
+    rdfs:label "変らない、まいにち" ;
+    :name
+        "変らない、まいにち"@ja, "変らない、まいにち" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        staff:DanceTrainer ;
+    :isPartOf <SSSR8> .
+
+<SSSR8_3> a scdb:SupportEvent ;
+    rdfs:label "さんにん。で──" ;
+    :name
+        "さんにん。で──"@ja, "さんにん。で──" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR8> .
 
 <SSSR9> a scdb:Commu ;
     rdfs:label "【泡沫の石たちに乾杯】櫻木真乃" ;
@@ -131,6 +428,53 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR9_3> ;
     :subjectOf card:SSSR9 .
 
+<SSSR9_1> a scdb:SupportEvent ;
+    rdfs:label "今日、カクテルドレスで" ;
+    :name
+        "今日、カクテルドレスで"@ja, "今日、カクテルドレスで" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        [
+            a scdb:Mob ;
+                rdfs:label "雑誌記者" ;
+                :name "雑誌記者"@ja, "Magazine Writer"@en, "雑誌記者"
+        ], [
+            a scdb:Mob ;
+                rdfs:label "スタッフ" ;
+                :name "スタッフ"@ja, "Waiter"@en, "スタッフ"
+        ] ;
+    :isPartOf <SSSR9> .
+
+<SSSR9_2> a scdb:SupportEvent ;
+    rdfs:label "グラスの中の宝石" ;
+    :name
+        "グラスの中の宝石"@ja, "グラスの中の宝石" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        [
+            a scdb:Mob ;
+                rdfs:label "バーテンダー" ;
+                :name "バーテンダー"@ja, "Bartender"@en, "バーテンダー"
+        ] ;
+    :isPartOf <SSSR9> .
+
+<SSSR9_3> a scdb:SupportEvent ;
+    rdfs:label "青にはためく" ;
+    :name
+        "青にはためく"@ja, "青にはためく" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSSR9> .
+
 <SSSR10> a scdb:Commu ;
     rdfs:label "【夏風渡るdiary】櫻木真乃" ;
     :name
@@ -142,6 +486,64 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSSR10_2> ,
         <SSSR10_3> ;
     :subjectOf card:SSSR10 .
+
+<SSSR10_1> a scdb:SupportEvent ;
+    rdfs:label "お姉ちゃんと呼んだら" ;
+    :name
+        "お姉ちゃんと呼んだら"@ja, "お姉ちゃんと呼んだら" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        [
+            a scdb:Mob ;
+                rdfs:label "SNSの書き込み" ;
+                :name "SNSの書き込み"@ja, "Anonymous in SNS"@en, "SNSの書き込み"
+        ] ;
+    :isPartOf <SSSR10> .
+
+<SSSR10_2> a scdb:SupportEvent ;
+    rdfs:label "茜にとけた、こころ" ;
+    :name
+        "茜にとけた、こころ"@ja, "茜にとけた、こころ" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        [
+            a scdb:Mob ;
+                rdfs:label "小さな男の子" ;
+                :name "小さな男の子"@ja, "Little Boy"@en, "小さな男の子"
+        ], [
+            a scdb:Mob ;
+                rdfs:label "お兄ちゃん" ;
+                :name "お兄ちゃん"@ja, "Little Boy's Brother"@en, "お兄ちゃん"
+        ], [
+            a scdb:Mob ;
+                rdfs:label "おじいさん" ;
+                :name "おじいさん"@ja, "Old Man"@en, "おじいさん"
+        ], [
+            a scdb:Mob ;
+                rdfs:label "おばあさん" ;
+                :name "おばあさん"@ja, "Old Woman"@en, "おばあさん"
+        ] ;
+    :isPartOf <SSSR10> .
+
+<SSSR10_3> a scdb:SupportEvent ;
+    rdfs:label "また会おうね、3人とも" ;
+    :name
+        "また会おうね、3人とも"@ja, "また会おうね、3人とも" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        role:Mana ,
+        role:Saori ,
+        role:Megumi ;
+    :isPartOf <SSSR10> .
 
 <SSR1> a scdb:Commu ;
     rdfs:label "【天然色ピクニック】櫻木真乃" ;
@@ -155,6 +557,36 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSR1_3> ;
     :subjectOf card:SSR1 .
 
+<SSR1_1> a scdb:SupportEvent ;
+    rdfs:label "公園と約束" ;
+    :name
+        "公園と約束"@ja, "Promise And Parks"@en, "公園と約束" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ;
+    :isPartOf <SSR1> .
+
+<SSR1_2> a scdb:SupportEvent ;
+    rdfs:label "おそろいの気持ち" ;
+    :name
+        "おそろいの気持ち"@ja, "Matching Feelings"@en, "おそろいの気持ち" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ;
+    :isPartOf <SSR1> .
+
+<SSR1_3> a scdb:SupportEvent ;
+    rdfs:label "ふたりの好きなもの" ;
+    :name
+        "ふたりの好きなもの"@ja, "Two Favorite Things"@en, "ふたりの好きなもの" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ;
+    :isPartOf <SSR1> .
+
 <SSR2> a scdb:Commu ;
     rdfs:label "【音、雨、パシャ、リ】櫻木真乃" ;
     :name
@@ -165,6 +597,28 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSR2_1> ,
         <SSR2_2> ;
     :subjectOf card:SSR2 .
+
+<SSR2_1> a scdb:SupportEvent ;
+    rdfs:label "天気になぁれ" ;
+    :name
+        "天気になぁれ"@ja, "Check The Weather"@en, "天気になぁれ" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSR2> .
+
+<SSR2_2> a scdb:SupportEvent ;
+    rdfs:label "雨でも、晴れでも" ;
+    :name
+        "雨でも、晴れでも"@ja, "Rainy, Or Sunny"@en, "雨でも、晴れでも" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSR2> .
 
 <SSR3> a scdb:Commu ;
     rdfs:label "【by to illuminate】櫻木真乃" ;
@@ -177,6 +631,33 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSR3_2> ;
     :subjectOf card:SSR3 .
 
+<SSR3_1> a scdb:SupportEvent ;
+    rdfs:label "みんなとお仕事！" ;
+    :name
+        "みんなとお仕事！"@ja, "みんなとお仕事！" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        [
+            a scdb:Mob ;
+                rdfs:label "店員" ;
+                :name "店員"@ja, "Waiter"@en, "店員"
+        ] ;
+    :isPartOf <SSR3> .
+
+<SSR3_2> a scdb:SupportEvent ;
+    rdfs:label "私たちのお仕事" ;
+    :name
+        "私たちのお仕事"@ja, "私たちのお仕事" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSR3> .
+
 <SSR4> a scdb:Commu ;
     rdfs:label "【まわる音色、君色のかおり】櫻木真乃" ;
     :name
@@ -187,3 +668,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <SSR4_1> ,
         <SSR4_2> ;
     :subjectOf card:SSR4 .
+
+<SSR4_1> a scdb:SupportEvent ;
+    rdfs:label "きみはお日様のように" ;
+    :name
+        "きみはお日様のように"@ja, "きみはお日様のように" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSR4> .
+
+<SSR4_2> a scdb:SupportEvent ;
+    rdfs:label "お日様の香り" ;
+    :name
+        "お日様の香り"@ja, "お日様の香り" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <SSR4> .

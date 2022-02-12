@@ -1,0 +1,36 @@
+BASE <https://283db.org/resource/character/within-play/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# アイドルが演じる劇中劇の登場人物
+
+<Mana> a scdb:CharacterWithinPlay ;
+    rdfs:label "まな" ;
+    :name "まな"@ja, "Mana"@en, "まな" ;
+    :sibling
+        <Saori> ,
+        <Megumi> ;
+    scdb:performedBy idol:Sakuragi_Mano .
+
+<Saori> a scdb:CharacterWithinPlay ;
+    rdfs:label "さおり" ;
+    :name "さおり"@ja, "Saori"@en, "さおり" ;
+    :sibling
+        <Megumi> ,
+        <Mana> ;
+    scdb:performedBy idol:Kazano_Hiori .
+
+<Megumi> a scdb:CharacterWithinPlay ;
+    rdfs:label "めぐみ" ;
+    :name "めぐみ"@ja, "Megumi"@en, "めぐみ" ;
+    :sibling
+        <Mana> ,
+        <Saori> ;
+    scdb:performedBy idol:Hachimiya_Meguru .

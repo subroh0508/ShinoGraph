@@ -37,7 +37,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
-        staff:Producer ;
+        staff:Producer ,
+        [
+            a scdb:Mob ;
+                rdfs:label "スタッフ" ;
+                :name "スタッフ"@ja, "Staff"@en, "スタッフ"
+        ], [
+            a scdb:Mob ;
+                rdfs:label "番組ディレクター" ;
+                :name "番組ディレクター"@ja, "Radio Director"@en, "番組ディレクター"
+        ] ;
     :isPartOf
         mano:FanFes ,
         hiori:FanFes ,
@@ -67,7 +76,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Sakuragi_Mano ,
         idol:Kazano_Hiori ,
         idol:Hachimiya_Meguru ,
-        staff:Producer ;
+        staff:Producer ,
+        staff:Amai_Tsutomu ;
     :isPartOf
         mano:FanFes ,
         hiori:FanFes ,
