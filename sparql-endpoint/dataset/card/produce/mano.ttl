@@ -12,7 +12,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<R> a scdb:ProduceIdol ;
+<PR> a scdb:ProduceIdol ;
     rdfs:label "【白いツバサ】櫻木真乃" ;
     :name
         "白いツバサ"@ja, "White Wings"@en,
@@ -22,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:rarity enum:Rarity.R ;
     scdb:acquiredBy enum:PermanentGacha .
 
-<IdolRoad_SR> a scdb:ProduceIdol ;
+<IdolRoad_PSR> a scdb:ProduceIdol ;
     rdfs:label "【白いツバサ】櫻木真乃" ;
     :name
         "白いツバサ"@ja, "White Wings"@en,
@@ -32,7 +32,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:IdolRoad .
 
-<IdolRoad_SSR> a scdb:ProduceIdol ;
+<IdolRoad_PSSR> a scdb:ProduceIdol ;
     rdfs:label "【アイドルロード】櫻木真乃" ;
     :name
         "アイドルロード"@ja, "Idol Road"@en,

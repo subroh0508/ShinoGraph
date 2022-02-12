@@ -1,0 +1,178 @@
+BASE <https://283db.org/resource/card/mano/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX enum: <https://283db.org/resource/enum/>
+PREFIX unit: <https://283db.org/resource/character/unit/>
+PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX commu: <https://283db.org/resource/commu/idol-event/mano/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<SR> a scdb:SupportIdol ;
+    rdfs:label "【283プロのヒナ】櫻木真乃" ;
+    :name
+        "283プロのヒナ"@ja, "283 Pro Hatchling"@en,
+        "【283プロのヒナ】櫻木真乃"@ja, "[283 Pro Hatchling] Mano Sakuragi"@en, "【283プロのヒナ】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
+    scdb:rarity enum:Rarity.R ;
+    scdb:acquiredBy enum:PermanentGacha ;
+    :about commu:SR .
+
+<SSSR1> a scdb:SupportIdol ;
+    rdfs:label "【トリプルイルミネーション】櫻木真乃" ;
+    :name
+        "トリプルイルミネーション"@ja, "Triple Illumination"@en,
+        "【トリプルイルミネーション】櫻木真乃"@ja, "[Triple Illumination] Mano Sakuragi"@en, "【トリプルイルミネーション】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-04-26"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:ScenarioEvent ;
+    :about commu:SSSR1 .
+
+<SSSR2> a scdb:SupportIdol ;
+    rdfs:label "【お揃いスナップ】櫻木真乃" ;
+    :name
+        "お揃いスナップ"@ja, "Matching Snapshots"@en,
+        "【お揃いスナップ】櫻木真乃"@ja, "[Matching Snapshots] Mano Sakuragi"@en, "【お揃いスナップ】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-06-30"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:PermanentGacha ;
+    :about commu:SSSR2 .
+
+<SSSR3> a scdb:SupportIdol ;
+    rdfs:label "【スプラッシュビート】櫻木真乃" ;
+    :name
+        "スプラッシュビート"@ja, "Splash Beat"@en,
+        "【スプラッシュビート】櫻木真乃"@ja, "[Splash Beat] Mano Sakuragi"@en, "【スプラッシュビート】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-07-31"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:Campaign ;
+    :about commu:SSSR3 .
+
+<SSSR4> a scdb:SupportIdol ;
+    rdfs:label "【はじまりのエピローグ】櫻木真乃" ;
+    :name
+        "はじまりのエピローグ"@ja, "Epilogue of The Beginning"@en,
+        "【はじまりのエピローグ】櫻木真乃"@ja, "[Epilogue of The Beginning] Mano Sakuragi"@en, "【はじまりのエピローグ】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-12-14"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:ScenarioEvent ;
+    :about commu:SSSR4 .
+
+<SSSR5> a scdb:SupportIdol ;
+    rdfs:label "【冬街イルミネート】櫻木真乃" ;
+    :name
+        "冬街イルミネート"@ja, "Illuminating Winter Town"@en,
+        "【冬街イルミネート】櫻木真乃"@ja, "[Illuminating Winter Town] Mano Sakuragi"@en, "【冬街イルミネート】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-12-14"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:Campaign ;
+    :about commu:SSSR5 .
+
+<SSSR6> a scdb:SupportIdol ;
+    rdfs:label "【駅線上の日常】櫻木真乃" ;
+    :name
+        "駅線上の日常"@ja, "Daily Life on the Station Line"@en,
+        "【駅線上の日常】櫻木真乃"@ja, "[Daily Life on the Station Line] Mano Sakuragi"@en, "【駅線上の日常】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2019-04-01"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:LimitedGacha ;
+    :about commu:SSSR6 .
+
+<SSSR7> a scdb:SupportIdol ;
+    rdfs:label "【つむぎ、まばゆく。星屑たち】櫻木真乃" ;
+    :name
+        "つむぎ、まばゆく。星屑たち"@ja, "Weaving, Dazzling. Stardust"@en,
+        "【つむぎ、まばゆく。星屑たち】櫻木真乃"@ja, "[Weaving, Dazzling. Stardust] Mano Sakuragi"@en, "【つむぎ、まばゆく。星屑たち】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2020-07-31"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:ScenarioEvent ;
+    :about commu:SSSR7 .
+
+<SSSR8> a scdb:SupportIdol ;
+    rdfs:label "【こころ、えんにならんで】櫻木真乃" ;
+    :name
+        "こころ、えんにならんで"@ja, "Hearts Lined Up by Fate"@en,
+        "【こころ、えんにならんで】櫻木真乃"@ja, "[Hearts Lined Up by Fate] Mano Sakuragi"@en, "【こころ、えんにならんで】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2020-10-12"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:PermanentGacha ;
+    :about commu:SSSR8 .
+
+<SSSR9> a scdb:SupportIdol ;
+    rdfs:label "【泡沫の石たちに乾杯】櫻木真乃" ;
+    :name
+        "泡沫の石たちに乾杯"@ja, "Cheers, to the Transient Stones"@en,
+        "【泡沫の石たちに乾杯】櫻木真乃"@ja, "[Cheers, to the Transient Stones] Mano Sakuragi"@en, "【泡沫の石たちに乾杯】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2021-01-12"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:LimitedGacha ;
+    :about commu:SSSR9 .
+
+<SSSR10> a scdb:SupportIdol ;
+    rdfs:label "【夏風渡るdiary】櫻木真乃" ;
+    :name
+        "夏風渡るdiary"@ja, "Summer Breeze diary"@en,
+        "【夏風渡るdiary】櫻木真乃"@ja, "[Summer Breeze diary] Mano Sakuragi"@en, "【夏風渡るdiary】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2021-06-30"^^xsd:date ;
+    scdb:rarity enum:Rarity.SSR ;
+    scdb:acquiredBy enum:LimitedGacha ;
+    :about commu:SSSR10 .
+
+<SSR1> a scdb:SupportIdol ;
+    rdfs:label "【天然色ピクニック】櫻木真乃" ;
+    :name
+        "天然色ピクニック"@ja, "Natural-Colored Picnic"@en,
+        "【天然色ピクニック】櫻木真乃"@ja, "[Natural-Colored Picnic] Mano Sakuragi"@en, "【天然色ピクニック】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2018-04-24"^^xsd:date ;
+    scdb:rarity enum:Rarity.SR ;
+    scdb:acquiredBy enum:PermanentGacha ;
+    :about commu:SSR1 .
+
+<SSR2> a scdb:SupportIdol ;
+    rdfs:label "【音、雨、パシャ、リ】櫻木真乃" ;
+    :name
+        "音、雨、パシャ、リ"@ja, "The Sound, of Rain, Spla, sh"@en,
+        "【音、雨、パシャ、リ】櫻木真乃"@ja, "[The Sound, of Rain, Spla, sh] Mano Sakuragi"@en, "【音、雨、パシャ、リ】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2019-06-11"^^xsd:date ;
+    scdb:rarity enum:Rarity.SR ;
+    scdb:acquiredBy enum:TrainingEvent ;
+    :about commu:SSR2 .
+
+<SSR3> a scdb:SupportIdol ;
+    rdfs:label "【by to illuminate】櫻木真乃" ;
+    :name
+        "by to illuminate"@ja, "by to illuminate"@en,
+        "【by to illuminate】櫻木真乃"@ja, "[by to illuminate] Mano Sakuragi"@en, "【by to illuminate】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2020-02-20"^^xsd:date ;
+    scdb:rarity enum:Rarity.SR ;
+    scdb:acquiredBy enum:PermanentGacha ;
+    :about commu:SSR3 .
+
+<SSR4> a scdb:SupportIdol ;
+    rdfs:label "【まわる音色、君色のかおり】櫻木真乃" ;
+    :name
+        "まわる音色、君色のかおり"@ja, "Turning Tone Color, Aroma of Your Colors"@en,
+        "【まわる音色、君色のかおり】櫻木真乃"@ja, "[Turning Tone Color, Aroma of Your Colors] Mano Sakuragi"@en, "【まわる音色、君色のかおり】櫻木真乃" ;
+    :character idol:Sakuragi_Mano ;
+    scdb:debutDate "2020-09-11"^^xsd:date ;
+    scdb:rarity enum:Rarity.SR ;
+    scdb:acquiredBy enum:TrainingEvent ;
+    :about commu:SSR4 .
