@@ -2,9 +2,7 @@ BASE <https://283db.org/resource/produce-event/illuminationstars/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
-PREFIX mano: <https://283db.org/resource/commu/produce-event/mano/>
-PREFIX hiori: <https://283db.org/resource/commu/produce-event/hiori/>
-PREFIX meguru: <https://283db.org/resource/commu/produce-event/meguru/>
+PREFIX commu: <https://283db.org/resource/commu/produce-event/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -24,9 +22,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .
 
 <FanFes_1> a scdb:ProduceEvent ;
     rdfs:label "『頑張りたい』" ;
@@ -48,9 +46,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                 :name "番組ディレクター"@ja, "Radio Director"@en, "番組ディレクター"
         ] ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .
 
 <FanFes_2> a scdb:ProduceEvent ;
     rdfs:label "空が赤いから" ;
@@ -63,9 +61,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .
 
 <FanFes_3> a scdb:ProduceEvent ;
     rdfs:label "雲なんて吹き飛ばして" ;
@@ -79,9 +77,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         staff:Producer ,
         staff:Amai_Tsutomu ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .
 
 <FanFes_4> a scdb:ProduceEvent ;
     rdfs:label "星たちは駆けて輝く" ;
@@ -94,9 +92,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .
 
 <FanFes_Before_Stage_Unit> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番前 (ユニット)" ;
@@ -109,9 +107,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .
 
 <FanFes_After_Stage> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番後 (通常)" ;
@@ -124,9 +122,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .
 
 <FanFes_After_Stage_MVP> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番後 (MVP)" ;
@@ -139,9 +137,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .
 
 <FanFes_Epilogue> a scdb:ProduceEvent ;
     rdfs:label "何度だって最高の晴れにしよう" ;
@@ -154,6 +152,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         idol:Hachimiya_Meguru ,
         staff:Producer ;
     :isPartOf
-        mano:FanFes ,
-        hiori:FanFes ,
-        meguru:FanFes .
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes .

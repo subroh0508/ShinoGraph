@@ -1,4 +1,4 @@
-BASE <https://283db.org/resource/commu/produce-event/mano/>
+BASE <https://283db.org/resource/commu/produce-event/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
@@ -12,47 +12,47 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<WING> a scdb:Commu ;
+<Mano_WING> a scdb:Commu ;
     rdfs:label "W.I.N.G.編" ;
     :name
         "W.I.N.G.編"@ja, "W.I.N.G."@en, "W.I.N.G.編" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <WING_Prologue> ,
-        <WING_1> ,
-        <WING_2> ,
-        <WING_3> ,
-        <WING_4> ,
-        <WING_Season1_Cleared> ,
-        <WING_Season1_Failed> ,
-        <WING_Season2_Cleared> ,
-        <WING_Season2_Failed> ,
-        <WING_Season3_Cleared> ,
-        <WING_Season3_Failed> ,
-        <WING_Season4_Cleared> ,
-        <WING_Season4_Failed> ,
-        <WING_Before_Audition_1> ,
-        <WING_Before_Audition_2> ,
-        <WING_Before_Audition_3> ,
-        <WING_Before_Audition_4> ,
-        <WING_Before_Audition_5> ,
-        <WING_Before_Audition_6> ,
-        <WING_After_Audition_Win_1> ,
-        <WING_After_Audition_Win_2> ,
-        <WING_After_Audition_Lose_1> ,
-        <WING_After_Audition_Lose_2> ,
-        <WING_After_TV_show_1> ,
-        <WING_After_TV_show_2> ,
-        <WING_Before_SF> ,
-        <WING_Lose> ,
-        <WING_After_SF> ,
-        <WING_Before_F> ,
-        <WING_After_F> ,
-        <WING_Epilogue_Lose> ,
-        <WING_Epilogue_Win> ;
+        <Mano_WING_Prologue> ,
+        <Mano_WING_1> ,
+        <Mano_WING_2> ,
+        <Mano_WING_3> ,
+        <Mano_WING_4> ,
+        <Mano_WING_Season1_Cleared> ,
+        <Mano_WING_Season1_Failed> ,
+        <Mano_WING_Season2_Cleared> ,
+        <Mano_WING_Season2_Failed> ,
+        <Mano_WING_Season3_Cleared> ,
+        <Mano_WING_Season3_Failed> ,
+        <Mano_WING_Season4_Cleared> ,
+        <Mano_WING_Season4_Failed> ,
+        <Mano_WING_Before_Audition_1> ,
+        <Mano_WING_Before_Audition_2> ,
+        <Mano_WING_Before_Audition_3> ,
+        <Mano_WING_Before_Audition_4> ,
+        <Mano_WING_Before_Audition_5> ,
+        <Mano_WING_Before_Audition_6> ,
+        <Mano_WING_After_Audition_Win_1> ,
+        <Mano_WING_After_Audition_Win_2> ,
+        <Mano_WING_After_Audition_Lose_1> ,
+        <Mano_WING_After_Audition_Lose_2> ,
+        <Mano_WING_After_TV_show_1> ,
+        <Mano_WING_After_TV_show_2> ,
+        <Mano_WING_Before_SF> ,
+        <Mano_WING_Lose> ,
+        <Mano_WING_After_SF> ,
+        <Mano_WING_Before_F> ,
+        <Mano_WING_After_F> ,
+        <Mano_WING_Epilogue_Lose> ,
+        <Mano_WING_Epilogue_Win> ;
     :subjectOf idol:Sakuragi_Mano .
 
-<WING_Prologue> a scdb:ProduceEvent ;
+<Mano_WING_Prologue> a scdb:ProduceEvent ;
     rdfs:label "公園の歌声" ;
     :name
         "公園の歌声"@ja, "公園の歌声" ;
@@ -60,9 +60,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_1> a scdb:ProduceEvent ;
+<Mano_WING_1> a scdb:ProduceEvent ;
     rdfs:label "自信のありか" ;
     :name
         "自信のありか"@ja, "自信のありか" ;
@@ -70,9 +70,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_2> a scdb:ProduceEvent ;
+<Mano_WING_2> a scdb:ProduceEvent ;
     rdfs:label "ありのままで" ;
     :name
         "ありのままで"@ja, "ありのままで" ;
@@ -80,9 +80,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_3> a scdb:ProduceEvent ;
+<Mano_WING_3> a scdb:ProduceEvent ;
     rdfs:label "頑張りすぎ" ;
     :name
         "頑張りすぎ"@ja, "頑張りすぎ" ;
@@ -90,9 +90,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_4> a scdb:ProduceEvent ;
+<Mano_WING_4> a scdb:ProduceEvent ;
     rdfs:label "自分を信じて" ;
     :name
         "自分を信じて"@ja, "自分を信じて" ;
@@ -100,9 +100,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Season1_Cleared> a scdb:CommuConversation ;
+<Mano_WING_Season1_Cleared> a scdb:CommuConversation ;
     rdfs:label "シーズン1 (クリア)" ;
     :name
         "シーズン1 (クリア)"@ja, "Season 1 (Cleared)"@en, "シーズン1 (クリア)" ;
@@ -110,9 +110,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Season1_Failed> a scdb:CommuConversation ;
+<Mano_WING_Season1_Failed> a scdb:CommuConversation ;
     rdfs:label "シーズン1 (失敗)" ;
     :name
         "シーズン1 (失敗)"@ja, "Season 1 (Failed)"@en, "シーズン1 (失敗)" ;
@@ -120,9 +120,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Season2_Cleared> a scdb:CommuConversation ;
+<Mano_WING_Season2_Cleared> a scdb:CommuConversation ;
     rdfs:label "シーズン2 (クリア)" ;
     :name
         "シーズン2 (クリア)"@ja, "Season 2 (Cleared)"@en, "シーズン2 (クリア)" ;
@@ -130,9 +130,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Season2_Failed> a scdb:CommuConversation ;
+<Mano_WING_Season2_Failed> a scdb:CommuConversation ;
     rdfs:label "シーズン2 (失敗)" ;
     :name
         "シーズン2 (失敗)"@ja, "Season 2 (Failed)"@en, "シーズン2 (失敗)" ;
@@ -140,9 +140,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Season3_Cleared> a scdb:CommuConversation ;
+<Mano_WING_Season3_Cleared> a scdb:CommuConversation ;
     rdfs:label "シーズン3 (クリア)" ;
     :name
         "シーズン3 (クリア)"@ja, "Season 3 (Cleared)"@en, "シーズン3 (クリア)" ;
@@ -150,9 +150,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Season3_Failed> a scdb:CommuConversation ;
+<Mano_WING_Season3_Failed> a scdb:CommuConversation ;
     rdfs:label "シーズン3 (失敗)" ;
     :name
         "シーズン3 (失敗)"@ja, "Season 3 (Failed)"@en, "シーズン3 (失敗)" ;
@@ -160,9 +160,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Season4_Cleared> a scdb:CommuConversation ;
+<Mano_WING_Season4_Cleared> a scdb:CommuConversation ;
     rdfs:label "シーズン4 (クリア)" ;
     :name
         "シーズン4 (クリア)"@ja, "Season 4 (Cleared)"@en, "シーズン4 (クリア)" ;
@@ -170,9 +170,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Season4_Failed> a scdb:CommuConversation ;
+<Mano_WING_Season4_Failed> a scdb:CommuConversation ;
     rdfs:label "シーズン4 (失敗)" ;
     :name
         "シーズン4 (失敗)"@ja, "Season 4 (Failed)"@en, "シーズン4 (失敗)" ;
@@ -180,9 +180,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Before_Audition_1> a scdb:CommuConversation ;
+<Mano_WING_Before_Audition_1> a scdb:CommuConversation ;
     rdfs:label "オーディション前①" ;
     :name
         "オーディション前①"@ja, "Before Audition (1)"@en, "オーディション前①" ;
@@ -190,9 +190,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Before_Audition_2> a scdb:CommuConversation ;
+<Mano_WING_Before_Audition_2> a scdb:CommuConversation ;
     rdfs:label "オーディション前②" ;
     :name
         "オーディション前②"@ja, "Before Audition (2)"@en, "オーディション前②" ;
@@ -200,9 +200,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Before_Audition_3> a scdb:CommuConversation ;
+<Mano_WING_Before_Audition_3> a scdb:CommuConversation ;
     rdfs:label "オーディション前③" ;
     :name
         "オーディション前③"@ja, "Before Audition (3)"@en, "オーディション前③" ;
@@ -210,9 +210,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Before_Audition_4> a scdb:CommuConversation ;
+<Mano_WING_Before_Audition_4> a scdb:CommuConversation ;
     rdfs:label "オーディション前④" ;
     :name
         "オーディション前④"@ja, "Before Audition (4)"@en, "オーディション前④" ;
@@ -220,9 +220,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Before_Audition_5> a scdb:CommuConversation ;
+<Mano_WING_Before_Audition_5> a scdb:CommuConversation ;
     rdfs:label "オーディション前⑤" ;
     :name
         "オーディション前⑤"@ja, "Before Audition (5)"@en, "オーディション前⑤" ;
@@ -230,9 +230,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Before_Audition_6> a scdb:CommuConversation ;
+<Mano_WING_Before_Audition_6> a scdb:CommuConversation ;
     rdfs:label "オーディション前⑥" ;
     :name
         "オーディション前⑥"@ja, "Before Audition (6)"@en, "オーディション前⑥" ;
@@ -240,9 +240,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_After_Audition_Win_1> a scdb:CommuConversation ;
+<Mano_WING_After_Audition_Win_1> a scdb:CommuConversation ;
     rdfs:label "オーディション後 勝利①" ;
     :name
         "オーディション後 勝利①"@ja, "After Audition Win (1)"@en, "オーディション後 勝利①" ;
@@ -250,9 +250,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_After_Audition_Win_2> a scdb:CommuConversation ;
+<Mano_WING_After_Audition_Win_2> a scdb:CommuConversation ;
     rdfs:label "オーディション後 勝利②" ;
     :name
         "オーディション後 勝利②"@ja, "After Audition Win (2)"@en, "オーディション後 勝利②" ;
@@ -260,9 +260,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_After_Audition_Lose_1> a scdb:CommuConversation ;
+<Mano_WING_After_Audition_Lose_1> a scdb:CommuConversation ;
     rdfs:label "オーディション後 敗北①" ;
     :name
         "オーディション後 敗北①"@ja, "Before Audition Lose (1)"@en, "オーディション後 敗北①" ;
@@ -270,9 +270,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_After_Audition_Lose_2> a scdb:CommuConversation ;
+<Mano_WING_After_Audition_Lose_2> a scdb:CommuConversation ;
     rdfs:label "オーディション後 敗北②" ;
     :name
         "オーディション後 敗北②"@ja, "Before Audition Lose (2)"@en, "オーディション後 敗北②" ;
@@ -280,9 +280,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_After_TV_show_1> a scdb:CommuConversation ;
+<Mano_WING_After_TV_show_1> a scdb:CommuConversation ;
     rdfs:label "TV出演後コミュ①" ;
     :name
         "TV出演後コミュ①"@ja, "After TV show (1)"@en, "TV出演後コミュ①" ;
@@ -290,9 +290,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_After_TV_show_2> a scdb:CommuConversation ;
+<Mano_WING_After_TV_show_2> a scdb:CommuConversation ;
     rdfs:label "TV出演後コミュ②" ;
     :name
         "TV出演後コミュ②"@ja, "After TV show (2)"@en, "TV出演後コミュ②" ;
@@ -300,9 +300,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Before_SF> a scdb:CommuConversation ;
+<Mano_WING_Before_SF> a scdb:CommuConversation ;
     rdfs:label "準決勝前コミュ" ;
     :name
         "準決勝前コミュ"@ja, "Before Semi Final"@en, "準決勝前コミュ" ;
@@ -310,9 +310,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Lose> a scdb:CommuConversation ;
+<Mano_WING_Lose> a scdb:CommuConversation ;
     rdfs:label "敗退コミュ" ;
     :name
         "敗退コミュ"@ja, "Lose W.I.N.G."@en, "敗退コミュ" ;
@@ -320,9 +320,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_After_SF> a scdb:CommuConversation ;
+<Mano_WING_After_SF> a scdb:CommuConversation ;
     rdfs:label "準決勝後コミュ" ;
     :name
         "準決勝後コミュ"@ja, "After Semi Final"@en, "準決勝後コミュ" ;
@@ -330,9 +330,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Before_F> a scdb:CommuConversation ;
+<Mano_WING_Before_F> a scdb:CommuConversation ;
     rdfs:label "決勝前コミュ" ;
     :name
         "決勝前コミュ"@ja, "Before Final"@en, "決勝前コミュ" ;
@@ -340,9 +340,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_After_F> a scdb:CommuConversation ;
+<Mano_WING_After_F> a scdb:CommuConversation ;
     rdfs:label "決勝後コミュ" ;
     :name
         "決勝後コミュ"@ja, "After Final"@en, "決勝後コミュ" ;
@@ -350,9 +350,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Epilogue_Lose> a scdb:ProduceEvent ;
+<Mano_WING_Epilogue_Lose> a scdb:ProduceEvent ;
     rdfs:label "未来へはばたく" ;
     :name
         "未来へはばたく"@ja, "未来へはばたく" ;
@@ -360,9 +360,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<WING_Epilogue_Win> a scdb:ProduceEvent ;
+<Mano_WING_Epilogue_Win> a scdb:ProduceEvent ;
     rdfs:label "これからも飛んでいきたい" ;
     :name
         "これからも飛んでいきたい"@ja, "これからも飛んでいきたい" ;
@@ -370,15 +370,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <WING> .
+    :isPartOf <Mano_WING> .
 
-<FanFes> a scdb:Commu ;
+<Mano_FanFes> a scdb:Commu ;
     rdfs:label "感謝祭編" ;
     :name
        "感謝祭編"@ja, "Fan Festival"@en, "感謝祭編" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <FanFes_Prologue> ,
+        <Mano_FanFes_Prologue> ,
         common:FanFes_Prologue ,
         common:FanFes_1 ,
         common:FanFes_2 ,
@@ -388,15 +388,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         common:FanFes_After_Stage ,
         common:FanFes_After_Stage_MVP ,
         common:FanFes_Epilogue ,
-        <FanFes_Before_Rehearsal> ,
-        <FanFes_After_Rehearsal> ,
-        <FanFes_Before_Stage> ,
-        <FanFes_Epilogue> ;
+        <Mano_FanFes_Before_Rehearsal> ,
+        <Mano_FanFes_After_Rehearsal> ,
+        <Mano_FanFes_Before_Stage> ,
+        <Mano_FanFes_Epilogue> ;
     :subjectOf
         idol:Sakuragi_Mano ,
         unit:illumination_STARS .
 
-<FanFes_Prologue> a scdb:ProduceEvent ;
+<Mano_FanFes_Prologue> a scdb:ProduceEvent ;
     rdfs:label "あんをつつむあったかい気持ち" ;
     :name
         "あんをつつむあったかい気持ち"@ja, "あんをつつむあったかい気持ち" ;
@@ -404,9 +404,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <FanFes> .
+    :isPartOf <Mano_FanFes> .
 
-<FanFes_Before_Rehearsal> a scdb:CommuConversation ;
+<Mano_FanFes_Before_Rehearsal> a scdb:CommuConversation ;
     rdfs:label "リハーサル前" ;
     :name
         "リハーサル前"@ja, "Before Rehearsal"@en, "リハーサル前" ;
@@ -414,9 +414,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <FanFes> .
+    :isPartOf <Mano_FanFes> .
 
-<FanFes_After_Rehearsal> a scdb:CommuConversation ;
+<Mano_FanFes_After_Rehearsal> a scdb:CommuConversation ;
     rdfs:label "リハーサル後" ;
     :name
         "リハーサル後"@ja, "After Rehearsal"@en, "リハーサル後" ;
@@ -424,9 +424,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <FanFes> .
+    :isPartOf <Mano_FanFes> .
 
-<FanFes_Before_Stage> a scdb:CommuConversation ;
+<Mano_FanFes_Before_Stage> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番前" ;
     :name
         "感謝祭本番前"@ja, "Before Fan Festival Stage"@en, "感謝祭本番前" ;
@@ -434,9 +434,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <FanFes> .
+    :isPartOf <Mano_FanFes> .
 
-<FanFes_Epilogue> a scdb:ProduceEvent ;
+<Mano_FanFes_Epilogue> a scdb:ProduceEvent ;
     rdfs:label "きらめきを詰めてすすむしっぽ" ;
     :name
         "きらめきを詰めてすすむしっぽ"@ja, "きらめきを詰めてすすむしっぽ" ;
@@ -444,4 +444,4 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <FanFes> .
+    :isPartOf <Mano_FanFes> .

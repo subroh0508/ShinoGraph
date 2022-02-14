@@ -1,8 +1,8 @@
-BASE <https://283db.org/resource/commu/idol-event/mano/>
+BASE <https://283db.org/resource/commu/idol-event/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
-PREFIX card: <https://283db.org/resource/card/mano/>
+PREFIX card: <https://283db.org/resource/card/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -11,21 +11,21 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<PSSR1> a scdb:Commu ;
+<Mano_PSSR1> a scdb:Commu ;
     rdfs:label "【ほわっとスマイル】櫻木真乃" ;
     :name
         "ほわっとスマイル"@ja, "Warm Smile"@en,
         "【ほわっとスマイル】櫻木真乃"@ja, "[Warm Smile] Mano Sakuragi"@en, "【ほわっとスマイル】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSSR1_1> ,
-        <PSSR1_2> ,
-        <PSSR1_3> ,
-        <PSSR1_4> ,
-        <PSSR1_TE> ;
+        <Mano_PSSR1_1> ,
+        <Mano_PSSR1_2> ,
+        <Mano_PSSR1_3> ,
+        <Mano_PSSR1_4> ,
+        <Mano_PSSR1_TE> ;
     :subjectOf card:PSSR1 .
 
-<PSSR1_1> a scdb:IdolEvent ;
+<Mano_PSSR1_1> a scdb:IdolEvent ;
     rdfs:label "ほわほわアイドル" ;
     :name
         "ほわほわアイドル"@ja, "Dreamy Idol"@en, "ほわほわアイドル" ;
@@ -33,9 +33,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR1> .
+    :isPartOf <Mano_PSSR1> .
 
-<PSSR1_2> a scdb:IdolEvent ;
+<Mano_PSSR1_2> a scdb:IdolEvent ;
     rdfs:label "真乃ならできる" ;
     :name
         "真乃ならできる"@ja, "You Can Do It, Mano"@en, "真乃ならできる" ;
@@ -43,9 +43,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR1> .
+    :isPartOf <Mano_PSSR1> .
 
-<PSSR1_3> a scdb:IdolEvent ;
+<Mano_PSSR1_3> a scdb:IdolEvent ;
     rdfs:label "成長の話" ;
     :name
         "成長の話"@ja, "Signs of Growth"@en, "成長の話" ;
@@ -53,9 +53,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR1> .
+    :isPartOf <Mano_PSSR1> .
 
-<PSSR1_4> a scdb:IdolEvent ;
+<Mano_PSSR1_4> a scdb:IdolEvent ;
     rdfs:label "いつかの気持ち" ;
     :name
         "いつかの気持ち"@ja, "Feelings of Someday"@en, "いつかの気持ち" ;
@@ -63,9 +63,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR1> .
+    :isPartOf <Mano_PSSR1> .
 
-<PSSR1_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSSR1_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "ずっと続く夢の先へ" ;
     :name
         "ずっと続く夢の先へ"@ja, "Beyond the Neverending Dream"@en, "ずっと続く夢の先へ" ;
@@ -73,23 +73,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR1> .
+    :isPartOf <Mano_PSSR1> .
 
-<PSSR2> a scdb:Commu ;
+<Mano_PSSR2> a scdb:Commu ;
     rdfs:label "【ハ♡トフェルトゥギフト】櫻木真乃" ;
     :name
         "ハ♡トフェルトゥギフト"@ja, "Heart♡felt Gift"@en,
         "【ハ♡トフェルトゥギフト】櫻木真乃"@ja, "[Heart♡felt Gift] Mano Sakuragi"@en, "【ハ♡トフェルトゥギフト】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSSR2_1> ,
-        <PSSR2_2> ,
-        <PSSR2_3> ,
-        <PSSR2_4> ,
-        <PSSR2_TE> ;
+        <Mano_PSSR2_1> ,
+        <Mano_PSSR2_2> ,
+        <Mano_PSSR2_3> ,
+        <Mano_PSSR2_4> ,
+        <Mano_PSSR2_TE> ;
     :subjectOf card:PSSR2 .
 
-<PSSR2_1> a scdb:IdolEvent ;
+<Mano_PSSR2_1> a scdb:IdolEvent ;
     rdfs:label "ぽかぽか陽気に誘われて" ;
     :name
         "ぽかぽか陽気に誘われて"@ja, "Sweet and Warm Invitation"@en, "ぽかぽか陽気に誘われて" ;
@@ -97,9 +97,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR2> .
+    :isPartOf <Mano_PSSR2> .
 
-<PSSR2_2> a scdb:IdolEvent ;
+<Mano_PSSR2_2> a scdb:IdolEvent ;
     rdfs:label "旅のお供に" ;
     :name
         "旅のお供に"@ja, "Together On The Trip"@en, "旅のお供に" ;
@@ -107,9 +107,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR2> .
+    :isPartOf <Mano_PSSR2> .
 
-<PSSR2_3> a scdb:IdolEvent ;
+<Mano_PSSR2_3> a scdb:IdolEvent ;
     rdfs:label "春の足音" ;
     :name
         "春の足音"@ja, "Spring Footsteps"@en, "春の足音" ;
@@ -117,9 +117,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR2> .
+    :isPartOf <Mano_PSSR2> .
 
-<PSSR2_4> a scdb:IdolEvent ;
+<Mano_PSSR2_4> a scdb:IdolEvent ;
     rdfs:label "あなたへ贈り物" ;
     :name
         "あなたへ贈り物"@ja, "A Gift For You"@en, "あなたへ贈り物" ;
@@ -127,9 +127,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR2> .
+    :isPartOf <Mano_PSSR2> .
 
-<PSSR2_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSSR2_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "ゆるりと流れる時間の中で" ;
     :name
         "ゆるりと流れる時間の中で"@ja, "At The Time That Flows Slowly"@en, "ゆるりと流れる時間の中で" ;
@@ -137,23 +137,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR2> .
+    :isPartOf <Mano_PSSR2> .
 
-<PSSR3> a scdb:Commu ;
+<Mano_PSSR3> a scdb:Commu ;
     rdfs:label "【はじけてスマイル】櫻木真乃" ;
     :name
         "はじけてスマイル"@ja, "Bursting Smile"@en,
         "【はじけてスマイル】櫻木真乃"@ja, "[Bursting Smile] Mano Sakuragi"@en, "【はじけてスマイル】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSSR3_1> ,
-        <PSSR3_2> ,
-        <PSSR3_3> ,
-        <PSSR3_4> ,
-        <PSSR3_TE> ;
+        <Mano_PSSR3_1> ,
+        <Mano_PSSR3_2> ,
+        <Mano_PSSR3_3> ,
+        <Mano_PSSR3_4> ,
+        <Mano_PSSR3_TE> ;
     :subjectOf card:PSSR3 .
 
-<PSSR3_1> a scdb:IdolEvent ;
+<Mano_PSSR3_1> a scdb:IdolEvent ;
     rdfs:label "緑色が運ぶ、夏の" ;
     :name
         "緑色が運ぶ、夏の"@ja, "The Green That Carries Over Summer"@en, "緑色が運ぶ、夏の" ;
@@ -161,9 +161,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR3> .
+    :isPartOf <Mano_PSSR3> .
 
-<PSSR3_2> a scdb:IdolEvent ;
+<Mano_PSSR3_2> a scdb:IdolEvent ;
     rdfs:label "狙う、その間の" ;
     :name
         "狙う、その間の"@ja, "Aiming, In The Meantime"@en, "狙う、その間の" ;
@@ -171,9 +171,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR3> .
+    :isPartOf <Mano_PSSR3> .
 
-<PSSR3_3> a scdb:IdolEvent ;
+<Mano_PSSR3_3> a scdb:IdolEvent ;
     rdfs:label "交す、ことばの" ;
     :name
         "交す、ことばの"@ja, "Exchanging Words"@en, "交す、ことばの" ;
@@ -181,9 +181,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR3> .
+    :isPartOf <Mano_PSSR3> .
 
-<PSSR3_4> a scdb:IdolEvent ;
+<Mano_PSSR3_4> a scdb:IdolEvent ;
     rdfs:label "涼やかな、夏の" ;
     :name
         "涼やかな、夏の"@ja, "Refreshing, Summer"@en, "涼やかな、夏の" ;
@@ -191,9 +191,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR3> .
+    :isPartOf <Mano_PSSR3> .
 
-<PSSR3_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSSR3_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "気遣い、一粒" ;
     :name
         "気遣い、一粒"@ja, "Solicitude, Once Again"@en, "気遣い、一粒" ;
@@ -201,23 +201,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR3> .
+    :isPartOf <Mano_PSSR3> .
 
-<PSSR4> a scdb:Commu ;
+<Mano_PSSR4> a scdb:Commu ;
     rdfs:label "【深染め、いろみぐさ】櫻木真乃" ;
     :name
         "深染め、いろみぐさ"@ja, "Deeply Dyed, Autumn Leaves"@en,
         "【深染め、いろみぐさ】櫻木真乃"@ja, "[Deeply Dyed, Autumn Leaves] Mano Sakuragi"@en, "【深染め、いろみぐさ】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSSR4_1> ,
-        <PSSR4_2> ,
-        <PSSR4_3> ,
-        <PSSR4_4> ,
-        <PSSR4_TE> ;
+        <Mano_PSSR4_1> ,
+        <Mano_PSSR4_2> ,
+        <Mano_PSSR4_3> ,
+        <Mano_PSSR4_4> ,
+        <Mano_PSSR4_TE> ;
     :subjectOf card:PSSR4 .
 
-<PSSR4_1> a scdb:IdolEvent ;
+<Mano_PSSR4_1> a scdb:IdolEvent ;
     rdfs:label "秋香る" ;
     :name
         "秋香る"@ja, "Autumn's Aroma"@en, "秋香る" ;
@@ -225,9 +225,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR4> .
+    :isPartOf <Mano_PSSR4> .
 
-<PSSR4_2> a scdb:IdolEvent ;
+<Mano_PSSR4_2> a scdb:IdolEvent ;
     rdfs:label "響くやわらか" ;
     :name
         "響くやわらか"@ja, "Gentle Resonate"@en, "響くやわらか" ;
@@ -235,9 +235,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR4> .
+    :isPartOf <Mano_PSSR4> .
 
-<PSSR4_3> a scdb:IdolEvent ;
+<Mano_PSSR4_3> a scdb:IdolEvent ;
     rdfs:label "空の下" ;
     :name
         "空の下"@ja, "Under The Sky"@en, "空の下" ;
@@ -245,9 +245,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR4> .
+    :isPartOf <Mano_PSSR4> .
 
-<PSSR4_4> a scdb:IdolEvent ;
+<Mano_PSSR4_4> a scdb:IdolEvent ;
     rdfs:label "染まる景色に" ;
     :name
         "染まる景色に"@ja, "The Scenery That Dyes"@en, "染まる景色に" ;
@@ -255,9 +255,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR4> .
+    :isPartOf <Mano_PSSR4> .
 
-<PSSR4_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSSR4_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "薫る秋" ;
     :name
         "薫る秋"@ja, "Autumn's Fragrant"@en, "薫る秋" ;
@@ -265,23 +265,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR4> .
+    :isPartOf <Mano_PSSR4> .
 
-<PSSR5> a scdb:Commu ;
+<Mano_PSSR5> a scdb:Commu ;
     rdfs:label "【ソラを跳ね】櫻木真乃" ;
     :name
         "ソラを跳ね"@ja, "Splashing Sky"@en,
         "【ソラを跳ね】櫻木真乃"@ja, "[Splashing Sky] Mano Sakuragi"@en, "【ソラを跳ね】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSSR5_1> ,
-        <PSSR5_2> ,
-        <PSSR5_3> ,
-        <PSSR5_4> ,
-        <PSSR5_TE> ;
+        <Mano_PSSR5_1> ,
+        <Mano_PSSR5_2> ,
+        <Mano_PSSR5_3> ,
+        <Mano_PSSR5_4> ,
+        <Mano_PSSR5_TE> ;
     :subjectOf card:PSSR5 .
 
-<PSSR5_1> a scdb:IdolEvent ;
+<Mano_PSSR5_1> a scdb:IdolEvent ;
     rdfs:label "ささやかな" ;
     :name
         "ささやかな"@ja, "ささやかな" ;
@@ -289,9 +289,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR5> .
+    :isPartOf <Mano_PSSR5> .
 
-<PSSR5_2> a scdb:IdolEvent ;
+<Mano_PSSR5_2> a scdb:IdolEvent ;
     rdfs:label "あめのひ" ;
     :name
         "あめのひ"@ja, "あめのひ" ;
@@ -299,9 +299,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR5> .
+    :isPartOf <Mano_PSSR5> .
 
-<PSSR5_3> a scdb:IdolEvent ;
+<Mano_PSSR5_3> a scdb:IdolEvent ;
     rdfs:label "そらをおよぐ鳥" ;
     :name
         "そらをおよぐ鳥"@ja, "そらをおよぐ鳥" ;
@@ -309,9 +309,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR5> .
+    :isPartOf <Mano_PSSR5> .
 
-<PSSR5_4> a scdb:IdolEvent ;
+<Mano_PSSR5_4> a scdb:IdolEvent ;
     rdfs:label "ゆっくりでいい。そうきみにも" ;
     :name
         "ゆっくりでいい。そうきみにも"@ja, "ゆっくりでいい。そうきみにも" ;
@@ -319,9 +319,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR5> .
+    :isPartOf <Mano_PSSR5> .
 
-<PSSR5_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSSR5_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "たとえ何光年離れていたとしても" ;
     :name
         "たとえ何光年離れていたとしても"@ja, "たとえ何光年離れていたとしても" ;
@@ -329,23 +329,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR5> .
+    :isPartOf <Mano_PSSR5> .
 
-<PSSR6> a scdb:Commu ;
+<Mano_PSSR6> a scdb:Commu ;
     rdfs:label "【花風Smiley】櫻木真乃" ;
     :name
         "花風Smiley"@ja, "Sakura Breeze Smiley"@en,
         "【花風Smiley】櫻木真乃"@ja, "[Sakura Breeze Smiley] Mano Sakuragi"@en, "【花風Smiley】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSSR6_1> ,
-        <PSSR6_2> ,
-        <PSSR6_3> ,
-        <PSSR6_4> ,
-        <PSSR6_TE> ;
+        <Mano_PSSR6_1> ,
+        <Mano_PSSR6_2> ,
+        <Mano_PSSR6_3> ,
+        <Mano_PSSR6_4> ,
+        <Mano_PSSR6_TE> ;
     :subjectOf card:PSSR6 .
 
-<PSSR6_1> a scdb:IdolEvent ;
+<Mano_PSSR6_1> a scdb:IdolEvent ;
     rdfs:label "はずむ、こころ" ;
     :name
         "はずむ、こころ"@ja, "はずむ、こころ" ;
@@ -353,9 +353,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR6> .
+    :isPartOf <Mano_PSSR6> .
 
-<PSSR6_2> a scdb:IdolEvent ;
+<Mano_PSSR6_2> a scdb:IdolEvent ;
     rdfs:label "カメラレッスン" ;
     :name
         "カメラレッスン"@ja, "カメラレッスン" ;
@@ -363,9 +363,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR6> .
+    :isPartOf <Mano_PSSR6> .
 
-<PSSR6_3> a scdb:IdolEvent ;
+<Mano_PSSR6_3> a scdb:IdolEvent ;
     rdfs:label "やわらかくつつんで、春" ;
     :name
         "やわらかくつつんで、春"@ja, "やわらかくつつんで、春" ;
@@ -373,9 +373,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR6> .
+    :isPartOf <Mano_PSSR6> .
 
-<PSSR6_4> a scdb:IdolEvent ;
+<Mano_PSSR6_4> a scdb:IdolEvent ;
     rdfs:label "想い、その手にのせて" ;
     :name
         "想い、その手にのせて"@ja, "想い、その手にのせて" ;
@@ -383,9 +383,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR6> .
+    :isPartOf <Mano_PSSR6> .
 
-<PSSR6_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSSR6_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "散りつもるように、幸福" ;
     :name
         "散りつもるように、幸福"@ja, "散りつもるように、幸福" ;
@@ -393,23 +393,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR6> .
+    :isPartOf <Mano_PSSR6> .
 
-<PSSR7> a scdb:Commu ;
+<Mano_PSSR7> a scdb:Commu ;
     rdfs:label "【ひとつ、はたたく】櫻木真乃" ;
     :name
         "ひとつ、はたたく"@ja, "Fluttering, Alone"@en,
         "【ひとつ、はたたく】櫻木真乃"@ja, "[Fluttering, Alone] Mano Sakuragi"@en, "【ひとつ、はたたく】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSSR7_1> ,
-        <PSSR7_2> ,
-        <PSSR7_3> ,
-        <PSSR7_4> ,
-        <PSSR7_TE> ;
+        <Mano_PSSR7_1> ,
+        <Mano_PSSR7_2> ,
+        <Mano_PSSR7_3> ,
+        <Mano_PSSR7_4> ,
+        <Mano_PSSR7_TE> ;
     :subjectOf card:PSSR7 .
 
-<PSSR7_1> a scdb:IdolEvent ;
+<Mano_PSSR7_1> a scdb:IdolEvent ;
     rdfs:label "新しい空をゆくために" ;
     :name
         "新しい空をゆくために"@ja, "新しい空をゆくために" ;
@@ -417,9 +417,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR7> .
+    :isPartOf <Mano_PSSR7> .
 
-<PSSR7_2> a scdb:IdolEvent ;
+<Mano_PSSR7_2> a scdb:IdolEvent ;
     rdfs:label "はらはら、雪が重なるように" ;
     :name
         "はらはら、雪が重なるように"@ja, "はらはら、雪が重なるように" ;
@@ -427,9 +427,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR7> .
+    :isPartOf <Mano_PSSR7> .
 
-<PSSR7_3> a scdb:IdolEvent ;
+<Mano_PSSR7_3> a scdb:IdolEvent ;
     rdfs:label "雪割草のあたま" ;
     :name
         "雪割草のあたま"@ja, "雪割草のあたま" ;
@@ -437,9 +437,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR7> .
+    :isPartOf <Mano_PSSR7> .
 
-<PSSR7_4> a scdb:IdolEvent ;
+<Mano_PSSR7_4> a scdb:IdolEvent ;
     rdfs:label "勇気をくださいました" ;
     :name
         "勇気をくださいました"@ja, "勇気をくださいました" ;
@@ -447,9 +447,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR7> .
+    :isPartOf <Mano_PSSR7> .
 
-<PSSR7_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSSR7_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "2ステップめ" ;
     :name
         "2ステップめ"@ja, "2ステップめ" ;
@@ -457,21 +457,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSSR7> .
+    :isPartOf <Mano_PSSR7> .
 
-<PSR1> a scdb:Commu ;
+<Mano_PSR1> a scdb:Commu ;
     rdfs:label "【ナチュラルモード】櫻木真乃" ;
     :name
         "ナチュラルモード"@ja, "Natural Mode"@en,
         "【ナチュラルモード】櫻木真乃"@ja, "[Natural Mode] Mano Sakuragi"@en, "【ナチュラルモード】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSR1_1> ,
-        <PSR1_2> ,
-        <PSR1_TE> ;
+        <Mano_PSR1_1> ,
+        <Mano_PSR1_2> ,
+        <Mano_PSR1_TE> ;
     :subjectOf card:PSR1 .
 
-<PSR1_1> a scdb:IdolEvent ;
+<Mano_PSR1_1> a scdb:IdolEvent ;
     rdfs:label "ショッピング日和" ;
     :name
         "ショッピング日和"@ja, "Perfect Day for Shopping"@en, "ショッピング日和" ;
@@ -479,9 +479,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR1> .
+    :isPartOf <Mano_PSR1> .
 
-<PSR1_2> a scdb:IdolEvent ;
+<Mano_PSR1_2> a scdb:IdolEvent ;
     rdfs:label "自然とはずむ心" ;
     :name
         "自然とはずむ心"@ja, "Natural Heart"@en, "自然とはずむ心" ;
@@ -489,9 +489,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR1> .
+    :isPartOf <Mano_PSR1> .
 
-<PSR1_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSR1_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "感謝を形に" ;
     :name
         "感謝を形に"@ja, "Form of Gratitude"@en, "感謝を形に" ;
@@ -499,21 +499,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR1> .
+    :isPartOf <Mano_PSR1> .
 
-<PSR2> a scdb:Commu ;
+<Mano_PSR2> a scdb:Commu ;
     rdfs:label "【ぐうぜんBOOKS】櫻木真乃" ;
     :name
         "ぐうぜんBOOKS"@ja, "Coincidental BOOKS"@en,
         "【ぐうぜんBOOKS】櫻木真乃"@ja, "[Coincidental BOOKS] Mano Sakuragi"@en, "【ぐうぜんBOOKS】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSR2_1> ,
-        <PSR2_2> ,
-        <PSR2_TE> ;
+        <Mano_PSR2_1> ,
+        <Mano_PSR2_2> ,
+        <Mano_PSR2_TE> ;
     :subjectOf card:PSR2 .
 
-<PSR2_1> a scdb:IdolEvent ;
+<Mano_PSR2_1> a scdb:IdolEvent ;
     rdfs:label "想いが重なる瞬間" ;
     :name
         "想いが重なる瞬間"@ja, "The Moment Our Feelings Connected"@en, "想いが重なる瞬間" ;
@@ -521,9 +521,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR2> .
+    :isPartOf <Mano_PSR2> .
 
-<PSR2_2> a scdb:IdolEvent ;
+<Mano_PSR2_2> a scdb:IdolEvent ;
     rdfs:label "お腹が……" ;
     :name
         "お腹が……"@ja, "Feeling Hungry…"@en, "お腹が……" ;
@@ -531,9 +531,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR2> .
+    :isPartOf <Mano_PSR2> .
 
-<PSR2_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSR2_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "癒して、癒されて" ;
     :name
         "癒して、癒されて"@ja, "Heal, Be Healed"@en, "癒して、癒されて" ;
@@ -541,21 +541,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR2> .
+    :isPartOf <Mano_PSR2> .
 
-<PSR3> a scdb:Commu ;
+<Mano_PSR3> a scdb:Commu ;
     rdfs:label "【しじまに華ひととき】櫻木真乃" ;
     :name
         "しじまに華ひととき"@ja, "A Blooming Moment"@en,
         "【しじまに華ひととき】櫻木真乃"@ja, "[A Blooming Moment] Mano Sakuragi"@en, "【しじまに華ひととき】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSR3_1> ,
-        <PSR3_2> ,
-        <PSR3_TE> ;
+        <Mano_PSR3_1> ,
+        <Mano_PSR3_2> ,
+        <Mano_PSR3_TE> ;
     :subjectOf card:PSR3 .
 
-<PSR3_1> a scdb:IdolEvent ;
+<Mano_PSR3_1> a scdb:IdolEvent ;
     rdfs:label "しばしお別れ、しかしすぐに" ;
     :name
         "しばしお別れ、しかしすぐに"@ja, "A Brief Goodbye, But Right Away"@en, "しばしお別れ、しかしすぐに" ;
@@ -563,9 +563,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR3> .
+    :isPartOf <Mano_PSR3> .
 
-<PSR3_2> a scdb:IdolEvent ;
+<Mano_PSR3_2> a scdb:IdolEvent ;
     rdfs:label "迎春の巡り逢い" ;
     :name
         "迎春の巡り逢い"@ja, "New Year Greetings"@en, "迎春の巡り逢い" ;
@@ -573,9 +573,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR3> .
+    :isPartOf <Mano_PSR3> .
 
-<PSR3_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSR3_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "あのときの願い" ;
     :name
         "あのときの願い"@ja, "What I Wished for Back Then"@en, "あのときの願い" ;
@@ -583,21 +583,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR3> .
+    :isPartOf <Mano_PSR3> .
 
-<PSR4> a scdb:Commu ;
+<Mano_PSR4> a scdb:Commu ;
     rdfs:label "【花結びゆくゆく】櫻木真乃" ;
     :name
         "花結びゆくゆく"@ja, "Rosette On the Way"@en,
         "【花結びゆくゆく】櫻木真乃"@ja, "[Rosette On the Way] Mano Sakuragi"@en, "【花結びゆくゆく】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSR4_1> ,
-        <PSR4_2> ,
-        <PSR4_TE> ;
+        <Mano_PSR4_1> ,
+        <Mano_PSR4_2> ,
+        <Mano_PSR4_TE> ;
     :subjectOf card:PSR4 .
 
-<PSR4_1> a scdb:IdolEvent ;
+<Mano_PSR4_1> a scdb:IdolEvent ;
     rdfs:label "まだ、かたく" ;
     :name
         "まだ、かたく"@ja, "まだ、かたく" ;
@@ -605,9 +605,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR4> .
+    :isPartOf <Mano_PSR4> .
 
-<PSR4_2> a scdb:IdolEvent ;
+<Mano_PSR4_2> a scdb:IdolEvent ;
     rdfs:label "春へ、浮かされて" ;
     :name
         "春へ、浮かされて"@ja, "春へ、浮かされて" ;
@@ -615,9 +615,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR4> .
+    :isPartOf <Mano_PSR4> .
 
-<PSR4_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSR4_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "ほころびる" ;
     :name
         "ほころびる"@ja, "ほころびる" ;
@@ -625,20 +625,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR4> .
+    :isPartOf <Mano_PSR4> .
 
-<PSR5> a scdb:Commu ;
+<Mano_PSR5> a scdb:Commu ;
     rdfs:label "【一番星の魔法】櫻木真乃" ;
     :name
         "一番星の魔法"@ja, "Magic of the First Star"@en,
         "【一番星の魔法】櫻木真乃"@ja, "[Magic of the First Star] Mano Sakuragi"@en, "【一番星の魔法】櫻木真乃" ;
     :character idol:Sakuragi_Mano ;
     :hasPart
-        <PSR5_1> ,
-        <PSR5_TE> ;
+        <Mano_PSR5_1> ,
+        <Mano_PSR5_TE> ;
     :subjectOf card:PSR5 .
 
-<PSR5_1> a scdb:IdolEvent ;
+<Mano_PSR5_1> a scdb:IdolEvent ;
     rdfs:label "星降るよるに" ;
     :name
         "星降るよるに"@ja, "星降るよるに" ;
@@ -646,9 +646,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR5> .
+    :isPartOf <Mano_PSR5> .
 
-<PSR5_TE> a scdb:IdolEvent_TrueEnd ;
+<Mano_PSR5_TE> a scdb:IdolEvent_TrueEnd ;
     rdfs:label "きをつけて" ;
     :name
         "きをつけて"@ja, "きをつけて" ;
@@ -656,4 +656,4 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character
         idol:Sakuragi_Mano ,
         staff:Producer ;
-    :isPartOf <PSR5> .
+    :isPartOf <Mano_PSR5> .

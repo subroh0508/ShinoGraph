@@ -1,0 +1,24 @@
+BASE <https://283db.org/resource/event/game/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX staff: <https://283db.org/resource/character/staff/>
+PREFIX unit: <https://283db.org/resource/organization/unit/>
+PREFIX card: <https://283db.org/resource/card/>
+PREFIX commu: <https://283db.org/resource/commu/scenario-event/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Event_Scenario1> a scdb:ScenarioEvent ;
+    rdfs:label "Light up the illumination" ;
+    :name "Light up the illumination"@ja, "Light up the illumination"@en, "Light up the illumination" ;
+    :startDate "2018-04-26"^^xsd:date ;
+    :endDate "2018-05-03"^^xsd:date ;
+    scdb:distribute
+        card:Mano_SSSR1 ,
+        card:Meguru_FSSR2 ;
+    :about commu:Scenario1 .

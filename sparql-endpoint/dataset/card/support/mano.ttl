@@ -1,9 +1,9 @@
-BASE <https://283db.org/resource/card/mano/>
+BASE <https://283db.org/resource/card/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX unit: <https://283db.org/resource/organization/unit/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
-PREFIX commu: <https://283db.org/resource/commu/idol-event/mano/>
+PREFIX commu: <https://283db.org/resource/commu/idol-event/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -12,7 +12,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<SR> a scdb:SupportIdol ;
+<Mano_SR> a scdb:SupportIdol ;
     rdfs:label "【283プロのヒナ】櫻木真乃" ;
     :name
         "283プロのヒナ"@ja, "283 Pro Hatchling"@en,
@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:SR .
 
-<SSSR1> a scdb:SupportIdol ;
+<Mano_SSSR1> a scdb:SupportIdol ;
     rdfs:label "【トリプルイルミネーション】櫻木真乃" ;
     :name
         "トリプルイルミネーション"@ja, "Triple Illumination"@en,
@@ -34,7 +34,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:ScenarioEvent ;
     :about commu:SSSR1 .
 
-<SSSR2> a scdb:SupportIdol ;
+<Mano_SSSR2> a scdb:SupportIdol ;
     rdfs:label "【お揃いスナップ】櫻木真乃" ;
     :name
         "お揃いスナップ"@ja, "Matching Snapshots"@en,
@@ -45,7 +45,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:SSSR2 .
 
-<SSSR3> a scdb:SupportIdol ;
+<Mano_SSSR3> a scdb:SupportIdol ;
     rdfs:label "【スプラッシュビート】櫻木真乃" ;
     :name
         "スプラッシュビート"@ja, "Splash Beat"@en,
@@ -56,7 +56,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:Campaign ;
     :about commu:SSSR3 .
 
-<SSSR4> a scdb:SupportIdol ;
+<Mano_SSSR4> a scdb:SupportIdol ;
     rdfs:label "【はじまりのエピローグ】櫻木真乃" ;
     :name
         "はじまりのエピローグ"@ja, "Epilogue of The Beginning"@en,
@@ -67,7 +67,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:ScenarioEvent ;
     :about commu:SSSR4 .
 
-<SSSR5> a scdb:SupportIdol ;
+<Mano_SSSR5> a scdb:SupportIdol ;
     rdfs:label "【冬街イルミネート】櫻木真乃" ;
     :name
         "冬街イルミネート"@ja, "Illuminating Winter Town"@en,
@@ -78,7 +78,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:Campaign ;
     :about commu:SSSR5 .
 
-<SSSR6> a scdb:SupportIdol ;
+<Mano_SSSR6> a scdb:SupportIdol ;
     rdfs:label "【駅線上の日常】櫻木真乃" ;
     :name
         "駅線上の日常"@ja, "Daily Life on the Station Line"@en,
@@ -89,7 +89,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:LimitedGacha ;
     :about commu:SSSR6 .
 
-<SSSR7> a scdb:SupportIdol ;
+<Mano_SSSR7> a scdb:SupportIdol ;
     rdfs:label "【つむぎ、まばゆく。星屑たち】櫻木真乃" ;
     :name
         "つむぎ、まばゆく。星屑たち"@ja, "Weaving, Dazzling. Stardust"@en,
@@ -100,7 +100,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:ScenarioEvent ;
     :about commu:SSSR7 .
 
-<SSSR8> a scdb:SupportIdol ;
+<Mano_SSSR8> a scdb:SupportIdol ;
     rdfs:label "【こころ、えんにならんで】櫻木真乃" ;
     :name
         "こころ、えんにならんで"@ja, "Hearts Lined Up by Fate"@en,
@@ -111,7 +111,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:SSSR8 .
 
-<SSSR9> a scdb:SupportIdol ;
+<Mano_SSSR9> a scdb:SupportIdol ;
     rdfs:label "【泡沫の石たちに乾杯】櫻木真乃" ;
     :name
         "泡沫の石たちに乾杯"@ja, "Cheers, to the Transient Stones"@en,
@@ -122,7 +122,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:LimitedGacha ;
     :about commu:SSSR9 .
 
-<SSSR10> a scdb:SupportIdol ;
+<Mano_SSSR10> a scdb:SupportIdol ;
     rdfs:label "【夏風渡るdiary】櫻木真乃" ;
     :name
         "夏風渡るdiary"@ja, "Summer Breeze diary"@en,
@@ -133,7 +133,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:LimitedGacha ;
     :about commu:SSSR10 .
 
-<SSR1> a scdb:SupportIdol ;
+<Mano_SSR1> a scdb:SupportIdol ;
     rdfs:label "【天然色ピクニック】櫻木真乃" ;
     :name
         "天然色ピクニック"@ja, "Natural-Colored Picnic"@en,
@@ -144,7 +144,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:SSR1 .
 
-<SSR2> a scdb:SupportIdol ;
+<Mano_SSR2> a scdb:SupportIdol ;
     rdfs:label "【音、雨、パシャ、リ】櫻木真乃" ;
     :name
         "音、雨、パシャ、リ"@ja, "The Sound, of Rain, Spla, sh"@en,
@@ -155,7 +155,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:TrainingEvent ;
     :about commu:SSR2 .
 
-<SSR3> a scdb:SupportIdol ;
+<Mano_SSR3> a scdb:SupportIdol ;
     rdfs:label "【by to illuminate】櫻木真乃" ;
     :name
         "by to illuminate"@ja, "by to illuminate"@en,
@@ -166,7 +166,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:SSR3 .
 
-<SSR4> a scdb:SupportIdol ;
+<Mano_SSR4> a scdb:SupportIdol ;
     rdfs:label "【まわる音色、君色のかおり】櫻木真乃" ;
     :name
         "まわる音色、君色のかおり"@ja, "Turning Tone Color, Aroma of Your Colors"@en,

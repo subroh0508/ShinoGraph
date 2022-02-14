@@ -226,3 +226,12 @@ scdb:acquiredBy a rdf:Property ;
     rdfs:domain scdb:IdolCard ;
     rdfs:range enum:AcquiredBy .
 
+scdb:distribute a rdf:Property ;
+    rdfs:label "配布カード"@ja, "Distribution Card"@en ;
+    rdfs:domain scdb:GameEvent ;
+    rdfs:range scdb:IdolCard .
+
+scdb:distributedBy a rdf:Property ;
+    rdfs:label "配布されたイベント"@ja, "Distributed Event"@en ;
+    rdfs:domain scdb:IdolCard ;
+    rdfs:range scdb:GameEvent .

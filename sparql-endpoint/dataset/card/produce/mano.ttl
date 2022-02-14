@@ -1,9 +1,9 @@
-BASE <https://283db.org/resource/card/mano/>
+BASE <https://283db.org/resource/card/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX unit: <https://283db.org/resource/organization/unit/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
-PREFIX commu: <https://283db.org/resource/commu/idol-event/mano/>
+PREFIX commu: <https://283db.org/resource/commu/idol-event/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -12,7 +12,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<PR> a scdb:ProduceIdol ;
+<Mano_PR> a scdb:ProduceIdol ;
     rdfs:label "【白いツバサ】櫻木真乃" ;
     :name
         "白いツバサ"@ja, "White Wings"@en,
@@ -42,7 +42,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:IdolRoad .
 
-<PSSR1> a scdb:ProduceIdol ;
+<Mano_PSSR1> a scdb:ProduceIdol ;
     rdfs:label "【ほわっとスマイル】櫻木真乃" ;
     :name
         "ほわっとスマイル"@ja, "Warm Smile"@en,
@@ -53,7 +53,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:PSSR1 .
 
-<PSSR2> a scdb:ProduceIdol ;
+<Mano_PSSR2> a scdb:ProduceIdol ;
     rdfs:label "【ハ♡トフェルトゥギフト】櫻木真乃" ;
     :name
         "ハ♡トフェルトゥギフト"@ja, "Heart♡felt Gift"@en,
@@ -64,7 +64,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:LimitedGacha ;
     :about commu:PSSR2 .
 
-<PSSR3> a scdb:ProduceIdol ;
+<Mano_PSSR3> a scdb:ProduceIdol ;
     rdfs:label "【はじけてスマイル】櫻木真乃" ;
     :name
         "はじけてスマイル"@ja, "Bursting Smile"@en,
@@ -75,7 +75,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:PSSR3 .
 
-<PSSR4> a scdb:ProduceIdol ;
+<Mano_PSSR4> a scdb:ProduceIdol ;
     rdfs:label "【深染め、いろみぐさ】櫻木真乃" ;
     :name
         "深染め、いろみぐさ"@ja, "Deeply Dyed, Autumn Leaves"@en,
@@ -86,7 +86,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:LimitedGacha ;
     :about commu:PSSR4 .
 
-<PSSR5> a scdb:ProduceIdol ;
+<Mano_PSSR5> a scdb:ProduceIdol ;
     rdfs:label "【ソラを跳ね】櫻木真乃" ;
     :name
         "ソラを跳ね"@ja, "Splashing Sky"@en,
@@ -97,7 +97,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:PSSR5 .
 
-<PSSR6> a scdb:ProduceIdol ;
+<Mano_PSSR6> a scdb:ProduceIdol ;
     rdfs:label "【花風Smiley】櫻木真乃" ;
     :name
         "花風Smiley"@ja, "Sakura Breeze Smiley"@en,
@@ -108,7 +108,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:LimitedGacha ;
     :about commu:PSSR6 .
 
-<PSSR7> a scdb:ProduceIdol ;
+<Mano_PSSR7> a scdb:ProduceIdol ;
     rdfs:label "【ひとつ、はたたく】櫻木真乃" ;
     :name
         "ひとつ、はたたく"@ja, "Fluttering, Alone"@en,
@@ -119,7 +119,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:PSSR7 .
 
-<PSR1> a scdb:ProduceIdol ;
+<Mano_PSR1> a scdb:ProduceIdol ;
     rdfs:label "【ナチュラルモード】櫻木真乃" ;
     :name
         "ナチュラルモード"@ja, "Natural Mode"@en,
@@ -130,7 +130,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:FesEvent ;
     :about commu:PSR1 .
 
-<PSR2> a scdb:ProduceIdol ;
+<Mano_PSR2> a scdb:ProduceIdol ;
     rdfs:label "【ぐうぜんBOOKS】櫻木真乃" ;
     :name
         "ぐうぜんBOOKS"@ja, "Coincidental BOOKS"@en,
@@ -141,7 +141,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:PSR2 .
 
-<PSR3> a scdb:ProduceIdol ;
+<Mano_PSR3> a scdb:ProduceIdol ;
     rdfs:label "【しじまに華ひととき】櫻木真乃" ;
     :name
         "しじまに華ひととき"@ja, "A Blooming Moment"@en,
@@ -152,7 +152,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:LimitedGacha ;
     :about commu:PSR3 .
 
-<PSR4> a scdb:ProduceIdol ;
+<Mano_PSR4> a scdb:ProduceIdol ;
     rdfs:label "【花結びゆくゆく】櫻木真乃" ;
     :name
         "花結びゆくゆく"@ja, "Rosette On the Way"@en,
@@ -163,7 +163,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:acquiredBy enum:PermanentGacha ;
     :about commu:PSR4 .
 
-<PSR5> a scdb:ProduceIdol ;
+<Mano_PSR5> a scdb:ProduceIdol ;
     rdfs:label "【一番星の魔法】櫻木真乃" ;
     :name
         "一番星の魔法"@ja, "Magic of the First Star"@en,
