@@ -16,6 +16,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <Event_Scenario1> a scdb:ScenarioEvent ;
     rdfs:label "Light up the illumination" ;
     :name "Light up the illumination"@ja, "Light up the illumination"@en, "Light up the illumination" ;
+    :description
+"""プロデューサーからユニット結成を伝えられた、
+真乃、灯織、めぐるの3人。
+はじめはなかなか息を合わせることができずにいたが、
+少しのすれ違いを乗り越えながら、
+次第にユニットとしてまとまっていく――。
+
+イルミネーションスターズ 誕生の物語"""@ja ;
     :startDate "2018-04-26"^^xsd:date ;
     :endDate "2018-05-03"^^xsd:date ;
     scdb:distribute
