@@ -1,0 +1,125 @@
+BASE <https://283db.org/resource/commu/scenario-event/>
+PREFIX scdb: <https://283db.org/schema#>
+PREFIX idol: <https://283db.org/resource/character/idol/>
+PREFIX staff: <https://283db.org/resource/character/staff/>
+PREFIX unit: <https://283db.org/resource/organization/unit/>
+PREFIX event: <https://283db.org/resource/event/game/>
+PREFIX : <http://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<ScenarioEvent1> a scdb:Commu ;
+    rdfs:label "Light up the illumination" ;
+    :name "Light up the illumination"@ja, "Light up the illumination"@en, "Light up the illumination" ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :hasPart
+        <ScenarioEvent1_Opening> ,
+        <ScenarioEvent1_Episode_1> ,
+        <ScenarioEvent1_Episode_2> ,
+        <ScenarioEvent1_Episode_3> ,
+        <ScenarioEvent1_Episode_4> ,
+        <ScenarioEvent1_Episode_5> ,
+        <ScenarioEvent1_Episode_6> ,
+        <ScenarioEvent1_Ending> ;
+    :subjectOf
+        event:ScenarioEvent1 ,
+        unit:illumination_STARS .
+
+<ScenarioEvent1_Opening> a scdb:ScenarioEventCommuClip ;
+    rdfs:label "輝きの始まり" ;
+    :name
+        "輝きの始まり"@ja, "Beginning of Our Radiance"@en, "輝きの始まり" ;
+    :position 1 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        staff:Producer ;
+    :isPartOf <ScenarioEvent1> .
+
+<ScenarioEvent1_Episode_1> a scdb:ScenarioEventCommuClip ;
+    rdfs:label "チカチカ、小さく瞬くみたいな" ;
+    :name
+        "チカチカ、小さく瞬くみたいな"@ja, "Twinkling, Like a Small (Star)"@en, "チカチカ、小さく瞬くみたいな" ;
+    :position 2 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <ScenarioEvent1> .
+
+<ScenarioEvent1_Episode_2> a scdb:ScenarioEventCommuClip ;
+    rdfs:label "翳る前に、曇る前に" ;
+    :name
+        "翳る前に、曇る前に"@ja, "Before it Glooms, Before it Fades"@en, "翳る前に、曇る前に" ;
+    :position 3 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        staff:Producer ;
+    :isPartOf <ScenarioEvent1> .
+
+<ScenarioEvent1_Episode_3> a scdb:ScenarioEventCommuClip ;
+    rdfs:label "もう一度、ここから" ;
+    :name
+        "もう一度、ここから"@ja, "One More Time, From Here"@en, "もう一度、ここから" ;
+    :position 4 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <ScenarioEvent1> .
+
+<ScenarioEvent1_Episode_4> a scdb:ScenarioEventCommuClip ;
+    rdfs:label "1番輝く、そのために" ;
+    :name
+        "1番輝く、そのために"@ja, "To Shine the Brightest, is the Reason"@en, "1番輝く、そのために" ;
+    :position 5 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <ScenarioEvent1> .
+
+<ScenarioEvent1_Episode_5> a scdb:ScenarioEventCommuClip ;
+    rdfs:label "3人だから灯せたもの" ;
+    :name
+        "3人だから灯せたもの"@ja, "What the Three of Us Can Light"@en, "3人だから灯せたもの" ;
+    :position 6 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        staff:Producer ;
+    :isPartOf <ScenarioEvent1> .
+
+<ScenarioEvent1_Episode_6> a scdb:ScenarioEventCommuClip ;
+    rdfs:label "想いを重ねて、支えを光に" ;
+    :name
+        "想いを重ねて、支えを光に"@ja, "Say Your Thoughts, and Show Your Light"@en, "想いを重ねて、支えを光に" ;
+    :position 7 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ;
+    :isPartOf <ScenarioEvent1> .
+
+<ScenarioEvent1_Ending> a scdb:ScenarioEventCommuClip ;
+    rdfs:label "illumination STARS" ;
+    :name
+        "illumination STARS"@ja, "illumination STARS"@en, "illumination STARS" ;
+    :position 8 ;
+    :character
+        idol:Sakuragi_Mano ,
+        idol:Kazano_Hiori ,
+        idol:Hachimiya_Meguru ,
+        staff:Producer ;
+    :isPartOf <ScenarioEvent1> .

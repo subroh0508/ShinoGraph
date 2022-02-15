@@ -13,7 +13,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<Event_Scenario1> a scdb:ScenarioEvent ;
+<ScenarioEvent1> a scdb:ScenarioEvent ;
     rdfs:label "Light up the illumination" ;
     :name "Light up the illumination"@ja, "Light up the illumination"@en, "Light up the illumination" ;
     :description
@@ -29,4 +29,4 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:distribute
         card:Mano_SSSR1 ,
         card:Meguru_FSSR2 ;
-    :about commu:Scenario1 .
+    :about commu:ScenarioEvent1 .

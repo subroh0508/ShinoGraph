@@ -101,6 +101,10 @@ scdb:SupportEvent a rdfs:Class ;
     rdfs:label "サポートイベント"@ja, "Support Event"@en ;
     rdfs:subClassOf scdb:CommuClip .
 
+scdb:ScenarioEventCommuClip a rdfs:Class ;
+    rdfs:label "シナリオイベントコミュの1話"@ja, "A Clip of Scenario Event Commu"@en ;
+    rdfs:subClassOf scdb:CommuClip .
+
 scdb:Gacha a rdfs:Class ;
     rdfs:label "ガシャ"@ja, "Gacha"@en, "ガシャ" ;
     rdfs:subClassOf :Thing .
