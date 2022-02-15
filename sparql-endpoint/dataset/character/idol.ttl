@@ -5,6 +5,7 @@ PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
 PREFIX hometown: <https://283db.org/resource/common/hometown/>
 PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX commu: <https://283db.org/resource/commu/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -44,6 +45,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50011> ;
     scdb:song
         song:Arittake_no_Kagayaki_de ;
+    :about
+        commu:Mano_WING ,
+        commu:Mano_FanFes ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Sakuragi_Mano> .
 
 <Kazano_Hiori> a scdb:Idol ;
@@ -77,6 +81,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50007> ;
     scdb:song
         song:Slow_Motion ;
+    :about
+        commu:Hiori_WING ,
+        commu:Hiori_FanFes ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Kazano_Hiori> .
 
 <Hachimiya_Meguru> a scdb:Idol ;
@@ -110,6 +117,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50017> ;
     scdb:song
         song:HAREBARE%21%21 ;
+    :about
+        commu:Meguru_WING ,
+        commu:Meguru_FanFes ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Hachimiya_Meguru> .
 
 <Tsukioka_Kogane> a scdb:Idol ;

@@ -1,8 +1,8 @@
-BASE <https://283db.org/resource/commu/produce-event/illuminationstars/>
+BASE <https://283db.org/resource/commu/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
-PREFIX commu: <https://283db.org/resource/commu/produce-event/>
+PREFIX commu: <https://283db.org/resource/commu/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -11,7 +11,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<FanFes_Prologue> a scdb:ProduceEvent ;
+<illumination_STARS_FanFes_Prologue> a scdb:ProduceEvent ;
     rdfs:label "始まり、もう一度" ;
     :name
         "始まり、もう一度"@ja, "始まり、もう一度" ;
@@ -26,7 +26,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         commu:Hiori_FanFes ,
         commu:Meguru_FanFes .
 
-<FanFes_1> a scdb:ProduceEvent ;
+<illumination_STARS_FanFes_1> a scdb:ProduceEvent ;
     rdfs:label "『頑張りたい』" ;
     :name
         "『頑張りたい』"@ja, "『頑張りたい』" ;
@@ -50,7 +50,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         commu:Hiori_FanFes ,
         commu:Meguru_FanFes .
 
-<FanFes_2> a scdb:ProduceEvent ;
+<illumination_STARS_FanFes_2> a scdb:ProduceEvent ;
     rdfs:label "空が赤いから" ;
     :name
         "空が赤いから"@ja, "空が赤いから" ;
@@ -65,7 +65,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         commu:Hiori_FanFes ,
         commu:Meguru_FanFes .
 
-<FanFes_3> a scdb:ProduceEvent ;
+<illumination_STARS_FanFes_3> a scdb:ProduceEvent ;
     rdfs:label "雲なんて吹き飛ばして" ;
     :name
         "雲なんて吹き飛ばして"@ja, "雲なんて吹き飛ばして" ;
@@ -81,7 +81,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         commu:Hiori_FanFes ,
         commu:Meguru_FanFes .
 
-<FanFes_4> a scdb:ProduceEvent ;
+<illumination_STARS_FanFes_4> a scdb:ProduceEvent ;
     rdfs:label "星たちは駆けて輝く" ;
     :name
         "星たちは駆けて輝く"@ja, "星たちは駆けて輝く" ;
@@ -96,7 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         commu:Hiori_FanFes ,
         commu:Meguru_FanFes .
 
-<FanFes_Before_Stage_Unit> a scdb:CommuConversation ;
+<illumination_STARS_FanFes_Before_Stage_Unit> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番前 (ユニット)" ;
     :name
         "感謝祭本番前 (ユニット)"@ja, "Before Fan Festival Stage (Unit)"@en, "感謝祭本番前 (ユニット)" ;
@@ -111,7 +111,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         commu:Hiori_FanFes ,
         commu:Meguru_FanFes .
 
-<FanFes_After_Stage> a scdb:CommuConversation ;
+<illumination_STARS_FanFes_After_Stage> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番後 (通常)" ;
     :name
         "感謝祭本番後 (通常)"@ja, "After Fan Festival Stage (Normal)"@en, "感謝祭本番後 (通常)" ;
@@ -126,7 +126,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         commu:Hiori_FanFes ,
         commu:Meguru_FanFes .
 
-<FanFes_After_Stage_MVP> a scdb:CommuConversation ;
+<illumination_STARS_FanFes_After_Stage_MVP> a scdb:CommuConversation ;
     rdfs:label "感謝祭本番後 (MVP)" ;
     :name
         "感謝祭本番後 (MVP)"@ja, "After Fan Festival Stage (MVP)"@en, "感謝祭本番後 (MVP)" ;
@@ -141,7 +141,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         commu:Hiori_FanFes ,
         commu:Meguru_FanFes .
 
-<FanFes_Epilogue> a scdb:ProduceEvent ;
+<illumination_STARS_FanFes_Epilogue> a scdb:ProduceEvent ;
     rdfs:label "何度だって最高の晴れにしよう" ;
     :name
         "何度だって最高の晴れにしよう"@ja, "何度だって最高の晴れにしよう" ;

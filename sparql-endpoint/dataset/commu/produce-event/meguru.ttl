@@ -1,9 +1,8 @@
-BASE <https://283db.org/resource/commu/produce-event/>
+BASE <https://283db.org/resource/commu/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>
 PREFIX unit: <https://283db.org/resource/organization/unit/>
-PREFIX common: <https://283db.org/resource/commu/produce-event/illuminationstars/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -379,15 +378,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :character idol:Hachimiya_Meguru ;
     :hasPart
         <Meguru_FanFes_Prologue> ,
-        common:FanFes_Prologue ,
-        common:FanFes_1 ,
-        common:FanFes_2 ,
-        common:FanFes_3 ,
-        common:FanFes_4 ,
-        common:FanFes_Before_Stage_Unit ,
-        common:FanFes_After_Stage ,
-        common:FanFes_After_Stage_MVP ,
-        common:FanFes_Epilogue ,
+        <illumination_STARS_FanFes_Prologue> ,
+        <illumination_STARS_FanFes_1> ,
+        <illumination_STARS_FanFes_2> ,
+        <illumination_STARS_FanFes_3> ,
+        <illumination_STARS_FanFes_4> ,
+        <illumination_STARS_FanFes_Before_Stage_Unit> ,
+        <illumination_STARS_FanFes_After_Stage> ,
+        <illumination_STARS_FanFes_After_Stage_MVP> ,
+        <illumination_STARS_FanFes_Epilogue> ,
         <Meguru_FanFes_Before_Rehearsal> ,
         <Meguru_FanFes_After_Rehearsal> ,
         <Meguru_FanFes_Before_Stage> ,

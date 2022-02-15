@@ -4,6 +4,7 @@ PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX album: <https://283db.org/resource/music/album/>
 PREFIX song: <https://283db.org/resource/music/song/>
+PREFIX commu: <https://283db.org/resource/commu/>
 PREFIX actor: <https://283db.org/resource/artist/voice-actor/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -41,6 +42,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         song:Happy_Funny_Lucky ,
         song:PRISISM ,
         song:Smile_Symphonia ;
+    :about
+        commu:ScenarioEvent1 ,
+        commu:Mano_FanFes ,
+        commu:Hiori_FanFes ,
+        commu:Meguru_FanFes ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/illuminationSTARS> .
 
 <L%27Antica> a scdb:Unit ;

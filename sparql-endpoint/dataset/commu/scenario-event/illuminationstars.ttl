@@ -1,4 +1,4 @@
-BASE <https://283db.org/resource/commu/scenario-event/>
+BASE <https://283db.org/resource/commu/>
 PREFIX scdb: <https://283db.org/schema#>
 PREFIX idol: <https://283db.org/resource/character/idol/>
 PREFIX staff: <https://283db.org/resource/character/staff/>

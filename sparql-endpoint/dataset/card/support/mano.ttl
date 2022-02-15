@@ -3,7 +3,7 @@ PREFIX scdb: <https://283db.org/schema#>
 PREFIX enum: <https://283db.org/resource/enum/>
 PREFIX unit: <https://283db.org/resource/organization/unit/>
 PREFIX idol: <https://283db.org/resource/character/idol/>
-PREFIX commu: <https://283db.org/resource/commu/idol-event/>
+PREFIX commu: <https://283db.org/resource/commu/>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
