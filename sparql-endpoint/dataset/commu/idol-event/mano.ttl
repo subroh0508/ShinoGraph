@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSSR1_3> ,
         <Mano_PSSR1_4> ,
         <Mano_PSSR1_TE> ;
-    :subjectOf card:PSSR1 .
+    :about card:PSSR1 .
 
 <Mano_PSSR1_1> a scdb:IdolEvent ;
     rdfs:label "ほわほわアイドル" ;
@@ -87,7 +87,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSSR2_3> ,
         <Mano_PSSR2_4> ,
         <Mano_PSSR2_TE> ;
-    :subjectOf card:PSSR2 .
+    :about card:PSSR2 .
 
 <Mano_PSSR2_1> a scdb:IdolEvent ;
     rdfs:label "ぽかぽか陽気に誘われて" ;
@@ -151,7 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSSR3_3> ,
         <Mano_PSSR3_4> ,
         <Mano_PSSR3_TE> ;
-    :subjectOf card:PSSR3 .
+    :about card:PSSR3 .
 
 <Mano_PSSR3_1> a scdb:IdolEvent ;
     rdfs:label "緑色が運ぶ、夏の" ;
@@ -215,7 +215,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSSR4_3> ,
         <Mano_PSSR4_4> ,
         <Mano_PSSR4_TE> ;
-    :subjectOf card:PSSR4 .
+    :about card:PSSR4 .
 
 <Mano_PSSR4_1> a scdb:IdolEvent ;
     rdfs:label "秋香る" ;
@@ -279,7 +279,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSSR5_3> ,
         <Mano_PSSR5_4> ,
         <Mano_PSSR5_TE> ;
-    :subjectOf card:PSSR5 .
+    :about card:PSSR5 .
 
 <Mano_PSSR5_1> a scdb:IdolEvent ;
     rdfs:label "ささやかな" ;
@@ -343,7 +343,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSSR6_3> ,
         <Mano_PSSR6_4> ,
         <Mano_PSSR6_TE> ;
-    :subjectOf card:PSSR6 .
+    :about card:PSSR6 .
 
 <Mano_PSSR6_1> a scdb:IdolEvent ;
     rdfs:label "はずむ、こころ" ;
@@ -407,7 +407,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSSR7_3> ,
         <Mano_PSSR7_4> ,
         <Mano_PSSR7_TE> ;
-    :subjectOf card:PSSR7 .
+    :about card:PSSR7 .
 
 <Mano_PSSR7_1> a scdb:IdolEvent ;
     rdfs:label "新しい空をゆくために" ;
@@ -469,7 +469,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSR1_1> ,
         <Mano_PSR1_2> ,
         <Mano_PSR1_TE> ;
-    :subjectOf card:PSR1 .
+    :about card:PSR1 .
 
 <Mano_PSR1_1> a scdb:IdolEvent ;
     rdfs:label "ショッピング日和" ;
@@ -511,7 +511,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSR2_1> ,
         <Mano_PSR2_2> ,
         <Mano_PSR2_TE> ;
-    :subjectOf card:PSR2 .
+    :about card:PSR2 .
 
 <Mano_PSR2_1> a scdb:IdolEvent ;
     rdfs:label "想いが重なる瞬間" ;
@@ -553,7 +553,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSR3_1> ,
         <Mano_PSR3_2> ,
         <Mano_PSR3_TE> ;
-    :subjectOf card:PSR3 .
+    :about card:PSR3 .
 
 <Mano_PSR3_1> a scdb:IdolEvent ;
     rdfs:label "しばしお別れ、しかしすぐに" ;
@@ -595,7 +595,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_PSR4_1> ,
         <Mano_PSR4_2> ,
         <Mano_PSR4_TE> ;
-    :subjectOf card:PSR4 .
+    :about card:PSR4 .
 
 <Mano_PSR4_1> a scdb:IdolEvent ;
     rdfs:label "まだ、かたく" ;
@@ -636,7 +636,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :hasPart
         <Mano_PSR5_1> ,
         <Mano_PSR5_TE> ;
-    :subjectOf card:PSR5 .
+    :about card:PSR5 .
 
 <Mano_PSR5_1> a scdb:IdolEvent ;
     rdfs:label "星降るよるに" ;

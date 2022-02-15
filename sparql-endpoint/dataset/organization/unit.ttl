@@ -42,7 +42,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         song:Happy_Funny_Lucky ,
         song:PRISISM ,
         song:Smile_Symphonia ;
-    :about
+    :subjectOf
         commu:ScenarioEvent1 ,
         commu:Mano_FanFes ,
         commu:Hiori_FanFes ,

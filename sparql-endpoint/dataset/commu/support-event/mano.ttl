@@ -22,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :hasPart
         <Mano_SR_1> ,
         <Mano_SR_2> ;
-    :subjectOf card:SR .
+    :about card:SR .
 
 <Mano_SR_1> a scdb:SupportEvent ;
     rdfs:label "私たち次第" ;
@@ -55,7 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR1_2> ,
         <Mano_SSSR1_3> ,
         <Mano_SSSR1_4> ;
-    :subjectOf card:SSSR1 .
+    :about card:SSSR1 .
 
 <Mano_SSSR1_1> a scdb:SupportEvent ;
     rdfs:label "始まりのステップ" ;
@@ -110,7 +110,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR2_1> ,
         <Mano_SSSR2_2> ,
         <Mano_SSSR2_3> ;
-    :subjectOf card:SSSR2 .
+    :about card:SSSR2 .
 
 <Mano_SSSR2_1> a scdb:SupportEvent ;
     rdfs:label "夏と言えば……" ;
@@ -155,7 +155,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR3_1> ,
         <Mano_SSSR3_2> ,
         <Mano_SSSR3_3> ;
-    :subjectOf card:SSSR3 .
+    :about card:SSSR3 .
 
 <Mano_SSSR3_1> a scdb:SupportEvent ;
     rdfs:label "プールインサイド" ;
@@ -200,7 +200,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR4_1> ,
         <Mano_SSSR4_2> ,
         <Mano_SSSR4_3> ;
-    :subjectOf card:SSSR4 .
+    :about card:SSSR4 .
 
 <Mano_SSSR4_1> a scdb:SupportEvent ;
     rdfs:label "心はずむパーティーグッズ" ;
@@ -246,7 +246,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR5_1> ,
         <Mano_SSSR5_2> ,
         <Mano_SSSR5_3> ;
-    :subjectOf card:SSSR5 .
+    :about card:SSSR5 .
 
 <Mano_SSSR5_1> a scdb:SupportEvent ;
     rdfs:label "冬のとおり道" ;
@@ -291,7 +291,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR6_1> ,
         <Mano_SSSR6_2> ,
         <Mano_SSSR6_3> ;
-    :subjectOf card:SSSR6 .
+    :about card:SSSR6 .
 
 <Mano_SSSR6_1> a scdb:SupportEvent ;
     rdfs:label "お　い　し　い" ;
@@ -336,7 +336,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR7_1> ,
         <Mano_SSSR7_2> ,
         <Mano_SSSR7_3> ;
-    :subjectOf card:SSSR7 .
+    :about card:SSSR7 .
 
 <Mano_SSSR7_1> a scdb:SupportEvent ;
     rdfs:label "両手に持てるだけの星屑" ;
@@ -380,7 +380,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR8_1> ,
         <Mano_SSSR8_2> ,
         <Mano_SSSR8_3> ;
-    :subjectOf card:SSSR8 .
+    :about card:SSSR8 .
 
 <Mano_SSSR8_1> a scdb:SupportEvent ;
     rdfs:label "ステージ。あの日の" ;
@@ -426,7 +426,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR9_1> ,
         <Mano_SSSR9_2> ,
         <Mano_SSSR9_3> ;
-    :subjectOf card:SSSR9 .
+    :about card:SSSR9 .
 
 <Mano_SSSR9_1> a scdb:SupportEvent ;
     rdfs:label "今日、カクテルドレスで" ;
@@ -485,7 +485,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSSR10_1> ,
         <Mano_SSSR10_2> ,
         <Mano_SSSR10_3> ;
-    :subjectOf card:SSSR10 .
+    :about card:SSSR10 .
 
 <Mano_SSSR10_1> a scdb:SupportEvent ;
     rdfs:label "お姉ちゃんと呼んだら" ;
@@ -555,7 +555,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_SSR1_1> ,
         <Mano_SSR1_2> ,
         <Mano_SSR1_3> ;
-    :subjectOf card:SSR1 .
+    :about card:SSR1 .
 
 <Mano_SSR1_1> a scdb:SupportEvent ;
     rdfs:label "公園と約束" ;
@@ -596,7 +596,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :hasPart
         <Mano_SSR2_1> ,
         <Mano_SSR2_2> ;
-    :subjectOf card:SSR2 .
+    :about card:SSR2 .
 
 <Mano_SSR2_1> a scdb:SupportEvent ;
     rdfs:label "天気になぁれ" ;
@@ -629,7 +629,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :hasPart
         <Mano_SSR3_1> ,
         <Mano_SSR3_2> ;
-    :subjectOf card:SSR3 .
+    :about card:SSR3 .
 
 <Mano_SSR3_1> a scdb:SupportEvent ;
     rdfs:label "みんなとお仕事！" ;
@@ -667,7 +667,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :hasPart
         <Mano_SSR4_1> ,
         <Mano_SSR4_2> ;
-    :subjectOf card:SSR4 .
+    :about card:SSR4 .
 
 <Mano_SSR4_1> a scdb:SupportEvent ;
     rdfs:label "きみはお日様のように" ;

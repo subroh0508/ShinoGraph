@@ -49,7 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Meguru_WING_After_F> ,
         <Meguru_WING_Epilogue_Lose> ,
         <Meguru_WING_Epilogue_Win> ;
-    :subjectOf idol:Hachimiya_Meguru .
+    :about idol:Hachimiya_Meguru .
 
 <Meguru_WING_Prologue> a scdb:ProduceEvent ;
     rdfs:label "輝きはめまぐるしく" ;
@@ -391,7 +391,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Meguru_FanFes_After_Rehearsal> ,
         <Meguru_FanFes_Before_Stage> ,
         <Meguru_FanFes_Epilogue> ;
-    :subjectOf
+    :about
         idol:Hachimiya_Meguru ,
         unit:illumination_STARS .
 

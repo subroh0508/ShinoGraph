@@ -49,7 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_WING_After_F> ,
         <Mano_WING_Epilogue_Lose> ,
         <Mano_WING_Epilogue_Win> ;
-    :subjectOf idol:Sakuragi_Mano .
+    :about idol:Sakuragi_Mano .
 
 <Mano_WING_Prologue> a scdb:ProduceEvent ;
     rdfs:label "公園の歌声" ;
@@ -391,7 +391,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Mano_FanFes_After_Rehearsal> ,
         <Mano_FanFes_Before_Stage> ,
         <Mano_FanFes_Epilogue> ;
-    :subjectOf
+    :about
         idol:Sakuragi_Mano ,
         unit:illumination_STARS .
 

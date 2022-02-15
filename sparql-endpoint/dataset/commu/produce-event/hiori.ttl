@@ -49,7 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Hiori_WING_After_F> ,
         <Hiori_WING_Epilogue_Lose> ,
         <Hiori_WING_Epilogue_Win> ;
-    :subjectOf idol:Kazano_Hiori .
+    :about idol:Kazano_Hiori .
 
 <Hiori_WING_Prologue> a scdb:ProduceEvent ;
     rdfs:label "クールで真面目な女の子" ;
@@ -391,7 +391,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <Hiori_FanFes_After_Rehearsal> ,
         <Hiori_FanFes_Before_Stage> ,
         <Hiori_FanFes_Epilogue> ;
-    :subjectOf
+    :about
         idol:Kazano_Hiori ,
         unit:illumination_STARS .
 

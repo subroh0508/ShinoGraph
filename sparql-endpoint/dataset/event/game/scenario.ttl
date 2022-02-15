@@ -29,4 +29,4 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:distribute
         card:Mano_SSSR1 ,
         card:Meguru_FSSR2 ;
-    :about commu:ScenarioEvent1 .
+    :subjectOf commu:ScenarioEvent1 .

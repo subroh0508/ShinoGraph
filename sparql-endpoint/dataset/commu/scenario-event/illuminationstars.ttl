@@ -28,7 +28,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <ScenarioEvent1_Episode_5> ,
         <ScenarioEvent1_Episode_6> ,
         <ScenarioEvent1_Ending> ;
-    :subjectOf
+    :about
         event:ScenarioEvent1 ,
         unit:illumination_STARS .
 

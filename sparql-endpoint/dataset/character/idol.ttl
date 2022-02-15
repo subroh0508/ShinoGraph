@@ -45,7 +45,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50011> ;
     scdb:song
         song:Arittake_no_Kagayaki_de ;
-    :about
+    :subjectOf
         commu:Mano_WING ,
         commu:Mano_FanFes ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Sakuragi_Mano> .
@@ -81,7 +81,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50007> ;
     scdb:song
         song:Slow_Motion ;
-    :about
+    :subjectOf
         commu:Hiori_WING ,
         commu:Hiori_FanFes ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Kazano_Hiori> .
@@ -117,7 +117,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:idolListURL <https://idollist.idolmaster-official.jp/detail/50017> ;
     scdb:song
         song:HAREBARE%21%21 ;
-    :about
+    :subjectOf
         commu:Meguru_WING ,
         commu:Meguru_FanFes ;
     :sameAs <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Hachimiya_Meguru> .

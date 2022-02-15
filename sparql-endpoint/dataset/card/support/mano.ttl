@@ -21,7 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2018-04-24"^^xsd:date ;
     scdb:rarity enum:Rarity.R ;
     scdb:acquiredBy enum:PermanentGacha ;
-    :about commu:SR .
+    :subjectOf commu:SR .
 
 <Mano_SSSR1> a scdb:SupportIdol ;
     rdfs:label "【トリプルイルミネーション】櫻木真乃" ;
@@ -32,7 +32,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2018-04-26"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:ScenarioEvent ;
-    :about commu:SSSR1 .
+    :subjectOf commu:SSSR1 .
 
 <Mano_SSSR2> a scdb:SupportIdol ;
     rdfs:label "【お揃いスナップ】櫻木真乃" ;
@@ -43,7 +43,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2018-06-30"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:PermanentGacha ;
-    :about commu:SSSR2 .
+    :subjectOf commu:SSSR2 .
 
 <Mano_SSSR3> a scdb:SupportIdol ;
     rdfs:label "【スプラッシュビート】櫻木真乃" ;
@@ -54,7 +54,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2018-07-31"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:Campaign ;
-    :about commu:SSSR3 .
+    :subjectOf commu:SSSR3 .
 
 <Mano_SSSR4> a scdb:SupportIdol ;
     rdfs:label "【はじまりのエピローグ】櫻木真乃" ;
@@ -65,7 +65,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2018-12-14"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:ScenarioEvent ;
-    :about commu:SSSR4 .
+    :subjectOf commu:SSSR4 .
 
 <Mano_SSSR5> a scdb:SupportIdol ;
     rdfs:label "【冬街イルミネート】櫻木真乃" ;
@@ -76,7 +76,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2018-12-14"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:Campaign ;
-    :about commu:SSSR5 .
+    :subjectOf commu:SSSR5 .
 
 <Mano_SSSR6> a scdb:SupportIdol ;
     rdfs:label "【駅線上の日常】櫻木真乃" ;
@@ -87,7 +87,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2019-04-01"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:LimitedGacha ;
-    :about commu:SSSR6 .
+    :subjectOf commu:SSSR6 .
 
 <Mano_SSSR7> a scdb:SupportIdol ;
     rdfs:label "【つむぎ、まばゆく。星屑たち】櫻木真乃" ;
@@ -98,7 +98,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2020-07-31"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:ScenarioEvent ;
-    :about commu:SSSR7 .
+    :subjectOf commu:SSSR7 .
 
 <Mano_SSSR8> a scdb:SupportIdol ;
     rdfs:label "【こころ、えんにならんで】櫻木真乃" ;
@@ -109,7 +109,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2020-10-12"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:PermanentGacha ;
-    :about commu:SSSR8 .
+    :subjectOf commu:SSSR8 .
 
 <Mano_SSSR9> a scdb:SupportIdol ;
     rdfs:label "【泡沫の石たちに乾杯】櫻木真乃" ;
@@ -120,7 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2021-01-12"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:LimitedGacha ;
-    :about commu:SSSR9 .
+    :subjectOf commu:SSSR9 .
 
 <Mano_SSSR10> a scdb:SupportIdol ;
     rdfs:label "【夏風渡るdiary】櫻木真乃" ;
@@ -131,7 +131,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2021-06-30"^^xsd:date ;
     scdb:rarity enum:Rarity.SSR ;
     scdb:acquiredBy enum:LimitedGacha ;
-    :about commu:SSSR10 .
+    :subjectOf commu:SSSR10 .
 
 <Mano_SSR1> a scdb:SupportIdol ;
     rdfs:label "【天然色ピクニック】櫻木真乃" ;
@@ -142,7 +142,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2018-04-24"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:PermanentGacha ;
-    :about commu:SSR1 .
+    :subjectOf commu:SSR1 .
 
 <Mano_SSR2> a scdb:SupportIdol ;
     rdfs:label "【音、雨、パシャ、リ】櫻木真乃" ;
@@ -153,7 +153,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2019-06-11"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:TrainingEvent ;
-    :about commu:SSR2 .
+    :subjectOf commu:SSR2 .
 
 <Mano_SSR3> a scdb:SupportIdol ;
     rdfs:label "【by to illuminate】櫻木真乃" ;
@@ -164,7 +164,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2020-02-20"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:PermanentGacha ;
-    :about commu:SSR3 .
+    :subjectOf commu:SSR3 .
 
 <Mano_SSR4> a scdb:SupportIdol ;
     rdfs:label "【まわる音色、君色のかおり】櫻木真乃" ;
@@ -175,4 +175,4 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:debutDate "2020-09-11"^^xsd:date ;
     scdb:rarity enum:Rarity.SR ;
     scdb:acquiredBy enum:TrainingEvent ;
-    :about commu:SSR4 .
+    :subjectOf commu:SSR4 .
