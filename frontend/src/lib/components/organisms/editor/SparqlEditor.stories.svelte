@@ -1,6 +1,7 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
   import SparqlEditor from './SparqlEditor.svelte';
+  import { DEFAULT_QUERY } from '$lib/constants';
 </script>
 
 <!-- More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export -->
@@ -22,6 +23,6 @@
 <Story
   name='Normal'
   args={{
-    query: '',
+    query: DEFAULT_QUERY,
   }}
 />

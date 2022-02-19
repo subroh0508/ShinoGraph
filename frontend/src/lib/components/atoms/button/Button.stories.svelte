@@ -23,6 +23,6 @@
 <Story
   name='Normal'
   args={{
-    label: 'Sample Text',
+    label: 'Normal',
   }}
 />

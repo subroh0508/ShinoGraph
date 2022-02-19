@@ -6,8 +6,15 @@
 <button class='pure-button pure-button-primary'
   on:click={ onClick }
 >
-  <span>
-    <slot/>
-    { label }
-  </span>
+  <slot/>
+  { label }
 </button>
+
+<style lang='scss'>
+  button {
+    :global(svg) {
+      margin-right: 6px;
+      vertical-align: text-top;
+    }
+  }
+</style>

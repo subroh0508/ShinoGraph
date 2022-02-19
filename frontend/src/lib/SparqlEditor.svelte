@@ -1,27 +1,10 @@
-<script context='module' lang='ts'>
-  export const sample = `PREFIX scdb: <https://283db.org/schema#>
-PREFIX : <http://schema.org/>
-PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX dbp: <http://ja.dbpedia.org/resource/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-SELECT ?subject ?predicate ?object
-WHERE {
-  ?subject ?predicate ?object
-}
-LIMIT 25`;
-</script>
-
 <script lang='ts'>
   import { client } from '$lib/SparqlClient';
+  import { DEFAULT_QUERY } from '$lib/constants';
   import EditorArea from './editor/EditorArea.svelte';
   import type { EditorFromTextArea } from 'codemirror';
 
-  let query = sample;
+  let query = DEFAULT_QUERY;
   let result = 'Show results here';
   let editor: EditorFromTextArea = null;
   let cursor = false;
