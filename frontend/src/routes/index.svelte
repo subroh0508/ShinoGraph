@@ -3,7 +3,8 @@
 </script>
 
 <script lang='ts'>
-  import client from '$lib/SparqlClient';
+  import Client from '$lib/SparqlClient';
+  import { BASE_URL } from '$lib/constants';
 
   let query = `PREFIX scdb: <https://283db.org/schema#>
 PREFIX : <http://schema.org/>
@@ -24,7 +25,7 @@ LIMIT 25
   let result = 'Show results here';
 
   const handleClick = () => {
-    client.execute(query)
+    new Client(BASE_URL).execute(query)
       .then(json => { result = JSON.stringify(json, null, 2); });
   }
 </script>

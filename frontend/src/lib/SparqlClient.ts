@@ -1,15 +1,21 @@
-export default class SparqlClient {
-  static get BASE_URL() { return 'http://localhost:3000/spql/query'; }
+import { PRERENDER_BASE_URL } from '$lib/constants';
 
-  static async execute(
+export default class SparqlClient {
+  private readonly baseUrl: string
+
+  constructor(baseUrl: string = PRERENDER_BASE_URL) {
+    this.baseUrl = baseUrl;
+  }
+
+  async execute(
     query: string,
     option: RequestInit = {
-        method: 'GET',
-        headers: { 'Accept': 'application/sparql-results+json' },
+      method: 'GET',
+      headers: { 'Accept': 'application/sparql-results+json' },
     },
   ): Promise<any> {
     const res = await fetch(
-      `${SparqlClient.BASE_URL}?query=${encodeURIComponent(query)}`,
+      `${this.baseUrl}/spql/query?query=${encodeURIComponent(query)}`,
       option,
     );
 
