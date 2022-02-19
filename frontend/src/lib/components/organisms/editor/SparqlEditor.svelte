@@ -1,7 +1,3 @@
-<script context='module' lang='ts'>
-  
-</script>
-
 <script lang='ts'>
   import { client } from '$lib/SparqlClient';
 

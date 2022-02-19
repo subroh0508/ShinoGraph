@@ -1,28 +1,28 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-  import Button from './Button.svelte';
+  import { SparqlEditor } from '$lib/components/organisms/editor';
+  import { DEFAULT_QUERY } from '$lib/constants';
 </script>
 
 <!-- More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export -->
 <!-- More on argTypes: https://storybook.js.org/docs/svelte/api/argtypes -->
 <Meta
-  title='Components/Atoms/Button'
-  component={ Button }
+  title='Components/Molecules/SparqlEditor'
+  component={ SparqlEditor }
   argTypes={{
-    label: { control: 'text' },
-    onClick: { action: 'onClick' },
+    query: { control: 'text' },
   }}
 />
 
 <!-- More on component templates: https://storybook.js.org/docs/svelte/writing-stories/introduction#using-args -->
 <Template let:args>
-  <Button { ...args }/>
+  <SparqlEditor { ...args }/>
 </Template>
 
 <!-- More on args: https://storybook.js.org/docs/svelte/writing-stories/args -->
 <Story
   name='Normal'
   args={{
-    label: 'Normal',
+    query: DEFAULT_QUERY,
   }}
 />

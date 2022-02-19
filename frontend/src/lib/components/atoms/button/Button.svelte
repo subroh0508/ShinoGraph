@@ -1,9 +1,10 @@
 <script lang='ts'>
-  export let label: string;
-  export let onClick: () => void;
+  export let label: string = '';
+  export let onClick: () => void = () => void {};
 </script>
 
-<button class='pure-button pure-button-primary'
+<button
+  class='pure-button pure-button-primary'
   on:click={ onClick }
 >
   <slot/>
