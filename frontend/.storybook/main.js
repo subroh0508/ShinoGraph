@@ -1,3 +1,5 @@
+const path = require('path');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const sveltePreprocess = require('svelte-preprocess');
 
 module.exports = {
@@ -13,5 +15,15 @@ module.exports = {
   framework: '@storybook/svelte',
   svelteOptions: {
     preprocess: sveltePreprocess(),
+  },
+  webpackFinal: async (config) => {
+    config.resolve.plugins = [
+      ...(config.resolve.plugins || []),
+      new TsconfigPathsPlugin({
+        configFile: path.resolve(__dirname, '../tsconfig.json'),
+      }),
+    ];
+
+    return config;
   },
 }
