@@ -1,4 +1,4 @@
-import Client from '$lib/SparqlClient';
+import { prerender } from '$lib/SparqlClient';
 
 const buildQuery = (id: string) => `
   PREFIX scdb: <https://283db.org/schema#>
@@ -18,7 +18,7 @@ const buildQuery = (id: string) => `
 `;
 
 export async function get({ params }) {
-  const subject = await new Client().execute(buildQuery(params.id));
+  const subject = await prerender.execute(buildQuery(params.id));
 
   return {
     body: { subject },

@@ -14,21 +14,10 @@ WHERE {
   ?subject ?predicate ?object
 }
 LIMIT 25`;
-
-  const submit = async (query: string) => {
-    const res = await fetch(
-      `http://localhost:3000/spql/query?query=${encodeURIComponent(query)}`,
-       {
-         method: 'GET',
-         headers: { 'Accept': 'application/sparql-results+json' },
-       },
-    );
-
-    return await res.json();
-  }
 </script>
 
 <script lang='ts'>
+  import { client } from '$lib/SparqlClient';
   import EditorArea from './editor/EditorArea.svelte';
   import type { EditorFromTextArea } from 'codemirror';
 
@@ -50,7 +39,7 @@ LIMIT 25`;
   }
 
   const handleClick = async () => {
-    const json = await submit(query);
+    const json = await client.execute(query);
     result = JSON.stringify(json, null, 2);
   }
 </script>

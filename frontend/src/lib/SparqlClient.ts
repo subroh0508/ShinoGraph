@@ -1,9 +1,9 @@
-import { PRERENDER_BASE_URL } from '$lib/constants';
+import { PRERENDER_BASE_URL, BASE_URL } from '$lib/constants';
 
-export default class SparqlClient {
+class SparqlClient {
   private readonly baseUrl: string
 
-  constructor(baseUrl: string = PRERENDER_BASE_URL) {
+  constructor(baseUrl: string) {
     this.baseUrl = baseUrl;
   }
 
@@ -22,3 +22,6 @@ export default class SparqlClient {
     return await res.json();
   }
 }
+
+export const client = new SparqlClient(BASE_URL);
+export const prerender = new SparqlClient(PRERENDER_BASE_URL);
