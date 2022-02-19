@@ -3,6 +3,8 @@
 </script>
 
 <script lang='ts'>
+  import client from '$lib/SparqlClient';
+
   let query = `PREFIX scdb: <https://283db.org/schema#>
 PREFIX : <http://schema.org/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -21,20 +23,8 @@ LIMIT 25
 `;
   let result = 'Show results here';
 
-  const submit = async () => {
-    const res = await fetch(
-      `http://localhost:3000/spql/query?query=${encodeURIComponent(query)}`,
-      {
-        method: 'GET',
-        headers: { 'Accept': 'application/sparql-results+json' },
-      },
-    );
-
-    return await res.json();
-  }
-
   const handleClick = () => {
-    submit()
+    client.execute(query)
       .then(json => { result = JSON.stringify(json, null, 2); });
   }
 </script>
