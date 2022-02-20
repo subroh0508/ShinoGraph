@@ -1,6 +1,6 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-  import { BorderTable } from '$lib/components/atoms/table';
+  import { BorderTable } from '$components/atoms/table';
   import table from '../json/table.json';
 
   const headers = table.headers;

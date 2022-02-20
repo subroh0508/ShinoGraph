@@ -1,7 +1,7 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-  import { SparqlEditor } from '$lib/components/organisms/editor';
   import { DEFAULT_QUERY } from '$lib/constants';
+  import { SparqlEditor } from '$components/organisms/editor';
 </script>
 
 <!-- More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export -->

@@ -3,8 +3,8 @@
 
   import Icon from 'svelte-awesome';
   import { faPlay } from '@fortawesome/free-solid-svg-icons';
-  import { Button } from '$lib/components/atoms/button';
-  import { CodeMirrorTextArea } from '$lib/components/molecules/textarea';
+  import { Button } from '$components/atoms/button';
+  import { CodeMirrorTextArea } from '$components/molecules/textarea';
   import type { EditorFromTextArea } from 'codemirror';
 
   export let query: string;

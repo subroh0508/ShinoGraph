@@ -2,7 +2,7 @@
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
   import Icon from 'svelte-awesome';
   import { faPlay, faPen, faUser } from '@fortawesome/free-solid-svg-icons';
-  import { Button } from '$lib/components/atoms/button';
+  import { Button } from '$components/atoms/button';
 
   const icons = { 'fa-play': faPlay, 'fa-pen': faPen, 'fa-user': faUser }
 </script>
