@@ -15,7 +15,7 @@
   </thead>
   <tbody>
     {#each rows as row, i}
-      <TableData i={ i } data={ row }/>
+      <TableData i={ i + 1 } data={ row }/>
     {/each}
   </tbody>
 </table>
