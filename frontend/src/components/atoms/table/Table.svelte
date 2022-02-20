@@ -26,24 +26,16 @@
       <TableData i={ offset + i + 1 } items={ row }/>
     {/each}
   </tbody>
-  {#if $$slots.footer}
-    <tfoot class='footer'>
-      <tr>
-        <th colspan={ headers.length + 1 }>
-          <slot name='footer'/>
-        </th>
-      </tr>
-    </tfoot>
-  {/if}
+  <slot/>
 </table>
 
 <style lang='scss'>
   .pure-table {
-    .footer {
+    :global(.footer) {
       background-color: #e0e0e0;
       border-top: #cbcbcb;
 
-      th {
+      :global(th) {
         font-weight: normal;
       }
     }

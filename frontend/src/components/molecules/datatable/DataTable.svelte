@@ -11,14 +11,15 @@
 </script>
 
 <script lang='ts'>
-  import { Table } from '$components/atoms/table';
+  import type { TableDatum } from '$types/table';
+  import { Table, TableFooter } from '$components/atoms/table';
   import { Pagination } from '$components/atoms/button';
 
   export let headers: string[] = [];
   export let data: TableDatum[] = [];
 
-  let page: number = 0
-  $: offset = ITEMS_PER_PAGE * page
+  let page: number = 0;
+  $: offset = ITEMS_PER_PAGE * page;
   $: totalPage = calculateTotalPage(data);
   $: paginatedData = buildPaginatedData(page, data);
 </script>
@@ -30,11 +31,16 @@
     data={ paginatedData }
     offset={ offset }
   >
-    <Pagination
-      slot='footer'
-      bind:page={ page }
-      totalPage={ totalPage }
-    />
+    {#if totalPage > 1}
+      <TableFooter
+        colspan={ headers.length + 1 }
+      >
+        <Pagination
+          bind:page={ page }
+          totalPage={ totalPage }
+        />
+      </TableFooter>
+    {/if}
   </Table>
 </div>
 

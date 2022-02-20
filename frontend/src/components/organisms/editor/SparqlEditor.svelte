@@ -31,6 +31,8 @@
   }
 
   const handleClick = async () => {
+    headers = [];
+    data = [];
     const result = await client.execute(query);
     headers = result.head.vars;
     data = result.results.bindings;
@@ -50,6 +52,14 @@
     <Icon data={ faPlay }/>
   </Button>
   {#if !!headers.length || !!data.length}
-    <DataTable headers={ headers } data={ data }/>
+    <div class='result-table'>
+      <DataTable headers={ headers } data={ data }/>
+    </div>
   {/if}
 </div>
+
+<style lang='scss'>
+  .result-table {
+    overflow-x: auto;
+  }
+</style>
