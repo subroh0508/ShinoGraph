@@ -5,11 +5,14 @@
 
   export let headers: string[] = [];
   export let data: Datum[] = [];
+  export let striped: boolean = false;
 
   const rows = data.map(datum => headers.map(header => datum[header]));
 </script>
 
-<table class='pure-table pure-table-striped'>
+<table class='pure-table'
+  class:pure-table-striped={ striped }
+  class:pure-table-bordered={ !striped }>
   <thead>
     <TableHeader { headers }/>
   </thead>
