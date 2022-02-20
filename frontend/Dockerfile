@@ -1,6 +1,7 @@
 FROM node:14.18-alpine
 
 RUN apk update && apk upgrade
+RUN apk add --no-cache python3 make g++
 COPY . /home
 WORKDIR /home
 

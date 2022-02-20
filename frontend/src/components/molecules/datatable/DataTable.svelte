@@ -1,5 +1,5 @@
 <script lang='ts' context='module'>
-  import type { TableDatum } from '$components/atoms/table';
+  import type { TableDatum } from '$types/table';
 
   const ITEMS_PER_PAGE = 10;
 

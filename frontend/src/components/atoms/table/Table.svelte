@@ -1,9 +1,5 @@
 <script context='module' lang='ts'>
-  import type { Item } from "./TableData.svelte";
-
-  export interface Datum {
-    [key: string]: Item
-  }
+  import type { TableDatum } from '$types/table';
 </script>
 
 
@@ -12,7 +8,7 @@
   import TableData from './TableData.svelte';
 
   export let headers: string[] = [];
-  export let data: Datum[] = [];
+  export let data: TableDatum[] = [];
   export let offset: number = 0;
   export let striped: boolean = false;
 

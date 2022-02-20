@@ -7,12 +7,16 @@
   import { CodeMirrorTextArea } from '$components/molecules/textarea';
   import { DataTable } from '$components/molecules/datatable';
   import type { EditorFromTextArea } from 'codemirror';
+  import type { TableDatum } from '$types/table';
 
   export let query: string;
   
-  let result = 'Show results here';
+  let result = {};
   let editor: EditorFromTextArea = null;
   let cursor = false;
+
+  let headers: string[] = [];
+  let data: TableDatum[] = [];
 
   function cursorMoved(event) {
     cursor = true;
@@ -27,8 +31,9 @@
   }
 
   const handleClick = async () => {
-    const json = await client.execute(query);
-    result = JSON.stringify(json, null, 2);
+    const result = await client.execute(query);
+    headers = result.head.vars;
+    data = result.results.bindings;
   }
 </script>
 
@@ -37,13 +42,14 @@
     code={ query }
     bind:editor={ editor }
     on:activity={ cursorMoved }
-    on:change={ onQueryChanged }
-  />
+    on:change={ onQueryChanged }/>
   <Button
     label='Submit'
     onClick={ handleClick }
   >
     <Icon data={ faPlay }/>
   </Button>
-  <DataTable headers={ [] } data={ [] }/>
+  {#if !!headers.length || !!data.length}
+    <DataTable headers={ headers } data={ data }/>
+  {/if}
 </div>

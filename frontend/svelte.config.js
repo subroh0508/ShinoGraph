@@ -1,3 +1,4 @@
+import path from 'path';
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
@@ -18,6 +19,13 @@ const config = {
       define: {
         'process.env.BASE_URL': dev ? "'http://localhost:3000'" : "'https://283db.org'",
         'process.env.PRERENDER_BASE_URL': dev ? "'http://sparql-endpoint:3000'" : "'https://283db.org'",
+      },
+      resolve: {
+        alias: {
+          $types: path.resolve('./src/@types'),
+          $lib: path.resolve('./src/lib'),
+          $components: path.resolve('./src/components'),
+        },
       },
     },
   },

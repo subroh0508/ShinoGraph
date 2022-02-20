@@ -1,9 +1,5 @@
 <script context='module' lang='ts'>
-  export interface Item {
-    type: string
-    datatype: string | null
-    value: string
-  }
+  import type { Item } from '$types/table';
 
   const text = (item: Item) => !!item ? item.value : '';
   const isUri = (item: Item) => item && item.type === 'uri';

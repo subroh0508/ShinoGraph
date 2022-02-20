@@ -23,6 +23,8 @@
     "allowJs": true,
     "checkJs": true,
     "paths": {
+      "$types": ["src/@types"],
+      "$types/*": ["src/@types/*"],
       "$lib": ["src/lib"],
       "$lib/*": ["src/lib/*"],
       "$components/": ["src/components"],
