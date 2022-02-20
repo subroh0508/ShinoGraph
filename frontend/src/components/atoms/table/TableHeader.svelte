@@ -3,7 +3,9 @@
 </script>
 
 <tr>
-  <th>#</th>
+  {#if !!headers.length}
+    <th>#</th>
+  {/if}
   {#each headers as header}
     <th>{ header }</th>
   {/each}

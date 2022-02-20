@@ -22,9 +22,11 @@
     <TableHeader { headers }/>
   </thead>
   <tbody>
-    {#each rows as row, i}
-      <TableData i={ offset + i + 1 } items={ row }/>
-    {/each}
+    {#if !!headers.length}
+      {#each rows as row, i}
+        <TableData i={ offset + i + 1 } items={ row }/>
+      {/each}
+    {/if}
   </tbody>
   <slot/>
 </table>
