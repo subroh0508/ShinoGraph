@@ -7,7 +7,7 @@
 <!-- More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export -->
 <!-- More on argTypes: https://storybook.js.org/docs/svelte/api/argtypes -->
 <Meta
-  title='Components/Molecules/SparqlEditor'
+  title='Components/Organisms/SparqlEditor'
   component={ SparqlEditor }
   argTypes={{
     query: { control: 'text' },

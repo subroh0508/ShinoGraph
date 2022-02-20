@@ -9,7 +9,25 @@
   const LAST = '»';
   const ELLIPSIS = '...';
 
-  const buildButtons = (page, total) => {
+  const calculatePage = (page: number, totalPage: number, button: string): number => {
+    switch (button) {
+      case ELLIPSIS:
+        return page;
+      case FIRST:
+        return 0;
+      case LAST:
+        return  totalPage - 1;
+      case NEXT:
+        return page < totalPage - 1 ? page + 1 : page;
+      case BACK:
+        return page > 0 ? page - 1 : page;
+      default:
+        const number = parseInt(button)
+        return isNaN(number) ? page : number - 1;
+    }
+  };
+
+  const buildButtons = (page: number, total: number): string[] => {
     if (total < MIN_BUTTONS_COUNT) {
       return buildNumberButtons(page, total);
     }
@@ -21,7 +39,7 @@
     return [FIRST, BACK, ...buildNumberButtons(page, total), NEXT, LAST];
   };
 
-  const buildNumberButtons = (page, total) => {
+  const buildNumberButtons = (page: number, total: number): string[] => {
     if (total < MIN_BUTTONS_COUNT) {
       return [];
     }
@@ -61,32 +79,17 @@
 
 <script lang='ts'>
   export let totalPage: number = 0;
+  export let page: number = 0;
   export let onClick: (page: number) => void = (_) => void {};
 
-  let page = 0;
   let buttons: string[] = buildButtons(page, totalPage);
 
   const handleOnClick = (button: string) => {
-    switch (button) {
-      case ELLIPSIS:
-        return;
-      case FIRST:
-        page = 0;
-        break;
-      case LAST:
-        page = totalPage - 1;
-        break;
-      case NEXT:
-        page = page < totalPage - 1 ? page + 1 : page;
-        break;
-      case BACK:
-        page = page > 0 ? page - 1 : page;
-        break;
-      default:
-        const number = parseInt(button)
-        page = isNaN(number) ? page : number - 1;
-        break;
+    if (button === ELLIPSIS) {
+      return;
     }
+
+    page = calculatePage(page, totalPage, button);
     buttons = buildButtons(page, totalPage);
     onClick(page);
   };
@@ -126,6 +129,7 @@
 
     .ellipse {
       background-image: none;
+      box-shadow: none;
       cursor: default;
     }
   }

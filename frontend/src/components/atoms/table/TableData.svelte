@@ -1,29 +1,29 @@
 <script context='module' lang='ts'>
-  export interface Datum {
+  export interface Item {
     type: string
     datatype: string | null
     value: string
   }
 
-  const text = (datum: Datum) => !!datum ? datum.value : '';
-  const isUri = (datum: Datum) => datum && datum.type === 'uri';
+  const text = (item: Item) => !!item ? item.value : '';
+  const isUri = (item: Item) => item && item.type === 'uri';
 </script>
 
 <script lang='ts'>
   export let i: number;
-  export let data: Datum[];
+  export let items: Item[];
 </script>
 
 <tr>
   <td>{ i }</td>
-  {#each data as datum}
+  {#each items as item}
     <td>
-      {#if isUri(datum)}
-        <a href={ text(datum) } target='_blank' rel='noopener noreferrer'>
-          { text(datum) }
+      {#if isUri(item)}
+        <a href={ text(item) } target='_blank' rel='noopener noreferrer'>
+          { text(item) }
         </a>
       {:else}
-        { text(datum) }
+        { text(item) }
       {/if}
     </td>
   {/each}

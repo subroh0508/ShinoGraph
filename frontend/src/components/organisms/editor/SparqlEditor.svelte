@@ -5,6 +5,7 @@
   import { faPlay } from '@fortawesome/free-solid-svg-icons';
   import { Button } from '$components/atoms/button';
   import { CodeMirrorTextArea } from '$components/molecules/textarea';
+  import { DataTable } from '$components/molecules/datatable';
   import type { EditorFromTextArea } from 'codemirror';
 
   export let query: string;
@@ -44,7 +45,5 @@
   >
     <Icon data={ faPlay }/>
   </Button>
-</div>
-<div>
-  <pre>{result}</pre>
+  <DataTable headers={ [] } data={ [] }/>
 </div>
