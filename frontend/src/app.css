@@ -5,12 +5,15 @@
     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --font-mono: 'Fira Mono', monospace;
   --pure-white: #ffffff;
-  --primary-color: #b9c6d2;
-  --secondary-color: #d0dde9;
-  --tertiary-color: #edf0f8;
-  --accent-color: #ff3e00;
-  --heading-color: rgba(0, 0, 0, 0.7);
+  --primary-color: #f0f5f9;
+  --secondary-color: #c9d6df;
+  --tertiary-color: #52616b;
+  --accent-color: rgb(0, 120, 231);
+  --heading-color: #1e2022;
   --text-color: #444444;
+  --light-gray: #f2f2f2;
+  --normal-gray: #e0e0e0;
+  --dark-gray: #cbcbcb;
   --background-without-opacity: rgba(255, 255, 255, 0.7);
   --column-width: 42rem;
   --column-margin-top: 4rem;
@@ -20,28 +23,6 @@ body {
   min-height: 100vh;
   margin: 0;
   background-color: var(--primary-color);
-  background: linear-gradient(
-    180deg,
-    var(--primary-color) 0%,
-    var(--secondary-color) 10.45%,
-    var(--tertiary-color) 41.35%
-  );
-}
-
-body::before {
-  content: '';
-  width: 80vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 10vw;
-  z-index: -1;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    var(--pure-white) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  opacity: 0.05;
 }
 
 #svelte {
@@ -98,10 +79,4 @@ button {
 
 button:focus:not(:focus-visible) {
   outline: none;
-}
-
-@media (min-width: 720px) {
-  h1 {
-    font-size: 2.4rem;
-  }
 }

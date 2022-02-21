@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import '../app.css';
   import 'purecss';
 </script>

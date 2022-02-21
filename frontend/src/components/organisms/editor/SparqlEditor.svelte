@@ -39,26 +39,60 @@
   }
 </script>
 
-<div>
-  <CodeMirrorTextArea
-    code={ query }
-    bind:editor={ editor }
-    on:activity={ cursorMoved }
-    on:change={ onQueryChanged }/>
-  <Button
-    label='Submit'
-    onClick={ handleClick }
-  >
-    <Icon data={ faPlay }/>
-  </Button>
+<div class='container'>
+  <div class='row'>
+    <CodeMirrorTextArea
+      code={ query }
+      bind:editor={ editor }
+      on:activity={ cursorMoved }
+      on:change={ onQueryChanged }
+    />
+  </div>
+  <div class='row editor-footer'>
+    <Button
+      label='Execute'
+      onClick={ handleClick }
+    >
+      <Icon data={ faPlay }/>
+    </Button>
+  </div>
   {#if !!headers.length || !!data.length}
-    <div class='result-table'>
+    <div class='row result-table'>
       <DataTable headers={ headers } data={ data }/>
     </div>
   {/if}
 </div>
 
 <style lang='scss'>
+  .container {
+    .row {
+      border-top: 1px solid var(--dark-gray);
+      border-left: 1px solid var(--dark-gray);
+      border-right: 1px solid var(--dark-gray);
+
+      &:last-child {
+        border-bottom: 1px solid var(--dark-gray);
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+    }
+
+    :global(table) {
+      border-top: none;
+      border-bottom: none;
+      border-right: none;
+    }
+
+    :global(table),
+    :global(th):first-child,
+    :global(td):first-child {
+      border-left: none;
+    }
+  }
+  .editor-footer {
+    padding: 16px;
+    background-color: var(--pure-white);
+  }
   .result-table {
     overflow-x: auto;
   }

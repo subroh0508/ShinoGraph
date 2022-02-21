@@ -33,9 +33,11 @@
 
 <style lang='scss'>
   .pure-table {
+    background-color: var(--pure-white);
+
     :global(.footer) {
-      background-color: #e0e0e0;
-      border-top: #cbcbcb;
+      background-color: var(--normal-gray);
+      border-top: 1px solid var(--dark-gray);
 
       :global(th) {
         font-weight: normal;
