@@ -4,8 +4,7 @@
 
 
 <script lang='ts'>
-  import TableHeader from './TableHeader.svelte';
-  import TableData from './TableData.svelte';
+  import { TableHeader, TableData } from '$components/atoms/table';
 
   export let headers: string[] = [];
   export let data: TableDatum[] = [];

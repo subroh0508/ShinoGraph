@@ -1,7 +1,7 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-  import { Table } from '$components/atoms/table';
-  import table from '../json/table.json';
+  import Table from '$components/molecules/table/Table.svelte';
+  import table from '../../json/table.json';
 
   const headers = table.headers;
   const data = table.data;
@@ -16,7 +16,7 @@
 <!-- More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export -->
 <!-- More on argTypes: https://storybook.js.org/docs/svelte/api/argtypes -->
 <Meta
-  title='Components/Atoms/Table'
+  title='Components/Molecules/table/Table'
   component={ Table }
   argTypes={{
     headers: {
@@ -40,10 +40,46 @@
 
 <!-- More on args: https://storybook.js.org/docs/svelte/writing-stories/args -->
 <Story
-  name='Normal'
+  name='Empty Header'
+  args={{
+    headers: 'EmptyHeader',
+    data: 'EmptyHeader',
+    striped: false,
+  }}
+/>
+
+<Story
+  name='Empty Data'
+  args={{
+    headers: 'EmptyData',
+    data: 'EmptyData',
+    striped: false,
+  }}
+/>
+
+<Story
+  name='Literal Values: Idol'
   args={{
     headers: 'Idols',
     data: 'Idols',
+    striped: false,
+  }}
+/>
+
+<Story
+  name='Uri Values: Place'
+  args={{
+    headers: 'Places',
+    data: 'Places',
+    striped: false,
+  }}
+/>
+
+<Story
+  name='Uri Values: Movie'
+  args={{
+    headers: 'Movies',
+    data: 'Movies',
     striped: false,
   }}
 />

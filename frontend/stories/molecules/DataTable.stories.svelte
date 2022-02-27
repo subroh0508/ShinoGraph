@@ -1,6 +1,6 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-  import { DataTable } from '$components/molecules/datatable';
+  import { DataTable } from '$components/molecules/table';
 
   const buildTableData = (count) => new Array(count).fill(null)
     .map(() => (
@@ -35,8 +35,36 @@
 
 <!-- More on args: https://storybook.js.org/docs/svelte/writing-stories/args -->
 <Story
-  name='Normal'
+  name='Data Count: 0'
   args={{
-    dataCount: 50,
+    dataCount: 0,
+  }}
+/>
+
+<Story
+  name='Data Count: 5'
+  args={{
+    dataCount: 5,
+  }}
+/>
+
+<Story
+  name='Data Count: 15'
+  args={{
+    dataCount: 15,
+  }}
+/>
+
+<Story
+  name='Data Count: 80'
+  args={{
+    dataCount: 80,
+  }}
+/>
+
+<Story
+  name='Data Count: 100'
+  args={{
+    dataCount: 100,
   }}
 />

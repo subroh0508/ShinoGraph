@@ -12,8 +12,9 @@
 
 <script lang='ts'>
   import type { TableDatum } from '$types/table';
-  import { Table, TableFooter } from '$components/atoms/table';
-  import { Pagination } from '$components/atoms/button';
+  import Table from './Table.svelte';
+  import Pagination from './Pagination.svelte';
+  import { TableFooter } from '$components/atoms/table';
 
   export let headers: string[] = [];
   export let data: TableDatum[] = [];

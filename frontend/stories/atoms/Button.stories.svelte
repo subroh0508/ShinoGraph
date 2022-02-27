@@ -32,17 +32,19 @@
   </Button>
 </Template>
 
-<Template let:args id='WithSlot'>
-  <Button { ...args }>
-    <Icon data={ faPlay }/>
-  </Button>
-</Template>
-
 <!-- More on args: https://storybook.js.org/docs/svelte/writing-stories/args -->
 <Story
-  name='Normal'
+  name='Without Icon'
   args={{
     label: 'Label Text',
     icon: 'None',
+  }}
+/>
+
+<Story
+  name='With Icon'
+  args={{
+    label: 'Label Text',
+    icon: 'fa-play',
   }}
 />

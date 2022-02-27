@@ -5,7 +5,7 @@
   import { faPlay } from '@fortawesome/free-solid-svg-icons';
   import { Button } from '$components/atoms/button';
   import { CodeMirrorTextArea } from '$components/molecules/textarea';
-  import { DataTable } from '$components/molecules/datatable';
+  import { DataTable } from '$components/molecules/table';
   import type { EditorFromTextArea } from 'codemirror';
   import type { TableDatum } from '$types/table';
 
