@@ -1,3 +1,4 @@
+import '../src/app.css';
 import 'purecss';
 
 export const parameters = {
