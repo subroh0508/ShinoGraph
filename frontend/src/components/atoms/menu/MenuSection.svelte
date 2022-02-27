@@ -21,16 +21,18 @@
 
 <style lang='scss'>
   li {
-    padding: 0.5em 1em;
+    padding: 0.5em 1em 0;
+    border-bottom: 1px solid var(--dark-gray);
     cursor: pointer;
+
+    > span {
+      display: inline-block;
+      padding-bottom: 0.5em;
+    }
 
     :global(svg) {
       margin-left: 6px;
       vertical-align: text-top;
-    }
-
-    > ul {
-      padding-top: 8px;
     }
   }
 </style>

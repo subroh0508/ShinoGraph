@@ -33,7 +33,6 @@
   <MenuItem
     label={ label }
     href={ href }
-    indent={ indent }
     onClick={ handleOnItemClick }
   />
 {/if}
