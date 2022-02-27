@@ -7,7 +7,7 @@
   export let onClick: () => void = void {};
 </script>
 
-<li class='pure-menu-heading'>
+<li class='pure-menu-item'>
   <span on:click={ onClick }>
     { label }
     <Icon data={ expand ? faChevronUp : faChevronDown }/>
@@ -21,6 +21,7 @@
 
 <style lang='scss'>
   li {
+    padding: 0.5em 1em;
     cursor: pointer;
 
     :global(svg) {

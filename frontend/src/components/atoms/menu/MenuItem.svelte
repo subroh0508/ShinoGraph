@@ -24,7 +24,7 @@
   }
 
   div {
-    padding: 8px 16px;
+    padding: 0.5em 1em;
     cursor: default;
   }
 </style>

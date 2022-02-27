@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import { MenuHeader, MenuItem } from '$components/atoms/menu';
+  import { MenuSection, MenuItem } from '$components/atoms/menu';
 
   export let label: string = '';
   export let href: string | null = null;
@@ -19,7 +19,7 @@
 </script>
 
 {#if !!children.length}
-  <MenuHeader
+  <MenuSection
     label={ label }
     indent={ indent }
     expand={ expand }
@@ -30,7 +30,7 @@
         <svelte:self { ...child } indent={ 8 }/>
       {/each}
     {/if}
-  </MenuHeader>
+  </MenuSection>
 {:else}
   <MenuItem
     label={ label }
