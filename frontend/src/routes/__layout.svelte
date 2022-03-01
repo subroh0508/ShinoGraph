@@ -1,17 +1,18 @@
 <script lang='ts'>
   import '../app.css';
   import 'purecss';
+
+  import { DrawerMenu, MainLayout } from '$components/templates';
 </script>
 
-<main>
-  <slot />
-</main>
+<DrawerMenu/>
+<MainLayout>
+  <main>
+    <slot />
+  </main>
+</MainLayout>
 
-<footer>
-  <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
-
-<style>
+<style lang='scss'>
   main {
     flex: 1;
     display: flex;
@@ -21,23 +22,6 @@
     max-width: 1024px;
     margin: 0 auto;
     box-sizing: border-box;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-  }
-
-  footer a {
-    font-weight: bold;
-  }
-
-  @media (min-width: 480px) {
-    footer {
-      padding: 40px 0;
-    }
+    background-color: var(--pure-white);
   }
 </style>

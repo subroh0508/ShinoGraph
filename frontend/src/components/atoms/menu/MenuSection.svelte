@@ -21,7 +21,7 @@
 
 <style lang='scss'>
   li {
-    padding: 0.5em 1em 0;
+    padding: 0.5em 0 0 1em;
     border-bottom: 1px solid var(--dark-gray);
     cursor: pointer;
 

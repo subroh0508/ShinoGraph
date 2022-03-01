@@ -9,13 +9,7 @@
     class='pure-menu-heading'
     href={ href }
     on:click={ onClick }
-  >{ label }</a>
+  ><h3>{ label }</h3></a>
 {:else}
-  <div>{ label }</div>
+  <h3>{ label }</h3>
 {/if}
-
-<style lang='scss'>
-  a {
-    border-bottom: 1px solid var(--dark-gray);
-  }
-</style>

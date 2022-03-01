@@ -17,12 +17,13 @@
   --background-without-opacity: rgba(255, 255, 255, 0.7);
   --column-width: 42rem;
   --column-margin-top: 4rem;
+  --drawer-width: 230px;
 }
 
 body {
   min-height: 100vh;
   margin: 0;
-  background-color: var(--primary-color);
+  background-color: var(--pure-white);
 }
 
 #svelte {
