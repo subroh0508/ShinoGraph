@@ -3,10 +3,18 @@
 </script>
 
 <script lang='ts'>
-  export let subject;
+  import { DataTable } from '$components/molecules/table';
+
+  export let subject = { head: { vars: [] }, results: { bindings: [] } };
+
+  $: data = subject.results.bindings;
 </script>
 
 <div>
-  <pre>{JSON.stringify(subject, null, 2)}</pre>
+  <DataTable
+    headerKey='predicate'
+    valueKey='object'
+    data={ data }
+  />
 </div>
 

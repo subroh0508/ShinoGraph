@@ -1,7 +1,7 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
   import DataListTable from '$components/molecules/table/DataListTable.svelte';
-  import table from '../../json/table.json';
+  import table from '../../json/data-list-table.json';
 
   const headers = table.headers;
   const data = table.data;

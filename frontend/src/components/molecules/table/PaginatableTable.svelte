@@ -25,7 +25,7 @@
   $: paginatedData = buildPaginatedData(page, data);
 </script>
 
-<div class='datatable'>
+<div class='paginatable-table'>
   <DataListTable
     striped
     header={ header }
@@ -46,7 +46,7 @@
 </div>
 
 <style lang='scss'>
-  .datatable {
+  .paginatable-table {
     :global(.pure-table) {
       width: 100%
     }
