@@ -9,6 +9,6 @@ export interface TableRowItem {
   header: boolean
 }
 
-export interface DataListItem {
+export interface TableDatum {
   [key: string]: Item
 }
