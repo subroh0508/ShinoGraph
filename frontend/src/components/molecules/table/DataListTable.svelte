@@ -1,9 +1,9 @@
 <script lang='ts'>
   import { TableRow } from '$components/atoms/table';
-  import type { TableDatum } from '$types/table';
+  import type { DataListItem } from '$types/table';
 
   export let header: string[] = [];
-  export let data: TableDatum[] = [];
+  export let data: DataListItem[] = [];
   export let offset: number = 0;
   export let striped: boolean = false;
 
