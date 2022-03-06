@@ -1,4 +1,5 @@
 import { PRERENDER_BASE_URL, BASE_URL } from '$lib/constants';
+import SparqlResult from '$lib/SparqlResult';
 
 class SparqlClient {
   private readonly baseUrl: string
@@ -13,13 +14,13 @@ class SparqlClient {
       method: 'GET',
       headers: { 'Accept': 'application/sparql-results+json' },
     },
-  ): Promise<any> {
+  ): Promise<SparqlResult> {
     const res = await fetch(
       `${this.baseUrl}/spql/query?query=${encodeURIComponent(query)}`,
       option,
     );
 
-    return await res.json();
+    return await SparqlResult.build(res);
   }
 }
 

@@ -11,16 +11,24 @@ const buildQuery = (id: string) => `
   PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
   PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-  SELECT ?predicate ?object
+  SELECT ?predicate ?object ?label
   WHERE {
-    <https://283db.org/resource/character/idol/${id}> ?predicate ?object
+    <https://283db.org/resource/character/idol/${id}> ?predicate ?object;
+      OPTIONAL { ?object rdfs:label ?label }
   }
 `;
 
 export async function get({ params }) {
-  const subject = await prerender.execute(buildQuery(params.id));
+  const result = await prerender.execute(buildQuery(params.id));
+
+  if (result.isOk) {
+    return {
+      body: { subject: result.body },
+    }
+  }
 
   return {
-    body: { subject },
+    status: result.status,
+    body: { error: result.error },
   };
 }

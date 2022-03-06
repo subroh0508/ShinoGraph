@@ -5,19 +5,20 @@
   import EditorFooter from './EditorFooter.svelte';
   import ResultTable from './ResultTable.svelte';
   import { Container } from '$components/atoms/layout'
+  import SparqlResult from '$lib/SparqlResult';
 
   export let query: string;
-  
-  let resource = { head: { vars: [] }, results: { bindings: [] } };
+
+  let result: SparqlResult | null = null;
 
   const handleClick = async () => {
-    resource = { head: { vars: [] }, results: { bindings: [] } };
-    resource = await client.execute(query);
+    result = null;
+    result = await client.execute(query);
   }
 </script>
 
 <Container>
   <EditorArea bind:code={ query }/>
   <EditorFooter onExecuteQuery={ handleClick }/>
-  <ResultTable resource={ resource }/>
+  <ResultTable result={ result }/>
 </Container>
