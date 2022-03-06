@@ -1,6 +1,6 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-  import Table from '$components/molecules/table/Table.svelte';
+  import DataListTable from '$components/molecules/table/DataListTable.svelte';
   import table from '../../json/table.json';
 
   const headers = table.headers;
@@ -8,7 +8,7 @@
 
   const props = (args) => ({
     ...args,
-    headers: headers[args.headers],
+    header: headers[args.header],
     data: data[args.data],
   });
 </script>
@@ -16,10 +16,10 @@
 <!-- More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export -->
 <!-- More on argTypes: https://storybook.js.org/docs/svelte/api/argtypes -->
 <Meta
-  title='Components/Molecules/table/Table'
-  component={ Table }
+  title='Components/Molecules/table/DataListTable'
+  component={ DataListTable }
   argTypes={{
-    headers: {
+    header: {
       options: Object.keys(headers),
       control: 'select',
     },
@@ -35,14 +35,14 @@
 
 <!-- More on component templates: https://storybook.js.org/docs/svelte/writing-stories/introduction#using-args -->
 <Template let:args>
-  <Table { ...props(args) }/>
+  <DataListTable { ...props(args) }/>
 </Template>
 
 <!-- More on args: https://storybook.js.org/docs/svelte/writing-stories/args -->
 <Story
   name='Empty Header'
   args={{
-    headers: 'EmptyHeader',
+    header: 'EmptyHeader',
     data: 'EmptyHeader',
     striped: false,
   }}
@@ -51,7 +51,7 @@
 <Story
   name='Empty Data'
   args={{
-    headers: 'EmptyData',
+    header: 'EmptyData',
     data: 'EmptyData',
     striped: false,
   }}
@@ -60,7 +60,7 @@
 <Story
   name='Literal Values: Idol'
   args={{
-    headers: 'Idols',
+    header: 'Idols',
     data: 'Idols',
     striped: false,
   }}
@@ -69,7 +69,7 @@
 <Story
   name='Uri Values: Place'
   args={{
-    headers: 'Places',
+    header: 'Places',
     data: 'Places',
     striped: false,
   }}
@@ -78,7 +78,7 @@
 <Story
   name='Uri Values: Movie'
   args={{
-    headers: 'Movies',
+    header: 'Movies',
     data: 'Movies',
     striped: false,
   }}

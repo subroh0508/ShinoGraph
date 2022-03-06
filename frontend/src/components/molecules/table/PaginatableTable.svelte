@@ -12,11 +12,11 @@
 
 <script lang='ts'>
   import type { TableDatum } from '$types/table';
-  import Table from './Table.svelte';
+  import DataListTable from './DataListTable.svelte';
   import Pagination from './Pagination.svelte';
   import { TableFooter } from '$components/atoms/table';
 
-  export let headers: string[] = [];
+  export let header: string[] = [];
   export let data: TableDatum[] = [];
 
   let page: number = 0;
@@ -26,15 +26,15 @@
 </script>
 
 <div class='datatable'>
-  <Table
+  <DataListTable
     striped
-    headers={ headers }
+    header={ header }
     data={ paginatedData }
     offset={ offset }
   >
     {#if totalPage > 1}
       <TableFooter
-        colspan={ headers.length + 1 }
+        colspan={ header.length + 1 }
       >
         <Pagination
           bind:page={ page }
@@ -42,7 +42,7 @@
         />
       </TableFooter>
     {/if}
-  </Table>
+  </DataListTable>
 </div>
 
 <style lang='scss'>

@@ -1,15 +1,15 @@
 <script lang='ts'>
-  import { DataTable } from '$components/molecules/table';
+  import { PaginatableTable } from '$components/molecules/table';
 
   export let resource = { head: { vars: [] }, results: { bindings: [] } };
 
-  $: headers = resource.head.vars;
+  $: header = resource.head.vars;
   $: data = resource.results.bindings
 </script>
 
-{#if !!headers.length}
+{#if !!header.length}
   <div class='row result-table'>
-    <DataTable headers={ headers } data={ data }/>
+    <PaginatableTable header={ header } data={ data }/>
   </div>
 {/if}
 

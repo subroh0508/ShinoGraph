@@ -4,6 +4,11 @@ export interface Item {
   value: string
 }
 
+export interface TableRowItem {
+  item: Item | string
+  header: boolean
+}
+
 export interface TableDatum {
   [key: string]: Item
 }

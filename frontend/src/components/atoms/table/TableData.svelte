@@ -1,26 +1,17 @@
-<script context='module' lang='ts'>
+<script lang='ts'>
+  import text from './text';
+  import isUri from './isUri';
   import type { Item } from '$types/table';
 
-  const text = (item: Item) => !!item ? item.value : '';
-  const isUri = (item: Item) => item && item.type === 'uri';
+  export let datum: Item | string
 </script>
 
-<script lang='ts'>
-  export let i: number;
-  export let items: Item[];
-</script>
-
-<tr>
-  <td>{ i }</td>
-  {#each items as item}
-    <td>
-      {#if isUri(item)}
-        <a href={ text(item) } target='_blank' rel='noopener noreferrer'>
-          { text(item) }
-        </a>
-      {:else}
-        { text(item) }
-      {/if}
-    </td>
-  {/each}
-</tr>
+<td>
+  {#if isUri(datum)}
+    <a href={ text(datum) } target='_blank' rel='noopener noreferrer'>
+      { text(datum) }
+    </a>
+  {:else}
+    { text(datum) }
+  {/if}
+</td>

@@ -1,12 +1,17 @@
 <script lang='ts'>
-  export let headers: string[];
+  import text from './text';
+  import isUri from './isUri';
+  import type { Item } from '$types/table';
+
+  export let header: Item | string
 </script>
 
-<tr>
-  {#if !!headers.length}
-    <th>#</th>
+<th>
+  {#if isUri(header)}
+    <a href={ text(header) } target='_blank' rel='noopener noreferrer'>
+      { text(header) }
+    </a>
+  {:else}
+    { text(header) }
   {/if}
-  {#each headers as header}
-    <th>{ header }</th>
-  {/each}
-</tr>
+</th>

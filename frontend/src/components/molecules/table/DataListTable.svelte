@@ -1,29 +1,34 @@
-<script context='module' lang='ts'>
-  import type { TableDatum } from '$types/table';
-</script>
-
-
 <script lang='ts'>
-  import { TableHeader, TableData } from '$components/atoms/table';
+  import { TableRow } from '$components/atoms/table';
+  import type { TableDatum } from '$types/table';
 
-  export let headers: string[] = [];
+  export let header: string[] = [];
   export let data: TableDatum[] = [];
   export let offset: number = 0;
   export let striped: boolean = false;
 
-  $: rows = data.map(datum => headers.map(header => datum[header]));
+  $: headerRow = [
+    { item: '#', header: true },
+    ...header.map(h => ({ item: h, header: true })),
+  ];
+  $: dataRow = data.map((datum, i) =>
+    [
+      { item: (offset + i + 1).toString(), header: false },
+      ...header.map(header => ({ item: datum[header], header: false })),
+    ]
+  );
 </script>
 
 <table class='pure-table'
   class:pure-table-striped={ striped }
   class:pure-table-bordered={ !striped }>
   <thead>
-    <TableHeader { headers }/>
+    <TableRow row={ headerRow }/>
   </thead>
   <tbody>
-    {#if !!headers.length}
-      {#each rows as row, i}
-        <TableData i={ offset + i + 1 } items={ row }/>
+    {#if !!dataRow.length}
+      {#each dataRow as row}
+        <TableRow row={ row }/>
       {/each}
     {/if}
   </tbody>

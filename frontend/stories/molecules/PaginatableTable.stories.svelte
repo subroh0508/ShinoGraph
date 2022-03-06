@@ -1,6 +1,6 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-  import { DataTable } from '$components/molecules/table';
+  import { PaginatableTable } from '$components/molecules/table';
 
   const buildTableData = (count) => new Array(count).fill(null)
     .map(() => (
@@ -16,8 +16,8 @@
 <!-- More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export -->
 <!-- More on argTypes: https://storybook.js.org/docs/svelte/api/argtypes -->
 <Meta
-  title='Components/Molecules/DataTable'
-  component={ DataTable }
+  title='Components/Molecules/PaginatableTable'
+  component={ PaginatableTable }
   argTypes={{
     dataCount: {
       control: 'number',
@@ -27,8 +27,8 @@
 
 <!-- More on component templates: https://storybook.js.org/docs/svelte/writing-stories/introduction#using-args -->
 <Template let:args>
-  <DataTable
-    headers={ ['RandomNumber'] }
+  <PaginatableTable
+    header={ ['RandomNumber'] }
     data={ buildTableData(args.dataCount) }
   />
 </Template>
