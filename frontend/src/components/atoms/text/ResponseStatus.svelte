@@ -3,14 +3,14 @@
   import { faCircleCheck, faTriangleExclamation, faCircleExclamation } from '@fortawesome/free-solid-svg-icons'
   import type { IconDefinition } from '@fortawesome/free-regular-svg-icons';
 
-  export let status: number = 0;
-  export let message: string | null = null;
+  export let statusCode: number = 0;
+  export let message: string[] = [];
 
   let icon: IconDefinition | null;
 
-  $: ok = status / 100 === 2;
-  $: redirect = status / 100 === 3;
-  $: error = status / 100 === 4 || status / 100 === 5;
+  $: ok = statusCode / 100 === 2;
+  $: redirect = statusCode / 100 === 3;
+  $: error = statusCode / 100 === 4 || statusCode / 100 === 5;
   $: if (ok) {
     icon = faCircleCheck;
   } else if (redirect) {
@@ -32,8 +32,10 @@
     <Icon data={ icon }/>
   {/if}
   <div class='response-description'>
-    <div class='response-status-code'>{ status }</div>
-    { message || '' }
+    <div class='response-status-code'>{ statusCode }</div>
+    {#each message as text}
+      { text || '' }<br/>
+    {/each}
   </div>
 </div>
 
@@ -51,6 +53,7 @@
   .response-status {
     display: flex;
     padding: 6px 16px;
+    border-radius: 2px;
 
     :global(svg) {
       padding: 8px 0;

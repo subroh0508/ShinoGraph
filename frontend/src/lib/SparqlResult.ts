@@ -36,7 +36,6 @@ export default class SparqlResult {
     }
 
     const errorBody: string = await response.text();
-    debugger;
 
     return new SparqlResult(
       ok,
@@ -49,14 +48,12 @@ export default class SparqlResult {
 
   get isOk(): boolean { return this.ok; }
   get status(): number { return this.statusNumber; }
-  get message(): string {
-    const status = `[${this.statusNumber}: ${this.statusText}]`;
-
+  get message(): string[] {
     if (this.isOk) {
-      return status;
+      return [this.statusText];
     }
 
-    return status.concat(' ', this.responseErrorBody);
+    return [this.statusText, this.responseErrorBody];
   }
 
   get body(): SparqlResponseBody {

@@ -10,8 +10,9 @@
   title='Components/Atoms/ResponseStatus'
   component={ ResponseStatus }
   argTypes={{
-    message: { type: 'string', control: 'text' },
-    status: {
+    httpStatusMessage: { type: 'string', control: 'text' },
+    errorMessage: { type: 'string', control: 'text' },
+    statusCode: {
       options: [200, 300, 400, 500],
       control: 'select',
     }
@@ -20,38 +21,45 @@
 
 <!-- More on component templates: https://storybook.js.org/docs/svelte/writing-stories/introduction#using-args -->
 <Template let:args>
-  <ResponseStatus { ...args }/>
+  <ResponseStatus
+    statusCode={ args.statusCode }
+    message={ [args.httpStatusMessage, args.errorMessage].filter(v => v) }
+  />
 </Template>
 
 <!-- More on args: https://storybook.js.org/docs/svelte/writing-stories/args -->
 <Story
   name='Status 200'
   args={{
-    status: 200,
-    message: 'OK',
+    statusCode: 200,
+    httpStatusMessage: 'OK',
+    errorMessage: null,
   }}
 />
 
 <Story
   name='Status 300'
   args={{
-    status: 300,
-    message: 'Multiple Choice',
+    statusCode: 300,
+    httpStatusMessage: 'Multiple Choice',
+    errorMessage: null,
   }}
 />
 
 <Story
   name='Status 400'
   args={{
-    status: 400,
-    message: 'Bad Request: Something Wrong',
+    statusCode: 400,
+    httpStatusMessage: 'Bad Request',
+    errorMessage: 'Parse Error: Something Wrong',
   }}
 />
 
 <Story
   name='Status 500'
   args={{
-    status: 500,
-    message: 'Internal Server Error: Something Wrong',
+    statusCode: 500,
+    httpStatusMessage: 'Internal Server Error',
+    errorMessage: 'Parse Error: Something Wrong',
   }}
 />

@@ -11,6 +11,9 @@
 
   let result: SparqlResult | null = null;
 
+  $: statusCode = !!result ? result.status : null;
+  $: message = !!result ? result.message : [];
+
   const handleClick = async () => {
     result = null;
     result = await client.execute(query);
@@ -19,6 +22,10 @@
 
 <Container>
   <EditorArea bind:code={ query }/>
-  <EditorFooter onExecuteQuery={ handleClick }/>
+  <EditorFooter
+    statusCode={ statusCode }
+    message={ message }
+    onExecuteQuery={ handleClick }
+  />
   <ResultTable result={ result }/>
 </Container>

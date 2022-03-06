@@ -13,9 +13,6 @@
     <PaginatableTable header={ header } data={ data }/>
   </div>
 {/if}
-{#if result && !result.isOk }
-  <div>{ result.message }</div>
-{/if}
 
 <style lang='scss'>
   .result-table {
