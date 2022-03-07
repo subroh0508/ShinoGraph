@@ -3,10 +3,15 @@
   import isUri from './isUri';
   import type { Item } from '$types/table';
 
-  export let header: Item | string
+  export let header: Item | string;
+  export let rowspan: number;
+  export let colspan: number;
 </script>
 
-<th>
+<th
+  rowspan={ rowspan }
+  colspan={ colspan }
+>
   {#if isUri(header)}
     <a href={ text(header) } target='_blank' rel='noopener noreferrer'>
       { text(header) }

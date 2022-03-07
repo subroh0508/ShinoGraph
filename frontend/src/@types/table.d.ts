@@ -1,14 +1,16 @@
 export interface Item {
-  type: string
-  datatype: string | null
-  value: string
+  type: string;
+  datatype: string | null;
+  value: string;
 }
 
 export interface TableRowItem {
-  item: Item | string
-  header: boolean
+  item: Item | string;
+  header: boolean;
+  rowspan?: number;
+  colspan?: number;
 }
 
 export interface TableDatum {
-  [key: string]: Item
+  [key: string]: Item;
 }
