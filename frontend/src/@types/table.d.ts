@@ -1,7 +1,8 @@
 export interface Item {
   type: string;
-  datatype: string | null;
   value: string;
+  lang?: string;
+  datatype?: string;
 }
 
 export interface TableRowItem {

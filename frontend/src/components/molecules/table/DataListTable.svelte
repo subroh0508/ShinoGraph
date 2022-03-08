@@ -14,7 +14,7 @@
   $: dataRow = data.map((datum, i) =>
     [
       { item: (offset + i + 1).toString(), header: false },
-      ...header.map(header => ({ item: datum[header], header: false })),
+      ...header.map(header => ({ item: datum[header] || null, header: false })),
     ]
   );
 </script>

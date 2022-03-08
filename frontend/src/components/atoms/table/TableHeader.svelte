@@ -1,6 +1,5 @@
 <script lang='ts'>
-  import text from './text';
-  import isUri from './isUri';
+  import { text, isUri } from './helper';
   import type { Item } from '$types/table';
 
   export let header: Item | string;
