@@ -1,4 +1,4 @@
-import type { QuerySolution } from '$types/sparql';
+import type {QuerySolution, RDF} from '$types/sparql';
 
 interface SparqlResponseBody {
   head: {
@@ -23,6 +23,8 @@ interface SparqlJsonObject {
   datatype?: string;
   "xml:lang"?: string;
 }
+
+const XSD_URI = 'http://www.w3.org/2001/XMLSchema#';
 
 export default class SparqlResult {
   private readonly ok: boolean;
@@ -89,14 +91,10 @@ export default class SparqlResult {
     this.validateBody();
 
     return this.responseBody.results.bindings.map(binding => {
-      return Object.keys(binding).reduce((acc: QuerySolution, key: string) => {
-        const v = binding[key];
-        if (v.hasOwnProperty('xml:lang')) {
-          return { ...acc, [key]: { type: v.type, value: v.value, lang: v['xml:lang'] } };
-        }
-
-        return { ...acc, [key]: v };
-      }, {});
+      return Object.keys(binding).reduce(
+        (acc: QuerySolution, key: string) => ({ ...acc, [key]: SparqlResult.toRDF(binding[key]) }),
+        {},
+      );
     });
   }
 
@@ -106,5 +104,19 @@ export default class SparqlResult {
     if (this.responseBody === null) {
       throw this.error;
     }
+  }
+
+  private static toRDF(object: SparqlJsonObject): RDF {
+    const rdf = { type: object.type, value: object.value };
+
+    if (object.hasOwnProperty('xml:lang')) {
+      return { ...rdf, lang: object['xml:lang'] };
+    }
+
+    if (object.hasOwnProperty('datatype')) {
+      return { ...rdf, datatype: { href: object.datatype, label: object.datatype.replace(XSD_URI, 'xsd:') } };
+    }
+
+    return rdf;
   }
 }

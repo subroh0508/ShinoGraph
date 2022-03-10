@@ -1,4 +1,4 @@
-import type { RDF } from '$types/sparql';
+import type {DataType, RDF} from '$types/sparql';
 import type { TableDatum } from '$types/table';
 
 type Item = RDF | string | null;
@@ -19,20 +19,36 @@ export function text(item: Item): string {
   return item?.value || '';
 }
 
-export function hasMeta(item: Item): boolean {
+export function hasLang(item: Item): boolean {
   if (item === null || typeof item === 'string') {
     return false;
   }
 
-  return item.hasOwnProperty('lang') || item.hasOwnProperty('datatype');
+  return item.hasOwnProperty('lang');
 }
 
-export function meta(item: Item): string | null {
+export function hasDataType(item: Item): boolean {
+  if (item === null || typeof item === 'string') {
+    return false;
+  }
+
+  return item.hasOwnProperty('datatype');
+}
+
+export function lang(item: Item): string | null {
   if (typeof item === 'string') {
     return null;
   }
 
-  return item?.lang || item?.datatype;
+  return item?.lang;
+}
+
+export function datatype(item: Item): DataType | null {
+  if (typeof item === 'string') {
+    return null;
+  }
+
+  return item?.datatype;
 }
 
 export function getItemValue(item: Item): string | null {
