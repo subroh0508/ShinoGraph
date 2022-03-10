@@ -80,13 +80,6 @@ export default class SparqlResult {
     return [this.statusText, this.responseErrorBody];
   }
 
-  get body(): SparqlResponseBody {
-    if (this.responseBody === null) {
-      throw this.error;
-    }
-
-    return this.responseBody;
-  }
   get vars(): string[] {
     this.validateBody();
 

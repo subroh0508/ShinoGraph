@@ -23,7 +23,7 @@ export async function get({ params }) {
 
   if (result.isOk) {
     return {
-      body: { subject: result.body },
+      body: { subject: result.bindings },
     }
   }
 

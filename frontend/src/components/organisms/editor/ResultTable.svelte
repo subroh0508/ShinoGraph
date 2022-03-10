@@ -4,8 +4,8 @@
 
   export let result: SparqlResult | null = null;
 
-  $: header = (result && result.isOk) ? result.body.head.vars : [];
-  $: data = (result && result.isOk) ? result.body.results.bindings : [];
+  $: header = (result && result.isOk) ? result.vars : [];
+  $: data = (result && result.isOk) ? result.bindings : [];
 </script>
 
 {#if result && result.isOk}
