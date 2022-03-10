@@ -1,23 +1,10 @@
-export interface SparqlResponseBody {
-  head: {
-    vars?: string[];
-    link?: string[];
-  } | {
-    [key: string]: never;
-  };
-  boolean?: boolean;
-  results?: {
-    bindings: Binding[];
-  };
+export interface QuerySolution {
+  [key: string]: RDF;
 }
 
-export interface Binding {
-  [key: string]: SparqlJsonObject;
-}
-
-export interface SparqlJsonObject {
-  type: 'uri' | 'literal' | 'bnode';
+export interface RDF {
+  type: 'uri' | 'bnode' | 'literal';
   value: string;
+  lang?: string;
   datatype?: string;
-  "xml:lang"?: string;
 }

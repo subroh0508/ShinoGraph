@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import { TableRow } from '$components/atoms/table';
+  import { TableRow, getDatumItem } from '$components/atoms/table';
   import type { TableDatum } from '$types/table';
 
   export let header: string[] = [];
@@ -14,7 +14,7 @@
   $: dataRow = data.map((datum, i) =>
     [
       { item: (offset + i + 1).toString(), header: false },
-      ...header.map(header => ({ item: datum[header] || null, header: false })),
+      ...header.map(header => ({ item: getDatumItem(header, datum), header: false })),
     ]
   );
 </script>

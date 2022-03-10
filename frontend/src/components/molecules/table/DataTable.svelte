@@ -1,5 +1,6 @@
 <script context='module' lang='ts'>
-  import type { TableDatum, TableRowItem } from '$types/table';
+  import { getItemValue, getDatumValue } from '$components/atoms/table';
+  import type { TableDatum, TableRowItem, Item } from '$types/table';
 
   const buildRow = (
     headerKey: string,
@@ -7,21 +8,21 @@
     data: TableDatum[],
   ): TableRowItem[][] => {
     const tHeader = data.map(datum => datum[headerKey])
-      .reduce((acc, datum) => {
-        acc[datum.value] = (acc[datum.value] || 0) + 1;
+      .reduce((acc, item) => {
+        acc[getItemValue(item)] = (acc[getItemValue(item)] || 0) + 1;
         return acc
       }, {});
 
     return Object.keys(tHeader)
       .reduce((acc, headerText) => {
-        const header = data.find(datum => datum[headerKey].value === headerText)[headerKey];
-        const values = data.filter(datum => datum[headerKey].value === headerText);
+        const header: Item = data.find(datum => getDatumValue(headerKey, datum) === headerText)[headerKey];
+        const values: TableDatum[] = data.filter(datum => getDatumValue(headerKey, datum) === headerText);
 
         return [
           ...acc,
           ...values.map((value, i) => (
             i === 0 ? [
-              { item: header, header: true, rowspan: tHeader[header.value] },
+              { item: header, header: true, rowspan: tHeader[getItemValue(header)] },
               { item: value[valueKey], header: false },
             ] : [
               { item: value[valueKey], header: false },

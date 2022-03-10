@@ -2,7 +2,7 @@
   import { text, isUri } from './helper';
   import type { Item } from '$types/table';
 
-  export let header: Item | string;
+  export let header: Item;
   export let rowspan: number;
   export let colspan: number;
 </script>

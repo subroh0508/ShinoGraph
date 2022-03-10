@@ -1,12 +1,9 @@
-export interface Item {
-  type: string;
-  value: string;
-  lang?: string;
-  datatype?: string;
-}
+import { RDF } from '$types/sparql';
+
+export type Item = RDF | string | null;
 
 export interface TableRowItem {
-  item: Item | string;
+  item: Item;
   header: boolean;
   rowspan?: number;
   colspan?: number;
