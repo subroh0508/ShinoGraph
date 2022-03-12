@@ -34,8 +34,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "鳥に好かれる"@ja, "鳥に好かれる" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.関根瞳" ;
-            dbo:performer actor:Sekine_Hitomi ;
+            rdfs:label "関根瞳" ;
+            :name "関根瞳"@ja, "Hitomi Sekine"@en, "関根瞳" ;
+            :sameAs actor:Sekine_Hitomi ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -70,8 +71,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "料理"@ja, "スケジュール管理"@ja, "料理", "スケジュール管理" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.近藤玲奈" ;
-            dbo:performer actor:Kondo_Reina ;
+            rdfs:label "近藤玲奈" ;
+            :name "近藤玲奈"@ja, "Reina Kondo"@en, "近藤玲奈" ;
+            :sameAs actor:Kondo_Reina ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -106,8 +108,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "スポーツ全般"@ja, "スポーツ全般" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.峯田茉優" ;
-            dbo:performer actor:Mineda_Mayu ;
+            rdfs:label "峯田茉優" ;
+            :name "峯田茉優"@ja, "Mayu Mineda"@en, "峯田茉優" ;
+            :sameAs actor:Mineda_Mayu ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -142,8 +145,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "そっくりな似顔絵ば描けるたい！"@ja, "そっくりな似顔絵ば描けるたい！" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.礒部花凜" ;
-            dbo:performer actor:Isobe_Karin ;
+            rdfs:label "礒部花凜" ;
+            :name "礒部花凜"@ja, "Karin Isobe"@en, "礒部花凜" ;
+            :sameAs actor:Isobe_Karin ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -174,14 +178,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "勉強"@ja, "推しに一早く認知されること"@ja, "勉強", "推しに一早く認知されること" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.希水しお" ;
-            dbo:performer actor:Kisui_Shio ;
+            rdfs:label "希水しお" ;
+            :name "希水しお"@ja, "Shio Kisui"@en, "希水しお" ;
+            :sameAs actor:Kisui_Shio ;
             scdb:announcementDate "2022-01-18"^^xsd:date ;
             # scdb:debutDate "2022-04-01"^^xsd:date
     ] , [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.成海瑠奈" ;
-            dbo:performer actor:Narumi_Runa ;
+            rdfs:label "成海瑠奈" ;
+            :name "成海瑠奈"@ja, "Runa Narumi"@en, "成海瑠奈" ;
+            :sameAs actor:Narumi_Runa ;
             scdb:debutDate "2018-04-24"^^xsd:date ;
             # scdb:retireDate "2022-04-01"^^xsd:date
     ] ;
@@ -214,8 +220,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "自分を最大限カッコ良く見せる立ち振る舞い"@ja, "自分を最大限カッコ良く見せる立ち振る舞い" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.八巻アンナ" ;
-            dbo:performer actor:Yamaki_Anna ;
+            rdfs:label "八巻アンナ" ;
+            :name "八巻アンナ"@ja, "Anna Yamaki"@en, "八巻アンナ" ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -247,8 +253,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "自分で髪を切る"@ja, "自分で髪を切る" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.菅沼千紗" ;
-            dbo:performer actor:Suganuma_Chisa ;
+            rdfs:label "菅沼千紗" ;
+            :name "菅沼千紗"@ja, "Chisa Suganuma"@en, "菅沼千紗" ;
+            :sameAs actor:Suganuma_Chisa ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -280,8 +287,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "包帯を綺麗に巻く"@ja, "足音を立てない"@ja, "りんごの皮むき"@ja, "包帯を綺麗に巻く", "足音を立てない", "りんごの皮むき" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.結名美月" ;
-            dbo:performer actor:Yuina_Miduki ;
+            rdfs:label "結名美月" ;
+            :name "結名美月"@ja, "Miduki Yuina"@en, "結名美月" ;
+            :sameAs actor:Yuina_Miduki ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -313,8 +321,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "好きな番組の決め台詞を数多く覚えている"@ja, "好きな番組の決め台詞を数多く覚えている" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.河野ひより" ;
-            dbo:performer actor:Kono_Hiyori ;
+            rdfs:label "河野ひより" ;
+            :name "河野ひより"@ja, "Hiyori Kono"@en, "河野ひより" ;
+            :sameAs actor:Kono_Hiyori ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -347,8 +356,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "スポーツ全般"@ja, "（中2までは）バスケ"@ja, "スポーツ全般", "（中2までは）バスケ" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.永井真理子" ;
-            dbo:performer actor:Nagai_Mariko ;
+            rdfs:label "永井真理子" ;
+            :name "永井真理子"@ja, "Mariko Nagai"@en, "永井真理子" ;
+            :sameAs actor:Nagai_Mariko ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -380,8 +390,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "トータルコーディネート"@ja, "トータルコーディネート" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.涼本あきほ" ;
-            dbo:performer actor:Suzumoto_Akiho ;
+            rdfs:label "涼本あきほ" ;
+            :name "涼本あきほ"@ja, "Akiho Suzumoto"@en, "涼本あきほ" ;
+            :sameAs actor:Suzumoto_Akiho ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -413,8 +424,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "折り紙"@ja, "百人一首"@ja, "折り紙", "百人一首" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.丸岡和佳奈" ;
-            dbo:performer actor:Maruoka_Wakana ;
+            rdfs:label "丸岡和佳奈" ;
+            :name "丸岡和佳奈"@ja, "Wakana Maruoka"@en, "丸岡和佳奈" ;
+            :sameAs actor:Maruoka_Wakana ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -446,8 +458,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "たくさん食べられること"@ja, "たくさん食べられること" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.白石晴香" ;
-            dbo:performer actor:Shiraishi_Haruka ;
+            rdfs:label "白石晴香" ;
+            :name "白石晴香"@ja, "Haruka Shiraishi"@en, "白石晴香" ;
+            :sameAs actor:Shiraishi_Haruka ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -479,8 +492,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "裁縫"@ja, "道案内"@ja, "裁縫", "道案内" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.芝崎典子" ;
-            dbo:performer actor:Shibasaki_Noriko ;
+            rdfs:label "芝崎典子" ;
+            :name "芝崎典子"@ja, "Noriko Shibasaki"@en, "芝崎典子" ;
+            :sameAs actor:Shibasaki_Noriko ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -512,8 +526,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "特に無い"@ja, "特に無い" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.前川涼子" ;
-            dbo:performer actor:Maekawa_Ryoko ;
+            rdfs:label "前川涼子" ;
+            :name "前川涼子"@ja, "Ryoko Maekawa"@en, "前川涼子" ;
+            :sameAs actor:Maekawa_Ryoko ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -547,8 +562,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "早起き"@ja, "倹約"@ja, "早起き", "倹約" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.黒木ほの香" ;
-            dbo:performer actor:Kuroki_Honoka ;
+            rdfs:label "黒木ほの香" ;
+            :name "黒木ほの香"@ja, "Honoka Kuroki"@en, "黒木ほの香" ;
+            :sameAs actor:Kuroki_Honoka ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -580,8 +596,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "記憶力がいい"@ja, "記憶力がいい" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.田中有紀" ;
-            dbo:performer actor:Tanaka_Yuki ;
+            rdfs:label "田中有紀" ;
+            :name "田中有紀"@ja, "Yuki Tanaka"@en, "田中有紀" ;
+            :sameAs actor:Tanaka_Yuki ;
             scdb:debutDate "2019-03-22"^^xsd:date
     ] ;
     :gender :Female ;
@@ -613,8 +630,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "何時間でも電話できること"@ja, "何時間でも電話できること" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.北原沙弥香" ;
-            dbo:performer actor:Kitahara_Sayaka ;
+            rdfs:label "北原沙弥香" ;
+            :name "北原沙弥香"@ja, "Kitahara Sayaka"@en, "北原沙弥香" ;
+            :sameAs actor:Kitahara_Sayaka ;
             scdb:debutDate "2019-03-22"^^xsd:date
     ] ;
     :gender :Female ;
@@ -646,8 +664,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "みんなと仲良くなること♪"@ja, "みんなと仲良くなること♪" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.幸村恵理" ;
-            dbo:performer actor:Yukimura_Eri ;
+            rdfs:label "幸村恵理" ;
+            :name "幸村恵理"@ja, "Eri Yukimura"@en, "幸村恵理" ;
+            :sameAs actor:Yukimura_Eri ;
             scdb:debutDate "2019-03-22"^^xsd:date
     ] ;
     :gender :Female ;
@@ -679,8 +698,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "人の顔を覚えること"@ja, "人の顔を覚えること" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.和久井優" ;
-            dbo:performer actor:Wakui_Yu ;
+            rdfs:label "和久井優" ;
+            :name "和久井優"@ja, "Yu Wakui"@en, "和久井優" ;
+            :sameAs actor:Wakui_Yu ;
             scdb:debutDate "2020-03-23"^^xsd:date
     ] ;
     :gender :Female ;
@@ -712,8 +732,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "別にないです"@ja, "別にないです" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.土屋李央" ;
-            dbo:performer actor:Tsuchiya_Rio ;
+            rdfs:label "土屋李央" ;
+            :name "土屋李央"@ja, "Tsuchiya Rio"@en, "土屋李央" ;
+            :sameAs actor:Tsuchiya_Rio ;
             scdb:debutDate "2020-03-23"^^xsd:date
     ] ;
     :gender :Female ;
@@ -745,8 +766,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "勉強"@ja, "勉強" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.田嶌紗蘭" ;
-            dbo:performer actor:Tajima_Saran ;
+            rdfs:label "田嶌紗蘭" ;
+            :name "田嶌紗蘭"@ja, "Saran Tajima"@en, "田嶌紗蘭" ;
+            :sameAs actor:Tajima_Saran ;
             scdb:debutDate "2020-03-23"^^xsd:date
     ] ;
     :gender :Female ;
@@ -778,8 +800,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "なんでもそれなりにできる～"@ja, "なんでもそれなりにできる～" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.岡咲美保" ;
-            dbo:performer actor:Okasaki_Miho ;
+            rdfs:label "岡咲美保" ;
+            :name "岡咲美保"@ja, "Miho Okasaki"@en, "岡咲美保" ;
+            :sameAs actor:Okasaki_Miho ;
             scdb:debutDate "2020-03-23"^^xsd:date
     ] ;
     :gender :Female ;
@@ -812,8 +835,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "家事"@ja, "家事" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.紫月杏朱彩" ;
-            dbo:performer actor:Shizuki_Azusa ;
+            rdfs:label "紫月杏朱彩" ;
+            :name "紫月杏朱彩"@ja, "Azusa Shizuki"@en, "紫月杏朱彩" ;
+            :sameAs actor:Shizuki_Azusa ;
             scdb:debutDate "2021-03-22"^^xsd:date
     ] ;
     :gender :Female ;
@@ -845,8 +869,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     scdb:skill "ダンスの振り付け"@ja, "ダンスの振り付け" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.山根綺" ;
-            dbo:performer actor:Yamane_Aya ;
+            rdfs:label "山根綺" ;
+            :name "山根綺"@ja, "Aya Yamane"@en, "山根綺" ;
+            :sameAs actor:Yamane_Aya ;
             scdb:debutDate "2021-03-22"^^xsd:date
     ] ;
     :gender :Female ;
@@ -877,8 +902,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     # scdb:skill ""@ja, "" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.川口莉奈" ;
-            dbo:performer actor:Kawaguchi_Rina ;
+            rdfs:label "川口莉奈" ;
+            :name "川口莉奈"@ja, "Rina Kawaguchi"@en, "川口莉奈" ;
+            :sameAs actor:Kawaguchi_Rina ;
             scdb:debutDate "2021-04-08"^^xsd:date
     ] ;
     :gender :Female ;

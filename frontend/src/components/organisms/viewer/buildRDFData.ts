@@ -1,4 +1,4 @@
-import { isUri, isLiteral, hasLang, hasDataType, label, href } from '$components/atoms/text';
+import { isUri, isLiteral, isBlankNode, hasLang, hasDataType, label, href } from '$components/atoms/text';
 import { getRDFOrNull } from '$components/molecules/table';
 import type { QuerySolution, RDF } from '$types/sparql';
 import type { TableRowItem } from '$types/table';
@@ -60,7 +60,7 @@ export function buildRDFData(
 function buildRDFElement(valueKey: ValueKey, datum: QuerySolution): NullableRDF {
   const primary: NullableRDF = getRDFOrNull(valueKey.primary, datum);
 
-  if (!isUri(primary)) {
+  if (!isUri(primary) && !isBlankNode(primary)) {
     return primary;
   }
 

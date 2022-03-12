@@ -12,7 +12,7 @@
 <div>
   <RDFViewer
     headerKey='predicate'
-    valueKey={{ primary: 'object', secondary: 'objectLabel' }}
+    valueKey={{ primary: 'object', secondary: 'objectName' }}
     data={ subject }
   />
 </div>

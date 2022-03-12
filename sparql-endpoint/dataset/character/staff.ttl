@@ -24,8 +24,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dbo:hometown hometown:Japan, hometown:Saitama ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.山村響" ;
-            dbo:performer actor:Yamanura_Hibiku ;
+            rdfs:label "山村響" ;
+            :name "山村響"@ja, "Hibiku Yamamura"@en, "山村響" ;
+            :sameAs actor:Yamanura_Hibiku ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Female ;
@@ -39,8 +40,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :jobTitle "社長"@ja, "President"@en, "社長" ;
     scdb:cv [
         a scdb:CharacterVoice ;
-            rdfs:label "CV.津田健次郎" ;
-            dbo:performer actor:Tsuda_Kenjiro ;
+            rdfs:label "津田健次郎" ;
+            :name "津田健次郎"@ja, "Kenjiro Tsuda"@en, "津田健次郎" ;
+            :sameAs actor:Tsuda_Kenjiro ;
             scdb:debutDate "2018-04-24"^^xsd:date
     ] ;
     :gender :Male ;

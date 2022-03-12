@@ -16,7 +16,7 @@
 </script>
 
 <script lang='ts'>
-  import { isUri, href } from './helper';
+  import { isUri, isBlankNode, href } from './helper';
   import RDFLabel from './RDFLabel.svelte';
   import type { Item } from '$types/table';
 
@@ -31,6 +31,8 @@
   >
     <RDFLabel item={ value(item) }/>
   </a>
+{:else if isBlankNode(item)}
+  <RDFLabel item={ value(item) }/>
 {:else}
   <RDFLabel item={ item }/>
 {/if}

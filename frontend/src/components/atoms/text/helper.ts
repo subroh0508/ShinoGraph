@@ -17,6 +17,14 @@ export function isLiteral(item: Item): boolean {
   return item?.type === 'literal';
 }
 
+export function isBlankNode(item: Item): boolean {
+  if (typeof item === 'string') {
+    return false;
+  }
+
+  return item?.type === 'bnode';
+}
+
 export function label(item: Item): string {
   if (typeof item === 'string') {
     return item;
