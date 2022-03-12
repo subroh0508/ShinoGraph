@@ -1,4 +1,4 @@
-import { getDatumItem } from '$components/atoms/table';
+import { getRDFOrNull } from '$components/atoms/table';
 import type { QuerySolution } from '$types/sparql';
 import type { TableRowItem } from '$types/table';
 
@@ -11,7 +11,7 @@ export default function buildPaginatableData(header: string[], data: QuerySoluti
   const dataRows = data.map((datum, i) => (
     [
       { item: (i + 1).toString(), header: false },
-      ...header.map(header => ({ item: getDatumItem(header, datum), header: false })),
+      ...header.map(header => ({ item: getRDFOrNull(header, datum), header: false })),
     ]
   ));
 

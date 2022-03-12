@@ -1,19 +1,21 @@
-import { hasLang, hasDataType, getItemValue } from '$components/atoms/table/helper';
-import { getDatumItem, getDatumValue } from '$components/atoms/table';
-import type { QuerySolution } from '$types/sparql';
-import type { Item, TableRowItem } from '$types/table';
+import { hasLang, hasDataType } from '$components/atoms/table/helper';
+import { getRDFOrNull } from '$components/atoms/table';
+import type { QuerySolution, RDF } from '$types/sparql';
+import type { TableRowItem } from '$types/table';
+
+type NullableRDF = RDF | null;
 
 export default function buildIRIData(headerKey: string, valueKey: string, data: QuerySolution[]): TableRowItem[][] {
-  const headerMap = data.reduce((acc: { [key: string]: Item }, datum) => {
-    const headerText = getDatumValue(headerKey, datum);
+  const headerMap = data.reduce((acc: { [key: string]: NullableRDF }, datum) => {
+    const headerText = getRDFOrNull(headerKey, datum)?.value;
     if (!headerText) {
       return acc;
     }
 
-    return { ...acc, [headerText]: getDatumItem(headerKey, datum) };
+    return { ...acc, [headerText]: getRDFOrNull(headerKey, datum) };
   }, {});
-  const dataMap = data.reduce((acc: { [key: string]: Item[] }, datum) => {
-    const headerText = getDatumValue(headerKey, datum);
+  const dataMap = data.reduce((acc: { [key: string]: NullableRDF[] }, datum) => {
+    const headerText = getRDFOrNull(headerKey, datum)?.value;
     if (!headerText) {
       return acc;
     }
@@ -22,15 +24,15 @@ export default function buildIRIData(headerKey: string, valueKey: string, data: 
       ...acc,
       [headerText]: [
         ...(acc[headerText] || []),
-        getDatumItem(valueKey, datum),
+        getRDFOrNull(valueKey, datum),
       ].sort(compareItem),
     };
   }, {});
 
   return Object.keys(headerMap)
     .reduce((acc, headerText) => {
-      const header: Item = headerMap[headerText];
-      const items: Item[] = dataMap[headerText];
+      const header: NullableRDF = headerMap[headerText];
+      const items: NullableRDF[] = dataMap[headerText];
 
       return [
         ...acc,
@@ -46,14 +48,14 @@ export default function buildIRIData(headerKey: string, valueKey: string, data: 
     }, []);
 }
 
-function compareItem(a: Item, b: Item): number {
+function compareItem(a: NullableRDF, b: NullableRDF): number {
   if (hasLang(a) && !hasLang(b) || hasDataType(a) && !hasDataType(b)) {
     return 1;
   } else if (hasLang(b) && !hasLang(a) || hasDataType(b) && !hasDataType(a)) {
     return -1;
   }
 
-  const [aStr, bStr] = [getItemValue(a) || '', getItemValue(b) || ''];
+  const [aStr, bStr] = [a?.value || '', b?.value || ''];
   if (aStr.length > bStr.length) {
     return 1;
   } else if (aStr.length < bStr.length) {

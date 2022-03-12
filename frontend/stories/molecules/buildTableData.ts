@@ -1,7 +1,6 @@
-import { getDatumItem } from '$components/atoms/table';
 import { buildPaginatableData } from '$components/organisms/editor';
 import { buildIRIData } from '$components/organisms/viewer';
-import type { TableRowItem, TableDatum, Item } from '$types/table';
+import type { TableRowItem } from '$types/table';
 import dataListTable from '../json/data-list-table.json';
 import dataTable from '../json/data-table.json';
 

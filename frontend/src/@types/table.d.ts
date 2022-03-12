@@ -8,7 +8,3 @@ export interface TableRowItem {
   rowspan?: number;
   colspan?: number;
 }
-
-export interface TableDatum {
-  [key: string]: Item;
-}

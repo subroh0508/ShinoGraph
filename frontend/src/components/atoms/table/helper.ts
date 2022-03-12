@@ -1,7 +1,5 @@
-import type {DataType, RDF} from '$types/sparql';
-import type { TableDatum } from '$types/table';
-
-type Item = RDF | string | null;
+import type { DataType, QuerySolution, RDF } from '$types/sparql';
+import type { Item } from '$types/table';
 
 export function isUri(item: Item): boolean {
   if (typeof item === 'string') {
@@ -51,23 +49,6 @@ export function datatype(item: Item): DataType | null {
   return item?.datatype;
 }
 
-export function getItemValue(item: Item): string | null {
-  if (typeof item === 'string') {
-    return item;
-  }
-
-  return item?.value;
-}
-
-export function getDatumItem(key: string, datum: TableDatum): Item {
+export function getRDFOrNull(key: string, datum: QuerySolution): RDF | null {
   return datum[key] || null;
-}
-
-export function getDatumValue(key: string, datum: TableDatum): string | null {
-  const v = getDatumItem(key, datum);
-  if (typeof v === 'string') {
-    return v;
-  }
-
-  return v?.value;
 }
