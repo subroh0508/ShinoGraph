@@ -5,7 +5,7 @@
   import { buildDataFromJson } from './buildTableData';
 
   const headerKey = 'predicate';
-  const valueKey = { primary: 'object', secondary: 'objectLabel' };
+  const valueKey = { primary: 'object', secondary: 'objectName' };
 </script>
 
 <!-- More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export -->
