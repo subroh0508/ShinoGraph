@@ -2,6 +2,7 @@
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
   import { DataTable } from '$components/molecules/table';
   import table from '../json/data-table.json';
+  import { buildDataFromJson } from './buildTableData';
 
   const headerKey = 'predicate';
   const valueKey = 'object';
@@ -22,17 +23,11 @@
 
 <!-- More on component templates: https://storybook.js.org/docs/svelte/writing-stories/introduction#using-args -->
 <Template let:args>
-  <DataTable
-    headerKey={ headerKey }
-    valueKey={ valueKey }
-    data={ table[args.data] }
-  />
+  <DataTable rows={ buildDataFromJson(args.data, headerKey, valueKey) }/>
 </Template>
 
 <!-- More on args: https://storybook.js.org/docs/svelte/writing-stories/args -->
 <Story
   name='Sakuragi Mano'
-  args={{
-    data: 'Sakuragi Mano',
-  }}
+  args={{ data: 'Sakuragi Mano' }}
 />

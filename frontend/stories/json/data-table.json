@@ -10,11 +10,11 @@
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#hobby" },
-      "object": { "type": "literal", "xml:lang": "ja", "value": "お出かけ" }
+      "object": { "type": "literal", "lang": "ja", "value": "お出かけ" }
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#hobby" },
-      "object": { "type": "literal", "xml:lang": "ja", "value": "公園で日向ぼっこ" }
+      "object": { "type": "literal", "lang": "ja", "value": "公園で日向ぼっこ" }
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#hobby" },
@@ -26,7 +26,7 @@
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#skill" },
-      "object": { "type": "literal", "xml:lang": "ja", "value": "鳥に好かれる" }
+      "object": { "type": "literal", "lang": "ja", "value": "鳥に好かれる" }
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#skill" },
@@ -42,7 +42,7 @@
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#color" },
-      "object": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#hexBinary", "value": "FFBAD6" }
+      "object": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#hexBinary", "label": "xsd:hexBinary" }, "value": "FFBAD6" }
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#idolListURL" },
@@ -58,19 +58,19 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/name" },
-      "object": { "type": "literal", "xml:lang": "ja", "value": "櫻木真乃" }
+      "object": { "type": "literal", "lang": "ja", "value": "櫻木真乃" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/name" },
-      "object": { "type": "literal", "xml:lang": "ja-hira", "value": "さくらぎまの" }
+      "object": { "type": "literal", "lang": "ja-hira", "value": "さくらぎまの" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/name" },
-      "object": { "type": "literal", "xml:lang": "en", "value": "Mano Sakuragi" }
+      "object": { "type": "literal", "lang": "en", "value": "Mano Sakuragi" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/description" },
-      "object": { "type": "literal", "xml:lang": "ja", "value": "ほんわかした癒し系の女の子で、心優しい性格。見ていて守りたくなるタイプで、一緒にいるだけで何となく幸せな気持ちになる。高校1年生。" }
+      "object": { "type": "literal", "lang": "ja", "value": "ほんわかした癒し系の女の子で、心優しい性格。見ていて守りたくなるタイプで、一緒にいるだけで何となく幸せな気持ちになる。高校1年生。" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/subjectOf" },
@@ -86,15 +86,15 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/familyName" },
-      "object": { "type": "literal", "xml:lang": "ja", "value": "櫻木" }
+      "object": { "type": "literal", "lang": "ja", "value": "櫻木" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/familyName" },
-      "object": { "type": "literal", "xml:lang": "ja-hira", "value": "さくらぎ" }
+      "object": { "type": "literal", "lang": "ja-hira", "value": "さくらぎ" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/familyName" },
-      "object": { "type": "literal", "xml:lang": "en", "value": "Sakuragi" }
+      "object": { "type": "literal", "lang": "en", "value": "Sakuragi" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/familyName" },
@@ -102,15 +102,15 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/givenName" },
-      "object": { "type": "literal", "xml:lang": "ja", "value": "真乃" }
+      "object": { "type": "literal", "lang": "ja", "value": "真乃" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/givenName" },
-      "object": { "type": "literal", "xml:lang": "ja-hira", "value": "まの" }
+      "object": { "type": "literal", "lang": "ja-hira", "value": "まの" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/givenName" },
-      "object": { "type": "literal", "xml:lang": "en", "value": "Mano" }
+      "object": { "type": "literal", "lang": "en", "value": "Mano" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/givenName" },
@@ -118,7 +118,7 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/age" },
-      "object": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "16" }
+      "object": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "16" }
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/bloodType" },
@@ -126,7 +126,7 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/birthdate" },
-      "object": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#gMonthDay", "value": "--04-25" }
+      "object": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#gMonthDay", "label": "xsd:gMonthDay" }, "value": "--04-25" }
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/zodiacSign" },
@@ -134,11 +134,11 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/height" },
-      "object": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#decimal", "value": "155.0" }
+      "object": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#decimal", "label": "xsd:decimal" }, "value": "155.0" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/weight" },
-      "object": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#decimal", "value": "48.0" }
+      "object": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#decimal", "label": "xsd:decimal" }, "value": "48.0" }
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/handedness" },
@@ -146,15 +146,15 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/bustSize" },
-      "object": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#decimal", "value": "86.0" }
+      "object": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#decimal", "label": "xsd:decimal" }, "value": "86.0" }
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/waistSize" },
-      "object": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#decimal", "value": "58.0" }
+      "object": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#decimal", "label": "xsd:decimal" }, "value": "58.0" }
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/hipSize" },
-      "object": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#decimal", "value": "88.0" }
+      "object": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#decimal", "label": "xsd:decimal" }, "value": "88.0" }
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/hometown" },

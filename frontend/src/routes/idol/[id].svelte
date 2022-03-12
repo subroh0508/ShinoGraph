@@ -3,14 +3,14 @@
 </script>
 
 <script lang='ts'>
-  import { DataTable } from '$components/molecules/table';
+  import { IRIViewer } from '$components/organisms/viewer';
   import type { QuerySolution } from '$types/sparql';
 
   export let subject: QuerySolution[] = [];
 </script>
 
 <div>
-  <DataTable
+  <IRIViewer
     headerKey='predicate'
     valueKey='object'
     data={ subject }
