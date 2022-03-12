@@ -73,6 +73,11 @@ function buildRDFElement(valueKey: ValueKey, datum: QuerySolution): NullableRDF 
 }
 
 function compareItem(a: NullableRDF, b: NullableRDF): number {
+  const [aValue, bValue] = [a?.value, b?.value];
+  if (aValue !== null && bValue !== null && typeof aValue !== 'string' && typeof bValue !== 'string') {
+    return compareItem(aValue.label, bValue.label);
+  }
+
   if (hasLang(a) && !hasLang(b) || hasDataType(a) && !hasDataType(b)) {
     return 1;
   } else if (hasLang(b) && !hasLang(a) || hasDataType(b) && !hasDataType(a)) {
