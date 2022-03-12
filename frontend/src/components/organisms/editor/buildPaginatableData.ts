@@ -1,4 +1,4 @@
-import { getRDFOrNull } from '$components/atoms/table';
+import { getRDFOrNull } from '$components/molecules/table';
 import type { QuerySolution } from '$types/sparql';
 import type { TableRowItem } from '$types/table';
 

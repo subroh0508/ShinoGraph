@@ -16,7 +16,8 @@
 
 <script lang='ts'>
   import Pagination from './Pagination.svelte';
-  import { TableRow, TableFooter } from '$components/atoms/table';
+  import TableRow from './TableRow.svelte';
+  import TableFooter from './TableFooter.svelte';
   import type { TableRowItem } from '$types/table';
 
   export let rows: TableRowItem[][] = [];

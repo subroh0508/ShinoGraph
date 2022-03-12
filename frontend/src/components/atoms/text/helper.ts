@@ -1,4 +1,4 @@
-import type { DataType, QuerySolution, RDF } from '$types/sparql';
+import type { DataType } from '$types/sparql';
 import type { Item } from '$types/table';
 
 export function isUri(item: Item): boolean {
@@ -73,8 +73,4 @@ export function datatype(item: Item): DataType | null {
   }
 
   return item?.datatype;
-}
-
-export function getRDFOrNull(key: string, datum: QuerySolution): RDF | null {
-  return datum[key] || null;
 }

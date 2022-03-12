@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import { isUri, label, href } from './helper';
+  import { RDFItem } from '$components/atoms/text';
   import type { Item } from '$types/table';
 
   export let header: Item;
@@ -11,11 +11,5 @@
   rowspan={ rowspan }
   colspan={ colspan }
 >
-  {#if isUri(header)}
-    <a href={ href(header) } target='_blank' rel='noopener noreferrer'>
-      { label(header) }
-    </a>
-  {:else}
-    { label(header) }
-  {/if}
+  <RDFItem item={ header }/>
 </th>

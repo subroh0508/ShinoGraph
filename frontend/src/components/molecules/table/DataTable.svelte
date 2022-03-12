@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import { TableRow } from '$components/atoms/table';
+  import TableRow from './TableRow.svelte';
   import type { TableRowItem } from '$types/table';
 
   export let rows: TableRowItem[][] = [];

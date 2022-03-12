@@ -1,4 +1,5 @@
-import { isUri, isLiteral, hasLang, hasDataType, label, href, getRDFOrNull } from '$components/atoms/table';
+import { isUri, isLiteral, hasLang, hasDataType, label, href } from '$components/atoms/text';
+import { getRDFOrNull } from '$components/molecules/table';
 import type { QuerySolution, RDF } from '$types/sparql';
 import type { TableRowItem } from '$types/table';
 
