@@ -11,10 +11,10 @@ const buildQuery = (id: string) => `
   PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
   PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-  SELECT ?predicate ?object ?label
+  SELECT ?predicate ?object ?objectLabel
   WHERE {
     <https://283db.org/resource/character/idol/${id}> ?predicate ?object;
-      OPTIONAL { ?object rdfs:label ?label }
+      OPTIONAL { ?object rdfs:label ?objectLabel }
   }
 `;
 

@@ -1,5 +1,5 @@
 import { buildPaginatableData } from '$components/organisms/editor';
-import { buildIRIData } from '$components/organisms/viewer';
+import { buildRDFData } from '$components/organisms/viewer';
 import type { TableRowItem } from '$types/table';
 import dataListTable from '../json/data-list-table.json';
 import dataTable from '../json/data-table.json';
@@ -20,7 +20,7 @@ export function buildRowsFromJson(label: string): TableRowItem[][] {
 }
 
 export function buildDataFromJson(label: string, headerKey: string, valueKey: string): TableRowItem[][] {
-  return buildIRIData(headerKey, valueKey, dataTable[label]);
+  return buildRDFData(headerKey, valueKey, dataTable[label]);
 }
 
 const calculateRandomNumber: () => string = () => new Array(10).fill(null)

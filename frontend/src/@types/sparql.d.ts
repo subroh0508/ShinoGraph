@@ -4,9 +4,14 @@ export interface QuerySolution {
 
 export interface RDF {
   type: 'uri' | 'bnode' | 'literal';
-  value: string;
+  value: IRI | string;
   lang?: string;
   datatype?: DataType;
+}
+
+export interface IRI {
+  href: string;
+  label: string;
 }
 
 export interface DataType {

@@ -1,5 +1,5 @@
 <script context='module' lang='ts'>
-  import buildIRIData from './buildIRIData';
+  import buildRDFData from './buildRDFData';
 </script>
 
 <script lang='ts'>
@@ -10,7 +10,7 @@
   export let valueKey: string;
   export let data: QuerySolution[] = [];
 
-  $: rows = buildIRIData(headerKey, valueKey, data);
+  $: rows = buildRDFData(headerKey, valueKey, data);
 </script>
 
 <DataTable rows={ rows }/>

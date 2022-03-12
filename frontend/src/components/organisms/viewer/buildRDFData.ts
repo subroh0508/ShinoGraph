@@ -1,13 +1,17 @@
-import { hasLang, hasDataType } from '$components/atoms/table/helper';
+import { hasLang, hasDataType, label, href } from '$components/atoms/table';
 import { getRDFOrNull } from '$components/atoms/table';
 import type { QuerySolution, RDF } from '$types/sparql';
 import type { TableRowItem } from '$types/table';
 
 type NullableRDF = RDF | null;
 
-export default function buildIRIData(headerKey: string, valueKey: string, data: QuerySolution[]): TableRowItem[][] {
+export default function buildRDFData(
+  headerKey: string,
+  valueKey: string,
+  data: QuerySolution[],
+): TableRowItem[][] {
   const headerMap = data.reduce((acc: { [key: string]: NullableRDF }, datum) => {
-    const headerText = getRDFOrNull(headerKey, datum)?.value;
+    const headerText = href(getRDFOrNull(headerKey, datum));
     if (!headerText) {
       return acc;
     }
@@ -15,7 +19,7 @@ export default function buildIRIData(headerKey: string, valueKey: string, data: 
     return { ...acc, [headerText]: getRDFOrNull(headerKey, datum) };
   }, {});
   const dataMap = data.reduce((acc: { [key: string]: NullableRDF[] }, datum) => {
-    const headerText = getRDFOrNull(headerKey, datum)?.value;
+    const headerText = href(getRDFOrNull(headerKey, datum));
     if (!headerText) {
       return acc;
     }
@@ -55,7 +59,7 @@ function compareItem(a: NullableRDF, b: NullableRDF): number {
     return -1;
   }
 
-  const [aStr, bStr] = [a?.value || '', b?.value || ''];
+  const [aStr, bStr] = [label(a) || '', label(b) || ''];
   if (aStr.length > bStr.length) {
     return 1;
   } else if (aStr.length < bStr.length) {

@@ -3,14 +3,14 @@
 </script>
 
 <script lang='ts'>
-  import { IRIViewer } from '$components/organisms/viewer';
+  import { RDFViewer } from '$components/organisms/viewer';
   import type { QuerySolution } from '$types/sparql';
 
   export let subject: QuerySolution[] = [];
 </script>
 
 <div>
-  <IRIViewer
+  <RDFViewer
     headerKey='predicate'
     valueKey='object'
     data={ subject }

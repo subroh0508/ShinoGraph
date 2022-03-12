@@ -1,2 +1,2 @@
-export { default as IRIViewer } from './IRIViewer.svelte';
-export { default as buildIRIData } from './buildIRIData';
+export { default as RDFViewer } from './RDFViewer.svelte';
+export { default as buildRDFData } from './buildRDFData';

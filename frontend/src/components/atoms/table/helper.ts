@@ -9,12 +9,30 @@ export function isUri(item: Item): boolean {
   return item?.type === 'uri';
 }
 
-export function text(item: Item): string {
+export function label(item: Item): string {
   if (typeof item === 'string') {
     return item;
   }
 
-  return item?.value || '';
+  const value = item?.value;
+  if (typeof value == 'string') {
+    return value;
+  }
+
+  return value?.label || '';
+}
+
+export function href(item: Item): string {
+  if (typeof item === 'string') {
+    return item;
+  }
+
+  const value = item?.value;
+  if (typeof value == 'string') {
+    return value;
+  }
+
+  return value?.href || '';
 }
 
 export function hasLang(item: Item): boolean {

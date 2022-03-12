@@ -2,7 +2,13 @@
   "Sakuragi Mano": [
     {
       "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
-      "object": { "type": "uri", "value": "https://283db.org/schema#Idol" }
+      "object": { "type": "uri", "value": "https://283db.org/schema#Idol" },
+      "objectLabel": { "type": "literal", "lang": "ja", "value": "アイドル" }
+    },
+    {
+      "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+      "object": { "type": "uri", "value": "https://283db.org/schema#Idol" },
+      "objectLabel": { "type": "literal", "lang": "en", "value": "Idol" }
     },
     {
       "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" },
@@ -34,11 +40,13 @@
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#cv" },
-      "object": { "type": "bnode", "value": "b0" }
+      "object": { "type": "bnode", "value": "b0" },
+      "objectLabel": { "type": "literal", "value": "CV.関根瞳" }
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#schoolGrade" },
-      "object": { "type": "uri", "value": "https://283db.org/resource/enum/SchoolGrade.HS01" }
+      "object": { "type": "uri", "value": "https://283db.org/resource/enum/SchoolGrade.HS01" },
+      "objectLabel": { "type": "literal", "value": "高校1年生" }
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#color" },
@@ -50,7 +58,8 @@
     },
     {
       "predicate": { "type": "uri", "value": "https://283db.org/schema#song" },
-      "object": { "type": "uri", "value": "https://283db.org/resource/music/song/Arittake_no_Kagayaki_de" }
+      "object": { "type": "uri", "value": "https://283db.org/resource/music/song/Arittake_no_Kagayaki_de" },
+      "objectLabel": { "type": "literal", "value": "ありったけの輝きで" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/name" },
@@ -74,11 +83,13 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/subjectOf" },
-      "object": { "type": "uri", "value": "https://283db.org/resource/commu/Mano_FanFes" }
+      "object": { "type": "uri", "value": "https://283db.org/resource/commu/Mano_FanFes" },
+      "objectLabel": { "type": "literal", "value": "感謝祭編" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/subjectOf" },
-      "object": { "type": "uri", "value": "https://283db.org/resource/commu/Mano_WING" }
+      "object": { "type": "uri", "value": "https://283db.org/resource/commu/Mano_WING" },
+      "objectLabel": { "type": "literal", "value": "W.I.N.G.編" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/sameAs" },
@@ -122,7 +133,8 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/bloodType" },
-      "object": { "type": "uri", "value": "https://283db.org/resource/enum/BloodType.A" }
+      "object": { "type": "uri", "value": "https://283db.org/resource/enum/BloodType.A" },
+      "objectLabel": { "type": "literal", "value": "A型" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/birthdate" },
@@ -130,7 +142,8 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/zodiacSign" },
-      "object": { "type": "uri", "value": "https://283db.org/resource/enum/ZodiacSign.Taurus" }
+      "object": { "type": "uri", "value": "https://283db.org/resource/enum/ZodiacSign.Taurus" },
+      "objectLabel": { "type": "literal", "value": "牡牛座" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/height" },
@@ -142,7 +155,8 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/handedness" },
-      "object": { "type": "uri", "value": "https://283db.org/resource/enum/Handedness.Right" }
+      "object": { "type": "uri", "value": "https://283db.org/resource/enum/Handedness.Right" },
+      "objectLabel": { "type": "literal", "value": "右" }
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/bustSize" },
@@ -162,7 +176,8 @@
     },
     {
       "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/hometown" },
-      "object": { "type": "uri", "value": "https://283db.org/resource/common/hometown/Tokyo" }
+      "object": { "type": "uri", "value": "https://283db.org/resource/common/hometown/Tokyo" },
+      "objectLabel": { "type": "literal", "value": "東京" }
     },
     {
       "predicate": { "type": "uri", "value": "http://schema.org/gender" },

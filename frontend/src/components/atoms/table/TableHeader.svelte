@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import { text, isUri } from './helper';
+  import { isUri, label, href } from './helper';
   import type { Item } from '$types/table';
 
   export let header: Item;
@@ -12,10 +12,10 @@
   colspan={ colspan }
 >
   {#if isUri(header)}
-    <a href={ text(header) } target='_blank' rel='noopener noreferrer'>
-      { text(header) }
+    <a href={ href(header) } target='_blank' rel='noopener noreferrer'>
+      { label(header) }
     </a>
   {:else}
-    { text(header) }
+    { label(header) }
   {/if}
 </th>

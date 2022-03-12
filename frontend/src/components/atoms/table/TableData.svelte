@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import { text, isUri, hasLang, hasDataType, lang, datatype } from './helper';
+  import { isUri, label, href, hasLang, hasDataType, lang, datatype } from './helper';
   import type { Item } from '$types/table';
 
   export let datum: Item;
@@ -13,14 +13,14 @@
 >
   {#if isUri(datum)}
     <a
-      href={ text(datum) }
+      href={ href(datum) }
       target='_blank'
       rel='noopener noreferrer'
     >
-      { text(datum) }
+      { label(datum) }
     </a>
   {:else}
-    { text(datum) }
+    { label(datum) }
     {#if hasLang(datum)}
       <span class='meta'>{ `(${lang(datum)})` }</span>
     {/if}
