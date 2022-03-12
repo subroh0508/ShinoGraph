@@ -1,36 +1,40 @@
 <script lang='ts' context='module'>
-  import type { TableDatum } from '$types/table';
+  import type { TableRowItem } from '$types/table';
 
   const ITEMS_PER_PAGE = 10;
 
-  const calculateTotalPage = (data: TableDatum[]): number => Math.ceil(data.length / ITEMS_PER_PAGE);
-  const buildPaginatedData = (
-    page: number,
-    data: TableDatum[],
-  ): TableDatum[] => data.slice(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE);
+  function calculateTotalPage(rows: TableRowItem[][]): number {
+    return Math.ceil(rows.slice(1).length / ITEMS_PER_PAGE);
+  }
+
+  function sliceRows(rows: TableRowItem[][], page: number) {
+    const offset = page * ITEMS_PER_PAGE + 1;
+
+    return rows.slice(offset, offset + ITEMS_PER_PAGE);
+  }
 </script>
 
 <script lang='ts'>
-  import type { TableDatum } from '$types/table';
+  import type { TableRowItem } from '$types/table';
   import DataListTable from './DataListTable.svelte';
   import Pagination from './Pagination.svelte';
   import { TableFooter } from '$components/atoms/table';
 
-  export let header: string[] = [];
-  export let data: TableDatum[] = [];
+  export let rows: TableRowItem[][] = [];
+  export let striped: boolean = false;
 
   let page: number = 0;
-  $: offset = ITEMS_PER_PAGE * page;
-  $: totalPage = calculateTotalPage(data);
-  $: paginatedData = buildPaginatedData(page, data);
+
+  $: header = rows[0];
+  $: data = sliceRows(rows, page);
+  $: totalPage = calculateTotalPage(rows);
 </script>
 
 <div class='paginatable-table'>
   <DataListTable
-    striped
+    striped={ striped }
     header={ header }
-    data={ paginatedData }
-    offset={ offset }
+    data={ data }
   >
     {#if totalPage > 1}
       <TableFooter

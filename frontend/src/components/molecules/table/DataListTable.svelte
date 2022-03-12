@@ -1,33 +1,21 @@
 <script lang='ts'>
-  import { TableRow, getDatumItem } from '$components/atoms/table';
-  import type { TableDatum } from '$types/table';
+  import { TableRow } from '$components/atoms/table';
+  import type { TableRowItem } from '$types/table';
 
-  export let header: string[] = [];
-  export let data: TableDatum[] = [];
-  export let offset: number = 0;
+  export let header: TableRowItem[] = [];
+  export let data: TableRowItem[][] = [];
   export let striped: boolean = false;
-
-  $: headerRow = [
-    { item: '#', header: true },
-    ...header.map(h => ({ item: h, header: true })),
-  ];
-  $: dataRow = data.map((datum, i) =>
-    [
-      { item: (offset + i + 1).toString(), header: false },
-      ...header.map(header => ({ item: getDatumItem(header, datum), header: false })),
-    ]
-  );
 </script>
 
 <table class='pure-table'
   class:pure-table-striped={ striped }
   class:pure-table-bordered={ !striped }>
   <thead>
-    <TableRow row={ headerRow }/>
+    <TableRow row={ header }/>
   </thead>
   <tbody>
-    {#if !!dataRow.length}
-      {#each dataRow as row}
+    {#if !!data.length}
+      {#each data as row}
         <TableRow row={ row }/>
       {/each}
     {/if}
