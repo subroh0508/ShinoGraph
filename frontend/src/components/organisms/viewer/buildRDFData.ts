@@ -72,10 +72,24 @@ function buildRDFElement(valueKey: ValueKey, datum: QuerySolution): NullableRDF 
   return { ...primary, value: { href: href(primary), label: secondary } };
 }
 
-function compareItem(a: NullableRDF, b: NullableRDF): number {
+function compareItem(
+  a: NullableRDF,
+  b: NullableRDF,
+  aHref: string | null = null,
+  bHref: string | null = null,
+): number {
+  if (aHref !== null && bHref !== null) {
+    if (aHref > bHref) {
+      return 1;
+    } else if(aHref < bHref) {
+      return -1;
+    }
+  }
+
   const [aValue, bValue] = [a?.value, b?.value];
+
   if (aValue !== null && bValue !== null && typeof aValue !== 'string' && typeof bValue !== 'string') {
-    return compareItem(aValue.label, bValue.label);
+    return compareItem(aValue.label, bValue.label, aValue.href, bValue.href);
   }
 
   if (hasLang(a) && !hasLang(b) || hasDataType(a) && !hasDataType(b)) {
@@ -85,16 +99,10 @@ function compareItem(a: NullableRDF, b: NullableRDF): number {
   }
 
   const [aStr, bStr] = [label(a) || '', label(b) || ''];
-  if (aStr.length > bStr.length) {
-    return 1;
-  } else if (aStr.length < bStr.length) {
-    return -1;
-  }
-
   if (aStr > bStr) {
-    return -1;
-  } else if (aStr < bStr) {
     return 1;
+  } else if (aStr < bStr) {
+    return -1;
   } else {
     return 0;
   }
