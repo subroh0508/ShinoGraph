@@ -11,7 +11,7 @@ export interface RDF {
 
 export interface IRI {
   href: string;
-  label: string;
+  label: RDF;
 }
 
 export interface DataType {

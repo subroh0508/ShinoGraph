@@ -9,6 +9,14 @@ export function isUri(item: Item): boolean {
   return item?.type === 'uri';
 }
 
+export function isLiteral(item: Item): boolean {
+  if (typeof item === 'string') {
+    return false;
+  }
+
+  return item?.type === 'literal';
+}
+
 export function label(item: Item): string {
   if (typeof item === 'string') {
     return item;
@@ -19,7 +27,7 @@ export function label(item: Item): string {
     return value;
   }
 
-  return value?.label || '';
+  return label(value?.label || '');
 }
 
 export function href(item: Item): string {

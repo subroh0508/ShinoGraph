@@ -1,13 +1,17 @@
-import { hasLang, hasDataType, label, href } from '$components/atoms/table';
-import { getRDFOrNull } from '$components/atoms/table';
+import { isUri, isLiteral, hasLang, hasDataType, label, href, getRDFOrNull } from '$components/atoms/table';
 import type { QuerySolution, RDF } from '$types/sparql';
 import type { TableRowItem } from '$types/table';
 
 type NullableRDF = RDF | null;
 
-export default function buildRDFData(
+export interface ValueKey {
+  primary: string;
+  secondary: string;
+}
+
+export function buildRDFData(
   headerKey: string,
-  valueKey: string,
+  valueKey: ValueKey,
   data: QuerySolution[],
 ): TableRowItem[][] {
   const headerMap = data.reduce((acc: { [key: string]: NullableRDF }, datum) => {
@@ -28,7 +32,7 @@ export default function buildRDFData(
       ...acc,
       [headerText]: [
         ...(acc[headerText] || []),
-        getRDFOrNull(valueKey, datum),
+        buildRDFElement(valueKey, datum),
       ].sort(compareItem),
     };
   }, {});
@@ -50,6 +54,21 @@ export default function buildRDFData(
         )),
       ];
     }, []);
+}
+
+function buildRDFElement(valueKey: ValueKey, datum: QuerySolution): NullableRDF {
+  const primary: NullableRDF = getRDFOrNull(valueKey.primary, datum);
+
+  if (!isUri(primary)) {
+    return primary;
+  }
+
+  const secondary: NullableRDF = getRDFOrNull(valueKey.secondary, datum);
+  if (!isLiteral(secondary)) {
+    return primary;
+  }
+
+  return { ...primary, value: { href: href(primary), label: secondary } };
 }
 
 function compareItem(a: NullableRDF, b: NullableRDF): number {
