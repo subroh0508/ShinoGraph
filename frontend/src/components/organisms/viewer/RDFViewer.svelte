@@ -4,14 +4,15 @@
 
 <script lang='ts'>
   import { DataTable } from '$components/molecules/table';
-  import type { QuerySolution } from '$types/sparql';
-  import type { ValueKey } from './buildRDFData';
+  import type { QuerySolution, Properties } from '$types/sparql';
+  import type { RDFElementKey } from './buildRDFData';
 
   export let headerKey: string;
-  export let valueKey: ValueKey;
+  export let valueKey: RDFElementKey;
   export let data: QuerySolution[] = [];
+  export let properties: Properties = {};
 
-  $: rows = buildRDFData(headerKey, valueKey, data);
+  $: rows = buildRDFData(headerKey, valueKey, data, properties);
 </script>
 
 <DataTable rows={ rows }/>

@@ -1,19 +1,20 @@
 import { isUri, isLiteral, isBlankNode, hasLang, hasDataType, label, href } from '$components/atoms/text';
 import { getRDFOrNull } from '$components/molecules/table';
-import type { QuerySolution, RDF } from '$types/sparql';
+import type { QuerySolution, Properties, RDF } from '$types/sparql';
 import type { TableRowItem } from '$types/table';
 
 type NullableRDF = RDF | null;
 
-export interface ValueKey {
+export interface RDFElementKey {
   primary: string;
   secondary: string;
 }
 
 export function buildRDFData(
   headerKey: string,
-  valueKey: ValueKey,
+  valueKey: RDFElementKey,
   data: QuerySolution[],
+  properties: Properties,
 ): TableRowItem[][] {
   const headerMap = data.reduce((acc: { [key: string]: NullableRDF }, datum) => {
     const headerText = href(getRDFOrNull(headerKey, datum));
@@ -21,7 +22,7 @@ export function buildRDFData(
       return acc;
     }
 
-    return { ...acc, [headerText]: getRDFOrNull(headerKey, datum) };
+    return { ...acc, [headerText]: buildHeaderElement(headerKey, properties, datum) };
   }, {});
   const dataMap = data.reduce((acc: { [key: string]: NullableRDF[] }, datum) => {
     const headerText = href(getRDFOrNull(headerKey, datum));
@@ -57,7 +58,23 @@ export function buildRDFData(
     }, []);
 }
 
-function buildRDFElement(valueKey: ValueKey, datum: QuerySolution): NullableRDF {
+function buildHeaderElement(headerKey: string, properties: Properties, datum: QuerySolution): NullableRDF {
+  const header: NullableRDF = getRDFOrNull(headerKey, datum);
+
+  if (!isUri(header)) {
+    return header;
+  }
+
+  const propertyLabel = properties[href(header)];
+  console.log(properties, propertyLabel, href(header))
+  if (!propertyLabel) {
+    return header;
+  }
+
+  return { ...header, value: { href: href(header), label: { type: 'literal', value: propertyLabel.ja } } };
+}
+
+function buildRDFElement(valueKey: RDFElementKey, datum: QuerySolution): NullableRDF {
   const primary: NullableRDF = getRDFOrNull(valueKey.primary, datum);
 
   if (!isUri(primary) && !isBlankNode(primary)) {

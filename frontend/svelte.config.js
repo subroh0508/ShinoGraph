@@ -1,6 +1,7 @@
 import path from 'path';
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
+import yaml from '@rollup/plugin-yaml';
 
 const dev = process.env.NODE_ENV === 'development';
 
@@ -27,6 +28,7 @@ const config = {
           $components: path.resolve('./src/components'),
         },
       },
+      plugins: [yaml()],
     },
   },
 };

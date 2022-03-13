@@ -4,9 +4,10 @@
 
 <script lang='ts'>
   import { RDFViewer } from '$components/organisms/viewer';
-  import type { QuerySolution } from '$types/sparql';
+  import type {QuerySolution, Properties } from '$types/sparql';
 
   export let subject: QuerySolution[] = [];
+  export let properties: Properties = {};
 </script>
 
 <div>
@@ -14,6 +15,7 @@
     headerKey='predicate'
     valueKey={{ primary: 'object', secondary: 'objectName' }}
     data={ subject }
+    properties={ properties }
   />
 </div>
 

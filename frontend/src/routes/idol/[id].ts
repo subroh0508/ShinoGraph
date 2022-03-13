@@ -1,4 +1,6 @@
 import { prerender } from '$lib/SparqlClient';
+// @ts-ignore
+import properties from './properties.yml';
 
 const buildQuery = (id: string) => `
   PREFIX scdb: <https://283db.org/schema#>
@@ -23,7 +25,10 @@ export async function get({ params }) {
 
   if (result.isOk) {
     return {
-      body: { subject: result.bindings },
+      body: {
+        subject: result.bindings,
+        properties,
+      },
     }
   }
 
