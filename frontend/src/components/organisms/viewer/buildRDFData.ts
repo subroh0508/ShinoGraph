@@ -66,7 +66,6 @@ function buildHeaderElement(headerKey: string, properties: Properties, datum: Qu
   }
 
   const propertyLabel = properties[href(header)];
-  console.log(properties, propertyLabel, href(header))
   if (!propertyLabel) {
     return header;
   }
