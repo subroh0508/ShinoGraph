@@ -81,7 +81,7 @@ export class RDFEntityBuilder {
   }
 
   private buildPredicate(href: string): Predicate {
-    const label = this.properties[href].ja;
+    const label = this.properties[href]?.ja;
 
     return { label: !label ? href : label, value: { href, label: replaceByAlias(href) } };
   }
@@ -100,7 +100,7 @@ export class RDFEntityBuilder {
       return primary;
     }
 
-    return { ...primary, value: { href: href(labelData), label: labelData } };
+    return { ...primary, value: { href: href(primary), label: labelData } };
   }
 }
 
@@ -131,7 +131,7 @@ function replaceByAlias(href: string): string {
     return href;
   }
 
-  return href.replace(aliasKey, alias[aliasKey]);
+  return href.replace(aliasKey, `${alias[aliasKey]}:`);
 }
 
 function compareItem(

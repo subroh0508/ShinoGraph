@@ -1,4 +1,4 @@
-<script lang='ts' context='module'>
+<script lang='ts'>
   export let href: string | null = null;
 </script>
 

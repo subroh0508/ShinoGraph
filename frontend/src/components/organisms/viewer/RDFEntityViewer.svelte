@@ -5,4 +5,6 @@
   export let entity: RDFEntity | null = null;
 </script>
 
-<EntityPropertiesTable properties={ entity.properties }/>
+{#if !!entity}
+  <EntityPropertiesTable properties={ entity.properties }/>
+{/if}

@@ -1,15 +1,20 @@
 <script lang='ts'>
-  import { RDFItem } from '$components/atoms/text';
-  import type { Item } from '$types/table';
+  import { Link } from '$components/atoms/link';
+  import { Meta } from '$components/atoms/text';
 
-  export let header: Item;
-  export let rowspan: number;
-  export let colspan: number;
+  export let label: string;
+  export let href: string | null = null;
+  export let meta: string | null = null;
+  export let rowspan: number | null = null;
+  export let colspan: number | null = null;
 </script>
 
 <th
-  rowspan={ rowspan }
-  colspan={ colspan }
+  rowspan={ rowspan || 1 }
+  colspan={ colspan || 1 }
 >
-  <RDFItem item={ header }/>
+  <Link href={ href }>
+    { label }
+    <Meta text={ meta }/>
+  </Link>
 </th>

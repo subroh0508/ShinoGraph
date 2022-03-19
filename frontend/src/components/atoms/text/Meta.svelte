@@ -1,9 +1,9 @@
-<script lang='ts' context='module'>
+<script lang='ts'>
   export let text: string | null = null;
 </script>
 
 {#if !!text}
-  <span class='meta'>{ text }</span>
+  <span class='meta'>{ `(${text})` }</span>
 {/if}
 
 <style lang='scss'>

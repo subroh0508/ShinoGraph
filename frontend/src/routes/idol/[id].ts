@@ -14,10 +14,15 @@ const buildQuery = (id: string) => `
   PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
   PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-  SELECT ?predicate ?object ?objectName
+  SELECT ?label ?description ?predicate ?object ?objectName
   WHERE {
-    <https://283db.org/resource/character/idol/${id}> ?predicate ?object;
-      OPTIONAL { ?object :name ?objectName }
+    {
+      <https://283db.org/resource/character/idol/${id}> rdfs:label ?label;
+        :description ?description
+    } UNION {
+      <https://283db.org/resource/character/idol/${id}> ?predicate ?object;
+        OPTIONAL { ?object :name ?objectName }
+    }
   }
 `;
 
@@ -28,7 +33,7 @@ export async function get({ params }) {
     const entity = new RDFEntityBuilder(
       { primary: 'label', secondary: 'description' },
        'predicate',
-      { primary: 'object', secondary: 'objectLabel' },
+      { primary: 'object', secondary: 'objectName' },
       properties,
     ).build(result.bindings);
 

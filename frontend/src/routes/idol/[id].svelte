@@ -4,18 +4,9 @@
 
 <script lang='ts'>
   import { RDFEntityViewer } from '$components/organisms/viewer';
-  import type { QuerySolution, Properties } from '$types/sparql';
+  import type { RDFEntity } from '$types/entity';
 
-  export let subject: QuerySolution[] = [];
-  export let properties: Properties = {};
+  export let entity: RDFEntity;
 </script>
 
-<div>
-  <RDFEntityViewer
-    headerKey='predicate'
-    valueKey={{ primary: 'object', secondary: 'objectName' }}
-    data={ subject }
-    properties={ properties }
-  />
-</div>
-
+<RDFEntityViewer entity={ entity }/>
