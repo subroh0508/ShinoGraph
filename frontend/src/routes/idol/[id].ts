@@ -1,3 +1,4 @@
+import { RDFEntityBuilder } from '$lib/RDFEntityBuilder';
 import { prerender } from '$lib/SparqlClient';
 // @ts-ignore
 import properties from './properties.yml';
@@ -24,12 +25,16 @@ export async function get({ params }) {
   const result = await prerender.execute(buildQuery(params.id));
 
   if (result.isOk) {
+    const entity = new RDFEntityBuilder(
+      { primary: 'label', secondary: 'description' },
+       'predicate',
+      { primary: 'object', secondary: 'objectLabel' },
+      properties,
+    ).build(result.bindings);
+
     return {
-      body: {
-        subject: result.bindings,
-        properties,
-      },
-    }
+      body: { entity },
+    };
   }
 
   return {

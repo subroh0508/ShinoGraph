@@ -1,2 +1,2 @@
-export { default as RDFViewer } from './RDFViewer.svelte';
+export { default as RDFEntityViewer } from './RDFEntityViewer.svelte';
 export { buildRDFData } from './buildRDFData';

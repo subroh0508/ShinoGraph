@@ -72,10 +72,7 @@ export class RDFEntityBuilder {
 
       return {
         ...acc,
-        [predicateId]: [
-          ...(acc[predicateId] || []),
-          this.buildRDFObject(datum),
-        ].sort(compareItem),
+        [predicateId]: [...(acc[predicateId] || []), this.buildRDFObject(datum)].sort(compareItem),
       };
     }, {})
 

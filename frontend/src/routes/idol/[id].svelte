@@ -3,15 +3,15 @@
 </script>
 
 <script lang='ts'>
-  import { RDFViewer } from '$components/organisms/viewer';
-  import type {QuerySolution, Properties } from '$types/sparql';
+  import { RDFEntityViewer } from '$components/organisms/viewer';
+  import type { QuerySolution, Properties } from '$types/sparql';
 
   export let subject: QuerySolution[] = [];
   export let properties: Properties = {};
 </script>
 
 <div>
-  <RDFViewer
+  <RDFEntityViewer
     headerKey='predicate'
     valueKey={{ primary: 'object', secondary: 'objectName' }}
     data={ subject }
