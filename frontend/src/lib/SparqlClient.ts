@@ -1,5 +1,7 @@
 import { PRERENDER_BASE_URL, BASE_URL } from '$lib/constants';
 import SparqlResult from '$lib/SparqlResult';
+// @ts-ignore
+import alias from './alias.yml';
 
 class SparqlClient {
   private readonly baseUrl: string
@@ -20,7 +22,7 @@ class SparqlClient {
       option,
     );
 
-    return await SparqlResult.build(res);
+    return await SparqlResult.build(res, alias);
   }
 }
 

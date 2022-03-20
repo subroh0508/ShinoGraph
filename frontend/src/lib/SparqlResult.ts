@@ -24,30 +24,31 @@ interface SparqlJsonObject {
   "xml:lang"?: string;
 }
 
-const XSD_URI = 'http://www.w3.org/2001/XMLSchema#';
-
 export default class SparqlResult {
   private readonly ok: boolean;
   private readonly statusNumber: number;
   private readonly statusText: string;
   private readonly responseBody: SparqlResponseBody | null;
   private readonly responseErrorBody: string | null;
+  private readonly alias: { [key: string]: string }
 
   constructor(
     ok: boolean,
     statusNumber: number,
     statusText: string,
+    alias: { [key: string]: string },
     body: SparqlResponseBody | null,
     error: string | null,
   ) {
     this.ok = ok;
     this.statusNumber = statusNumber;
     this.statusText = statusText;
+    this.alias = alias;
     this.responseBody = body;
     this.responseErrorBody = error;
   }
 
-  static async build(response: Response): Promise<SparqlResult> {
+  static async build(response: Response, alias: { [key: string]: string }): Promise<SparqlResult> {
     const ok = response.ok;
     if (ok) {
       const body: SparqlResponseBody = await response.json();
@@ -56,6 +57,7 @@ export default class SparqlResult {
         ok,
         response.status,
         response.statusText,
+        alias,
         body,
         null,
       );
@@ -67,6 +69,7 @@ export default class SparqlResult {
       ok,
       response.status,
       response.statusText,
+      {},
       null,
       errorBody,
     );
@@ -92,7 +95,7 @@ export default class SparqlResult {
 
     return this.responseBody.results.bindings.map(binding => {
       return Object.keys(binding).reduce(
-        (acc: QuerySolution, key: string) => ({ ...acc, [key]: SparqlResult.toRDF(binding[key]) }),
+        (acc: QuerySolution, key: string) => ({ ...acc, [key]: this.toRDF(binding[key]) }),
         {},
       );
     });
@@ -106,7 +109,7 @@ export default class SparqlResult {
     }
   }
 
-  private static toRDF(object: SparqlJsonObject): RDF {
+  private toRDF(object: SparqlJsonObject): RDF {
     const rdf = { type: object.type, value: object.value };
 
     if (object.hasOwnProperty('xml:lang')) {
@@ -114,7 +117,10 @@ export default class SparqlResult {
     }
 
     if (object.hasOwnProperty('datatype')) {
-      return { ...rdf, datatype: object.datatype };
+      const aliasKey = Object.keys(this.alias).find(key => object.datatype.includes(key));
+      const label = object.datatype.replace(aliasKey, `${this.alias[aliasKey]}:`);
+
+      return { ...rdf, datatype: { href: object.datatype, label } };
     }
 
     return rdf;

@@ -125,14 +125,8 @@ function getSecondaryKey(key: Key): string | null {
 }
 
 function buildLiteralObject(object: RDF): RDFObject {
-  if (hasLang(object)) {
-    return { type: 'literal', value: object.value, lang: object.lang };
-  }
-
-  if (hasDataType(object)) {
-    const datatype = { href: object.datatype, label: replaceByAlias(object.datatype) };
-
-    return { type: 'literal', value: object.value, datatype };
+  if (hasLang(object) || hasDataType(object)) {
+    return object;
   }
 
   return { type: 'literal', value: object.value };

@@ -1,3 +1,5 @@
+import { RDFMeta } from '$types/sparql';
+
 export interface RDFEntity {
   subject: Subject;
   properties: Property[];
@@ -33,9 +35,4 @@ export interface RDFElementKey {
 export interface IRI {
   href: string;
   label: RDFObject;
-}
-
-export interface RDFMeta {
-  href: string;
-  label: string;
 }

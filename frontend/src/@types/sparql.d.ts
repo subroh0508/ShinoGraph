@@ -15,7 +15,12 @@ export interface RDF {
   type: 'uri' | 'bnode' | 'literal';
   value: string;
   lang?: string;
-  datatype?: string;
+  datatype?: RDFMeta;
+}
+
+export interface RDFMeta {
+  href: string;
+  label: string;
 }
 
 export type NullableSolution = QuerySolution | null;

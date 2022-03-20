@@ -15,7 +15,7 @@
   }
 
   function datatype(object: RDF): string | null {
-    return object.type === 'literal' ? (object.datatype || null) : null;
+    return object.type === 'literal' ? (object.datatype?.label || null) : null;
   }
 </script>
 
@@ -28,7 +28,7 @@
           <TableData
             label={ row[v]?.value || '' }
             href={ row[v] && href(row[v]) }
-            meta={ row[v] && lang(row[v]) }
+            meta={ row[v] && (lang(row[v]) || datatype(row[v])) }
           />
         {/each}
       </tr>
