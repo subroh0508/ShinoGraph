@@ -9,6 +9,14 @@
   function href(object: NullableRDF): string | null {
     return object?.type === 'uri' ? object.value : null;
   }
+
+  function lang(object: NullableRDF): string | null {
+    return object?.type === 'literal' ? (object.lang || null) : null;
+  }
+
+  function datatype(object: NullableRDF): string | null {
+    return object?.type === 'literal' ? (object.datatype || null) : null;
+  }
 </script>
 
 <tbody>
@@ -20,6 +28,7 @@
           <TableData
             label={ (row[v] || null)?.value }
             href={ href(row[v] || null) }
+            meta={ lang(row[v] || null) }
           />
         {/each}
       </tr>

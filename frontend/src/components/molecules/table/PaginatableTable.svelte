@@ -1,6 +1,4 @@
 <script lang='ts' context='module'>
-  import type { TableRowItem } from '$types/table';
-
   const ITEMS_PER_PAGE = 10;
 
   function calculateTotalPage(data: any[]): number {
@@ -11,7 +9,7 @@
     return page * ITEMS_PER_PAGE;
   }
 
-  function sliceRows(data: any[], page: number): TableRowItem[][] {
+  function sliceRows(data: any[], page: number): any[] {
     return data.slice(offset(page), offset(page) + ITEMS_PER_PAGE);
   }
 </script>
@@ -19,7 +17,6 @@
 <script lang='ts'>
   import Pagination from './Pagination.svelte';
   import TableFooter from './TableFooter.svelte';
-  import type { TableRowItem } from '$types/table';
 
   export let data: any[] = [];
   export let striped: boolean = false;
