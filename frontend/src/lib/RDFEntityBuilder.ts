@@ -3,7 +3,6 @@ import alias from './alias.yml';
 import type {
   RDF,
   QuerySolution,
-  NullableRDF,
   NullableSolution,
   Properties,
 } from '$types/sparql';
@@ -61,7 +60,7 @@ export class RDFEntityBuilder {
     const predicateKey = getPrimaryKey(this.predicateKey);
 
     const predicatesMap = data.reduce((acc: { [key: string]: Predicate }, datum) => {
-      const predicateId = getRDFOrNull(predicateKey, datum)?.value;
+      const predicateId = datum[predicateKey]?.value;
       if (!predicateId) {
         return acc;
       }
@@ -69,7 +68,7 @@ export class RDFEntityBuilder {
       return { ...acc, [predicateId]: this.buildPredicate(predicateId) };
     }, {});
     const objectMap = data.reduce((acc: { [key: string]: RDFObject[] }, datum) => {
-      const predicateId = getRDFOrNull(predicateKey, datum)?.value;
+      const predicateId = datum[predicateKey]?.value;
       if (!predicateId) {
         return acc;
       }
@@ -97,15 +96,19 @@ export class RDFEntityBuilder {
 
   private buildRDFObject(data: QuerySolution): NullableRDFObject {
     const primaryKey = getPrimaryKey(this.objectKey);
-    const primary: NullableRDF = getRDFOrNull(primaryKey, data);
+    const primary = data[primaryKey];
 
-    if (primary === null || primary.type === 'literal') {
+    if (!primary) {
+      return null;
+    }
+
+    if (primary.type === 'literal') {
       return buildLiteralObject(primary);
     }
 
     const labelKey = getSecondaryKey(this.objectKey);
-    const labelData: NullableRDF = labelKey && getRDFOrNull(labelKey, data);
-    if (labelData === null || labelData.type !== 'literal') {
+    const labelData = labelKey && data[labelKey];
+    if (!labelData || labelData.type !== 'literal') {
       return { type: primary.type, value: primary.value };
     }
 
@@ -121,21 +124,13 @@ function getSecondaryKey(key: Key): string | null {
   return typeof key === 'string' ? null : key.secondary;
 }
 
-function getRDFOrNull(key: string, datum: QuerySolution): NullableRDF {
-  return datum[key] || null;
-}
-
-function buildLiteralObject(object: NullableRDF): NullableRDFObject {
-  if (object === null) {
-    return null;
-  }
-
+function buildLiteralObject(object: RDF): RDFObject {
   if (hasLang(object)) {
     return { type: 'literal', value: object.value, lang: object.lang };
   }
 
   if (hasDataType(object)) {
-    const datatype = { href: object.value, label: replaceByAlias(object.value) };
+    const datatype = { href: object.datatype, label: replaceByAlias(object.datatype) };
 
     return { type: 'literal', value: object.value, datatype };
   }

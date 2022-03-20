@@ -11,8 +11,8 @@
 
   let result: SparqlResult | null = null;
 
-  $: statusCode = !!result ? result.status : null;
-  $: message = !!result ? result.message : [];
+  $: statusCode = result !== null ? result.status : null;
+  $: message = result !== null ? result.message : [];
 
   const handleClick = async () => {
     result = null;

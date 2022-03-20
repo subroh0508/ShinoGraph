@@ -19,4 +19,3 @@ export interface RDF {
 }
 
 export type NullableSolution = QuerySolution | null;
-export type NullableRDF = RDF | null;

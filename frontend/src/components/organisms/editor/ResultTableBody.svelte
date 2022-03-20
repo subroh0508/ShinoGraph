@@ -1,21 +1,21 @@
 <script lang='ts'>
   import { TableData } from '$components/molecules/table';
-  import type { QuerySolution, NullableRDF } from '$types/sparql';
+  import type { QuerySolution, RDF } from '$types/sparql';
 
   export let vars: string[] = [];
   export let rows: QuerySolution[] = [];
   export let offset: number = 0;
 
-  function href(object: NullableRDF): string | null {
-    return object?.type === 'uri' ? object.value : null;
+  function href(object: RDF): string | null {
+    return object.type === 'uri' ? object.value : null;
   }
 
-  function lang(object: NullableRDF): string | null {
-    return object?.type === 'literal' ? (object.lang || null) : null;
+  function lang(object: RDF): string | null {
+    return object.type === 'literal' ? (object.lang || null) : null;
   }
 
-  function datatype(object: NullableRDF): string | null {
-    return object?.type === 'literal' ? (object.datatype || null) : null;
+  function datatype(object: RDF): string | null {
+    return object.type === 'literal' ? (object.datatype || null) : null;
   }
 </script>
 
@@ -26,9 +26,9 @@
         <TableData label={ i + offset + 1 }/>
         {#each vars as v}
           <TableData
-            label={ (row[v] || null)?.value }
-            href={ href(row[v] || null) }
-            meta={ lang(row[v] || null) }
+            label={ row[v]?.value || '' }
+            href={ row[v] && href(row[v]) }
+            meta={ row[v] && lang(row[v]) }
           />
         {/each}
       </tr>
