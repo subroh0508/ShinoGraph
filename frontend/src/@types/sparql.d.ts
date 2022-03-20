@@ -13,17 +13,7 @@ export interface PropertyLabel {
 
 export interface RDF {
   type: 'uri' | 'bnode' | 'literal';
-  value: IRI | string;
+  value: string;
   lang?: string;
-  datatype?: DataType;
-}
-
-export interface IRI {
-  href: string;
-  label: RDF;
-}
-
-export interface DataType {
-  href: string;
-  label: string;
+  datatype?: string;
 }

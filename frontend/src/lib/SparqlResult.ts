@@ -1,4 +1,4 @@
-import type {QuerySolution, RDF} from '$types/sparql';
+import type { QuerySolution, RDF } from '$types/sparql';
 
 interface SparqlResponseBody {
   head: {
@@ -114,7 +114,7 @@ export default class SparqlResult {
     }
 
     if (object.hasOwnProperty('datatype')) {
-      return { ...rdf, datatype: { href: object.datatype, label: object.datatype.replace(XSD_URI, 'xsd:') } };
+      return { ...rdf, datatype: object.datatype };
     }
 
     return rdf;

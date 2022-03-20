@@ -9,11 +9,11 @@ import type {
   Predicate,
   RDFObject,
 } from '$types/entity';
-import { hasDataType, hasLang } from '$components/atoms/text';
 
 type Key = RDFElementKey | string;
 type NullableSolution = QuerySolution | null;
 type NullableRDF = RDF | null;
+type NullableRDFObject = RDFObject | null;
 
 export class RDFEntityBuilder {
   private readonly subjectKey: Key;
@@ -48,8 +48,8 @@ export class RDFEntityBuilder {
     const descriptionData: NullableSolution = descriptionKey && data.find(e => e.hasOwnProperty(descriptionKey));
 
     return {
-      label: label(labelData[labelKey]) || '',
-      description: descriptionData && label(descriptionData[descriptionKey]),
+      label: labelData[labelKey].value || '',
+      description: descriptionData && descriptionData[descriptionKey].value,
     }
   }
 
@@ -57,7 +57,7 @@ export class RDFEntityBuilder {
     const predicateKey = getPrimaryKey(this.predicateKey);
 
     const predicatesMap = data.reduce((acc: { [key: string]: Predicate }, datum) => {
-      const predicateId = href(getRDFOrNull(predicateKey, datum));
+      const predicateId = getRDFOrNull(predicateKey, datum)?.value;
       if (!predicateId) {
         return acc;
       }
@@ -65,14 +65,19 @@ export class RDFEntityBuilder {
       return { ...acc, [predicateId]: this.buildPredicate(predicateId) };
     }, {});
     const objectMap = data.reduce((acc: { [key: string]: RDFObject[] }, datum) => {
-      const predicateId = href(getRDFOrNull(predicateKey, datum));
+      const predicateId = getRDFOrNull(predicateKey, datum)?.value;
       if (!predicateId) {
+        return acc;
+      }
+
+      const object = this.buildRDFObject(datum);
+      if (!object) {
         return acc;
       }
 
       return {
         ...acc,
-        [predicateId]: [...(acc[predicateId] || []), this.buildRDFObject(datum)].sort(compareItem),
+        [predicateId]: [...(acc[predicateId] || []), object].sort(compareItem),
       };
     }, {})
 
@@ -86,21 +91,21 @@ export class RDFEntityBuilder {
     return { label: !label ? href : label, value: { href, label: replaceByAlias(href) } };
   }
 
-  private buildRDFObject(data: QuerySolution): RDFObject {
+  private buildRDFObject(data: QuerySolution): NullableRDFObject {
     const primaryKey = getPrimaryKey(this.objectKey);
     const primary: NullableRDF = getRDFOrNull(primaryKey, data);
 
-    if (primary === null || primary?.type === 'literal') {
-      return { ...(primary || {}), type: 'literal', value: label(primary) || '' };
+    if (primary === null || primary.type === 'literal') {
+      return buildLiteralObject(primary);
     }
 
     const labelKey = getSecondaryKey(this.objectKey);
     const labelData: NullableRDF = labelKey && getRDFOrNull(labelKey, data);
     if (labelData === null || labelData.type !== 'literal') {
-      return primary;
+      return { type: primary.type, value: primary.value };
     }
 
-    return { ...primary, value: { href: href(primary), label: labelData } };
+    return { type: primary.type, value: { href: primary.value, label: buildLiteralObject(labelData) } };
   }
 }
 
@@ -116,12 +121,22 @@ function getRDFOrNull(key: string, datum: QuerySolution): NullableRDF {
   return datum[key] || null;
 }
 
-function href(value: NullableRDF): string | null {
-  return typeof value?.value === 'string' ? value?.value : value?.value?.href;
-}
+function buildLiteralObject(object: NullableRDF): NullableRDFObject {
+  if (object === null) {
+    return null;
+  }
 
-function label(value: NullableRDF): string | null {
-  return typeof value?.value === 'string' ? value?.value : label(value?.value?.label);
+  if (hasLang(object)) {
+    return { type: 'literal', value: object.value, lang: object.lang };
+  }
+
+  if (hasDataType(object)) {
+    const datatype = { href: object.value, label: replaceByAlias(object.value) };
+
+    return { type: 'literal', value: object.value, datatype };
+  }
+
+  return { type: 'literal', value: object.value };
 }
 
 function replaceByAlias(href: string): string {
@@ -135,8 +150,8 @@ function replaceByAlias(href: string): string {
 }
 
 function compareItem(
-  a: NullableRDF,
-  b: NullableRDF,
+  a: RDFObject,
+  b: RDFObject,
   aHref: string | null = null,
   bHref: string | null = null,
 ): number {
@@ -168,4 +183,11 @@ function compareItem(
   } else {
     return 0;
   }
+}
+
+function hasLang(object: RDF | RDFObject): boolean { return object.hasOwnProperty('lang'); }
+function hasDataType(object: RDF | RDFObject): boolean { return object.hasOwnProperty('datatype'); }
+
+function label(object: RDFObject): string {
+  return typeof object.value == 'string' ? object.value : label(object.value.label);
 }
