@@ -98,12 +98,8 @@ export class RDFEntityBuilder {
     const primaryKey = getPrimaryKey(this.objectKey);
     const primary = data[primaryKey];
 
-    if (!primary) {
-      return null;
-    }
-
-    if (primary.type === 'literal') {
-      return buildLiteralObject(primary);
+    if (!primary || primary.type === 'literal') {
+      return primary;
     }
 
     const labelKey = getSecondaryKey(this.objectKey);
@@ -112,7 +108,7 @@ export class RDFEntityBuilder {
       return { type: primary.type, value: primary.value };
     }
 
-    return { type: primary.type, value: { href: primary.value, label: buildLiteralObject(labelData) } };
+    return { type: primary.type, value: { href: primary.value, label: labelData } };
   }
 }
 
@@ -122,14 +118,6 @@ function getPrimaryKey(key: Key): string {
 
 function getSecondaryKey(key: Key): string | null {
   return typeof key === 'string' ? null : key.secondary;
-}
-
-function buildLiteralObject(object: RDF): RDFObject {
-  if (hasLang(object) || hasDataType(object)) {
-    return object;
-  }
-
-  return { type: 'literal', value: object.value };
 }
 
 function replaceByAlias(href: string): string {
