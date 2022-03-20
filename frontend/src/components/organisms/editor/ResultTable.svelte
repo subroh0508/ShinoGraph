@@ -1,22 +1,32 @@
-<script lang='ts' context='module'>
-  import buildPaginatableData from './buildPaginatableData';
-</script>
-
 <script lang='ts'>
   import { PaginatableTable } from '$components/molecules/table';
+  import ResultTableHeader from './ResultTableHeader.svelte';
+  import ResultTableBody from './ResultTableBody.svelte';
   import SparqlResult from '$lib/SparqlResult';
 
   export let result: SparqlResult | null = null;
-
-  $: rows = buildPaginatableData(result?.vars || [], result?.bindings || []);
 </script>
 
 {#if result && result.isOk}
   <div class='row result-table'>
     <PaginatableTable
+      let:rows={ rows }
+      let:offset={ offset }
       striped
-      rows={ rows }
-    />
+      data={ result?.bindings || [] }
+      footerColspan={ (result?.vars?.length || 0) + 1 }
+    >
+      <ResultTableHeader
+        slot='header'
+        vars={ result?.vars || [] }
+      />
+      <ResultTableBody
+        slot='body'
+        vars={ result?.vars || [] }
+        rows={ rows }
+        offset={ offset }
+      />
+    </PaginatableTable>
   </div>
 {/if}
 

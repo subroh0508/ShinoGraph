@@ -1,6 +1,12 @@
 // @ts-ignore
 import alias from './alias.yml';
-import type { RDF, Properties, QuerySolution } from "$types/sparql";
+import type {
+  RDF,
+  QuerySolution,
+  NullableRDF,
+  NullableSolution,
+  Properties,
+} from '$types/sparql';
 import type {
   RDFElementKey,
   RDFEntity,
@@ -11,8 +17,6 @@ import type {
 } from '$types/entity';
 
 type Key = RDFElementKey | string;
-type NullableSolution = QuerySolution | null;
-type NullableRDF = RDF | null;
 type NullableRDFObject = RDFObject | null;
 
 export class RDFEntityBuilder {

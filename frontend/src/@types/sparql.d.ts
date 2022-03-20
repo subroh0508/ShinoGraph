@@ -17,3 +17,6 @@ export interface RDF {
   lang?: string;
   datatype?: string;
 }
+
+export type NullableSolution = QuerySolution | null;
+export type NullableRDF = RDF | null;

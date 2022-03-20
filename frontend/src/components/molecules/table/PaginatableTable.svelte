@@ -3,47 +3,42 @@
 
   const ITEMS_PER_PAGE = 10;
 
-  function calculateTotalPage(rows: TableRowItem[][]): number {
-    return Math.ceil(rows.slice(1).length / ITEMS_PER_PAGE);
+  function calculateTotalPage(data: any[]): number {
+    return Math.ceil(data.length / ITEMS_PER_PAGE);
   }
 
-  function sliceRows(rows: TableRowItem[][], page: number): TableRowItem[][] {
-    const offset = page * ITEMS_PER_PAGE + 1;
+  function offset(page: number): number {
+    return page * ITEMS_PER_PAGE;
+  }
 
-    return rows.slice(offset, offset + ITEMS_PER_PAGE);
+  function sliceRows(data: any[], page: number): TableRowItem[][] {
+    return data.slice(offset(page), offset(page) + ITEMS_PER_PAGE);
   }
 </script>
 
 <script lang='ts'>
   import Pagination from './Pagination.svelte';
-  import TableRow from './TableRow.svelte';
   import TableFooter from './TableFooter.svelte';
   import type { TableRowItem } from '$types/table';
 
-  export let rows: TableRowItem[][] = [];
+  export let data: any[] = [];
   export let striped: boolean = false;
+  export let footerColspan: number = 0;
 
   let page: number = 0;
 
-  $: header = rows[0] || [];
-  $: data = sliceRows(rows, page);
-  $: totalPage = calculateTotalPage(rows);
+  $: rows = sliceRows(data, page);
+  $: totalPage = calculateTotalPage(data);
 </script>
 
 <div class='paginatable-table'>
   <table class='pure-table'
     class:pure-table-striped={ striped }
     class:pure-table-bordered={ !striped }>
-    <thead>
-      <TableRow row={ header }/>
-    </thead>
-    <tbody>
-      {#each data as row}
-        <TableRow row={ row }/>
-      {/each}
-    </tbody>
+    <slot name='header'/>
+    <slot name='body' rows={ rows } offset={ offset(page) }/>
     {#if totalPage > 1}
-      <TableFooter colspan={ header.length + 1 }>
+      <TableFooter colspan={ footerColspan }>
         <Pagination
           bind:page={ page }
           totalPage={ totalPage }
