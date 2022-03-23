@@ -1,6 +1,10 @@
 {
   "Sakuragi Mano": [
     {
+      "label": { "type": "literal" , "value": "櫻木真乃" },
+      "description": { "type": "literal" , "lang": "ja" , "value": "ほんわかした癒し系の女の子で、心優しい性格。見ていて守りたくなるタイプで、一緒にいるだけで何となく幸せな気持ちになる。高校1年生。" }
+    },
+    {
       "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
       "object": { "type": "uri", "value": "https://283db.org/schema#Idol" }
     },
