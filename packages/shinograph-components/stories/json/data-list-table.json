@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "Idols": ["name"],
+    "Places": ["subject", "predicate", "object"],
+    "Movies": ["item", "label", "startDate", "endDate", "duration"],
+    "EmptyHeader": []
+  },
+  "data": {
+    "Idols": [
+      { "name": { "type": "literal", "value": "Kogane Tsukioka" } },
+      { "name": { "type": "literal", "value": "Yuika Mitsumine" } },
+      { "name": { "type": "literal", "value": "Sakuya Shirase" } },
+      { "name": { "type": "literal", "value": "Mamimi Tanaka" } },
+      { "name": { "type": "literal", "value": "Kiriko Yukoku" } }
+    ],
+    "Places": [
+      { "subject": { "type": "uri", "value": "http://ja.dbpedia.org/resource/龍ヶ崎飛行場" }, "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" }, "object": { "type": "uri", "value": "https://schema.org/Place" } },
+      { "subject": { "type": "uri", "value": "http://ja.dbpedia.org/resource/龍ケ崎市" }, "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" }, "object": { "type": "uri", "value": "https://schema.org/Place" } },
+      { "subject": { "type": "uri", "value": "http://ja.dbpedia.org/resource/龍ケ崎市駅" }, "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" }, "object": { "type": "uri", "value": "https://schema.org/Place" } },
+      { "subject": { "type": "uri", "value": "http://ja.dbpedia.org/resource/龍ケ崎済生会病院" }, "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" }, "object": { "type": "uri", "value": "https://schema.org/Place" } }
+    ],
+    "Movies": [
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M3133" }, "label": { "type": "literal", "value": "宇宙戦艦ヤマト 完結編" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1983-03-19" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "158" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M2987" }, "label": { "type": "literal", "value": "あしたのジョー" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1980-03-08" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "153" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M2945" }, "label": { "type": "literal", "value": "さらば宇宙戦艦ヤマト 愛の戦士たち" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1978-08-05" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "151" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M3105" }, "label": { "type": "literal", "value": "わが青春のアルカディア" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1982-07-28" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "150" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M6242" }, "label": { "type": "literal", "value": "スタードライバー THE MOVIE" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "2013-02-09" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "150" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M3816" }, "label": { "type": "literal", "value": "三国志［第二部］ 長江燃ゆ!" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1993-03-20" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "148" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M3015" }, "label": { "type": "literal", "value": "ヤマトよ永遠に" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1980-08-02" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "145" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M3081" }, "label": { "type": "literal", "value": "機動戦士ガンダムⅢ  めぐりあい宇宙編" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1982-03-13" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "140" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M3025" }, "label": { "type": "literal", "value": "機動戦士ガンダム" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1981-03-14" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "139" } },
+      { "item": { "type": "uri", "value": "https://mediaarts-db.bunka.go.jp/id/M3233" }, "label": { "type": "literal", "value": "オーディーン 光子帆船スターライト" }, "startDate": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#date", "label": "xsd:date" }, "value": "1985-08-10" }, "duration": { "type": "literal", "datatype": { "href": "http://www.w3.org/2001/XMLSchema#integer", "label": "xsd:integer" }, "value": "139" } }
+    ],
+    "EmptyHeader": [{ "name": { "type": "literal", "value": "AAA" } }]
+  }
+}
