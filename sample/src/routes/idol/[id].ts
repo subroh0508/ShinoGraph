@@ -1,5 +1,4 @@
-import { RDFEntityBuilder } from '@shinograph/client';
-import { prerender } from '$lib/clients';
+import { prerender, buildEntity } from '$lib/clients';
 // @ts-ignore
 import alias from '$lib/alias.yml';
 // @ts-ignore
@@ -32,13 +31,7 @@ export async function get({ params }) {
   const result = await prerender.execute(buildQuery(params.id));
 
   if (result.isOk) {
-    const entity = new RDFEntityBuilder(
-      { primary: 'label', secondary: 'description' },
-       'predicate',
-      { primary: 'object', secondary: 'objectName' },
-      alias,
-      properties,
-    ).build(result.bindings);
+    const entity = buildEntity(properties, result);
 
     return {
       body: { entity },
