@@ -12,9 +12,9 @@ services:
       - '8000:8000'
       - '24678:24678'
     build:
-      context: './frontend'
+      context: '.'
     volumes:
-      - ./frontend:/home
+      - .:/home
     depends_on:
       - sparql-endpoint
 
