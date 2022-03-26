@@ -23,8 +23,8 @@
     "allowJs": true,
     "checkJs": true,
     "paths": {
-      "$lib": ["./src/lib"],
-      "$lib/*": ["./src/lib/*"],
+      "$lib": ["src/lib"],
+      "$lib/*": ["src/lib/*"],
       "@shinograph/components": ["../node_modules/@shinograph/components/package"],
       "@shinograph/components/*": ["../node_modules/@shinograph/components/package/*"]
     }

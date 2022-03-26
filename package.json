@@ -9,6 +9,7 @@
     "sample"
   ],
   "scripts": {
+    "package:components": "yarn workspace @shinograph/components run package",
     "sample": "yarn workspace @shinograph/sample run dev",
     "storybook": "yarn workspace @shinograph/stories run storybook"
   }
