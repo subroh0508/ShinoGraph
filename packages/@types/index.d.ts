@@ -25,6 +25,15 @@ export interface RDFMeta {
 
 export type NullableSolution = QuerySolution | null;
 
+export interface SparqlResult {
+  get isOk(): boolean;
+  get status(): number;
+  get message(): string[];
+  get vars(): string[];
+  get bindings(): QuerySolution[];
+  get error(): Error
+}
+
 export interface RDFEntity {
   subject: Subject;
   properties: Property[];

@@ -1,4 +1,4 @@
-import type { QuerySolution, RDF } from 'shinograph';
+import type { QuerySolution, RDF, SparqlResult } from 'shinograph';
 
 interface SparqlResponseBody {
   head: {
@@ -24,7 +24,7 @@ interface SparqlJsonObject {
   "xml:lang"?: string;
 }
 
-export class SparqlResult {
+export class SparqlQueryExecutionResult implements SparqlResult {
   private readonly ok: boolean;
   private readonly statusNumber: number;
   private readonly statusText: string;
@@ -53,7 +53,7 @@ export class SparqlResult {
     if (ok) {
       const body: SparqlResponseBody = await response.json();
 
-      return new SparqlResult(
+      return new SparqlQueryExecutionResult(
         ok,
         response.status,
         response.statusText,
@@ -65,7 +65,7 @@ export class SparqlResult {
 
     const errorBody: string = await response.text();
 
-    return new SparqlResult(
+    return new SparqlQueryExecutionResult(
       ok,
       response.status,
       response.statusText,

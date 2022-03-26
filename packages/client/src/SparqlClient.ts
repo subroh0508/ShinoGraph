@@ -1,4 +1,5 @@
-import { SparqlResult } from './SparqlResult';
+import { SparqlQueryExecutionResult } from './SparqlQueryExecutionResult';
+import type { SparqlResult } from 'shinograph';
 
 export class SparqlClient {
   private readonly baseUrl: string
@@ -20,6 +21,6 @@ export class SparqlClient {
       option,
     );
 
-    return await SparqlResult.build(res, alias);
+    return await SparqlQueryExecutionResult.build(res, alias);
   }
 }

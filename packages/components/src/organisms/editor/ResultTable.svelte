@@ -1,34 +1,33 @@
 <script lang='ts'>
-  import { SparqlResult } from '@shinograph/client';
   import { PaginatableTable } from '$molecules/table';
   import ResultTableHeader from './ResultTableHeader.svelte';
   import ResultTableBody from './ResultTableBody.svelte';
+  import type { QuerySolution } from 'shinograph';
 
-  export let result: SparqlResult | null = null;
+  export let vars: string[] = [];
+  export let bindings: QuerySolution[] = [];
 </script>
 
-{#if result && result.isOk}
-  <div class='row result-table'>
-    <PaginatableTable
-      let:rows={ rows }
-      let:offset={ offset }
-      striped
-      data={ result?.bindings || [] }
-      footerColspan={ (result?.vars?.length || 0) + 1 }
-    >
-      <ResultTableHeader
-        slot='header'
-        vars={ result?.vars || [] }
-      />
-      <ResultTableBody
-        slot='body'
-        vars={ result?.vars || [] }
-        rows={ rows }
-        offset={ offset }
-      />
-    </PaginatableTable>
-  </div>
-{/if}
+<div class='row result-table'>
+  <PaginatableTable
+    let:rows={ rows }
+    let:offset={ offset }
+    striped
+    data={ bindings }
+    footerColspan={ vars.length  + 1 }
+  >
+    <ResultTableHeader
+      slot='header'
+      vars={ vars }
+    />
+    <ResultTableBody
+      slot='body'
+      vars={ vars }
+      rows={ rows }
+      offset={ offset }
+    />
+  </PaginatableTable>
+</div>
 
 <style lang='scss'>
   .result-table {
