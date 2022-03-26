@@ -5,13 +5,12 @@
 <script lang='ts'>
   import { client } from '$lib/clients';
   import { DEFAULT_QUERY } from '$lib/constants';
-  import alias from '$lib/alias.yml';
 
   let query = DEFAULT_QUERY;
   let result = 'Show results here';
 
   const handleClick = () => {
-    client.execute(query, alias)
+    client.execute(query)
       .then(json => { result = JSON.stringify(json, null, 2); });
   }
 </script>

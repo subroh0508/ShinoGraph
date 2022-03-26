@@ -69,7 +69,7 @@ export class SparqlQueryExecutionResult implements SparqlResult {
       ok,
       response.status,
       response.statusText,
-      {},
+      alias,
       null,
       errorBody,
     );
