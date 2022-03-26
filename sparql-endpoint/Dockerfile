@@ -1,6 +1,6 @@
 FROM openjdk:11-jre-slim-buster as build-data
 
-RUN apt-get update && apt-get upgrade && apt-get install -y wget
+RUN apt update && apt install -y wget
 COPY . /home/
 
 WORKDIR /home

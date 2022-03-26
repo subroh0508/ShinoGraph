@@ -10,4 +10,4 @@ EXPOSE 3000
 RUN yarn
 VOLUME /home/node_modules
 
-CMD yarn run dev
+CMD yarn run sample
