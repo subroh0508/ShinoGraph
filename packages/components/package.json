@@ -1,5 +1,5 @@
 {
-  "name": "shinograph-frontend",
+  "name": "@shinograph/components",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev --port 8000 --host 0.0.0.0",
