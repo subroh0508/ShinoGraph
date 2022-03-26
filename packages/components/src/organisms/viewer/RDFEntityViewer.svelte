@@ -1,6 +1,6 @@
 <script lang='ts'>
   import EntityPropertiesTable from './EntityPropertiesTable.svelte';
-  import type { RDFEntity } from '$types/entity';
+  import type { RDFEntity } from 'shinograph';
 
   export let entity: RDFEntity | null = null;
 </script>

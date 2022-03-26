@@ -1,6 +1,6 @@
 <script lang='ts'>
   import { TableData } from '$molecules/table';
-  import type { QuerySolution, RDF } from '$types/sparql';
+  import type { QuerySolution, RDF } from 'shinograph';
 
   export let vars: string[] = [];
   export let rows: QuerySolution[] = [];

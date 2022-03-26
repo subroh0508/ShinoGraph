@@ -1,7 +1,7 @@
 <script>
   import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
+  import { RDFEntityBuilder } from '@shinograph/client';
   import { RDFEntityViewer } from '$organisms/viewer';
-  import { RDFEntityBuilder } from '../../src/lib/RDFEntityBuilder';
   //import properties from '../../src/routes/idol/properties.yml';
   import json from '../json/data-table.json';
 
@@ -10,6 +10,14 @@
       { primary: 'label', secondary: 'description' },
       'predicate',
       { primary: 'object', secondary: 'objectName' },
+      {
+        'https://283db.org/schema#': 'scdb',
+        'http://schema.org/': 'schema',
+        'http://dbpedia.org/ontology/': 'dbo',
+        'http://www.w3.org/1999/02/22-rdf-syntax-ns#': 'rdf',
+        'http://www.w3.org/2000/01/rdf-schema#': 'rdfs',
+        'http://www.w3.org/2001/XMLSchema#': 'xsd',
+      },
       {},
     ).build(json[name]);
   }

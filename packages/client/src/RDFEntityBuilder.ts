@@ -1,19 +1,15 @@
-// @ts-ignore
-import alias from './alias.yml';
 import type {
   RDF,
   QuerySolution,
   NullableSolution,
   Properties,
-} from '$types/sparql';
-import type {
   RDFElementKey,
   RDFEntity,
   Subject,
   Property,
   Predicate,
   RDFObject,
-} from '$types/entity';
+} from 'shinograph';
 
 type Key = RDFElementKey | string;
 type NullableRDFObject = RDFObject | null;
@@ -22,17 +18,20 @@ export class RDFEntityBuilder {
   private readonly subjectKey: Key;
   private readonly predicateKey: Key;
   private readonly objectKey: Key;
-  private readonly properties: Properties
+  private readonly alias: { [key: string]: string };
+  private readonly properties: Properties;
 
   constructor(
     subjectKey: Key,
     predicateKey: Key,
     objectKey: Key,
+    alias: { [key: string]: string },
     properties: Properties,
   ) {
     this.subjectKey = subjectKey;
     this.predicateKey = predicateKey;
     this.objectKey = objectKey;
+    this.alias = alias;
     this.properties = properties;
   }
 
@@ -91,7 +90,7 @@ export class RDFEntityBuilder {
   private buildPredicate(href: string): Predicate {
     const label = this.properties[href]?.ja;
 
-    return { label: !label ? href : label, value: { href, label: replaceByAlias(href) } };
+    return { label: !label ? href : label, value: { href, label: this.replaceByAlias(href) } };
   }
 
   private buildRDFObject(data: QuerySolution): NullableRDFObject {
@@ -110,6 +109,16 @@ export class RDFEntityBuilder {
 
     return { type: primary.type, value: { href: primary.value, label: labelData } };
   }
+
+  private replaceByAlias(href: string): string {
+    const aliasKey = Object.keys(this.alias).find(e => href.includes(e));
+
+    if (!aliasKey) {
+      return href;
+    }
+
+    return href.replace(aliasKey, `${this.alias[aliasKey]}:`);
+  }
 }
 
 function getPrimaryKey(key: Key): string {
@@ -118,16 +127,6 @@ function getPrimaryKey(key: Key): string {
 
 function getSecondaryKey(key: Key): string | null {
   return typeof key === 'string' ? null : key.secondary;
-}
-
-function replaceByAlias(href: string): string {
-  const aliasKey = Object.keys(alias).find(e => href.includes(e));
-
-  if (!aliasKey) {
-    return href;
-  }
-
-  return href.replace(aliasKey, `${alias[aliasKey]}:`);
 }
 
 function compareItem(

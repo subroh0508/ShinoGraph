@@ -1,6 +1,6 @@
 <script lang='ts'>
   import { TableHeader, TableData } from '$molecules/table';
-  import type { Property, RDFObject } from '$types/entity';
+  import type { Property, RDFObject } from 'shinograph';
 
   export let property: Property;
 

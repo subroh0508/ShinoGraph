@@ -21,19 +21,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "allowJs": true,
-    "checkJs": true,
-    "paths": {
-      "$lib/": ["src/lib"],
-      "$lib/*": ["src/lib/*"],
-      "$atoms/": ["src/atoms"],
-      "$atoms/*": ["src/atoms/*"],
-      "$molecules/": ["src/molecules"],
-      "$molecules/*": ["src/molecules/*"],
-      "$organisms/": ["src/organisms"],
-      "$organisms/*": ["src/organisms/*"],
-      "$templates/": ["src/templates"],
-      "$templates/*": ["src/templates/*"]
-    }
+    "checkJs": true
   },
-  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
+  "include": ["index.ts", "src/**/*.d.ts", "src/**/*.ts"]
 }

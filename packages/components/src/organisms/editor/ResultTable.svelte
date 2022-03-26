@@ -1,8 +1,8 @@
 <script lang='ts'>
+  import { SparqlResult } from '@shinograph/client';
   import { PaginatableTable } from '$molecules/table';
   import ResultTableHeader from './ResultTableHeader.svelte';
   import ResultTableBody from './ResultTableBody.svelte';
-  import SparqlResult from '$lib/SparqlResult';
 
   export let result: SparqlResult | null = null;
 </script>

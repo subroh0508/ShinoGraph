@@ -1,6 +1,6 @@
 <script lang='ts'>
   import EntityPropertiesTableRow from './EntityPropertiesTableRow.svelte';
-  import type { Property } from '$types/entity';
+  import type { Property } from 'shinograph';
 
   export let properties: Property[] = [];
 </script>

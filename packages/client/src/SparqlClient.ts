@@ -1,9 +1,6 @@
-import { PRERENDER_BASE_URL, BASE_URL } from '$lib/constants';
-import SparqlResult from '$lib/SparqlResult';
-// @ts-ignore
-import alias from './alias.yml';
+import { SparqlResult } from './SparqlResult';
 
-class SparqlClient {
+export class SparqlClient {
   private readonly baseUrl: string
 
   constructor(baseUrl: string) {
@@ -16,6 +13,7 @@ class SparqlClient {
       method: 'GET',
       headers: { 'Accept': 'application/sparql-results+json' },
     },
+    alias: { [key: string]: string } = {},
   ): Promise<SparqlResult> {
     const res = await fetch(
       `${this.baseUrl}/spql/query?query=${encodeURIComponent(query)}`,
@@ -25,6 +23,3 @@ class SparqlClient {
     return await SparqlResult.build(res, alias);
   }
 }
-
-export const client = new SparqlClient(BASE_URL);
-export const prerender = new SparqlClient(PRERENDER_BASE_URL);

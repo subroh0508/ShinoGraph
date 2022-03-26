@@ -1,4 +1,4 @@
-import type { QuerySolution, RDF } from '$types/sparql';
+import type { QuerySolution, RDF } from 'shinograph';
 
 interface SparqlResponseBody {
   head: {
@@ -24,7 +24,7 @@ interface SparqlJsonObject {
   "xml:lang"?: string;
 }
 
-export default class SparqlResult {
+export class SparqlResult {
   private readonly ok: boolean;
   private readonly statusNumber: number;
   private readonly statusText: string;
