@@ -145,7 +145,7 @@ function compareItem(
 
   const [aValue, bValue] = [a?.value, b?.value];
 
-  if (aValue !== null && bValue !== null && typeof aValue !== 'string' && typeof bValue !== 'string') {
+  if (!!aValue && !!bValue && typeof aValue !== 'string' && typeof bValue !== 'string') {
     return compareItem(aValue.label, bValue.label, aValue.href, bValue.href);
   }
 
