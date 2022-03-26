@@ -23,8 +23,8 @@
     "allowJs": true,
     "checkJs": true,
     "paths": {
-      "$types": ["src/@types"],
-      "$types/*": ["src/@types/*"],
+      "$types": ["../build/@type"],
+      "$types/*": ["../build/@type/*"],
       "$lib/": ["src/lib"],
       "$lib/*": ["src/lib/*"],
       "$atoms/": ["src/atoms"],
@@ -37,5 +37,8 @@
       "$templates/*": ["src/templates/*"]
     }
   },
+  "references": [
+    { "path": "../@types" }
+  ],
   "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
 }
