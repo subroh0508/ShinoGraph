@@ -9,6 +9,7 @@
     "sample"
   ],
   "scripts": {
-    "sample": "yarn workspace @shinograph/sample run dev"
+    "sample": "yarn workspace @shinograph/sample run dev",
+    "storybook": "yarn workspace @shinograph/stories run storybook"
   }
 }

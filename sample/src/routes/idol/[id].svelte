@@ -3,7 +3,7 @@
 </script>
 
 <script lang='ts'>
-  import { RDFEntityViewer } from '@shinograph/components/package/organisms';
+  import { RDFEntityViewer } from '@shinograph/components/organisms';
   import type { RDFEntity } from 'shinograph';
 
   export let entity: RDFEntity;

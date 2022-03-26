@@ -24,6 +24,7 @@ module.exports = {
       resolve: {
         alias: {
           $lib: path.resolve('./src/lib'),
+          '@shinograph/components': path.resolve('../../node_modules/@shinograph/components/package'),
         },
       },
     }

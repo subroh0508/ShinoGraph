@@ -5,7 +5,7 @@
 </script>
 
 <script lang='ts'>
-  import { SparqlEditor } from '@shinograph/components/package/organisms';
+  import { SparqlEditor } from '@shinograph/components/organisms';
   import { client } from '$lib/clients';
   import alias from '$lib/alias.yml';
   import type { SparqlResult } from 'shinograph';

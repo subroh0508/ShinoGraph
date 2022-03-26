@@ -23,9 +23,7 @@ const config = {
       },
       resolve: {
         alias: {
-          $types: path.resolve('./src/@types'),
-          $lib: path.resolve('./src/lib'),
-          $components: path.resolve('./src/components'),
+          '@shinograph/components': path.resolve('../node_modules/@shinograph/components/package'),
         },
       },
       plugins: [yaml()],

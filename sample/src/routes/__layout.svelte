@@ -2,7 +2,7 @@
   import '../app.css';
   import 'purecss';
 
-  import { DrawerMenu, MainLayout } from '@shinograph/components/package/templates';
+  import { DrawerMenu, MainLayout } from '@shinograph/components/templates';
 </script>
 
 <DrawerMenu/>
