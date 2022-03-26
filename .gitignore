@@ -1,3 +1,6 @@
+.DS_Store
 .idea
-*/build
+**/build
+node_modules
+**/node_modules
 *.iml
